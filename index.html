@@ -31,7 +31,7 @@
   "description": "Advocates practicing at the Rajasthan High Court, Jodhpur Bench and Jodhpur District Court.",
   "url": "https://shubhamojhaandassociates.com",
   "email": "shubham@shubhamojhaandassociates.com",
-  "telephone": "+91-XXXXXXXXXX",
+  "telephone": "+91-7023051275",
   "priceRange": "$$",
   "areaServed": {
     "@type": "State",
@@ -577,6 +577,13 @@ footer a:hover { color: var(--gold); }
           </div>
         </div>
         <div class="info-row">
+          <div class="icon">☏</div>
+          <div>
+            <div class="label">Phone</div>
+            <a class="value" href="tel:+917023051275">+91 70230 51275</a>
+          </div>
+        </div>
+        <div class="info-row">
           <div class="icon">§</div>
           <div>
             <div class="label">Court</div>
@@ -592,7 +599,12 @@ footer a:hover { color: var(--gold); }
         </div>
       </div>
 
-      <form id="contact-form" onsubmit="return submitForm(event)">
+      <form id="contact-form" action="https://formsubmit.co/shubham@shubhamojhaandassociates.com" method="POST">
+        <input type="hidden" name="_subject" value="New Enquiry — shubhamojhaandassociates.com">
+        <input type="hidden" name="_next" value="https://shubhamojhaandassociates.com#contact">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_captcha" value="false">
         <div class="field">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required autocomplete="name">
@@ -677,53 +689,9 @@ footer a:hover { color: var(--gold); }
     document.getElementById('bar-notice').style.display = 'none';
   }
 
-  // Contact form — posts to Formspree endpoint if configured,
-  // otherwise opens mailto as a safe fallback.
-  const FORMSPREE_ENDPOINT = ''; // e.g. "https://formspree.io/f/xxxxxxx"
-
-  async function submitForm(e) {
-    e.preventDefault();
-    const data = new FormData(e.target);
-    const payload = {
-      name: data.get('name'),
-      email: data.get('email'),
-      phone: data.get('phone'),
-      area: data.get('area'),
-      message: data.get('message'),
-    };
-
-    if (FORMSPREE_ENDPOINT) {
-      try {
-        const r = await fetch(FORMSPREE_ENDPOINT, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            Accept: 'application/json',
-          },
-          body: JSON.stringify(payload),
-        });
-        if (r.ok) {
-          alert('Thank you. Your enquiry has been received. Expect a reply within one working day.');
-          e.target.reset();
-        } else {
-          throw new Error('send failed');
-        }
-      } catch (err) {
-        mailtoFallback(payload);
-      }
-    } else {
-      mailtoFallback(payload);
-    }
-    return false;
-  }
-
-  function mailtoFallback(p) {
-    const body = `Name: ${p.name}\nPhone: ${p.phone || '—'}\nArea: ${p.area}\n\n${p.message}`;
-    window.location.href =
-      'mailto:shubham@shubhamojhaandassociates.com' +
-      '?subject=' + encodeURIComponent('Enquiry — ' + p.area + ' — ' + p.name) +
-      '&body=' + encodeURIComponent(body);
-  }
+  // Contact form handled by FormSubmit.co — delivers directly to
+  // shubham@shubhamojhaandassociates.com. No JavaScript needed.
+  // First submission triggers a confirmation email from FormSubmit.
 </script>
 
 </body>
