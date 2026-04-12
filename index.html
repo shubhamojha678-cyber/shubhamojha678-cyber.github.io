@@ -113,9 +113,26 @@ header {
   z-index: 100;
   box-shadow: var(--shadow);
 }
-.nav { display: flex; justify-content: space-between; align-items: center; padding: 18px 0; }
-.logo { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 600; color: #fff; }
-.logo span { color: var(--gold); }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; }
+.logo { text-decoration: none; display: flex; flex-direction: column; }
+.logo-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+.logo-name em { font-style: normal; color: var(--gold); }
+.logo-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  color: var(--gold);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
 nav ul { list-style: none; display: flex; gap: 32px; }
 nav a { color: #f5f1e8; font-size: 14px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; }
 nav a:hover { color: var(--gold); }
@@ -385,6 +402,8 @@ footer a:hover { color: var(--gold); }
 /* ─── Responsive ─── */
 @media (max-width: 860px) {
   .menu-toggle { display: block; }
+  .logo-name { font-size: 22px; }
+  .logo-tagline { font-size: 9px; letter-spacing: 2px; }
   nav ul {
     display: none;
     position: absolute;
@@ -428,7 +447,10 @@ footer a:hover { color: var(--gold); }
 <header>
   <div class="container">
     <div class="nav">
-      <div class="logo">Shubham Ojha <span>&amp; Associates</span></div>
+      <a href="#" class="logo">
+        <div class="logo-name">Shubham Ojha <em>&amp; Associates</em></div>
+        <div class="logo-tagline">Advocates · Rajasthan High Court, Jodhpur</div>
+      </a>
       <button class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('open')">☰</button>
       <nav>
         <ul>
