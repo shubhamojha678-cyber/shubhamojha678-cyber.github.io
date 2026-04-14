@@ -250,19 +250,43 @@ ul { list-style: none; }
 .articles { padding: 96px 24px; background: var(--white); }
 .articles-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 48px; gap: 24px; flex-wrap: wrap; }
 .articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-.article-card { border: 1px solid rgba(199,163,90,0.15); border-radius: 8px; overflow: hidden; background: var(--white); box-shadow: var(--shadow); transition: transform var(--transition), box-shadow var(--transition); display: flex; flex-direction: column; }
+.article-card { border: 1px solid rgba(199,163,90,0.15); border-radius: 8px; overflow: hidden; background: var(--white); box-shadow: var(--shadow); transition: transform var(--transition), box-shadow var(--transition); display: flex; flex-direction: column; cursor: pointer; }
 .article-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
-.article-img-placeholder { height: 160px; background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+.article-card.hidden-article { display: none; }
+.article-img-placeholder { height: 150px; background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
 .article-img-placeholder::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 30%, rgba(199,163,90,0.2) 0%, transparent 60%); }
-.article-img-icon { font-size: 2.4rem; position: relative; }
-.article-tag { position: absolute; top: 12px; left: 12px; background: var(--gold); color: var(--navy-dark); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 10px; border-radius: 2px; }
-.article-body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
-.article-meta { font-size: 0.75rem; color: var(--text-light); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
-.article-meta-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-light); }
-.article-title { font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; color: var(--navy); line-height: 1.35; margin-bottom: 10px; }
-.article-excerpt { font-size: 0.86rem; color: var(--text-light); line-height: 1.65; flex: 1; }
-.article-read-more { margin-top: 16px; font-size: 0.8rem; font-weight: 600; color: var(--gold); letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 6px; transition: gap var(--transition); }
+.article-img-icon { font-size: 2.2rem; position: relative; }
+.article-tag { position: absolute; top: 12px; left: 12px; background: var(--gold); color: var(--navy-dark); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 10px; border-radius: 2px; }
+.article-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
+.article-meta { font-size: 0.73rem; color: var(--text-light); margin-bottom: 8px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.article-meta-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-light); flex-shrink: 0; }
+.article-title { font-family: var(--font-serif); font-size: 1.08rem; font-weight: 600; color: var(--navy); line-height: 1.35; margin-bottom: 8px; }
+.article-author { font-size: 0.72rem; color: var(--gold); font-weight: 500; margin-bottom: 8px; }
+.article-excerpt { font-size: 0.84rem; color: var(--text-light); line-height: 1.6; flex: 1; }
+.article-read-more { margin-top: 14px; font-size: 0.78rem; font-weight: 600; color: var(--gold); letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 6px; transition: gap var(--transition); border: none; background: none; cursor: pointer; padding: 0; font-family: var(--font-sans); }
 .article-card:hover .article-read-more { gap: 10px; }
+.articles-view-all { text-align: center; margin-top: 40px; }
+
+/* Article Modal */
+.art-modal-overlay { display: none; position: fixed; inset: 0; z-index: 9000; background: rgba(6,15,34,0.88); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); align-items: flex-start; justify-content: center; padding: 40px 24px; overflow-y: auto; }
+.art-modal-overlay.open { display: flex; }
+.art-modal { background: var(--white); border-radius: 8px; max-width: 760px; width: 100%; box-shadow: 0 32px 80px rgba(0,0,0,0.35); position: relative; }
+.art-modal-header { background: linear-gradient(135deg, var(--navy-dark), var(--navy)); padding: 32px 36px 28px; border-radius: 8px 8px 0 0; }
+.art-modal-tag { display: inline-block; background: var(--gold); color: var(--navy-dark); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px; border-radius: 2px; margin-bottom: 14px; }
+.art-modal-title { font-family: var(--font-serif); font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 600; color: var(--white); line-height: 1.3; margin-bottom: 14px; }
+.art-modal-byline { font-size: 0.8rem; color: rgba(255,255,255,0.65); display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.art-modal-byline-author { color: var(--gold); font-weight: 500; }
+.art-modal-byline-dot { width: 3px; height: 3px; border-radius: 50%; background: rgba(255,255,255,0.4); }
+.art-modal-body { padding: 32px 36px 36px; }
+.art-modal-body p { font-size: 0.95rem; color: var(--text-mid); line-height: 1.85; margin-bottom: 18px; }
+.art-modal-body h4 { font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; color: var(--navy); margin: 24px 0 10px; }
+.art-modal-body ul { margin: 0 0 18px 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.art-modal-body ul li { font-size: 0.93rem; color: var(--text-mid); line-height: 1.65; display: flex; align-items: flex-start; gap: 10px; }
+.art-modal-body ul li::before { content: '›'; color: var(--gold); font-size: 1.1rem; flex-shrink: 0; margin-top: -1px; }
+.art-modal-disclaimer { background: var(--off-white); border-left: 3px solid var(--gold); border-radius: 0 4px 4px 0; padding: 14px 16px; margin-top: 24px; font-size: 0.78rem; color: var(--text-light); line-height: 1.6; font-style: italic; }
+.art-modal-close { position: absolute; top: 16px; right: 16px; width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: var(--white); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: background var(--transition); }
+.art-modal-close:hover { background: rgba(255,255,255,0.2); }
+.art-modal-footer { padding: 20px 36px; border-top: 1px solid rgba(199,163,90,0.15); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
 
 /* ===== RESOURCES ===== */
 .resources { padding: 96px 24px; background: var(--off-white); }
@@ -706,92 +730,608 @@ ul { list-style: none; }
       <div class="reveal">
         <h2 class="section-title">Legal Insights</h2>
         <div class="gold-line"></div>
-        <p class="section-subtitle">Practical guides on Indian law for clients navigating the legal system.</p>
+        <p class="section-subtitle">Practical guides on Indian law — authored by Advocate Shubham Ojha.</p>
       </div>
     </div>
-    <div class="articles-grid">
+    <div class="articles-grid" id="articlesGrid">
 
-      <article class="article-card reveal">
+      <article class="article-card reveal" onclick="openArticle('a1')">
         <div class="article-img-placeholder">
           <div class="article-img-icon">🏠</div>
           <span class="article-tag">Property Law</span>
         </div>
         <div class="article-body">
-          <div class="article-meta"><span>April 2025</span><span class="article-meta-dot"></span><span>5 min read</span></div>
-          <h3 class="article-title">Understanding Property Partition Suits Under the Code of Civil Procedure</h3>
-          <p class="article-excerpt">A partition suit is a legal remedy available to co-owners of property seeking division of their share. Learn how courts determine shares, appoint commissioners, and deliver final decrees in Rajasthan.</p>
-          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+          <div class="article-meta"><span>April 2026</span><span class="article-meta-dot"></span><span>8 min read</span></div>
+          <h3 class="article-title">Understanding Property Disputes in Rajasthan: A Comprehensive Guide</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Property disputes in Rajasthan involve a complex interplay of civil courts, revenue courts, and the Board of Revenue. This guide covers partition suits, title disputes, adverse possession, and how to choose the right forum.</p>
+          <button class="article-read-more" onclick="openArticle('a1');event.stopPropagation()">Read Full Article →</button>
         </div>
       </article>
-
-      <article class="article-card reveal" style="transition-delay:0.1s">
-        <div class="article-img-placeholder">
-          <div class="article-img-icon">💊</div>
-          <span class="article-tag">NDPS Law</span>
-        </div>
-        <div class="article-body">
-          <div class="article-meta"><span>March 2025</span><span class="article-meta-dot"></span><span>7 min read</span></div>
-          <h3 class="article-title">Bail under the NDPS Act: Commercial vs. Intermediate vs. Small Quantity</h3>
-          <p class="article-excerpt">NDPS bail is among the most stringent in Indian law. This guide explains the critical distinction between commercial quantity and small quantity — and how Section 37 conditions affect your bail application.</p>
-          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
-        </div>
-      </article>
-
-      <article class="article-card reveal" style="transition-delay:0.2s">
+      <article class="article-card reveal" onclick="openArticle('a2')" style="transition-delay:0.1s">
         <div class="article-img-placeholder">
           <div class="article-img-icon">👨‍👩‍👧</div>
           <span class="article-tag">Family Law</span>
         </div>
         <div class="article-body">
-          <div class="article-meta"><span>February 2025</span><span class="article-meta-dot"></span><span>6 min read</span></div>
-          <h3 class="article-title">Child Custody in India: Welfare of the Child as the Paramount Consideration</h3>
-          <p class="article-excerpt">Courts in India apply the "best interests of the child" standard in custody disputes. Understand how judges weigh financial stability, parental conduct, and the child's own wishes in High Court proceedings.</p>
-          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+          <div class="article-meta"><span>March 2026</span><span class="article-meta-dot"></span><span>7 min read</span></div>
+          <h3 class="article-title">Your Rights Under Section 125 CrPC / Section 144 BNSS: Maintenance Claims Explained</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Maintenance is a fundamental right of dependants under Indian law. Section 144 of the Bharatiya Nagarik Suraksha Sanhita 2023 — successor to Section 125 CrPC — provides a summary remedy for wives, children, and parents unable to maintain themselves.</p>
+          <button class="article-read-more" onclick="openArticle('a2');event.stopPropagation()">Read Full Article →</button>
         </div>
       </article>
-
-      <article class="article-card reveal">
+      <article class="article-card reveal" onclick="openArticle('a3')" style="transition-delay:0.2s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">🛡️</div>
+          <span class="article-tag">Criminal Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>February 2026</span><span class="article-meta-dot"></span><span>8 min read</span></div>
+          <h3 class="article-title">Anticipatory Bail Under Section 482 BNSS: What You Need to Know</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Anticipatory bail protects a person from arrest before it occurs. Under Section 482 of the Bharatiya Nagarik Suraksha Sanhita 2023 (formerly Section 438 CrPC), the High Court and Sessions Court can grant this relief with carefully calibrated conditions.</p>
+          <button class="article-read-more" onclick="openArticle('a3');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal" onclick="openArticle('a4')">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">💊</div>
+          <span class="article-tag">Criminal Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>January 2026</span><span class="article-meta-dot"></span><span>9 min read</span></div>
+          <h3 class="article-title">NDPS Act Defence: Key Strategies and Recent Supreme Court Judgments</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Cases under the Narcotic Drugs and Psychotropic Substances Act, 1985 carry some of India's harshest penalties. A rigorous defence requires understanding mandatory procedural safeguards, the significance of quantity, and the evolving jurisprudence on bail.</p>
+          <button class="article-read-more" onclick="openArticle('a4');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal" onclick="openArticle('a5')" style="transition-delay:0.1s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">📜</div>
+          <span class="article-tag">Constitutional Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>December 2025</span><span class="article-meta-dot"></span><span>7 min read</span></div>
+          <h3 class="article-title">When Can You File a Writ Petition? Understanding Articles 226 &amp; 227 of the Constitution</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Writ jurisdiction under Article 226 makes High Courts the most accessible forum for enforcing fundamental and legal rights against the State. Understanding which writ to file — and when — is essential for effective constitutional litigation.</p>
+          <button class="article-read-more" onclick="openArticle('a5');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal" onclick="openArticle('a6')" style="transition-delay:0.2s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">⚖️</div>
+          <span class="article-tag">Civil Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>November 2025</span><span class="article-meta-dot"></span><span>6 min read</span></div>
+          <h3 class="article-title">Arbitration vs. Litigation: Choosing the Right Dispute Resolution Path</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Not every commercial dispute needs a court. The Arbitration and Conciliation Act, 1996 (as amended in 2015, 2019, and 2021) provides a private, confidential, and often faster alternative. But arbitration is not always the right choice.</p>
+          <button class="article-read-more" onclick="openArticle('a6');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal hidden-article" onclick="openArticle('a7')">
         <div class="article-img-placeholder">
           <div class="article-img-icon">📋</div>
           <span class="article-tag">Civil Law</span>
         </div>
         <div class="article-body">
-          <div class="article-meta"><span>January 2025</span><span class="article-meta-dot"></span><span>4 min read</span></div>
-          <h3 class="article-title">Cheque Dishonour under Section 138 NI Act: Your Rights as a Payee</h3>
-          <p class="article-excerpt">A bounced cheque is both a civil and criminal remedy in India. This article walks you through the mandatory 15-day notice period, the 30-day complaint deadline, and what to expect in a Section 138 trial.</p>
-          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+          <div class="article-meta"><span>October 2025</span><span class="article-meta-dot"></span><span>7 min read</span></div>
+          <h3 class="article-title">Cheque Bounce Cases Under Section 138 NI Act: Complete Legal Guide</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Dishonour of a cheque for insufficiency of funds or exceeding the arranged amount is a criminal offence under Section 138 of the Negotiable Instruments Act, 1881. Understanding the notice requirements, timelines, and defence strategies is essential for both payees and accused.</p>
+          <button class="article-read-more" onclick="openArticle('a7');event.stopPropagation()">Read Full Article →</button>
         </div>
       </article>
-
-      <article class="article-card reveal" style="transition-delay:0.1s">
+      <article class="article-card reveal hidden-article" onclick="openArticle('a8')" style="transition-delay:0.1s">
         <div class="article-img-placeholder">
-          <div class="article-img-icon">📜</div>
-          <span class="article-tag">Writ Petitions</span>
+          <div class="article-img-icon">🌸</div>
+          <span class="article-tag">Family Law</span>
         </div>
         <div class="article-body">
-          <div class="article-meta"><span>December 2024</span><span class="article-meta-dot"></span><span>6 min read</span></div>
-          <h3 class="article-title">When to File a Writ Petition at the Rajasthan High Court</h3>
-          <p class="article-excerpt">Article 226 gives High Courts wide powers to issue writs for enforcement of fundamental and legal rights. Know when mandamus, certiorari, or habeas corpus is the right remedy for your situation.</p>
-          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+          <div class="article-meta"><span>September 2025</span><span class="article-meta-dot"></span><span>6 min read</span></div>
+          <h3 class="article-title">Domestic Violence Act 2005: Protection Orders and Your Legal Options</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">The Protection of Women from Domestic Violence Act, 2005 provides civil remedies — protection orders, residence orders, and monetary relief — to women facing domestic abuse. These remedies are separate from and complementary to criminal law remedies.</p>
+          <button class="article-read-more" onclick="openArticle('a8');event.stopPropagation()">Read Full Article →</button>
         </div>
       </article>
-
-      <article class="article-card reveal" style="transition-delay:0.2s">
+      <article class="article-card reveal hidden-article" onclick="openArticle('a9')" style="transition-delay:0.2s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">🛒</div>
+          <span class="article-tag">Consumer Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>August 2025</span><span class="article-meta-dot"></span><span>6 min read</span></div>
+          <h3 class="article-title">How to File a Consumer Complaint Under the Consumer Protection Act 2019</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">The Consumer Protection Act, 2019 significantly upgraded India's consumer redressal framework — raising pecuniary limits, introducing e-filing, and providing for product liability and unfair contracts. Here is a complete guide to filing a complaint.</p>
+          <button class="article-read-more" onclick="openArticle('a9');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal hidden-article" onclick="openArticle('a10')">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">👶</div>
+          <span class="article-tag">Family Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>July 2025</span><span class="article-meta-dot"></span><span>7 min read</span></div>
+          <h3 class="article-title">Child Custody Laws in India: Best Interest of the Child Principle</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Child custody disputes are among the most emotionally charged in family law. Indian courts — guided by the Hindu Minority and Guardianship Act, 1956 and the Guardians and Wards Act, 1890 — apply the 'welfare of the child' as the paramount and overriding principle.</p>
+          <button class="article-read-more" onclick="openArticle('a10');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal hidden-article" onclick="openArticle('a11')" style="transition-delay:0.1s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">🗺️</div>
+          <span class="article-tag">Property Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>June 2025</span><span class="article-meta-dot"></span><span>7 min read</span></div>
+          <h3 class="article-title">Land Revenue Laws in Rajasthan: Mutation, Khasra &amp; Revenue Court Proceedings</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Revenue records — Khasra, Khatauni, Jamabandi — are the bedrock of land ownership documentation in Rajasthan. Understanding mutation procedures, revenue court jurisdiction, and the Board of Revenue's role is essential for every property owner.</p>
+          <button class="article-read-more" onclick="openArticle('a11');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal hidden-article" onclick="openArticle('a12')" style="transition-delay:0.2s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">🔓</div>
+          <span class="article-tag">Criminal Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>May 2025</span><span class="article-meta-dot"></span><span>8 min read</span></div>
+          <h3 class="article-title">Bail in India: Types, Procedure and Your Fundamental Right to Liberty</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Bail is not a privilege — it is the rule, and jail is the exception. The Bharatiya Nagarik Suraksha Sanhita 2023 (BNSS) streamlines India's bail framework while the Supreme Court has repeatedly held that the right to personal liberty under Article 21 must be zealously protected.</p>
+          <button class="article-read-more" onclick="openArticle('a12');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal hidden-article" onclick="openArticle('a13')">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">📝</div>
+          <span class="article-tag">Civil Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>April 2025</span><span class="article-meta-dot"></span><span>6 min read</span></div>
+          <h3 class="article-title">Specific Performance of Contracts: When Can You Force a Sale?</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">When a party refuses to honour a contract for sale of property, the aggrieved party can seek a court decree directing actual performance — not just damages. The Specific Relief Act, 1963 (as amended in 2018) makes specific performance the general rule for property contracts.</p>
+          <button class="article-read-more" onclick="openArticle('a13');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+      <article class="article-card reveal hidden-article" onclick="openArticle('a14')" style="transition-delay:0.1s">
         <div class="article-img-placeholder">
           <div class="article-img-icon">🏛️</div>
           <span class="article-tag">Service Law</span>
         </div>
         <div class="article-body">
-          <div class="article-meta"><span>November 2024</span><span class="article-meta-dot"></span><span>5 min read</span></div>
-          <h3 class="article-title">Government Employees and Departmental Inquiries: Know Your Rights</h3>
-          <p class="article-excerpt">Natural justice requires that every government servant facing a departmental inquiry be given a fair opportunity to defend themselves. Learn the procedural safeguards and how to challenge biased inquiries in court.</p>
-          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+          <div class="article-meta"><span>March 2025</span><span class="article-meta-dot"></span><span>7 min read</span></div>
+          <h3 class="article-title">Service Law Matters: Challenging Government Orders Through Writ Petitions</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Government employees whose service rights are violated — through unlawful termination, illegal supersession, or denial of pension — have powerful remedies through writ petitions under Article 226. Natural justice and constitutional protections are their shield.</p>
+          <button class="article-read-more" onclick="openArticle('a14');event.stopPropagation()">Read Full Article →</button>
         </div>
       </article>
-
+      <article class="article-card reveal hidden-article" onclick="openArticle('a15')" style="transition-delay:0.2s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">🚨</div>
+          <span class="article-tag">Criminal Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>January 2025</span><span class="article-meta-dot"></span><span>6 min read</span></div>
+          <h3 class="article-title">FIR Registration: Your Right Under Law and What to Do If Police Refuse</h3>
+          <p class="article-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</p>
+          <p class="article-excerpt">Every person who reports a cognisable offence to the police has the right to have an FIR registered. The Supreme Court's landmark judgment in Lalita Kumari settles this absolutely. Section 173 BNSS 2023 governs FIR registration today.</p>
+          <button class="article-read-more" onclick="openArticle('a15');event.stopPropagation()">Read Full Article →</button>
+        </div>
+      </article>
+    </div>
+    <div class="articles-view-all reveal">
+      <button class="btn btn-outline" id="viewAllBtn" onclick="toggleAllArticles()">View All 15 Articles</button>
     </div>
   </div>
 </section>
+
+<!-- Article Modals Overlay -->
+<div class="art-modal-overlay" id="artModalOverlay" onclick="handleOverlayClick(event)" role="presentation">
+
+  <div id="modal-a1" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a1">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Property Law</div>
+      <h2 class="art-modal-title" id="mt-a1">Understanding Property Disputes in Rajasthan: A Comprehensive Guide</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>April 2026</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>8 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>Property disputes are among the most frequently litigated matters in Rajasthan, and navigating the correct legal forum is the first critical step. In Rajasthan, jurisdiction is divided between civil courts (governed by the Code of Civil Procedure, 1908), revenue courts (governed by the Rajasthan Tenancy Act, 1955 and the Rajasthan Land Revenue Act, 1956), and the Board of Revenue at the apex of the revenue hierarchy. Title disputes involving ownership of non-agricultural land typically go to civil courts, while disputes concerning agricultural tenancy rights, mutations, and land classification fall within revenue court jurisdiction.</p>
+<p>A <strong>partition suit</strong> is filed under Order XX Rule 18 of the CPC when co-owners of a property (whether ancestral or self-acquired) seek physical division of their shares. The court first passes a preliminary decree determining the share of each party, then appoints a Local Commissioner to physically divide the property. Where physical partition is not feasible — as with a single-room dwelling — the court may pass a decree for sale and distribution of proceeds. In Rajasthan, agricultural land partitions often require simultaneous proceedings before the revenue authority for mutation (Khasra/Khatauni update).</p>
+<p><strong>Title disputes</strong> arise when two parties claim ownership of the same property. The fundamental rule is that the plaintiff must prove their title and cannot rely on weakness in the defendant's title (<em>nemo dat quod non habet</em> — no one can give what they do not have). Evidence of title includes registered sale deeds, gift deeds, inheritance documents, mutation entries, and continuous possession. Courts apply a strict burden-of-proof standard: the person asserting title must establish it by cogent and convincing evidence.</p>
+<p><strong>Adverse possession</strong> under Section 27 of the Limitation Act, 1963 allows a person in open, hostile, continuous, and uninterrupted possession of another's land for 12 years (for private land) to extinguish the owner's title. Following the Supreme Court's landmark judgment in <em>Hemaji Waghaji Jat v. Bhikhabhai Khengarbhai Harijan</em> (2009), courts have adopted a more stringent approach: adverse possession is a "perfected right" only when all elements are proven beyond doubt, and the claimant cannot take a contradictory position. Crucially, since the Property Rights of Women Act amendments, women's property rights cannot be extinguished by adverse possession claims of other family members.</p>
+<p>For property buyers in Rajasthan, it is strongly advisable to conduct due diligence through the <em>Integrated Grievance and Revenue System (IGRS)</em> portal to verify encumbrances, check for pending litigation in civil courts, and examine revenue records (Jamabandi, Girdawari) before executing a sale deed. Engaging a lawyer for title verification and drafting a well-structured sale agreement with adequate indemnity clauses can prevent protracted future disputes.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a2" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a2">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Family Law</div>
+      <h2 class="art-modal-title" id="mt-a2">Your Rights Under Section 125 CrPC / Section 144 BNSS: Maintenance Claims Explained</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>March 2026</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>7 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>The Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) has replaced the Code of Criminal Procedure, 1973. Section 144 BNSS corresponds to the erstwhile Section 125 CrPC and preserves all existing rights relating to maintenance. This provision is a social welfare measure designed to prevent destitution and homelessness among wives, children, and parents who are unable to maintain themselves, regardless of their personal law (Hindu, Muslim, Christian, or Parsi).</p>
+<p><strong>Who can claim maintenance:</strong> (1) A wife — including a divorced wife until she remarries and has not received a fair settlement — from her husband; (2) a legitimate or illegitimate minor child, or an adult child who is physically or mentally unable to maintain themselves, from their father; (3) a mother or father unable to maintain themselves, from their son or daughter. Notably, the Supreme Court in <em>Rajnesh v. Neha</em> (2020) issued comprehensive guidelines on the quantum of maintenance, directing courts to take a holistic view of the husband's income (including undisclosed income), standard of living, and the wife's reasonable needs. The Court mandated that maintenance orders must be made with specific reference to these factors and any prior orders from other courts.</p>
+<p><strong>Procedure:</strong> An application is filed before the Judicial Magistrate (First Class) in the district where the applicant resides or where the respondent resides or last resided. The proceedings are summary in nature — designed to be completed swiftly. The Magistrate may grant interim maintenance within 60 days of the first hearing (Section 144(2) BNSS). The final maintenance order can be varied or rescinded if there is a change in circumstances (Section 144(4) BNSS).</p>
+<p><strong>Quantum and enforcement:</strong> There is no statutory cap on maintenance under Section 144 BNSS — the amount is determined by the court based on the respondent's income and the applicant's needs. If the respondent fails to comply with a maintenance order without sufficient cause, the Magistrate may issue a warrant for distress and sale of the respondent's movable property, or sentence the defaulter to one month's imprisonment for each month's default. Maintenance under Section 144 BNSS runs parallel to Hindu law remedies under Section 24 and 25 of the Hindu Marriage Act, 1955, and a party may simultaneously pursue both, though courts may adjust amounts to prevent double recovery.</p>
+<p><strong>Muslim women and maintenance:</strong> Post the Supreme Court's Constitution Bench judgment in <em>Mohd. Abdul Samad v. State of Telangana</em> (2024), Muslim women are entitled to invoke Section 125 CrPC / Section 144 BNSS for maintenance from their husbands despite the Muslim Women (Protection of Rights on Divorce) Act, 1986. This landmark ruling has significantly expanded the rights of Muslim divorced women across India.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a3" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a3">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Criminal Law</div>
+      <h2 class="art-modal-title" id="mt-a3">Anticipatory Bail Under Section 482 BNSS: What You Need to Know</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>February 2026</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>8 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>Anticipatory bail — or pre-arrest bail — is a direction that in the event of arrest, a person shall be released on bail. It is one of the most important liberty-protecting provisions in Indian criminal law. Section 482 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS), which replaced Section 438 of the Code of Criminal Procedure, 1973, governs anticipatory bail. Both the Court of Session and the High Court have concurrent jurisdiction to grant anticipatory bail, though in practice, most applications are first filed in the Sessions Court with the High Court available as a higher forum.</p>
+<p><strong>Grounds for seeking anticipatory bail:</strong> A person apprehending arrest for a non-bailable offence may apply. The applicant must demonstrate a reasonable apprehension of arrest — vague or speculative fears are insufficient. Courts consider: (i) the nature and gravity of the accusation; (ii) the antecedents of the applicant; (iii) the possibility of the applicant fleeing justice; and (iv) whether the accusation is made with intent to humiliate or injure the applicant by having them arrested. The Supreme Court in <em>Sushila Aggarwal v. State (NCT of Delhi)</em> (2020) — a nine-judge bench — settled that anticipatory bail can be of unlimited duration and need not end on charge-sheet filing; however, courts retain discretion to impose time limits where justified.</p>
+<p><strong>Procedure at the High Court:</strong> The application (under Section 482 BNSS) is filed before the appropriate Bench of the High Court. It must contain the FIR number (if registered) or the nature of the apprehended accusation, the applicant's personal details, and detailed grounds. An urgent hearing can be sought if arrest is imminent. The Court may issue notice to the State (through the Public Prosecutor) and the complainant and may direct that the applicant be produced before the Investigating Officer as a condition of interim protection. The IO examines the applicant and submits a report. The matter is then heard on merits.</p>
+<p><strong>Conditions typically imposed:</strong> When granting anticipatory bail, courts routinely impose conditions such as: (i) the applicant shall make themselves available for interrogation as required; (ii) the applicant shall not leave India without prior Court permission; (iii) the applicant shall surrender their passport; (iv) the applicant shall not tamper with evidence or influence witnesses; and (v) the applicant shall maintain a surety of a specified amount. Violation of any condition renders the bail liable to be cancelled.</p>
+<p><strong>Special categories:</strong> Anticipatory bail is not available for offences under the NDPS Act (given Section 37's rigorous conditions), under certain provisions of the POCSO Act, and for offences carrying the death penalty or life imprisonment in some High Courts' interpretations. Economic offence cases (PMLA, FEMA) also involve special considerations since the Enforcement Directorate and CBI can be additional arresting agencies whose powers overlap with the Section 482 BNSS regime.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a4" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a4">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Criminal Law</div>
+      <h2 class="art-modal-title" id="mt-a4">NDPS Act Defence: Key Strategies and Recent Supreme Court Judgments</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>January 2026</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>9 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>The Narcotic Drugs and Psychotropic Substances Act, 1985 (NDPS Act) is one of the most stringent penal statutes in India. Convictions carry rigorous imprisonment ranging from 6 months to 20 years (or even death in cases of repeat offenders involving commercial quantities of certain drugs). The quantity of the seized substance — small, intermediate, or commercial — is the single most critical factor determining both the sentence and bail eligibility.</p>
+<p><strong>Mandatory procedural safeguards — Sections 42 and 43:</strong> Section 42 mandates that any officer empowered to make a search without a warrant must record in writing the information received and the grounds of belief before conducting the search. If it is not practical to obtain the Magistrate's order, the officer must send a written record to their immediate superior within 72 hours. Non-compliance with Section 42 is not necessarily fatal to the prosecution if there is substantial compliance, but deliberate or wholesale non-compliance has led to acquittals. Section 50 requires that where a personal search of a person is to be conducted, the person must be informed of their right to be searched in the presence of a Gazetted Officer or a Magistrate, and their consent or refusal must be recorded. The Supreme Court in <em>State of Punjab v. Balbir Singh</em> (1994) held that non-compliance with Section 50 when a personal search is conducted vitiates the entire trial. <em>Vijaysinh Chandubha Jadeja v. State of Gujarat</em> (2011) further clarified that Section 50 applies to personal searches and not to searches of vehicles or premises.</p>
+<p><strong>Conscious possession:</strong> Mere physical custody of contraband is insufficient — the prosecution must prove that the accused had knowledge of the narcotic substance and exercised conscious possession. In <em>Madan Lal v. State of H.P.</em> (2003), the Supreme Court held that where a person denies knowledge of drugs hidden in a container they were carrying, the prosecution must establish through circumstantial evidence that the accused had knowledge. This principle creates significant scope for defence in cases where contraband is planted or where the accused is a bona fide carrier unaware of the contents.</p>
+<p><strong>Bail under Section 37:</strong> Section 37 of the NDPS Act imposes twin conditions for bail in cases involving commercial quantity: the court must be satisfied that (i) there are reasonable grounds to believe the accused is not guilty, and (ii) the accused is not likely to commit any offence while on bail. These are stringent requirements that reverse the ordinary presumption of innocence at the bail stage. The Supreme Court in <em>Union of India v. Rattan Mallik</em> (2009) and <em>Narcotics Control Bureau v. Sukh Dev Raj Bhasin</em> (2021) have emphasised that bail under Section 37 is an exception and not the rule for commercial quantity cases. However, for cases involving small or intermediate quantities, Section 37 does not apply and regular bail standards prevail.</p>
+<p><strong>Sampling and chemical analysis:</strong> The procedure for drawing samples from seized contraband under Section 52A of the NDPS Act (following the Supreme Court's direction in <em>Union of India v. Mohanlal</em>, 2016) requires that samples be drawn in the presence of a Magistrate, and the bulk may be disposed of with Magistrate's permission. Improper sampling or gaps in chain of custody of samples to the FSL (Forensic Science Laboratory) can be effective grounds to challenge the prosecution's evidence.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a5" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a5">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Constitutional Law</div>
+      <h2 class="art-modal-title" id="mt-a5">When Can You File a Writ Petition? Understanding Articles 226 &amp; 227 of the Constitution</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>December 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>7 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>Article 226 of the Constitution of India vests in every High Court the power to issue directions, orders, or writs including writs in the nature of <em>habeas corpus</em>, <em>mandamus</em>, <em>prohibition</em>, <em>quo warranto</em>, and <em>certiorari</em> to any person or authority, including the government. This jurisdiction is wider than the Supreme Court's Article 32 jurisdiction in two respects: it covers violations of legal rights (not just fundamental rights), and it extends to all territory within the High Court's jurisdiction. Article 227 gives the High Court supervisory jurisdiction over all courts and tribunals within its territory.</p>
+<p><strong>Types of writs:</strong> <em>Habeas corpus</em> ("you shall have the body") is issued to secure release of a person detained unlawfully — it is the most urgent writ and must be heard immediately. <em>Mandamus</em> ("we command") directs a public authority to perform a duty imposed by law — it lies against government departments, statutory bodies, and lower courts that have failed to exercise jurisdiction. <em>Certiorari</em> is issued to quash a decision of a lower court, tribunal, or authority that acted without jurisdiction, in excess of jurisdiction, or in violation of natural justice principles. <em>Prohibition</em> prevents a lower court or tribunal from exceeding its jurisdiction. <em>Quo warranto</em> calls upon a person to show by what authority they hold a public office.</p>
+<p><strong>The alternative remedy bar:</strong> A significant limitation on writ jurisdiction is the doctrine of alternative remedy. High Courts generally decline to exercise Article 226 jurisdiction where the petitioner has an adequate, efficacious, and equally convenient alternative remedy available. In <em>Whirlpool Corporation v. Registrar of Trade Marks</em> (1998), the Supreme Court laid down exceptions: where the action of the authority is wholly without jurisdiction; where there is a violation of principles of natural justice; where the impugned order or statute is unconstitutional; or where the vires of the statute is under challenge. Service law matters have their own exception — the Rajasthan High Court regularly exercises writ jurisdiction even where service tribunals exist, if there is violation of fundamental rights.</p>
+<p><strong>Article 227 — supervisory jurisdiction:</strong> Unlike Article 226, Article 227 cannot be used to substitute the High Court's judgment for that of the lower court on questions of fact. It is limited to ensuring that inferior courts remain within the bounds of their jurisdiction and do not act in flagrant violation of law. In <em>Shalini Shyam Shetty v. Rajendra Shankar Patil</em> (2010), the Supreme Court held that Article 227 jurisdiction is not appellate and the High Court cannot re-examine evidence. It should be sparingly used to correct jurisdictional errors only.</p>
+<p><strong>Practice before the Rajasthan High Court:</strong> Writ petitions at the Rajasthan High Court (Jodhpur Bench) are filed in the Registry with a vakalatnama, the petition, an affidavit in support, and annexures (impugned order, relevant documents). Urgent matters can be mentioned before the roster Bench for early listing. In government service matters, the State of Rajasthan and the concerned department are the primary respondents. Courts routinely issue stay orders on impugned decisions pending hearing, making Article 226 an effective tool for interim relief in service, revenue, and regulatory matters.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a6" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a6">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Civil Law</div>
+      <h2 class="art-modal-title" id="mt-a6">Arbitration vs. Litigation: Choosing the Right Dispute Resolution Path</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>November 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>6 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>The Arbitration and Conciliation Act, 1996, substantially amended in 2015, 2019, and 2021, is India's primary statute governing domestic and international commercial arbitration. Arbitration offers several advantages over court litigation: it is confidential, the parties can choose their arbitrator(s), awards are (in principle) final and binding, and under the New York Convention (to which India is a signatory), foreign arbitral awards are enforceable in over 170 countries. The 2015 amendment introduced a strict 12-month timeline for tribunal-led arbitrations, extendable by 6 months by party consent, and thereafter only by Court order — though compliance with these timelines in practice remains patchy.</p>
+<p><strong>When arbitration is appropriate:</strong> Arbitration works best for: (i) commercial contracts between sophisticated parties of roughly equal bargaining power that contain a valid arbitration clause; (ii) construction and infrastructure disputes where technical experts serving as arbitrators are more valuable than legally-trained judges; (iii) international contracts where neither party wants to litigate in the other's home country; (iv) disputes involving confidential business information. Arbitration is typically faster than courts for straightforward contractual disputes and more predictable in outcome when the arbitrator is selected for domain expertise.</p>
+<p><strong>When litigation may be preferable:</strong> Courts remain preferable for: (i) disputes against the government or statutory authorities (writ jurisdiction cannot be invoked in arbitration); (ii) matters involving third parties who are not signatories to the arbitration agreement; (iii) insolvency and winding-up proceedings; (iv) intellectual property disputes in certain categories; (v) consumer protection cases (which lie before statutory forums); and (vi) situations where the opposing party is unlikely to honour an award and court enforcement mechanisms with attachment powers are needed from the outset. Additionally, if the arbitration clause is poorly drafted or the seat of arbitration is unfavourable, litigation may be the safer path.</p>
+<p><strong>Challenging an arbitral award under Section 34:</strong> An award can be set aside under Section 34 of the Act only on limited grounds: incapacity of a party or invalidity of the agreement; inadequate notice to a party; the award going beyond the scope of submission; the composition of the tribunal being improper; or the award conflicting with Indian public policy. The Supreme Court in <em>ONGC Ltd. v. Saw Pipes Ltd.</em> (2003) expanded the "public policy" ground, but subsequent amendments narrowed it again. Section 34 applications must be filed within 3 months of receiving the award (extendable by 30 days for sufficient cause). Crucially, courts cannot re-examine the merits of the award.</p>
+<p><strong>Mediation and conciliation:</strong> The Mediation Act, 2023 now provides a statutory framework for mediation in India. Pre-litigation mediation is mandatory before filing commercial suits of specified value under the Commercial Courts Act, 2015. Successful mediation settlements can be registered with the court and enforced as decrees. For family disputes, maintenance, and divorce matters, mediation under Section 89 CPC / Section 90 BNSS is actively encouraged by courts. Jodhpur District Courts and the Rajasthan High Court run active mediation centres, and parties willing to engage in mediation often achieve faster, more consensual outcomes.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a7" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a7">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Civil Law</div>
+      <h2 class="art-modal-title" id="mt-a7">Cheque Bounce Cases Under Section 138 NI Act: Complete Legal Guide</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>October 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>7 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>Section 138 of the Negotiable Instruments Act, 1881 makes the dishonour of a cheque a criminal offence punishable with imprisonment up to two years, or fine up to twice the cheque amount, or both. The offence is complete only when a chain of conditions is satisfied, and failure of any link in the chain provides a defence to the accused. The Supreme Court has consistently held that Section 138 is a quasi-criminal provision with a civil flavour — its primary purpose being to enhance confidence in banking transactions rather than to punish — and has encouraged compounding of the offence at all stages.</p>
+<p><strong>Essential conditions:</strong> (1) The cheque must have been drawn on a bank account and issued for discharge of a legally enforceable debt or liability. Post-dated cheques issued as security for a loan have been held to constitute "discharge of liability" (the Supreme Court in <em>Indus Airways v. Magnum Aviation</em>, 2014). (2) The cheque must be presented for payment within 3 months of being drawn (or its validity period, whichever is shorter). (3) The drawee bank must return the cheque unpaid — the dishonour memo from the bank is critical evidence. (4) The payee must issue a written demand notice to the drawer within 30 days of receiving the dishonour memo from the bank, demanding payment of the cheque amount. (5) The drawer must fail to make payment within 15 days of receiving the notice. (6) The payee must file the complaint within 30 days of the expiry of the 15-day notice period.</p>
+<p><strong>Procedure:</strong> Complaints under Section 138 are filed before the Judicial Magistrate First Class. Following the Supreme Court's directions in <em>Dashrath Rupsingh Rathod v. State of Maharashtra</em> (2014), jurisdiction lies with the court within whose territorial jurisdiction the branch of the bank on which the cheque was drawn is situated. The complaint must be supported by a sworn affidavit. Upon taking cognisance, the Magistrate issues summons to the accused. The accused may be examined under Section 313 CrPC / Section 351 BNSS. Defence under Section 139 (rebuttable presumption of liability) is a key aspect — the accused must show that the cheque was not issued for a legally enforceable debt.</p>
+<p><strong>Defence strategies:</strong> The accused may establish: (i) the cheque was issued as security and not for a debt (this is harder to establish post-2014 judgments); (ii) the signature is forged; (iii) the notice was not properly served; (iv) the complaint was filed beyond the limitation period; (v) the cheque was presented after its validity period; (vi) the transaction underlying the cheque is illegal or against public policy. The presumption under Sections 118 and 139 NI Act that the cheque was issued for a valuable consideration can be rebutted by the accused, though the standard of rebuttal is only probabilistic — not proof beyond reasonable doubt.</p>
+<p><strong>Compounding:</strong> Section 147 NI Act makes cheque bounce offences compoundable at any stage — even in the Supreme Court. The Supreme Court in <em>Meters and Instruments Private Limited v. Kanchan Mehta</em> (2017) held that courts can even acquit the accused on the basis of compensation paid to the complainant without formal compounding. The fine for non-payment under Section 138 can be up to twice the cheque amount, which acts as a powerful deterrent and incentive to settle. Many complainants use Section 138 strategically to recover money, and most cases are settled at the pre-trial or trial stage through compounding.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a8" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a8">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Family Law</div>
+      <h2 class="art-modal-title" id="mt-a8">Domestic Violence Act 2005: Protection Orders and Your Legal Options</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>September 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>6 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>The Protection of Women from Domestic Violence Act, 2005 (PWDV Act) is a landmark legislation that provides comprehensive civil protection to women who are or have been in domestic relationships and have experienced domestic violence. Domestic violence under the Act is broadly defined to include physical, sexual, verbal, emotional, and economic abuse. The Act's remedies — administered by Magistrates (now through BNSS courts) — are civil in nature and are designed to be swift, accessible, and effective without requiring the woman to initiate criminal prosecution.</p>
+<p><strong>Who can file:</strong> Any "aggrieved person" — defined as a woman who is or has been in a domestic relationship with the respondent and alleges domestic violence — can file an application under the Act. The respondent can be a husband, male or female live-in partner, or any male member of the shared household. Notably, in <em>Hiral P. Harsora v. Kusum Narottamdas Harsora</em> (2016), the Supreme Court struck down the restriction limiting respondents to males, enabling complaints against female relatives of the husband as well.</p>
+<p><strong>Types of relief:</strong> The Magistrate can grant: (1) <em>Protection Order</em> — prohibiting the respondent from committing domestic violence, entering the shared household, communicating with the aggrieved person, or alienating assets; (2) <em>Residence Order</em> — directing the respondent to secure alternative accommodation for the aggrieved person or restraining the respondent from dispossessing her from the shared household; (3) <em>Monetary Relief</em> — covering the aggrieved person's loss of earnings, medical expenses, and maintenance for herself and her children; (4) <em>Custody Order</em> — granting temporary custody of children; (5) <em>Compensation Order</em> — for mental torture and emotional distress. Interim orders can be granted ex parte (without hearing the respondent) if the Magistrate is satisfied that the aggrieved person faces imminent danger.</p>
+<p><strong>The right to reside in the shared household:</strong> Section 17 of the PWDV Act gives every woman in a domestic relationship the right to reside in the shared household regardless of whether she has any right, title, or beneficial interest in it. This is a powerful provision that prevents a husband's family from throwing a wife out of the matrimonial home. The Supreme Court in <em>Satish Chander Ahuja v. Sneha Ahuja</em> (2020) held that a woman can assert her right under Section 17 even against the property of her parents-in-law, clarifying that the shared household includes the house where she and the respondent ordinarily resided together, even if its ownership rests with the in-laws.</p>
+<p><strong>Criminal remedies alongside the Act:</strong> The PWDV Act's civil remedies do not preclude criminal remedies. A woman can simultaneously file: (i) a Section 498A IPC / Section 85 BNS complaint for cruelty by husband or relatives; (ii) a Section 376 BNS complaint for marital rape (which remains contested legally); (iii) a complaint for dowry demands under the Dowry Prohibition Act, 1961. The Protection Officer appointed under the PWDV Act assists the aggrieved person in preparing applications, providing information about service providers (shelter homes, medical facilities), and monitoring compliance with Magistrate's orders.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a9" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a9">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Consumer Law</div>
+      <h2 class="art-modal-title" id="mt-a9">How to File a Consumer Complaint Under the Consumer Protection Act 2019</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>August 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>6 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>The Consumer Protection Act, 2019 (CPA 2019), which replaced the 1986 Act, is one of the most significant pieces of consumer legislation in India's history. It introduced product liability claims, class action suits, unfair contract terms, and a Central Consumer Protection Authority (CCPA) with suo motu powers. It also substantially revised the three-tier redressal structure — District, State, and National Consumer Disputes Redressal Commissions — with enhanced pecuniary limits and e-filing capabilities.</p>
+<p><strong>Who is a "consumer":</strong> A consumer is any person who buys goods for consideration — not for resale or commercial purpose — or hires services for consideration. The 2019 Act expanded the definition to include e-commerce purchasers and online service users. A person buying goods for self-employment purposes (like a farmer buying a tractor for personal farming) is also a consumer. However, a business entity buying goods for further commercial use is excluded from consumer forum jurisdiction.</p>
+<p><strong>Jurisdiction and pecuniary limits:</strong> (1) <em>District Commission</em> — complaints where the value of goods/services and compensation claimed does not exceed Rs 50 lakh; (2) <em>State Commission</em> — complaints between Rs 50 lakh and Rs 2 crore; (3) <em>National Commission (NCDRC)</em> — complaints above Rs 2 crore. Appeals from District to State, State to National, and National to Supreme Court. The complaint must be filed within 2 years from the date on which the cause of action arose, though delay can be condoned for sufficient cause.</p>
+<p><strong>Filing procedure:</strong> Under the 2019 Act, complaints can be filed: (i) in writing before the appropriate Commission; (ii) electronically through the E-Daakhil portal (edaakhil.nic.in) — which allows e-filing, e-payment of fees, and e-service of notices; or (iii) by registered post. The complaint must contain details of the complainant, the opposite party, the facts of the case, the reliefs sought, and supporting documents. No advocate is required — the consumer can appear in person. The filing fee varies by the amount claimed.</p>
+<p><strong>Deficiency of service and unfair trade practice:</strong> The Act covers: (i) deficiency in services — including banking, insurance, housing, medical services, and utilities; (ii) defects in goods — any fault, imperfection, or shortcoming in quality, quantity, or potency; (iii) unfair trade practice — misleading advertisements, false quality claims, and overcharging; (iv) restrictive trade practice. The 2019 Act adds <em>product liability</em> — a manufacturer, service provider, or seller can be held liable for harm caused by a defective product without proof of negligence, based on strict liability principles.</p>
+<p><strong>Mediation under CPA 2019:</strong> The 2019 Act introduces Consumer Mediation Cells attached to each Commission. Upon receipt of a complaint, the Commission may refer it to mediation if both parties agree. Successful mediation settles the dispute without a hearing and the settlement is passed as an order of the Commission. This significantly reduces timelines for straightforward cases like product defects, insurance claim rejections, and builder-buyer disputes.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a10" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a10">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Family Law</div>
+      <h2 class="art-modal-title" id="mt-a10">Child Custody Laws in India: Best Interest of the Child Principle</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>July 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>7 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>Child custody in India is governed by a combination of personal law and secular law. For Hindus, Buddhists, Jains, and Sikhs, the Hindu Minority and Guardianship Act, 1956 (HMGA) is the primary statute. The Guardians and Wards Act, 1890 (GWA) is a general secular statute that applies to all communities and governs guardianship proceedings before District Courts. In matrimonial proceedings under the Hindu Marriage Act, 1955, the court can pass interim and final custody orders under Section 26. The Muslim personal law (Shariat) governs Muslim custody matters, with fathers having the right to <em>hizanat</em> (custody) after a specified age, though courts increasingly apply the welfare principle over technical personal law rules.</p>
+<p><strong>The welfare principle:</strong> Section 13 of the HMGA and Section 17 of the GWA both declare that in all proceedings concerning the custody or guardianship of a minor, the court's paramount consideration shall be the welfare of the minor. This principle — well-established through decades of Supreme Court and High Court jurisprudence — overrides all other considerations, including parents' rights, religious customs, and pre-nuptial agreements. In <em>Nil Ratan Kundu v. Abhijit Kundu</em> (2008), the Supreme Court declared: "The court is not bound to act on the rights of the parents but must act in the best interests of the child."</p>
+<p><strong>Factors the court considers:</strong> (1) The age and sex of the child — very young children and daughters are usually placed with mothers unless there are compelling reasons otherwise; (2) The financial capability of each parent; (3) The child's own wishes, given appropriate weight depending on age and maturity; (4) The educational opportunities available; (5) The moral and psychological character of each parent; (6) Any history of domestic violence or substance abuse; (7) The stability of the proposed environment; (8) The existing bond between the child and each parent. Courts can appoint a Child Welfare Officer or conduct in-camera interviews of the child.</p>
+<p><strong>Joint custody and visitation:</strong> Indian courts are increasingly awarding joint custody — both physical and legal — recognising that children benefit from meaningful relationships with both parents. Even where primary custody is awarded to one parent, the other parent retains visitation rights that the custodial parent cannot unilaterally deny. The Supreme Court in <em>Vivek Singh v. Romani Singh</em> (2017) emphasised that children are not the property of either parent and that both parents must cooperate to ensure the child's wellbeing.</p>
+<p><strong>Inter-country and inter-State child custody:</strong> India is not a signatory to the Hague Convention on Parental Child Abduction, creating significant challenges in cross-border custody disputes. The Supreme Court in <em>Shilpa Aggarwal v. Aviral Mittal</em> (2010) and subsequent cases has generally directed that children brought to India from foreign jurisdictions should be returned to the country of habitual residence, applying a modified "best interests" test. For inter-State disputes within India, Article 226 writ petitions (habeas corpus) in the High Court where the child is located are the fastest remedy, with results typically within weeks rather than the months that trial court custody proceedings take.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a11" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a11">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Property Law</div>
+      <h2 class="art-modal-title" id="mt-a11">Land Revenue Laws in Rajasthan: Mutation, Khasra &amp; Revenue Court Proceedings</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>June 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>7 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>Rajasthan's land revenue system is governed primarily by the Rajasthan Land Revenue Act, 1956 (RLRA), the Rajasthan Tenancy Act, 1955, and the Rajasthan Revenue Courts Procedure Rules. The state maintains comprehensive revenue records for agricultural land, including: (1) <em>Khasra</em> — a parcel-wise register recording the field number, area, nature of soil, type of crop, and the name of the possessor; (2) <em>Khatauni</em> — a holding-wise register listing all khasra numbers held by one person in a village; (3) <em>Jamabandi/Record of Rights</em> — the comprehensive revenue document prepared every five years by the Patwari, recording rights of ownership, possession, tenancy, encumbrances, and trees. These documents are now digitised and accessible through the Rajasthan government's Apna Khata portal (apnakhata.raj.nic.in).</p>
+<p><strong>Mutation (Intkal/Dakhil Kharij):</strong> Mutation is the process of updating revenue records to reflect a change in possession or ownership following a sale, gift, inheritance, partition, or court decree. Importantly, mutation in revenue records does not create or extinguish title — it is merely a fiscal record for land revenue assessment purposes (settled by the Supreme Court in <em>Balwant Singh v. Daulat Singh</em>, 1997). However, mutation entries carry evidentiary value and are relied upon in civil courts as evidence of possession. An application for mutation is filed before the Tehsildar (or Naib-Tehsildar), who issues a notice to persons likely to be affected, receives objections, and after enquiry passes a mutation order. Appeals lie to the Sub-Divisional Officer, then the Collector, then the Board of Revenue.</p>
+<p><strong>Revenue court jurisdiction:</strong> Revenue courts under the RLRA and Rajasthan Tenancy Act have exclusive jurisdiction over: tenancy disputes (including determination of tenancy rights, enhancement or reduction of rent, and ejectment of tenants); agricultural partition disputes; disputes concerning rights recorded in revenue records; and proceedings under the Ceiling on Agricultural Holdings Act. Civil courts have no jurisdiction over matters exclusively assigned to revenue courts. However, the demarcation is not always clear, and a preliminary issue of jurisdiction is often the first battleground in such disputes.</p>
+<p><strong>Board of Revenue:</strong> The Board of Revenue for Rajasthan, headquartered at Ajmer, is the highest revenue court in the state. It exercises appellate, revisional, and reference jurisdiction in revenue matters. Revisions to the Board of Revenue lie from orders of the Commissioner (Revenue), the Collector, and the Sub-Divisional Officer. The Board's decisions on questions of revenue law are binding on all subordinate revenue courts. Further judicial review of Board decisions lies only before the Rajasthan High Court under Article 226/227.</p>
+<p><strong>Common issues in Rajasthan:</strong> (1) <em>Bhoodhari/Khatedari rights</em> — under the Rajasthan Tenancy Act, a tenant who has cultivated land for a specified period acquires khatedari (occupancy) rights, which are heritable and can be transferred with certain restrictions; encroachments on such rights are a frequent source of litigation before revenue courts. (2) <em>Land use conversion</em> — agricultural land cannot be used for non-agricultural purposes without conversion permission (saranpanchi) from the Collector, failing which penalties accrue. (3) <em>Government land encroachments</em> — encroachments on government (abadi deh, gochar, or aran) land are addressed through revenue authorities with powers of summary eviction.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a12" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a12">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Criminal Law</div>
+      <h2 class="art-modal-title" id="mt-a12">Bail in India: Types, Procedure and Your Fundamental Right to Liberty</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>May 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>8 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>The law of bail in India is founded on Article 21 of the Constitution — the fundamental right to life and personal liberty. The Supreme Court has consistently held that deprivation of liberty before conviction is a serious matter requiring justification, and that bail should ordinarily be granted unless the court is satisfied that the accused is a flight risk, likely to tamper with evidence, or likely to commit offences while on bail. The BNSS 2023, which replaced the CrPC, retains and in some respects strengthens bail protections, though Section 479 BNSS introduces a new provision for bail to undertrial prisoners who have served a specified period.</p>
+<p><strong>Types of bail:</strong> (1) <em>Bail in bailable offences</em> (Section 478 BNSS / erstwhile Section 436 CrPC) — an absolute right; the police officer or court <em>shall</em> release on bail if the offence is bailable. (2) <em>Bail in non-bailable offences</em> (Section 480 BNSS / erstwhile Section 437 CrPC) — a discretionary remedy before Magistrate courts. (3) <em>Regular bail before Sessions or High Court</em> (Section 483 BNSS / erstwhile Section 439 CrPC) — the most important provision for serious non-bailable offences; the Sessions Court and High Court have wide powers to grant bail with or without conditions. (4) <em>Anticipatory bail</em> (Section 482 BNSS / erstwhile Section 438 CrPC) — bail granted before arrest, discussed in a separate article. (5) <em>Default/statutory bail</em> (Section 187(2) BNSS / erstwhile Section 167(2) CrPC) — an absolute right to bail if the chargesheet is not filed within 60 days (for offences punishable with less than 10 years) or 90 days (for offences punishable with death, life imprisonment, or 10 years or more). Default bail once granted cannot be cancelled merely on filing of the chargesheet.</p>
+<p><strong>Factors for bail in non-bailable offences:</strong> Courts consider: the nature and gravity of the offence; the accused's antecedents and character; the possibility of fleeing from justice; the danger of the offence being repeated; the character and behaviour of the accused; the health, age, and sex of the accused; and the interests of society. The landmark three-judge bench decision in <em>Satender Kumar Antil v. CBI</em> (2021) directed trial courts and High Courts to consider bail applications liberally, and held that unnecessary incarceration pending trial violates Article 21.</p>
+<p><strong>Section 479 BNSS — undertrial prisoners:</strong> One of the most significant bail reforms in BNSS 2023 is Section 479, which entitles an undertrial prisoner who has served half the maximum period of imprisonment specified for the offence (or one-third for certain categories of offences, including first-time offenders) to be released on bail. This provision addresses India's chronic problem of undertrial overcrowding — over 75% of Indian prisoners are undertrials — and applies retrospectively to all pending cases.</p>
+<p><strong>Bail conditions and cancellation:</strong> Courts commonly impose conditions such as surrender of passport, reporting to the police station periodically, furnishing sureties, and refraining from contacting witnesses. Bail can be cancelled under Section 483(5) BNSS / Section 439(2) CrPC if the accused violates conditions, is found to be tampering with evidence, or is involved in a fresh offence. The Supreme Court in <em>P.K. Shaji v. State of Kerala</em> (2005) held that bail cancellation requires a higher threshold than bail grant — the court must be satisfied that continued liberty constitutes a clear and present danger.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a13" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a13">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Civil Law</div>
+      <h2 class="art-modal-title" id="mt-a13">Specific Performance of Contracts: When Can You Force a Sale?</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>April 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>6 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>Specific performance is an equitable remedy that compels a defaulting party to perform their contractual obligations rather than merely paying damages for breach. In India, the Specific Relief Act, 1963 (SRA) was fundamentally amended in 2018. The most significant change: specific performance of contracts — especially for immovable property — is now the general rule rather than a discretionary remedy. Pre-2018, courts could refuse specific performance and award damages instead; post-2018, courts must decree specific performance unless the contract falls within the specific exceptions in Section 14 SRA.</p>
+<p><strong>Contracts specifically enforceable (Section 10 SRA, as amended 2018):</strong> Specific performance may be enforced where: (i) there exists no standard for determining the actual damage caused by the non-performance; or (ii) the act agreed to be done is such that monetary compensation for non-performance would not afford adequate relief. For immovable property contracts, the 2018 amendment effectively makes this the default rule — courts will ordinarily decree specific performance of a contract to sell land or a house unless the grounds for refusal under Section 14 apply.</p>
+<p><strong>Non-enforceable contracts (Section 14 SRA):</strong> Specific performance cannot be decreed for: (i) contracts where compensation in money is an adequate relief; (ii) contracts running into minute detail; (iii) contracts involving personal service or special skill; (iv) contracts where the terms are uncertain or inequitable; (v) contracts where performance requires continuous supervision by the court. Additionally, if the plaintiff has not performed or is not ready and willing to perform their obligations under the contract, the court will not grant specific performance.</p>
+<p><strong>Readiness and willingness — a critical ingredient:</strong> The plaintiff seeking specific performance must plead and prove continuous readiness and willingness to perform their part of the contract from the date of execution to the date of hearing. This is a strict requirement. In <em>P.V. Joseph v. Anilkumar</em> (2021 SC), the Supreme Court held that readiness relates to financial capacity and willingness relates to conduct — both must be established throughout the period. A plaintiff who delayed payment or showed hesitation about performing may be denied the remedy even if the defendant was also at fault.</p>
+<p><strong>Limitation and substituted performance:</strong> A suit for specific performance must be filed within 3 years from the date fixed for performance or, where no date is fixed, when the plaintiff first had notice of the refusal (Article 54, Schedule I, Limitation Act 1963). The 2018 amendment to SRA also introduced Section 20A — "substituted performance" — where a party can arrange for performance by a third party and recover the costs from the defaulting party. This provides an alternative to a prolonged court battle in certain commercial contexts. However, once substituted performance is opted for, a specific performance suit cannot be maintained simultaneously.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a14" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a14">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Service Law</div>
+      <h2 class="art-modal-title" id="mt-a14">Service Law Matters: Challenging Government Orders Through Writ Petitions</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>March 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>7 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>Service law is a rich and constantly evolving area of law in India, covering the rights and obligations of government employees at the central and state levels. Rajasthan government employees are governed by the Rajasthan Service Rules, 1951, the Rajasthan Civil Services (Classification, Control and Appeal) Rules, 1958 (CCA Rules), the Rajasthan Pension Rules, 1996, and numerous department-specific regulations. When any of these rules are violated — or when a government order is arbitrary, capricious, or in breach of natural justice — the Rajasthan High Court under Article 226 is the primary forum for relief.</p>
+<p><strong>Natural justice — the foundation of service law:</strong> Two principles of natural justice govern every departmental action: <em>audi alteram partem</em> (hear the other side) and <em>nemo judex in causa sua</em> (no one shall be a judge in their own cause). Before any adverse order — whether punishment, termination, or supersession — can be passed against a government servant, they must be given adequate notice, an opportunity to be heard, and a speaking order must be passed. In <em>Union of India v. Tulsiram Patel</em> (1985), the Supreme Court held that the audi alteram partem rule is a fundamental requirement of natural justice and its violation vitiates any order passed.</p>
+<p><strong>Departmental inquiry — procedure and rights:</strong> The CCA Rules prescribe a detailed procedure for major penalty departmental inquiries. The charged officer must receive a charge sheet (Article of Charge), a statement of imputations, and a list of witnesses and documents relied upon. The Inquiry Officer must be independent. The charged officer has the right to inspect documents, examine defence witnesses, cross-examine departmental witnesses, and submit a written statement. The Presenting Officer represents the department. The Inquiry Officer submits a report which is then considered by the Disciplinary Authority, which must give the charged officer an opportunity to submit representations against any adverse findings before passing the punishment order.</p>
+<p><strong>Common grounds for High Court writ petitions:</strong> (1) Violation of natural justice at any stage of the departmental inquiry; (2) Inquiry Officer not independent (having been a complainant, witness, or investigator); (3) Denial of opportunity to inspect documents; (4) Punishment disproportionate to the charge (the proportionality doctrine under Article 14); (5) Supersession in promotion contrary to the applicable seniority or merit rules; (6) Withholding of pension or gratuity without following due process; (7) Unlawful compulsory retirement; (8) Non-payment of arrears pursuant to Pay Commission recommendations. The High Court in writ jurisdiction does not re-appreciate evidence but examines whether the inquiry was fair, the findings were perverse, or the order was vitiated by illegality or irrationality.</p>
+<p><strong>Pension disputes:</strong> Pension is not a bounty — it is a vested right accrued through years of service, held the Supreme Court in <em>D.S. Nakara v. Union of India</em> (1983). Any arbitrary denial or reduction of pension is challengeable by writ petition. Common issues include: classification of past service for pension purposes; denial of pension to compulsorily retired employees; disputes over gratuity calculation; and recovery of excess pension paid. The Rajasthan High Court has a large volume of such matters and regularly interferes with orders that arbitrarily deprive employees of their pension entitlements.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+  <div id="modal-a15" class="art-modal" role="dialog" aria-modal="true" aria-labelledby="mt-a15">
+    <button class="art-modal-close" onclick="closeArticle()" aria-label="Close">✕</button>
+    <div class="art-modal-header">
+      <div class="art-modal-tag">Criminal Law</div>
+      <h2 class="art-modal-title" id="mt-a15">FIR Registration: Your Right Under Law and What to Do If Police Refuse</h2>
+      <div class="art-modal-byline">
+        <span class="art-modal-byline-author">By Shubham Ojha, BA&nbsp;LL.B., LL.M., ICWA&nbsp;(Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>January 2025</span>
+        <span class="art-modal-byline-dot"></span>
+        <span>6 min read</span>
+      </div>
+    </div>
+    <div class="art-modal-body">
+      <p>The First Information Report (FIR) is the foundational document in Indian criminal law — it sets the criminal justice system in motion. Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) — which replaces Section 154 of the Code of Criminal Procedure, 1973 — mandates that when information relating to a cognisable offence is given to a police officer, they <em>shall</em> register the FIR. This is not a discretionary power but a statutory duty. The FIR must be signed by the informant; a copy must be given free of cost to the informant immediately upon registration; and the FIR must be uploaded to the state police portal within 24 hours.</p>
+<p><strong>Lalita Kumari v. Govt. of UP (2014) — the landmark Supreme Court ruling:</strong> A five-judge Constitution Bench of the Supreme Court in <em>Lalita Kumari v. Govt. of UP</em> (2014) settled definitively that registration of FIR is mandatory when a cognisable offence is disclosed. The police have no discretion to conduct a "preliminary enquiry" before registration when a cognisable offence is clearly disclosed. Limited preliminary enquiry (not exceeding 7 days) is permitted only in exceptional cases — specifically matrimonial disputes, family disputes, commercial offences, medical negligence, corruption, and other offences where the information does not clearly disclose a cognisable offence. The judgment directed that any police officer who refuses to register an FIR shall be liable for departmental action and contempt of court.</p>
+<p><strong>What to do if police refuse to register an FIR:</strong> (1) <em>Section 173(4) BNSS complaint to the Superintendent of Police:</em> If the officer in charge of a police station refuses to register an FIR, the aggrieved person may send the substance of the information in writing and by post to the Superintendent of Police, who, if satisfied that a cognisable offence is disclosed, shall either investigate the case or direct a subordinate officer to investigate. (2) <em>Magistrate complaint under Section 223 BNSS</em> (erstwhile Section 190(1)(a) CrPC): A complaint can be filed directly before the Judicial Magistrate. If the Magistrate is satisfied, they can take cognisance of the offence and either investigate themselves or direct the police to investigate. (3) <em>Writ petition before the High Court</em> seeking a direction to register the FIR — this is the fastest remedy in urgent or serious cases.</p>
+<p><strong>Zero FIR and e-FIR:</strong> A Zero FIR can be registered at any police station, regardless of territorial jurisdiction. The receiving station registers the FIR (with number "0") and immediately transfers it to the jurisdictionally competent station. This is critical in emergency situations — rape, kidnapping, serious assault — where the victim or complainant cannot travel to the correct station. E-FIR registration is now available in Rajasthan for specified offences through the Rajasthan Police portal, enabling online registration and issuance of an acknowledgement number.</p>
+<p><strong>Rights of the informant:</strong> Under Section 173(2) BNSS, the person who gives the information to the police has the right to: (i) receive a free copy of the FIR immediately upon registration; (ii) have the substance of the information read over to them before they sign; (iii) have the FIR registered in the language they understand. Non-supply of a copy of the FIR is a serious procedural irregularity that can affect the investigation and prosecution. If the informant is a woman alleging rape or sexual assault, Section 173(1)(A) BNSS mandates that the FIR be recorded by a female officer in the presence of the woman's relatives or a woman social worker, and the woman's statement shall be recorded at her residence or a place of her choice.</p>
+      <div class="art-modal-disclaimer">This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.</div>
+    </div>
+    <div class="art-modal-footer">
+      <a href="#contact" class="btn btn-primary" onclick="closeArticle()" style="font-size:0.82rem;padding:11px 22px;">Consult an Advocate</a>
+      <button onclick="closeArticle()" class="btn btn-outline" style="font-size:0.82rem;padding:11px 22px;">Close</button>
+    </div>
+  </div>
+</div>
 
 <!-- RESOURCES -->
 <section class="resources" id="resources">
@@ -1213,6 +1753,51 @@ document.querySelectorAll('.flip-card').forEach(card => {
     }
   });
 });
+
+// Article modal
+function openArticle(id) {
+  document.querySelectorAll('.art-modal').forEach(m => m.style.display = 'none');
+  var overlay = document.getElementById('artModalOverlay');
+  var modal = document.getElementById('modal-' + id);
+  if (!modal) return;
+  overlay.classList.add('open');
+  modal.style.display = 'block';
+  document.body.style.overflow = 'hidden';
+  overlay.scrollTop = 0;
+}
+function closeArticle() {
+  document.getElementById('artModalOverlay').classList.remove('open');
+  document.querySelectorAll('.art-modal').forEach(m => m.style.display = 'none');
+  document.body.style.overflow = '';
+}
+function handleOverlayClick(e) {
+  if (e.target === document.getElementById('artModalOverlay')) closeArticle();
+}
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeArticle(); });
+
+// View all articles toggle
+var allShown = false;
+function toggleAllArticles() {
+  var hidden = document.querySelectorAll('.hidden-article');
+  var btn = document.getElementById('viewAllBtn');
+  if (!allShown) {
+    hidden.forEach(function(el) {
+      el.classList.remove('hidden-article');
+      setTimeout(function() { el.classList.add('visible'); }, 50);
+    });
+    btn.textContent = 'Show Fewer Articles';
+    allShown = true;
+  } else {
+    var cards = document.querySelectorAll('#articlesGrid .article-card');
+    cards.forEach(function(el, i) {
+      if (i >= 6) { el.classList.add('hidden-article'); el.classList.remove('visible'); }
+    });
+    btn.textContent = 'View All 15 Articles';
+    allShown = false;
+    document.getElementById('articles').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
 </script>
 </body>
 </html>
