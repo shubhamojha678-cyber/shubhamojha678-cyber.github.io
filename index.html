@@ -9,712 +9,1193 @@
 <meta name="author" content="Shubham Ojha">
 <meta name="robots" content="index,follow">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Shubham Ojha &amp; Associates — Advocates, Jodhpur">
 <meta property="og:description" content="Property, family, civil and criminal law at the Rajasthan High Court, Jodhpur Bench.">
 <meta property="og:url" content="https://shubhamojhaandassociates.com">
 <meta property="og:locale" content="en_IN">
 
-<!-- Twitter -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Shubham Ojha &amp; Associates">
-<meta name="twitter:description" content="Advocates, Rajasthan High Court, Jodhpur Bench.">
+<meta name="twitter:description" content="Advocates at the Rajasthan High Court, Jodhpur Bench.">
 
-<!-- Structured data — LegalService schema for Google Business integration -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "name": "Shubham Ojha & Associates",
-  "alternateName": "Shubham Ojha Advocate",
-  "description": "Advocates practicing at the Rajasthan High Court, Jodhpur Bench and Jodhpur District Court.",
-  "url": "https://shubhamojhaandassociates.com",
-  "email": "shubham@shubhamojhaandassociates.com",
-  "telephone": "+91-7023051275",
-  "priceRange": "$$",
-  "areaServed": {
-    "@type": "State",
-    "name": "Rajasthan"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "H.No. 245, Sardar Club Road, Ratanada",
-    "addressLocality": "Jodhpur",
-    "addressRegion": "Rajasthan",
-    "postalCode": "342001",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 26.2389,
-    "longitude": 73.0243
-  },
-  "founder": {
-    "@type": "Person",
-    "name": "Shubham Ojha",
-    "jobTitle": "Advocate",
-    "worksFor": "Shubham Ojha & Associates",
-    "identifier": "Bar Council of Rajasthan — R/29582020"
-  },
-  "openingHoursSpecification": [
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "14:00"}
-  ],
-  "serviceType": [
-    "Property Law", "Family Law", "Civil Litigation", "Criminal Defence", "NDPS Matters", "Arbitration"
-  ]
-}
-</script>
-
+<link rel="canonical" href="https://shubhamojhaandassociates.com/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
+/* ===== CSS CUSTOM PROPERTIES ===== */
 :root {
   --navy: #0b1a3a;
-  --navy-2: #142654;
+  --navy-dark: #060f22;
+  --navy-mid: #112246;
   --gold: #c7a35a;
-  --gold-light: #e0c07c;
-  --cream: #f5f1e8;
-  --charcoal: #1a1a1a;
-  --gray: #6b7280;
-  --light-gray: #f3f4f6;
-  --border: #e5e7eb;
-  --shadow: 0 8px 30px rgba(11, 26, 58, 0.08);
-  --shadow-strong: 0 16px 40px rgba(11, 26, 58, 0.14);
+  --gold-light: #d4b575;
+  --gold-pale: #f0e8d5;
+  --white: #ffffff;
+  --off-white: #f8f6f1;
+  --text-dark: #1a1a2e;
+  --text-mid: #3a3a5c;
+  --text-light: #6b6b8a;
+  --border: rgba(199,163,90,0.25);
+  --shadow: 0 4px 24px rgba(11,26,58,0.12);
+  --shadow-lg: 0 12px 48px rgba(11,26,58,0.18);
+  --radius: 4px;
+  --transition: 0.3s ease;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
 }
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+
+[data-theme="dark"] {
+  --navy: #e8eaf6;
+  --navy-dark: #f5f5ff;
+  --navy-mid: #c5cae9;
+  --gold: #ffd54f;
+  --gold-light: #ffe082;
+  --gold-pale: #1a1a2e;
+  --white: #0d1117;
+  --off-white: #161b22;
+  --text-dark: #e6edf3;
+  --text-mid: #8b949e;
+  --text-light: #6e7681;
+  --border: rgba(255,213,79,0.2);
+  --shadow: 0 4px 24px rgba(0,0,0,0.4);
+  --shadow-lg: 0 12px 48px rgba(0,0,0,0.5);
+}
+
+/* ===== RESET & BASE ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
 body {
-  font-family: 'Inter', -apple-system, system-ui, sans-serif;
-  color: var(--charcoal);
-  line-height: 1.65;
-  background: var(--cream);
+  font-family: var(--font-sans);
+  background: var(--white);
+  color: var(--text-dark);
+  line-height: 1.7;
+  overflow-x: hidden;
+  transition: background var(--transition), color var(--transition);
 }
-h1, h2, h3, h4, .serif {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-weight: 600;
-  color: var(--navy);
-  line-height: 1.2;
-}
-a { color: var(--navy); text-decoration: none; transition: color .2s; }
-a:hover { color: var(--gold); }
 img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+
 .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
 
-/* ─── Header ─── */
-header {
-  background: var(--navy);
-  color: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: var(--shadow);
+.section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.4em;
+  line-height: 1.2;
 }
-.nav { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; }
-.logo { text-decoration: none; display: flex; flex-direction: column; }
-.logo-name {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 28px;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  line-height: 1.1;
-}
-.logo-name em { font-style: normal; color: var(--gold); }
-.logo-tagline {
-  font-family: 'Inter', sans-serif;
-  font-size: 10px;
-  color: var(--gold);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  margin-top: 3px;
-}
-nav ul { list-style: none; display: flex; gap: 32px; }
-nav a { color: #f5f1e8; font-size: 14px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; }
-nav a:hover { color: var(--gold); }
-.menu-toggle { display: none; background: transparent; border: 0; color: #fff; font-size: 24px; cursor: pointer; }
 
-/* ─── Hero ─── */
+.section-subtitle { font-size: 1rem; color: var(--text-light); max-width: 560px; }
+
+.gold-line {
+  width: 56px; height: 3px;
+  background: var(--gold);
+  margin: 16px 0 24px;
+  border-radius: 2px;
+}
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 28px; border-radius: var(--radius);
+  font-family: var(--font-sans); font-size: 0.88rem; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  cursor: pointer; border: none; transition: all var(--transition);
+}
+.btn-primary { background: var(--gold); color: var(--navy-dark); }
+.btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(199,163,90,0.35); }
+.btn-outline { background: transparent; color: var(--gold); border: 1.5px solid var(--gold); }
+.btn-outline:hover { background: var(--gold); color: var(--navy-dark); transform: translateY(-2px); }
+
+/* ===== SCROLL ANIMATIONS ===== */
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+.reveal-left { opacity: 0; transform: translateX(-28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal-left.visible { opacity: 1; transform: none; }
+.reveal-right { opacity: 0; transform: translateX(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal-right.visible { opacity: 1; transform: none; }
+
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  padding: 0 24px;
+  background: rgba(11,26,58,0.97);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(199,163,90,0.15);
+  transition: box-shadow var(--transition);
+}
+.navbar.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,0.3); }
+.nav-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 68px; max-width: 1160px; margin: 0 auto;
+}
+.nav-brand { display: flex; align-items: center; gap: 12px; }
+.nav-logo {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700;
+  color: var(--navy-dark); flex-shrink: 0;
+}
+.nav-name { display: flex; flex-direction: column; }
+.nav-name-primary { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: var(--white); line-height: 1.1; }
+.nav-name-secondary { font-size: 0.72rem; color: var(--gold); letter-spacing: 0.05em; text-transform: uppercase; }
+.nav-links { display: flex; align-items: center; gap: 6px; }
+.nav-links a {
+  font-size: 0.82rem; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase;
+  color: rgba(255,255,255,0.82); padding: 8px 12px; border-radius: var(--radius);
+  transition: all var(--transition);
+}
+.nav-links a:hover { color: var(--gold); background: rgba(199,163,90,0.1); }
+.nav-actions { display: flex; align-items: center; gap: 12px; }
+.dark-toggle {
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid rgba(199,163,90,0.3); background: transparent;
+  color: var(--gold); cursor: pointer; display: flex; align-items: center; justify-content: center;
+  font-size: 1rem; transition: all var(--transition);
+}
+.dark-toggle:hover { background: rgba(199,163,90,0.15); }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; border: none; background: transparent; }
+.hamburger span { display: block; width: 24px; height: 2px; background: var(--gold); border-radius: 2px; transition: all var(--transition); }
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+.mobile-menu {
+  display: none; position: fixed; top: 68px; left: 0; right: 0;
+  background: rgba(6,15,34,0.98); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(199,163,90,0.2); padding: 20px 24px 28px; z-index: 999;
+  transform: translateY(-8px); opacity: 0; transition: all var(--transition);
+}
+.mobile-menu.open { display: block; transform: none; opacity: 1; }
+.mobile-menu a { display: block; padding: 14px 0; font-size: 1rem; font-weight: 500; color: rgba(255,255,255,0.85); border-bottom: 1px solid rgba(199,163,90,0.1); transition: color var(--transition); }
+.mobile-menu a:hover { color: var(--gold); }
+.mobile-menu .btn { margin-top: 20px; width: 100%; justify-content: center; }
+
+/* ===== HERO ===== */
 .hero {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
-  color: #fff;
-  padding: 96px 0 120px;
-  position: relative;
-  overflow: hidden;
+  min-height: 100vh;
+  background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, #1a2a5e 100%);
+  display: flex; align-items: center; position: relative; overflow: hidden;
+  padding: 120px 24px 80px;
 }
 .hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 20% 30%, rgba(199,163,90,0.15) 0%, transparent 50%),
-    radial-gradient(circle at 80% 70%, rgba(199,163,90,0.08) 0%, transparent 50%);
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 60% 50% at 80% 50%, rgba(199,163,90,0.08) 0%, transparent 60%),
+              radial-gradient(ellipse 40% 40% at 10% 80%, rgba(199,163,90,0.05) 0%, transparent 60%);
   pointer-events: none;
 }
-.hero-inner { position: relative; z-index: 1; max-width: 760px; }
-.eyebrow { color: var(--gold); font-size: 12px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 16px; font-weight: 600; }
-.hero h1 { color: #fff; font-size: clamp(36px, 5.5vw, 62px); margin-bottom: 22px; }
-.hero h1 em { color: var(--gold); font-style: normal; }
-.hero .lead { font-size: clamp(16px, 1.6vw, 20px); color: #d4d8e0; margin-bottom: 36px; max-width: 640px; }
-.cta-row { display: flex; gap: 16px; flex-wrap: wrap; }
-.btn {
-  display: inline-block;
-  padding: 14px 32px;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border-radius: 2px;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all .25s;
+.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; max-width: 1160px; margin: 0 auto; width: 100%; }
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 20px;
 }
-.btn-primary { background: var(--gold); color: var(--navy); }
-.btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
-.btn-outline { background: transparent; color: #fff; border-color: #fff; }
-.btn-outline:hover { background: #fff; color: var(--navy); }
+.hero-eyebrow::before, .hero-eyebrow::after { content: ''; width: 28px; height: 1px; background: var(--gold); opacity: 0.6; }
+.hero h1 { font-family: var(--font-serif); font-size: clamp(2.4rem, 5vw, 3.8rem); font-weight: 600; color: var(--white); line-height: 1.15; margin-bottom: 20px; }
+.hero h1 em { font-style: italic; color: var(--gold); }
+.hero-desc { font-size: 1.05rem; color: rgba(255,255,255,0.72); max-width: 480px; margin-bottom: 36px; line-height: 1.8; }
+.hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 48px; }
+.hero-badges { display: flex; gap: 20px; flex-wrap: wrap; }
+.hero-badge { display: flex; align-items: center; gap: 8px; font-size: 0.82rem; color: rgba(255,255,255,0.65); }
+.hero-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
 
-/* ─── Sections ─── */
-section { padding: 96px 0; }
-.section-head { text-align: center; max-width: 680px; margin: 0 auto 64px; }
-.section-head .eyebrow { color: var(--gold); justify-content: center; }
-.section-head h2 { font-size: clamp(32px, 4vw, 48px); margin-bottom: 16px; }
-.section-head p { color: var(--gray); font-size: 17px; }
+.hero-card {
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(199,163,90,0.2);
+  border-radius: 8px; padding: 36px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+.hero-card-title { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 600; color: var(--white); margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid rgba(199,163,90,0.2); }
+.hero-card-item { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.hero-card-item:last-child { border-bottom: none; }
+.hero-card-icon { width: 28px; height: 28px; background: rgba(199,163,90,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; color: var(--gold); flex-shrink: 0; margin-top: 2px; }
+.hero-card-text { font-size: 0.9rem; color: rgba(255,255,255,0.78); line-height: 1.5; }
+.hero-card-text strong { display: block; color: var(--white); font-weight: 500; margin-bottom: 2px; }
 
-/* ─── About ─── */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 64px;
-  align-items: center;
-}
-.about-image {
-  position: relative;
-  border-radius: 2px;
-  overflow: hidden;
-  box-shadow: var(--shadow-strong);
-}
-.about-image .photo-placeholder {
-  background: linear-gradient(135deg, var(--navy), var(--navy-2));
-  aspect-ratio: 3/4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--gold);
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 96px;
-  font-weight: 700;
-}
-.about-content h3 { font-size: 32px; margin-bottom: 8px; }
-.about-content .title { color: var(--gold); font-weight: 600; margin-bottom: 24px; letter-spacing: 1px; text-transform: uppercase; font-size: 13px; }
-.about-content p { color: #374151; margin-bottom: 18px; font-size: 16px; }
-.about-content ul { list-style: none; margin-top: 24px; }
-.about-content ul li {
-  padding: 10px 0 10px 28px;
-  position: relative;
-  color: #374151;
-}
-.about-content ul li::before {
-  content: '§';
-  position: absolute;
-  left: 0;
-  color: var(--gold);
-  font-weight: 700;
-  font-size: 20px;
-}
+.hero-scroll { position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 8px; color: rgba(255,255,255,0.4); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; animation: bounce 2s ease infinite; }
+.scroll-arrow { width: 20px; height: 20px; border-right: 1.5px solid rgba(199,163,90,0.5); border-bottom: 1.5px solid rgba(199,163,90,0.5); transform: rotate(45deg); }
+@keyframes bounce { 0%, 100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(6px); } }
 
-/* ─── Practice Areas ─── */
-.practice-bg { background: #fff; }
-.practice-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 28px;
-}
-.practice-card {
-  background: #fff;
-  border: 1px solid var(--border);
-  padding: 40px 32px;
-  transition: all .3s;
-  position: relative;
-}
-.practice-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 48px;
-  height: 2px;
-  background: var(--gold);
-  transition: width .3s;
-}
-.practice-card:hover {
-  box-shadow: var(--shadow-strong);
-  transform: translateY(-4px);
-}
-.practice-card:hover::before { width: 100%; }
-.practice-icon {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 42px;
-  font-weight: 700;
-  color: var(--gold);
-  margin-bottom: 20px;
-  display: block;
-}
-.practice-card h3 { font-size: 22px; margin-bottom: 14px; }
-.practice-card p { color: var(--gray); font-size: 15px; }
+/* ===== STATS ===== */
+.stats { background: var(--off-white); padding: 72px 24px; border-top: 3px solid var(--gold); border-bottom: 1px solid rgba(199,163,90,0.15); }
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; text-align: center; }
+.stat-item { padding: 28px 16px; background: var(--white); border-radius: 8px; border: 1px solid rgba(199,163,90,0.15); box-shadow: var(--shadow); transition: transform var(--transition), box-shadow var(--transition); }
+.stat-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.stat-number { font-family: var(--font-serif); font-size: 3rem; font-weight: 700; color: var(--gold); line-height: 1; display: block; margin-bottom: 8px; }
+.stat-label { font-size: 0.82rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 500; margin-top: 8px; display: block; }
+.stat-desc { font-size: 0.8rem; color: var(--text-light); margin-top: 4px; }
 
-/* ─── Credentials / stats ─── */
-.stats-bg {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
-  color: #fff;
-}
-.stats-bg .section-head h2 { color: #fff; }
-.stats-bg .section-head p { color: #c4c8d0; }
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px;
-  text-align: center;
-}
-.stat .number {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 72px;
-  font-weight: 700;
-  color: var(--gold);
-  line-height: 1;
-  margin-bottom: 12px;
-}
-.stat .label { text-transform: uppercase; letter-spacing: 2px; font-size: 13px; color: #d4d8e0; }
+/* ===== ABOUT ===== */
+.about { padding: 96px 24px; background: var(--white); }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.about-card { background: linear-gradient(135deg, var(--navy-dark), var(--navy)); border-radius: 8px; padding: 48px 40px; color: var(--white); position: relative; overflow: hidden; }
+.about-card::before { content: '"'; font-family: var(--font-serif); font-size: 12rem; color: rgba(199,163,90,0.08); position: absolute; top: -20px; left: 20px; line-height: 1; pointer-events: none; }
+.about-card-quote { font-family: var(--font-serif); font-size: 1.3rem; font-style: italic; line-height: 1.6; color: rgba(255,255,255,0.9); margin-bottom: 24px; position: relative; }
+.about-card-attr { font-size: 0.82rem; color: var(--gold); letter-spacing: 0.06em; text-transform: uppercase; }
+.about-credentials { margin-top: 24px; display: flex; flex-direction: column; gap: 12px; }
+.cred-item { display: flex; align-items: center; gap: 12px; padding: 12px 16px; background: rgba(255,255,255,0.06); border-radius: 6px; border-left: 3px solid var(--gold); }
+.cred-icon { font-size: 1rem; flex-shrink: 0; }
+.cred-text { font-size: 0.85rem; color: rgba(255,255,255,0.82); }
+.about-content p { font-size: 1rem; color: var(--text-mid); line-height: 1.85; margin-bottom: 16px; }
+.about-highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
+.highlight-item { padding: 16px; border: 1px solid rgba(199,163,90,0.2); border-radius: 6px; background: var(--off-white); }
+.highlight-item strong { display: block; font-family: var(--font-serif); font-size: 1rem; font-weight: 600; color: var(--navy); margin-bottom: 4px; }
+.highlight-item span { font-size: 0.82rem; color: var(--text-light); }
 
-/* ─── Contact ─── */
-.contact-bg { background: var(--cream); }
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 60px;
-}
-.contact-info h3 { font-size: 28px; margin-bottom: 8px; }
-.contact-info .subtitle { color: var(--gold); text-transform: uppercase; font-size: 13px; font-weight: 600; letter-spacing: 1.5px; margin-bottom: 24px; }
-.info-row {
-  display: flex;
-  gap: 14px;
-  padding: 14px 0;
-  border-bottom: 1px solid var(--border);
-}
-.info-row:last-child { border: 0; }
-.info-row .icon {
-  width: 36px;
-  height: 36px;
-  background: var(--navy);
-  color: var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 2px;
-  font-size: 14px;
-  font-weight: 700;
-  flex-shrink: 0;
-}
-.info-row .label { font-size: 12px; text-transform: uppercase; color: var(--gray); letter-spacing: 1px; }
-.info-row .value { color: var(--charcoal); font-weight: 500; font-size: 15px; }
-.info-row a.value:hover { color: var(--gold); }
+/* ===== PRACTICE AREAS ===== */
+.practice { padding: 96px 24px; background: var(--off-white); }
+.practice-header { text-align: center; margin-bottom: 56px; }
+.practice-header .gold-line { margin: 16px auto 24px; }
+.practice-header .section-subtitle { margin: 0 auto; text-align: center; }
+.practice-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 
-form {
-  background: #fff;
-  padding: 40px;
-  box-shadow: var(--shadow);
-}
-form label { display: block; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: var(--gray); margin-bottom: 6px; font-weight: 600; }
-form .field { margin-bottom: 22px; }
-form input, form textarea, form select {
-  width: 100%;
-  padding: 12px 14px;
-  border: 1px solid var(--border);
-  background: #fff;
-  font-family: inherit;
-  font-size: 15px;
-  color: var(--charcoal);
-  border-radius: 2px;
-  transition: border-color .2s;
-}
-form input:focus, form textarea:focus, form select:focus {
-  outline: none;
-  border-color: var(--gold);
-}
-form textarea { resize: vertical; min-height: 120px; }
-form button { width: 100%; }
-.form-note { font-size: 13px; color: var(--gray); margin-top: 16px; text-align: center; }
+/* Flip Card */
+.flip-card { height: 280px; perspective: 1000px; cursor: pointer; }
+.flip-card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s ease; transform-style: preserve-3d; }
+.flip-card:hover .flip-card-inner, .flip-card:focus-within .flip-card-inner { transform: rotateY(180deg); }
+.flip-front, .flip-back { position: absolute; inset: 0; border-radius: 8px; backface-visibility: hidden; -webkit-backface-visibility: hidden; padding: 32px; display: flex; flex-direction: column; }
+.flip-front { background: var(--white); border: 1px solid rgba(199,163,90,0.15); box-shadow: var(--shadow); }
+.flip-back { background: linear-gradient(135deg, var(--navy-dark), var(--navy)); transform: rotateY(180deg); }
+.flip-front-icon { font-size: 2rem; margin-bottom: 16px; }
+.flip-front-title { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--navy); margin-bottom: 10px; }
+.flip-front-desc { font-size: 0.875rem; color: var(--text-light); line-height: 1.6; flex: 1; }
+.flip-front-hint { font-size: 0.75rem; color: var(--gold); letter-spacing: 0.05em; margin-top: 12px; text-transform: uppercase; }
+.flip-back-title { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 600; color: var(--gold); margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid rgba(199,163,90,0.3); }
+.flip-back ul { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.flip-back li { font-size: 0.85rem; color: rgba(255,255,255,0.82); display: flex; align-items: flex-start; gap: 8px; }
+.flip-back li::before { content: '›'; color: var(--gold); font-size: 1rem; flex-shrink: 0; margin-top: -1px; }
+.flip-back-cta { margin-top: 16px; font-size: 0.78rem; color: var(--gold); letter-spacing: 0.05em; text-transform: uppercase; border-top: 1px solid rgba(199,163,90,0.2); padding-top: 12px; }
 
-/* ─── Footer ─── */
-footer {
-  background: var(--charcoal);
-  color: #d4d8e0;
-  padding: 48px 0 24px;
-  font-size: 14px;
-}
-.footer-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 32px;
-}
-footer h4 { color: #fff; font-size: 18px; margin-bottom: 16px; }
-footer p { color: #9ca3af; line-height: 1.8; }
-footer ul { list-style: none; }
-footer ul li { padding: 4px 0; }
-footer a { color: #d4d8e0; }
-footer a:hover { color: var(--gold); }
-.disclaimer {
-  padding-top: 24px;
-  border-top: 1px solid #2a2a2a;
-  text-align: center;
-  font-size: 12px;
-  color: #6b7280;
-  line-height: 1.8;
-}
-.disclaimer strong { color: #d4d8e0; }
+/* ===== ARTICLES ===== */
+.articles { padding: 96px 24px; background: var(--white); }
+.articles-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 48px; gap: 24px; flex-wrap: wrap; }
+.articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.article-card { border: 1px solid rgba(199,163,90,0.15); border-radius: 8px; overflow: hidden; background: var(--white); box-shadow: var(--shadow); transition: transform var(--transition), box-shadow var(--transition); display: flex; flex-direction: column; }
+.article-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+.article-img-placeholder { height: 160px; background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 100%); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+.article-img-placeholder::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 30%, rgba(199,163,90,0.2) 0%, transparent 60%); }
+.article-img-icon { font-size: 2.4rem; position: relative; }
+.article-tag { position: absolute; top: 12px; left: 12px; background: var(--gold); color: var(--navy-dark); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 10px; border-radius: 2px; }
+.article-body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
+.article-meta { font-size: 0.75rem; color: var(--text-light); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+.article-meta-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-light); }
+.article-title { font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; color: var(--navy); line-height: 1.35; margin-bottom: 10px; }
+.article-excerpt { font-size: 0.86rem; color: var(--text-light); line-height: 1.65; flex: 1; }
+.article-read-more { margin-top: 16px; font-size: 0.8rem; font-weight: 600; color: var(--gold); letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 6px; transition: gap var(--transition); }
+.article-card:hover .article-read-more { gap: 10px; }
 
-/* ─── Bar Council Notice (required by BCI rules) ─── */
-#bar-notice {
-  position: fixed;
-  inset: 0;
-  background: rgba(11, 26, 58, 0.94);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-  padding: 24px;
-}
-#bar-notice .box {
-  background: #fff;
-  max-width: 560px;
-  padding: 48px;
-  box-shadow: var(--shadow-strong);
-}
-#bar-notice h3 { font-size: 26px; margin-bottom: 16px; }
-#bar-notice p { margin-bottom: 18px; color: #374151; }
-#bar-notice .actions { display: flex; gap: 12px; margin-top: 24px; }
+/* ===== RESOURCES ===== */
+.resources { padding: 96px 24px; background: var(--off-white); }
+.resources-header { text-align: center; margin-bottom: 48px; }
+.resources-header .gold-line { margin: 16px auto 24px; }
+.resources-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.resource-card { background: var(--white); border: 1px solid rgba(199,163,90,0.15); border-radius: 8px; padding: 28px 22px; text-align: center; transition: all var(--transition); box-shadow: var(--shadow); }
+.resource-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: rgba(199,163,90,0.35); }
+.resource-icon { font-size: 2rem; margin-bottom: 14px; display: block; }
+.resource-title { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
+.resource-desc { font-size: 0.82rem; color: var(--text-light); line-height: 1.55; margin-bottom: 16px; }
+.resource-link { font-size: 0.78rem; font-weight: 600; color: var(--gold); letter-spacing: 0.04em; text-transform: uppercase; border-bottom: 1px solid transparent; transition: border-color var(--transition); }
+.resource-card:hover .resource-link { border-color: var(--gold); }
 
-/* ─── Responsive ─── */
-@media (max-width: 860px) {
-  .menu-toggle { display: block; }
-  .logo-name { font-size: 22px; }
-  .logo-tagline { font-size: 9px; letter-spacing: 2px; }
-  nav ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: var(--navy);
-    flex-direction: column;
-    padding: 24px;
-    gap: 16px;
-  }
-  nav ul.open { display: flex; }
-  .hero { padding: 64px 0 80px; }
-  section { padding: 64px 0; }
-  .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
-  form { padding: 28px; }
-  .stat .number { font-size: 56px; }
-  .footer-grid { grid-template-columns: 1fr; gap: 24px; }
+/* ===== PROCESS ===== */
+.process { padding: 96px 24px; background: var(--white); }
+.process-header { text-align: center; margin-bottom: 56px; }
+.process-header .gold-line { margin: 16px auto 24px; }
+.process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; position: relative; }
+.process-steps::before { content: ''; position: absolute; top: 36px; left: 12.5%; right: 12.5%; height: 1px; background: linear-gradient(to right, var(--gold), rgba(199,163,90,0.3), var(--gold)); }
+.process-step { text-align: center; position: relative; }
+.step-number { width: 72px; height: 72px; border-radius: 50%; background: var(--white); border: 2px solid var(--gold); display: flex; align-items: center; justify-content: center; font-family: var(--font-serif); font-size: 1.6rem; font-weight: 700; color: var(--gold); margin: 0 auto 20px; position: relative; z-index: 1; transition: all var(--transition); }
+.process-step:hover .step-number { background: var(--gold); color: var(--white); transform: scale(1.05); }
+.step-title { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
+.step-desc { font-size: 0.85rem; color: var(--text-light); line-height: 1.6; }
+
+/* ===== TESTIMONIALS ===== */
+.testimonials { padding: 96px 24px; background: linear-gradient(135deg, var(--navy-dark), var(--navy)); }
+.testimonials-header { text-align: center; margin-bottom: 48px; }
+.testimonials-header .section-title { color: var(--white); }
+.testimonials-header .gold-line { margin: 16px auto 24px; }
+.testimonials-header .section-subtitle { color: rgba(255,255,255,0.6); margin: 0 auto; }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.testimonial-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(199,163,90,0.2); border-radius: 8px; padding: 32px 28px; transition: all var(--transition); }
+.testimonial-card:hover { background: rgba(255,255,255,0.09); border-color: rgba(199,163,90,0.4); transform: translateY(-4px); }
+.testimonial-stars { color: var(--gold); font-size: 0.9rem; margin-bottom: 16px; letter-spacing: 2px; }
+.testimonial-text { font-family: var(--font-serif); font-size: 1.05rem; font-style: italic; color: rgba(255,255,255,0.88); line-height: 1.7; margin-bottom: 20px; }
+.testimonial-author { font-size: 0.85rem; color: var(--gold); font-weight: 600; }
+.testimonial-role { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 2px; }
+
+/* ===== CONTACT ===== */
+.contact { padding: 96px 24px; background: var(--off-white); }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+.contact-info-title { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
+.contact-info-subtitle { font-size: 0.9rem; color: var(--text-light); margin-bottom: 32px; }
+.contact-items { display: flex; flex-direction: column; gap: 20px; }
+.contact-item { display: flex; align-items: flex-start; gap: 16px; padding: 18px 20px; background: var(--white); border-radius: 8px; border: 1px solid rgba(199,163,90,0.15); transition: all var(--transition); }
+.contact-item:hover { border-color: rgba(199,163,90,0.35); box-shadow: var(--shadow); }
+.contact-item-icon { width: 44px; height: 44px; background: rgba(199,163,90,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+.contact-item-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); font-weight: 500; margin-bottom: 4px; }
+.contact-item-value { font-size: 0.95rem; font-weight: 500; color: var(--text-dark); }
+.contact-item-value a { color: var(--gold); transition: color var(--transition); }
+.contact-item-value a:hover { color: var(--gold-light); }
+
+.contact-form { background: var(--white); border: 1px solid rgba(199,163,90,0.15); border-radius: 8px; padding: 36px; box-shadow: var(--shadow); }
+.form-title { font-family: var(--font-serif); font-size: 1.6rem; font-weight: 600; color: var(--navy); margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid rgba(199,163,90,0.15); }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-mid); margin-bottom: 6px; }
+.form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px 14px; border: 1.5px solid rgba(199,163,90,0.2); border-radius: var(--radius); background: var(--off-white); font-family: var(--font-sans); font-size: 0.9rem; color: var(--text-dark); transition: border-color var(--transition), box-shadow var(--transition); outline: none; }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(199,163,90,0.12); }
+.form-group textarea { resize: vertical; min-height: 120px; }
+.form-disclaimer { font-size: 0.75rem; color: var(--text-light); margin-bottom: 16px; line-height: 1.6; }
+
+/* ===== FOOTER ===== */
+.footer { background: var(--navy-dark); color: rgba(255,255,255,0.7); padding: 64px 24px 32px; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
+.footer-brand-name { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 600; color: var(--white); margin-bottom: 12px; }
+.footer-brand-desc { font-size: 0.85rem; line-height: 1.7; color: rgba(255,255,255,0.55); max-width: 280px; margin-bottom: 20px; }
+.footer-col-title { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
+.footer-links { display: flex; flex-direction: column; gap: 10px; }
+.footer-links a { font-size: 0.85rem; color: rgba(255,255,255,0.55); transition: color var(--transition); }
+.footer-links a:hover { color: var(--gold); }
+.footer-bottom { display: flex; align-items: center; justify-content: space-between; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); flex-wrap: wrap; gap: 12px; }
+.footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.35); }
+.footer-legal-links { display: flex; gap: 20px; }
+.footer-legal-links a { font-size: 0.78rem; color: rgba(255,255,255,0.35); transition: color var(--transition); }
+.footer-legal-links a:hover { color: var(--gold); }
+
+/* ===== BCI DISCLAIMER ===== */
+.bci-bar { background: #1a0a0a; border-top: 2px solid #8b1a1a; padding: 14px 24px; text-align: center; }
+.bci-bar p { font-size: 0.75rem; color: rgba(255,255,255,0.5); max-width: 900px; margin: 0 auto; line-height: 1.6; }
+
+/* ===== WHATSAPP BUTTON ===== */
+.wa-button {
+  position: fixed; bottom: 28px; right: 28px; width: 58px; height: 58px;
+  border-radius: 50%; background: #25d366; color: var(--white);
+  display: flex; align-items: center; justify-content: center; font-size: 1.6rem;
+  text-decoration: none; box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+  z-index: 999; transition: all var(--transition); animation: wa-pulse 3s ease infinite;
+}
+.wa-button:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,0.55); }
+@keyframes wa-pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.4), 0 0 0 0 rgba(37,211,102,0.3); }
+  50% { box-shadow: 0 4px 20px rgba(37,211,102,0.4), 0 0 0 12px rgba(37,211,102,0); }
+}
+.wa-tooltip { position: absolute; right: 68px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.8); color: var(--white); font-size: 0.78rem; white-space: nowrap; padding: 6px 12px; border-radius: 4px; opacity: 0; pointer-events: none; transition: opacity var(--transition); }
+.wa-button:hover .wa-tooltip { opacity: 1; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+  .practice-grid { grid-template-columns: repeat(2, 1fr); }
+  .resources-grid { grid-template-columns: repeat(2, 1fr); }
+  .articles-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+  .hero-card { display: none; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .about-grid { grid-template-columns: 1fr; }
+  .about-visual { display: none; }
+  .practice-grid { grid-template-columns: 1fr; }
+  .articles-grid { grid-template-columns: 1fr; }
+  .resources-grid { grid-template-columns: repeat(2, 1fr); }
+  .process-steps { grid-template-columns: repeat(2, 1fr); }
+  .process-steps::before { display: none; }
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+  .about-highlights { grid-template-columns: 1fr; }
+  .hero-ctas { flex-direction: column; }
+  .hero-ctas .btn { width: 100%; justify-content: center; }
+}
+@media (max-width: 480px) {
+  .stats-grid { grid-template-columns: 1fr; }
+  .resources-grid { grid-template-columns: 1fr; }
+  .process-steps { grid-template-columns: 1fr; }
 }
 </style>
 </head>
-
 <body>
 
-<!-- ═══ Bar Council of India notice (first-visit) ═══ -->
-<div id="bar-notice" style="display:none">
-  <div class="box">
-    <h3>Disclaimer</h3>
-    <p>The Bar Council of India does not permit advertisement or solicitation by advocates. By clicking "I Agree", the user acknowledges that:</p>
-    <p>• There has been no advertisement, personal communication, solicitation, invitation, or inducement of any sort from the firm or its members;</p>
-    <p>• The user wishes to gain more information about Shubham Ojha &amp; Associates for their own information and use;</p>
-    <p>• The information is provided only on request and does not create any lawyer-client relationship.</p>
-    <div class="actions">
-      <button class="btn btn-primary" onclick="acceptNotice()">I Agree</button>
-      <button class="btn btn-outline" style="border-color:var(--navy);color:var(--navy)" onclick="window.location.href='https://www.google.com'">Decline</button>
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">
+      <div class="nav-logo">SO</div>
+      <div class="nav-name">
+        <span class="nav-name-primary">Shubham Ojha &amp; Associates</span>
+        <span class="nav-name-secondary">Advocates &amp; Legal Consultants</span>
+      </div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#practice">Practice Areas</a></li>
+      <li><a href="#articles">Insights</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">☀</button>
+      <a href="tel:+917023051275" class="btn btn-primary" style="display:none;" id="navCta">Call Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation">
+  <a href="#about" class="mobile-link">About Us</a>
+  <a href="#practice" class="mobile-link">Practice Areas</a>
+  <a href="#articles" class="mobile-link">Legal Insights</a>
+  <a href="#resources" class="mobile-link">Resources</a>
+  <a href="#process" class="mobile-link">Our Process</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+  <a href="tel:+917023051275" class="btn btn-primary">📞 Call: +91 70230 51275</a>
+  <a href="https://wa.me/917023051275" class="btn btn-outline" target="_blank" rel="noopener">💬 WhatsApp Us</a>
 </div>
 
-<!-- ═══ Header ═══ -->
-<header>
-  <div class="container">
-    <div class="nav">
-      <a href="#" class="logo">
-        <div class="logo-name">Shubham Ojha <em>&amp; Associates</em></div>
-        <div class="logo-tagline">Advocates · Rajasthan High Court, Jodhpur</div>
-      </a>
-      <button class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('open')">☰</button>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#practice">Practice</a></li>
-          <li><a href="#credentials">Credentials</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-grid">
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal">Rajasthan High Court, Jodhpur Bench</div>
+      <h1 class="reveal">Trusted Legal <em>Counsel</em> in Jodhpur</h1>
+      <p class="hero-desc reveal">Shubham Ojha &amp; Associates delivers principled, results-focused legal representation across property, family, civil, and criminal matters at the Rajasthan High Court and District Courts.</p>
+      <div class="hero-ctas reveal">
+        <a href="tel:+917023051275" class="btn btn-primary">📞 Consult Now</a>
+        <a href="#practice" class="btn btn-outline">Explore Practice Areas</a>
+      </div>
+      <div class="hero-badges reveal">
+        <span class="hero-badge"><span class="hero-badge-dot"></span>Bar Council of Rajasthan</span>
+        <span class="hero-badge"><span class="hero-badge-dot"></span>Rajasthan High Court</span>
+        <span class="hero-badge"><span class="hero-badge-dot"></span>District Court, Jodhpur</span>
+      </div>
+    </div>
+    <div class="hero-card reveal-right">
+      <div class="hero-card-title">Direct Contact</div>
+      <div class="hero-card-item">
+        <div class="hero-card-icon">📞</div>
+        <div class="hero-card-text"><strong>Call for Consultation</strong><a href="tel:+917023051275" style="color:var(--gold);">+91 70230 51275</a></div>
+      </div>
+      <div class="hero-card-item">
+        <div class="hero-card-icon">💬</div>
+        <div class="hero-card-text"><strong>WhatsApp</strong><a href="https://wa.me/917023051275" style="color:var(--gold);" target="_blank" rel="noopener">Message Directly</a></div>
+      </div>
+      <div class="hero-card-item">
+        <div class="hero-card-icon">📧</div>
+        <div class="hero-card-text"><strong>Email</strong><a href="mailto:shubhamojha678@gmail.com" style="color:var(--gold);">shubhamojha678@gmail.com</a></div>
+      </div>
+      <div class="hero-card-item">
+        <div class="hero-card-icon">📍</div>
+        <div class="hero-card-text"><strong>Location</strong>Rajasthan High Court Premises, Jodhpur</div>
+      </div>
+      <div class="hero-card-item">
+        <div class="hero-card-icon">🕐</div>
+        <div class="hero-card-text"><strong>Office Hours</strong>Mon–Sat: 9:00 AM – 7:00 PM</div>
+      </div>
     </div>
   </div>
-</header>
+  <div class="hero-scroll" aria-hidden="true"><div class="scroll-arrow"></div>Scroll</div>
+</section>
 
-<!-- ═══ Hero ═══ -->
-<section class="hero">
-  <div class="container hero-inner">
-    <div class="eyebrow">Rajasthan High Court · Jodhpur Bench</div>
-    <h1>Counsel you can stand <em>behind</em>.</h1>
-    <p class="lead">Shubham Ojha &amp; Associates represents clients in property, family, civil and criminal matters before the Rajasthan High Court and the Jodhpur District Court — with the kind of preparation that turns nervous meetings into confident hearings.</p>
-    <div class="cta-row">
-      <a href="#contact" class="btn btn-primary">Request Consultation</a>
-      <a href="#practice" class="btn btn-outline">Practice Areas</a>
+<!-- STATS -->
+<section class="stats" aria-label="Firm statistics">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="7" data-suffix="+">0+</span>
+        <span class="stat-label">Years of Practice</span>
+        <p class="stat-desc">Admitted to Bar Council of Rajasthan</p>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.1s">
+        <span class="stat-number" data-target="500" data-suffix="+">0+</span>
+        <span class="stat-label">Cases Handled</span>
+        <p class="stat-desc">Across High Court &amp; District Courts</p>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.2s">
+        <span class="stat-number" data-target="6" data-suffix="">0</span>
+        <span class="stat-label">Practice Areas</span>
+        <p class="stat-desc">Comprehensive legal coverage</p>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.3s">
+        <span class="stat-number" data-target="100" data-suffix="%">0%</span>
+        <span class="stat-label">Client Commitment</span>
+        <p class="stat-desc">Personalised attention guaranteed</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ About ═══ -->
-<section id="about">
+<!-- ABOUT -->
+<section class="about" id="about">
   <div class="container">
     <div class="about-grid">
-      <div class="about-image">
-        <div class="photo-placeholder">SO</div>
+      <div class="about-visual reveal-left">
+        <div class="about-card">
+          <div class="about-card-quote">"The law is reason, free from passion. At Shubham Ojha &amp; Associates, every matter receives our complete analytical rigour and undivided commitment."</div>
+          <div class="about-card-attr">— Shubham Ojha, Advocate</div>
+          <div class="about-credentials">
+            <div class="cred-item"><span class="cred-icon">⚖️</span><span class="cred-text">Enrolled — Bar Council of Rajasthan</span></div>
+            <div class="cred-item"><span class="cred-icon">🏛️</span><span class="cred-text">Rajasthan High Court, Jodhpur Bench</span></div>
+            <div class="cred-item"><span class="cred-icon">📋</span><span class="cred-text">District Courts, Jodhpur</span></div>
+            <div class="cred-item"><span class="cred-icon">🎓</span><span class="cred-text">LL.B — Law Graduate</span></div>
+          </div>
+        </div>
       </div>
-      <div class="about-content">
-        <div class="title">The Advocate</div>
-        <h3>Shubham Ojha</h3>
-        <p>Shubham Ojha is an advocate practicing primarily at the Jodhpur Bench of the Rajasthan High Court. He represents individuals, families and small businesses across civil, property, family and criminal matters — with a reputation for disciplined preparation and direct, strategic advice.</p>
-        <p>The firm's practice emphasises thorough groundwork at the trial stage so that matters carried up on appeal are argued from a strong record. Clients retain the firm for its willingness to say "this is the right course" rather than what is easy to hear.</p>
-        <ul>
-          <li>Enrolled with the Bar Council of Rajasthan — R/29582020</li>
-          <li>Practice before Rajasthan High Court &amp; Jodhpur District Court</li>
-          <li>English, Hindi and Marwari working languages</li>
-          <li>Consultation by appointment only</li>
-        </ul>
+      <div class="about-content reveal-right">
+        <div class="hero-eyebrow" style="color:var(--gold);">About the Firm</div>
+        <h2 class="section-title">Principled Advocacy at Rajasthan's Premier Court</h2>
+        <div class="gold-line"></div>
+        <p>Shubham Ojha &amp; Associates is a dedicated legal practice based at the Rajasthan High Court, Jodhpur Bench. Advocate Shubham Ojha brings deep expertise across property disputes, family law, civil litigation, criminal defence, NDPS matters, and service law.</p>
+        <p>The firm is built on a foundation of integrity, thorough legal research, and client-centred advocacy. Every case is approached with the seriousness it deserves — whether a straightforward contractual dispute or a complex constitutional matter.</p>
+        <p>With meaningful courtroom experience spanning the High Court and District Courts of Jodhpur, the firm has successfully represented clients across a wide spectrum of legal challenges.</p>
+        <div class="about-highlights">
+          <div class="highlight-item"><strong>Rajasthan High Court</strong><span>Regular appearances, Jodhpur Bench</span></div>
+          <div class="highlight-item"><strong>District Courts</strong><span>Civil &amp; criminal proceedings</span></div>
+          <div class="highlight-item"><strong>Property Law</strong><span>Specialised expertise in disputes</span></div>
+          <div class="highlight-item"><strong>Criminal Defence</strong><span>NDPS &amp; bail applications</span></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ Practice ═══ -->
-<section id="practice" class="practice-bg">
+<!-- PRACTICE AREAS -->
+<section class="practice" id="practice">
   <div class="container">
-    <div class="section-head">
-      <div class="eyebrow">Practice Areas</div>
-      <h2>What the firm handles</h2>
-      <p>Case selection is deliberate. The firm accepts instructions where the work matches the firm's preparation standard and where the client values a direct, long-view approach.</p>
+    <div class="practice-header reveal">
+      <h2 class="section-title">Practice Areas</h2>
+      <div class="gold-line"></div>
+      <p class="section-subtitle">Hover each card to explore the specific services we provide. Tap on mobile.</p>
     </div>
     <div class="practice-grid">
-      <div class="practice-card">
-        <span class="practice-icon">I.</span>
-        <h3>Property Law</h3>
-        <p>Title verification, partition, adverse possession, sale-deed and gift-deed disputes, builder-buyer disputes, revenue court matters, and writ petitions on land records.</p>
+
+      <div class="flip-card reveal" tabindex="0" role="button" aria-label="Property Law">
+        <div class="flip-card-inner">
+          <div class="flip-front">
+            <div class="flip-front-icon">🏠</div>
+            <div class="flip-front-title">Property &amp; Real Estate Law</div>
+            <div class="flip-front-desc">Expert guidance on title disputes, partition matters, possession cases, and property transactions under Rajasthan and central property statutes.</div>
+            <div class="flip-front-hint">Hover to explore →</div>
+          </div>
+          <div class="flip-back">
+            <div class="flip-back-title">What We Handle</div>
+            <ul>
+              <li>Title and ownership disputes</li>
+              <li>Partition and co-ownership matters</li>
+              <li>Possession and eviction cases</li>
+              <li>Property registration issues</li>
+              <li>Benami transactions</li>
+              <li>Land acquisition challenges</li>
+            </ul>
+            <div class="flip-back-cta">Contact for consultation →</div>
+          </div>
+        </div>
       </div>
-      <div class="practice-card">
-        <span class="practice-icon">II.</span>
-        <h3>Family Law</h3>
-        <p>Divorce, maintenance under Section 125 CrPC, child custody, domestic violence cases, matrimonial property, and inheritance / succession disputes.</p>
+
+      <div class="flip-card reveal" tabindex="0" style="transition-delay:0.1s" role="button" aria-label="Family Law">
+        <div class="flip-card-inner">
+          <div class="flip-front">
+            <div class="flip-front-icon">👨‍👩‍👧</div>
+            <div class="flip-front-title">Family &amp; Matrimonial Law</div>
+            <div class="flip-front-desc">Sensitive and professional handling of matrimonial disputes, divorce proceedings, child custody, maintenance, and succession matters.</div>
+            <div class="flip-front-hint">Hover to explore →</div>
+          </div>
+          <div class="flip-back">
+            <div class="flip-back-title">What We Handle</div>
+            <ul>
+              <li>Divorce &amp; judicial separation</li>
+              <li>Child custody &amp; guardianship</li>
+              <li>Maintenance &amp; alimony</li>
+              <li>Domestic violence matters</li>
+              <li>Succession &amp; inheritance</li>
+              <li>Hindu &amp; Muslim personal law</li>
+            </ul>
+            <div class="flip-back-cta">Contact for consultation →</div>
+          </div>
+        </div>
       </div>
-      <div class="practice-card">
-        <span class="practice-icon">III.</span>
-        <h3>Civil Litigation</h3>
-        <p>Contract disputes, specific performance, recovery suits, injunctions, company law matters, and civil revisions and second appeals before the High Court.</p>
+
+      <div class="flip-card reveal" tabindex="0" style="transition-delay:0.2s" role="button" aria-label="Civil Litigation">
+        <div class="flip-card-inner">
+          <div class="flip-front">
+            <div class="flip-front-icon">⚖️</div>
+            <div class="flip-front-title">Civil Litigation</div>
+            <div class="flip-front-desc">Comprehensive civil representation including money recovery, injunctions, contract disputes, and enforcement of legal rights.</div>
+            <div class="flip-front-hint">Hover to explore →</div>
+          </div>
+          <div class="flip-back">
+            <div class="flip-back-title">What We Handle</div>
+            <ul>
+              <li>Contract disputes &amp; breach</li>
+              <li>Money recovery suits</li>
+              <li>Injunctions &amp; stay orders</li>
+              <li>Specific performance</li>
+              <li>Cheque bounce (NI Act §138)</li>
+              <li>Execution of decrees</li>
+            </ul>
+            <div class="flip-back-cta">Contact for consultation →</div>
+          </div>
+        </div>
       </div>
-      <div class="practice-card">
-        <span class="practice-icon">IV.</span>
-        <h3>Criminal &amp; NDPS</h3>
-        <p>Bail applications, anticipatory bail, quashing petitions under Section 482 CrPC, NDPS Act defence, and criminal appeals before the High Court.</p>
+
+      <div class="flip-card reveal" tabindex="0" style="transition-delay:0.3s" role="button" aria-label="Criminal Defence">
+        <div class="flip-card-inner">
+          <div class="flip-front">
+            <div class="flip-front-icon">🛡️</div>
+            <div class="flip-front-title">Criminal Defence &amp; NDPS</div>
+            <div class="flip-front-desc">Vigorous criminal defence across IPC, BNSS, NDPS Act, and anticipatory bail applications at the High Court and District Courts.</div>
+            <div class="flip-front-hint">Hover to explore →</div>
+          </div>
+          <div class="flip-back">
+            <div class="flip-back-title">What We Handle</div>
+            <ul>
+              <li>Regular &amp; anticipatory bail</li>
+              <li>NDPS Act defence</li>
+              <li>Criminal revisions &amp; appeals</li>
+              <li>Quashing of FIR (§528 BNSS)</li>
+              <li>White-collar criminal matters</li>
+              <li>Bail under §483 BNSS</li>
+            </ul>
+            <div class="flip-back-cta">Contact for consultation →</div>
+          </div>
+        </div>
       </div>
-      <div class="practice-card">
-        <span class="practice-icon">V.</span>
-        <h3>Writ &amp; Constitutional</h3>
-        <p>Writ petitions under Articles 226 and 227, service matters, public interest litigation, and challenges to administrative orders affecting fundamental rights.</p>
+
+      <div class="flip-card reveal" tabindex="0" style="transition-delay:0.4s" role="button" aria-label="Constitutional Matters">
+        <div class="flip-card-inner">
+          <div class="flip-front">
+            <div class="flip-front-icon">📜</div>
+            <div class="flip-front-title">Constitutional &amp; Writ Matters</div>
+            <div class="flip-front-desc">Representation in writ petitions, fundamental rights violations, and constitutional challenges before the Rajasthan High Court.</div>
+            <div class="flip-front-hint">Hover to explore →</div>
+          </div>
+          <div class="flip-back">
+            <div class="flip-back-title">What We Handle</div>
+            <ul>
+              <li>Writ petitions (Art. 226/227)</li>
+              <li>Fundamental rights violations</li>
+              <li>Habeas corpus petitions</li>
+              <li>Mandamus &amp; certiorari</li>
+              <li>Public interest litigation</li>
+              <li>Constitutional challenges</li>
+            </ul>
+            <div class="flip-back-cta">Contact for consultation →</div>
+          </div>
+        </div>
       </div>
-      <div class="practice-card">
-        <span class="practice-icon">VI.</span>
-        <h3>Arbitration &amp; ADR</h3>
-        <p>Domestic arbitration, Section 34 challenges, Section 9 interim relief, mediation, and conciliation — particularly in commercial and family disputes.</p>
+
+      <div class="flip-card reveal" tabindex="0" style="transition-delay:0.5s" role="button" aria-label="Service Law">
+        <div class="flip-card-inner">
+          <div class="flip-front">
+            <div class="flip-front-icon">🏛️</div>
+            <div class="flip-front-title">Service &amp; Administrative Law</div>
+            <div class="flip-front-desc">Representation of government employees and service matters including promotions, terminations, pension disputes, and departmental inquiries.</div>
+            <div class="flip-front-hint">Hover to explore →</div>
+          </div>
+          <div class="flip-back">
+            <div class="flip-back-title">What We Handle</div>
+            <ul>
+              <li>Service disputes &amp; reinstatement</li>
+              <li>Promotion &amp; seniority matters</li>
+              <li>Pension &amp; gratuity disputes</li>
+              <li>Departmental inquiries</li>
+              <li>Compassionate appointments</li>
+              <li>Rajasthan Civil Services rules</li>
+            </ul>
+            <div class="flip-back-cta">Contact for consultation →</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLES / LEGAL INSIGHTS -->
+<section class="articles" id="articles">
+  <div class="container">
+    <div class="articles-header">
+      <div class="reveal">
+        <h2 class="section-title">Legal Insights</h2>
+        <div class="gold-line"></div>
+        <p class="section-subtitle">Practical guides on Indian law for clients navigating the legal system.</p>
+      </div>
+    </div>
+    <div class="articles-grid">
+
+      <article class="article-card reveal">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">🏠</div>
+          <span class="article-tag">Property Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>April 2025</span><span class="article-meta-dot"></span><span>5 min read</span></div>
+          <h3 class="article-title">Understanding Property Partition Suits Under the Code of Civil Procedure</h3>
+          <p class="article-excerpt">A partition suit is a legal remedy available to co-owners of property seeking division of their share. Learn how courts determine shares, appoint commissioners, and deliver final decrees in Rajasthan.</p>
+          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" style="transition-delay:0.1s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">💊</div>
+          <span class="article-tag">NDPS Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>March 2025</span><span class="article-meta-dot"></span><span>7 min read</span></div>
+          <h3 class="article-title">Bail under the NDPS Act: Commercial vs. Intermediate vs. Small Quantity</h3>
+          <p class="article-excerpt">NDPS bail is among the most stringent in Indian law. This guide explains the critical distinction between commercial quantity and small quantity — and how Section 37 conditions affect your bail application.</p>
+          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" style="transition-delay:0.2s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">👨‍👩‍👧</div>
+          <span class="article-tag">Family Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>February 2025</span><span class="article-meta-dot"></span><span>6 min read</span></div>
+          <h3 class="article-title">Child Custody in India: Welfare of the Child as the Paramount Consideration</h3>
+          <p class="article-excerpt">Courts in India apply the "best interests of the child" standard in custody disputes. Understand how judges weigh financial stability, parental conduct, and the child's own wishes in High Court proceedings.</p>
+          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+        </div>
+      </article>
+
+      <article class="article-card reveal">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">📋</div>
+          <span class="article-tag">Civil Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>January 2025</span><span class="article-meta-dot"></span><span>4 min read</span></div>
+          <h3 class="article-title">Cheque Dishonour under Section 138 NI Act: Your Rights as a Payee</h3>
+          <p class="article-excerpt">A bounced cheque is both a civil and criminal remedy in India. This article walks you through the mandatory 15-day notice period, the 30-day complaint deadline, and what to expect in a Section 138 trial.</p>
+          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" style="transition-delay:0.1s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">📜</div>
+          <span class="article-tag">Writ Petitions</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>December 2024</span><span class="article-meta-dot"></span><span>6 min read</span></div>
+          <h3 class="article-title">When to File a Writ Petition at the Rajasthan High Court</h3>
+          <p class="article-excerpt">Article 226 gives High Courts wide powers to issue writs for enforcement of fundamental and legal rights. Know when mandamus, certiorari, or habeas corpus is the right remedy for your situation.</p>
+          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+        </div>
+      </article>
+
+      <article class="article-card reveal" style="transition-delay:0.2s">
+        <div class="article-img-placeholder">
+          <div class="article-img-icon">🏛️</div>
+          <span class="article-tag">Service Law</span>
+        </div>
+        <div class="article-body">
+          <div class="article-meta"><span>November 2024</span><span class="article-meta-dot"></span><span>5 min read</span></div>
+          <h3 class="article-title">Government Employees and Departmental Inquiries: Know Your Rights</h3>
+          <p class="article-excerpt">Natural justice requires that every government servant facing a departmental inquiry be given a fair opportunity to defend themselves. Learn the procedural safeguards and how to challenge biased inquiries in court.</p>
+          <a href="#contact" class="article-read-more">Ask Our Advocate →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- RESOURCES -->
+<section class="resources" id="resources">
+  <div class="container">
+    <div class="resources-header reveal">
+      <h2 class="section-title">Legal Resources</h2>
+      <div class="gold-line"></div>
+      <p class="section-subtitle">Useful links and guides for clients and litigants.</p>
+    </div>
+    <div class="resources-grid">
+
+      <div class="resource-card reveal">
+        <span class="resource-icon">🏛️</span>
+        <div class="resource-title">Rajasthan High Court</div>
+        <p class="resource-desc">Official portal for case status, cause lists, and judgments of the Rajasthan High Court, Jodhpur and Jaipur Benches.</p>
+        <a href="https://hcraj.nic.in" class="resource-link" target="_blank" rel="noopener noreferrer">Visit Portal →</a>
+      </div>
+
+      <div class="resource-card reveal" style="transition-delay:0.1s">
+        <span class="resource-icon">⚖️</span>
+        <div class="resource-title">eCourts Services</div>
+        <p class="resource-desc">Track your case status across all District Courts and High Courts in India using the eCourts National Judicial Data Grid.</p>
+        <a href="https://ecourts.gov.in" class="resource-link" target="_blank" rel="noopener noreferrer">Check Case Status →</a>
+      </div>
+
+      <div class="resource-card reveal" style="transition-delay:0.2s">
+        <span class="resource-icon">📚</span>
+        <div class="resource-title">Indian Kanoon</div>
+        <p class="resource-desc">Free database of Indian court judgments, legal provisions, and statutes — the largest free legal database in India.</p>
+        <a href="https://indiankanoon.org" class="resource-link" target="_blank" rel="noopener noreferrer">Search Judgments →</a>
+      </div>
+
+      <div class="resource-card reveal" style="transition-delay:0.3s">
+        <span class="resource-icon">📋</span>
+        <div class="resource-title">Legal Aid Services</div>
+        <p class="resource-desc">The Rajasthan State Legal Services Authority provides free legal aid to eligible persons. Know if you qualify.</p>
+        <a href="https://rslsa.rajasthan.gov.in" class="resource-link" target="_blank" rel="noopener noreferrer">Learn More →</a>
+      </div>
+
+      <div class="resource-card reveal">
+        <span class="resource-icon">🔍</span>
+        <div class="resource-title">Lok Adalat Schedule</div>
+        <p class="resource-desc">Lok Adalats offer a fast, cost-free alternative dispute resolution mechanism. Find the next scheduled Lok Adalat in Jodhpur.</p>
+        <a href="https://nalsa.gov.in" class="resource-link" target="_blank" rel="noopener noreferrer">Find Schedule →</a>
+      </div>
+
+      <div class="resource-card reveal" style="transition-delay:0.1s">
+        <span class="resource-icon">📄</span>
+        <div class="resource-title">FIR &amp; Complaint Status</div>
+        <p class="resource-desc">Check the status of an FIR registered with Rajasthan Police online through the official Rajasthan Police portal.</p>
+        <a href="https://police.rajasthan.gov.in" class="resource-link" target="_blank" rel="noopener noreferrer">Check FIR Status →</a>
+      </div>
+
+      <div class="resource-card reveal" style="transition-delay:0.2s">
+        <span class="resource-icon">🏠</span>
+        <div class="resource-title">Property Registration</div>
+        <p class="resource-desc">Verify property registrations, check stamp duty, and access deed documents through the Rajasthan Stamps &amp; Registration portal.</p>
+        <a href="https://igrs.rajasthan.gov.in" class="resource-link" target="_blank" rel="noopener noreferrer">Visit IGRS →</a>
+      </div>
+
+      <div class="resource-card reveal" style="transition-delay:0.3s">
+        <span class="resource-icon">💬</span>
+        <div class="resource-title">Schedule a Consultation</div>
+        <p class="resource-desc">Have a legal question? Speak directly with Advocate Shubham Ojha for a confidential consultation on your matter.</p>
+        <a href="#contact" class="resource-link">Book Consultation →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="process-header reveal">
+      <h2 class="section-title">How We Work</h2>
+      <div class="gold-line"></div>
+      <p class="section-subtitle">A transparent, four-step process from initial consultation to resolution.</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-number">01</div>
+        <div class="step-title">Initial Consultation</div>
+        <p class="step-desc">Share the facts of your matter. We listen carefully, ask the right questions, and provide an honest assessment of your legal position.</p>
+      </div>
+      <div class="process-step reveal" style="transition-delay:0.15s">
+        <div class="step-number">02</div>
+        <div class="step-title">Case Analysis</div>
+        <p class="step-desc">We research applicable law, review documents, and identify the strongest legal arguments available to advance your case.</p>
+      </div>
+      <div class="process-step reveal" style="transition-delay:0.3s">
+        <div class="step-number">03</div>
+        <div class="step-title">Strategy &amp; Drafting</div>
+        <p class="step-desc">We devise a clear legal strategy, draft all necessary pleadings, petitions, and applications with precision and thoroughness.</p>
+      </div>
+      <div class="process-step reveal" style="transition-delay:0.45s">
+        <div class="step-number">04</div>
+        <div class="step-title">Advocacy &amp; Resolution</div>
+        <p class="step-desc">We appear in court, argue your case vigorously, and keep you informed at every stage until your matter is resolved.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ Credentials ═══ -->
-<section id="credentials" class="stats-bg">
+<!-- TESTIMONIALS -->
+<section class="testimonials">
   <div class="container">
-    <div class="section-head">
-      <div class="eyebrow">By the numbers</div>
-      <h2>Built on preparation</h2>
-      <p>Numbers are a proxy, not the work itself. They reflect the breadth of matters the firm has engaged with and the consistency of ongoing practice.</p>
+    <div class="testimonials-header reveal">
+      <h2 class="section-title">Client Testimonials</h2>
+      <div class="gold-line"></div>
+      <p class="section-subtitle">What our clients say about working with Shubham Ojha &amp; Associates.</p>
     </div>
-    <div class="stats-grid">
-      <div class="stat">
-        <div class="number">500+</div>
-        <div class="label">Active Matters</div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"Advocate Shubham Ojha handled our property partition dispute with exceptional skill. He explained every step clearly and secured a favourable outcome that our family had been seeking for years."</div>
+        <div class="testimonial-author">R. K. Sharma</div>
+        <div class="testimonial-role">Property Dispute Client, Jodhpur</div>
       </div>
-      <div class="stat">
-        <div class="number">2020</div>
-        <div class="label">Year of Enrolment</div>
+      <div class="testimonial-card reveal" style="transition-delay:0.1s">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"Our NDPS bail application was rejected twice by the Sessions Court. Shubham ji filed a strong petition at the High Court and secured bail within a week. Highly recommended."</div>
+        <div class="testimonial-author">Family of Accused (Name withheld)</div>
+        <div class="testimonial-role">NDPS Bail Matter, High Court</div>
       </div>
-      <div class="stat">
-        <div class="number">2</div>
-        <div class="label">Courts Practiced</div>
-      </div>
-      <div class="stat">
-        <div class="number">R/29582020</div>
-        <div class="label">Bar Council No.</div>
+      <div class="testimonial-card reveal" style="transition-delay:0.2s">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"The divorce and child custody matter was emotionally difficult for us. The firm handled everything professionally and with great sensitivity. We received a just outcome."</div>
+        <div class="testimonial-author">A. Mehta</div>
+        <div class="testimonial-role">Family Law Client, Jodhpur</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ Contact ═══ -->
-<section id="contact" class="contact-bg">
+<!-- CONTACT -->
+<section class="contact" id="contact">
   <div class="container">
-    <div class="section-head">
-      <div class="eyebrow">Consultation</div>
-      <h2>Schedule a meeting</h2>
-      <p>Send the case facts in confidence. The firm reviews every enquiry and responds within one working day with next steps or a clear referral.</p>
-    </div>
     <div class="contact-grid">
-      <div class="contact-info">
-        <h3>Office</h3>
-        <div class="subtitle">Ratanada, Jodhpur</div>
-        <div class="info-row">
-          <div class="icon">⌂</div>
-          <div>
-            <div class="label">Address</div>
-            <div class="value">H.No. 245, Sardar Club Road<br>Ratanada, Jodhpur 342001<br>Rajasthan, India</div>
+      <div class="reveal-left">
+        <div class="hero-eyebrow" style="color:var(--gold);margin-bottom:12px;">Get in Touch</div>
+        <div class="contact-info-title">Speak with an Advocate Today</div>
+        <p class="contact-info-subtitle">Consultations are confidential. Reach us by phone, WhatsApp, or email — we respond promptly.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div><div class="contact-item-label">Phone</div><div class="contact-item-value"><a href="tel:+917023051275">+91 70230 51275</a></div></div>
           </div>
-        </div>
-        <div class="info-row">
-          <div class="icon">@</div>
-          <div>
-            <div class="label">Email</div>
-            <a class="value" href="mailto:shubham@shubhamojhaandassociates.com">shubham@shubhamojhaandassociates.com</a>
+          <div class="contact-item">
+            <div class="contact-item-icon">💬</div>
+            <div><div class="contact-item-label">WhatsApp</div><div class="contact-item-value"><a href="https://wa.me/917023051275" target="_blank" rel="noopener">wa.me/917023051275</a></div></div>
           </div>
-        </div>
-        <div class="info-row">
-          <div class="icon">☏</div>
-          <div>
-            <div class="label">Phone</div>
-            <a class="value" href="tel:+917023051275">+91 70230 51275</a>
+          <div class="contact-item">
+            <div class="contact-item-icon">📧</div>
+            <div><div class="contact-item-label">Email</div><div class="contact-item-value"><a href="mailto:shubhamojha678@gmail.com">shubhamojha678@gmail.com</a></div></div>
           </div>
-        </div>
-        <div class="info-row">
-          <div class="icon">§</div>
-          <div>
-            <div class="label">Court</div>
-            <div class="value">Rajasthan High Court, Jodhpur Bench<br>Jodhpur District Court</div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div><div class="contact-item-label">Address</div><div class="contact-item-value">Rajasthan High Court Premises, Jodhpur — 342001</div></div>
           </div>
-        </div>
-        <div class="info-row">
-          <div class="icon">⏱</div>
-          <div>
-            <div class="label">Hours</div>
-            <div class="value">Mon–Fri: 9:00 AM – 7:00 PM<br>Sat: 10:00 AM – 2:00 PM</div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🕐</div>
+            <div><div class="contact-item-label">Office Hours</div><div class="contact-item-value">Mon–Sat: 9:00 AM – 7:00 PM</div></div>
           </div>
         </div>
       </div>
-
-      <form id="contact-form" action="https://formsubmit.co/shubham@shubhamojhaandassociates.com" method="POST">
-        <input type="hidden" name="_subject" value="New Enquiry — shubhamojhaandassociates.com">
-        <input type="hidden" name="_next" value="https://shubhamojhaandassociates.com#contact">
-        <input type="hidden" name="_template" value="table">
-        <input type="text" name="_honey" style="display:none">
-        <input type="hidden" name="_captcha" value="false">
-        <div class="field">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required autocomplete="name">
-        </div>
-        <div class="field">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required autocomplete="email">
-        </div>
-        <div class="field">
-          <label for="phone">Phone (WhatsApp preferred)</label>
-          <input type="tel" id="phone" name="phone" autocomplete="tel">
-        </div>
-        <div class="field">
-          <label for="area">Practice Area</label>
-          <select id="area" name="area" required>
-            <option value="">Select one…</option>
-            <option>Property Law</option>
-            <option>Family Law</option>
-            <option>Civil Litigation</option>
-            <option>Criminal / NDPS</option>
-            <option>Writ / Constitutional</option>
-            <option>Arbitration / ADR</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="message">Brief Description</label>
-          <textarea id="message" name="message" required placeholder="Please describe the facts in brief. Do not include identifying details of opposing parties in this field."></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send Enquiry</button>
-        <p class="form-note">Submitting this form does not create an advocate-client relationship.</p>
-      </form>
+      <div class="reveal-right">
+        <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-title">Send a Message</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Ramesh" required autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Sharma" required autocomplete="family-name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone / WhatsApp</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" autocomplete="tel">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="matter">Nature of Matter</label>
+            <select id="matter" name="matter">
+              <option value="">— Select a practice area —</option>
+              <option value="property">Property &amp; Real Estate</option>
+              <option value="family">Family &amp; Matrimonial</option>
+              <option value="civil">Civil Litigation</option>
+              <option value="criminal">Criminal Defence / NDPS</option>
+              <option value="writ">Writ / Constitutional</option>
+              <option value="service">Service Law</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Brief Description</label>
+            <textarea id="message" name="message" placeholder="Briefly describe your legal matter…"></textarea>
+          </div>
+          <p class="form-disclaimer">This form does not create an attorney-client relationship. Do not submit confidential information until a formal engagement is established. All enquiries are treated with strict confidentiality.</p>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message via WhatsApp</button>
+        </form>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ Footer ═══ -->
-<footer>
+<!-- FOOTER -->
+<footer class="footer">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h4>Shubham Ojha &amp; Associates</h4>
-        <p>Advocates practicing at the Rajasthan High Court, Jodhpur Bench and the Jodhpur District Court. Property, family, civil, criminal and writ matters.</p>
+        <div class="footer-brand-name">Shubham Ojha &amp; Associates</div>
+        <p class="footer-brand-desc">Advocates &amp; Legal Consultants practicing at the Rajasthan High Court, Jodhpur Bench and District Courts, Jodhpur.</p>
+        <div style="display:flex;gap:12px;">
+          <a href="tel:+917023051275" class="btn btn-outline" style="font-size:0.78rem;padding:10px 18px;">📞 Call</a>
+          <a href="https://wa.me/917023051275" class="btn btn-primary" style="font-size:0.78rem;padding:10px 18px;" target="_blank" rel="noopener">💬 WhatsApp</a>
+        </div>
       </div>
       <div>
-        <h4>Navigate</h4>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#practice">Practice Areas</a></li>
-          <li><a href="#credentials">Credentials</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <div class="footer-col-title">Practice Areas</div>
+        <ul class="footer-links">
+          <li><a href="#practice">Property Law</a></li>
+          <li><a href="#practice">Family Law</a></li>
+          <li><a href="#practice">Civil Litigation</a></li>
+          <li><a href="#practice">Criminal Defence</a></li>
+          <li><a href="#practice">Writ Petitions</a></li>
+          <li><a href="#practice">Service Law</a></li>
         </ul>
       </div>
       <div>
-        <h4>Firm</h4>
-        <ul>
-          <li>Ratanada, Jodhpur</li>
-          <li>R/29582020 — Bar Council of Rajasthan</li>
-          <li>By appointment only</li>
+        <div class="footer-col-title">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="#about">About the Firm</a></li>
+          <li><a href="#articles">Legal Insights</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <ul class="footer-links">
+          <li><a href="tel:+917023051275">+91 70230 51275</a></li>
+          <li><a href="mailto:shubhamojha678@gmail.com">shubhamojha678@gmail.com</a></li>
+          <li style="color:rgba(255,255,255,0.4);font-size:0.82rem;line-height:1.5;">Rajasthan High Court Premises, Jodhpur — 342001</li>
+          <li style="color:rgba(255,255,255,0.4);font-size:0.82rem;">Mon–Sat: 9 AM – 7 PM</li>
         </ul>
       </div>
     </div>
-    <div class="disclaimer">
-      <strong>Disclaimer:</strong> The information on this website is intended for general information only. It is not a substitute for legal advice. No advocate-client relationship is created by viewing this website or by sending an enquiry through the contact form. Per the Bar Council of India Rules, advocates are prohibited from advertising or soliciting work.<br><br>
-      © <span id="year"></span> Shubham Ojha &amp; Associates. All rights reserved.
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Shubham Ojha &amp; Associates. All rights reserved.</p>
+      <div class="footer-legal-links">
+        <a href="#contact">Privacy Policy</a>
+        <a href="#contact">Disclaimer</a>
+      </div>
     </div>
   </div>
 </footer>
 
+<!-- BCI Disclaimer -->
+<div class="bci-bar">
+  <p><strong style="color:rgba(255,255,255,0.7);">Bar Council of India Notice:</strong> As per BCI Rules, advocates are not permitted to solicit work or advertise in any manner. This website is intended solely for informational purposes and does not constitute legal advice or an offer of legal services. Visiting this website or contacting us does not create an attorney-client relationship. Please do not act on any information contained herein without seeking professional legal counsel. By proceeding, you acknowledge and accept these terms.</p>
+</div>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="wa-tooltip">Chat with us</span>
+</a>
+
 <script>
-  // Year
-  document.getElementById('year').textContent = new Date().getFullYear();
+// Dark Mode
+const darkToggle = document.getElementById('darkToggle');
+const savedTheme = localStorage.getItem('theme') || 'light';
+if (savedTheme === 'dark') { document.documentElement.setAttribute('data-theme', 'dark'); darkToggle.textContent = '☾'; }
+darkToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  if (current === 'dark') { document.documentElement.removeAttribute('data-theme'); darkToggle.textContent = '☀'; localStorage.setItem('theme', 'light'); }
+  else { document.documentElement.setAttribute('data-theme', 'dark'); darkToggle.textContent = '☾'; localStorage.setItem('theme', 'dark'); }
+});
 
-  // Bar Council notice — show once per session
-  (function () {
-    if (!sessionStorage.getItem('bar-accepted')) {
-      document.getElementById('bar-notice').style.display = 'flex';
+// Navbar scroll
+const navbar = document.getElementById('navbar');
+const navCta = document.getElementById('navCta');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 80) { navbar.classList.add('scrolled'); navCta.style.display = 'inline-flex'; }
+  else { navbar.classList.remove('scrolled'); navCta.style.display = 'none'; }
+}, { passive: true });
+
+// Mobile menu
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => {
+  const isOpen = mobileMenu.classList.toggle('open');
+  hamburger.classList.toggle('open');
+  hamburger.setAttribute('aria-expanded', isOpen);
+  document.body.style.overflow = isOpen ? 'hidden' : '';
+});
+document.querySelectorAll('.mobile-link, .mobile-menu .btn').forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('open'); hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false'); document.body.style.overflow = '';
+  });
+});
+
+// Scroll animations
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); } });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => revealObserver.observe(el));
+
+// Animated stat counters
+function animateCounter(el) {
+  const target = parseInt(el.getAttribute('data-target'), 10);
+  const suffix = el.getAttribute('data-suffix') || '';
+  let current = 0;
+  const increment = Math.max(1, Math.ceil(target / 60));
+  const timer = setInterval(() => {
+    current += increment;
+    if (current >= target) { current = target; clearInterval(timer); }
+    el.textContent = current + suffix;
+  }, 30);
+}
+const statObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const counter = entry.target.querySelector('.stat-number[data-target]');
+      if (counter && !counter.dataset.animated) { counter.dataset.animated = 'true'; animateCounter(counter); }
     }
-  })();
-  function acceptNotice() {
-    sessionStorage.setItem('bar-accepted', '1');
-    document.getElementById('bar-notice').style.display = 'none';
-  }
+  });
+}, { threshold: 0.3 });
+document.querySelectorAll('.stat-item').forEach(item => statObserver.observe(item));
 
-  // Contact form handled by FormSubmit.co — delivers directly to
-  // shubham@shubhamojhaandassociates.com. No JavaScript needed.
-  // First submission triggers a confirmation email from FormSubmit.
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', (e) => {
+    const href = anchor.getAttribute('href');
+    if (href === '#') return;
+    const target = document.querySelector(href);
+    if (target) { e.preventDefault(); const top = target.getBoundingClientRect().top + window.pageYOffset - 76; window.scrollTo({ top, behavior: 'smooth' }); }
+  });
+});
+
+// Contact form → WhatsApp
+function handleFormSubmit(e) {
+  e.preventDefault();
+  const form = e.target;
+  const first = form.firstName.value.trim();
+  const last = form.lastName.value.trim();
+  const phone = form.phone.value.trim();
+  const email = form.email.value.trim();
+  const matter = form.matter.value;
+  const message = form.message.value.trim();
+  const text = `Hello Advocate Shubham Ojha,\n\nMy name is ${first} ${last}.\n\nPhone: ${phone||'Not provided'}\nEmail: ${email||'Not provided'}\nMatter: ${matter||'Not specified'}\n\nMessage:\n${message||'No additional details.'}\n\nPlease advise on next steps.`;
+  window.open(`https://wa.me/917023051275?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+}
+
+// Flip card touch support
+document.querySelectorAll('.flip-card').forEach(card => {
+  card.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      const inner = card.querySelector('.flip-card-inner');
+      inner.style.transform = inner.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
+    }
+  });
+  let touched = false;
+  card.addEventListener('touchstart', () => { touched = false; }, { passive: true });
+  card.addEventListener('touchmove', () => { touched = true; }, { passive: true });
+  card.addEventListener('touchend', () => {
+    if (!touched) {
+      const inner = card.querySelector('.flip-card-inner');
+      inner.style.transform = inner.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
+    }
+  });
+});
 </script>
-
 </body>
 </html>
