@@ -1,0 +1,16 @@
+{
+  "name": "Shubham Ojha & Associates",
+  "short_name": "S&O Advocates",
+  "description": "Advocates at the Rajasthan High Court, Jodhpur Bench. Property, family, civil, criminal and NDPS law.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b1a3a",
+  "theme_color": "#0b1a3a",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
