@@ -2,6 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GJNCXM2691');
+document.addEventListener('click', function(e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call'});
+  else if (h.indexOf('wa.me') !== -1) gtag('event', 'generate_lead', {method: 'whatsapp'});
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email'});
+});
+</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Legal Insights — Indian Law Articles | Shubham Ojha &amp; Associates</title>
 <meta name="description" content="Legal articles on Indian law by Advocate Shubham Ojha — covering property disputes, NDPS, bail, family law, writ petitions, service law, and more. Rajasthan High Court, Jodhpur.">
@@ -85,6 +101,11 @@ img{max-width:100%;display:block;}
 .bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
 .bci-bar p{font-size:0.72rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.6;}
 @media(max-width:640px){.related-grid{grid-template-columns:1fr;}.art-nav-links .art-nav-back{display:none;}.art-cta-box{flex-direction:column;text-align:center;}}
+
+.wa-button{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all .3s;}
+.wa-button:hover{transform:scale(1.08);}
+.mobile-cta-bar{display:none;}
+@media(max-width:768px){.mobile-cta-bar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:998;box-shadow:0 -4px 20px rgba(6,15,34,0.25);}.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;}.mobile-cta-call{background:var(--gold);color:#060f22;}.mobile-cta-wa{background:#1da851;color:#fff;}.wa-button{bottom:76px;}body{padding-bottom:50px;}}
 </style>
 
 <style>.articles-index-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}@media(max-width:768px){.articles-index-grid{grid-template-columns:1fr;}}@media(max-width:1024px) and (min-width:769px){.articles-index-grid{grid-template-columns:repeat(2,1fr);}}</style>
@@ -98,7 +119,55 @@ img{max-width:100%;display:block;}
 <div class="art-container">
 <div style="text-align:center;margin-bottom:48px;"><h1 style="font-family:var(--font-serif);font-size:clamp(2rem,4vw,2.8rem);font-weight:600;color:var(--navy);margin-bottom:12px;">Legal Insights</h1><div style="width:56px;height:3px;background:var(--gold);margin:16px auto 20px;border-radius:2px;"></div><p style="font-size:1rem;color:var(--text-light);max-width:560px;margin:0 auto;">Practical guides on Indian law authored by <strong style="color:var(--text-dark);">Advocate Shubham Ojha</strong>, Rajasthan High Court, Jodhpur.</p></div>
 <div class="articles-index-grid">
-
+    <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
+      <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Criminal Law &nbsp;·&nbsp; June 2026</div>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/section-498a-ipc-section-85-bns-cruelty.html" style="color:inherit;">Section 498A IPC Is Now Section 85 BNS: Cruelty Cases, Arrest Safeguards and Defence</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Section 498A IPC has become Section 85 of the Bharatiya Nyaya Sanhita, 2023. What constitutes cruelty, the Arnesh Kumar arrest safeguards, remedies for genuine complainants, and the defence and quashing roadmap for accused families.</p>
+      <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
+      <a href="/articles/section-498a-ipc-section-85-bns-cruelty.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
+    </article>
+    <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
+      <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Property Law &nbsp;·&nbsp; June 2026</div>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/partition-suit-family-property-rajasthan.html" style="color:inherit;">Partition Suits in Rajasthan: How Family Property Is Divided Under Law</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Daughters' equal coparcenary rights after Vineeta Sharma, civil versus revenue court jurisdiction for agricultural land, preliminary and final decrees, court fees, and why family settlements deserve first consideration.</p>
+      <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
+      <a href="/articles/partition-suit-family-property-rajasthan.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
+    </article>
+    <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
+      <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Property Law &nbsp;·&nbsp; June 2026</div>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/tenant-eviction-rajasthan-rent-control-act.html" style="color:inherit;">Tenant Eviction in Rajasthan: Grounds and Procedure Under the Rent Control Act, 2001</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">The statutory grounds for eviction, the Rent Tribunal procedure, the one-time first-default protection for tenants, and how courts test bona fide personal necessity.</p>
+      <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
+      <a href="/articles/tenant-eviction-rajasthan-rent-control-act.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
+    </article>
+    <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
+      <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Personal Injury Law &nbsp;·&nbsp; June 2026</div>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/motor-accident-mact-rajasthan.html" style="color:inherit;">Motor Accident Claims in Rajasthan: MACT Proceedings and Compensation</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Who can claim before the Motor Accidents Claims Tribunal, how compensation is calculated using the multiplier method, no-fault liability, and what to do immediately after an accident.</p>
+      <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
+      <a href="/articles/motor-accident-mact-rajasthan.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
+    </article>
+    <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
+      <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Family Law &nbsp;·&nbsp; May 2026</div>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/divorce-mutual-consent-india.html" style="color:inherit;">Divorce by Mutual Consent Under Section 13-B HMA: The Complete Guide</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Eligibility, the two-motion procedure, waiver of the six-month cooling-off period under the Amardeep Singh ruling, and what must be settled before filing.</p>
+      <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
+      <a href="/articles/divorce-mutual-consent-india.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
+    </article>
+    <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
+      <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Criminal Law &nbsp;·&nbsp; May 2026</div>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/quashing-fir-section-528-bnss.html" style="color:inherit;">Quashing of FIR Under Section 528 BNSS: Grounds, Procedure and When Courts Grant Relief</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">The High Court's inherent power under Section 528 BNSS — formerly Section 482 CrPC — explained: grounds for quashing, landmark judgments from Gian Singh to Parbatbhai Ahir, and when courts grant or refuse relief.</p>
+      <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
+      <a href="/articles/quashing-fir-section-528-bnss.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
+    </article>
+    <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
+      <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Civil Law &nbsp;·&nbsp; April 2026</div>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/stay-orders-execution-proceedings-balancing-equities.html" style="color:inherit;">Stay Orders in Execution Proceedings: How Courts Balance the Equities</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">How Indian courts decide stay applications in execution proceedings — recent Supreme Court rulings, the statutory framework under CPC Order XXI and XLI, and practical guidance for Rajasthan litigants.</p>
+      <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
+      <a href="/articles/stay-orders-execution-proceedings-balancing-equities.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
+    </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Property Law &nbsp;·&nbsp; April 2026</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/property-disputes-rajasthan.html" style="color:inherit;">Understanding Property Disputes in Rajasthan: A Comprehensive Guide</a></h2>
@@ -129,8 +198,8 @@ img{max-width:100%;display:block;}
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Constitutional Law &nbsp;·&nbsp; December 2025</div>
-      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/writ-petition-articles-226-227.html" style="color:inherit;">When Can You File a Writ Petition? Understanding Articles 226 & 227 of the Constitution</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Writ jurisdiction under Article 226 makes High Courts the most accessible forum for enforcing fundamental and legal rights against the State. Understanding which writ to file — and when — is essential for effective constitutional litigation.</p>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/writ-petition-articles-226-227.html" style="color:inherit;">When Can You File a Writ Petition? Understanding Articles 226 &amp; 227 of the Constitution</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Writ jurisdiction under Article 226 makes High Courts the most accessible forum for enforcing fundamental and legal rights against the State. Understanding which writ to file — and when — is essential.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/writ-petition-articles-226-227.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
@@ -144,69 +213,77 @@ img{max-width:100%;display:block;}
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Civil Law &nbsp;·&nbsp; October 2025</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/cheque-bounce-section-138-ni-act.html" style="color:inherit;">Cheque Bounce Cases Under Section 138 NI Act: Complete Legal Guide</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Dishonour of a cheque for insufficiency of funds is a criminal offence under Section 138 of the Negotiable Instruments Act, 1881. Understanding the notice requirements, timelines, and defence strategies is essential for both payees and accused.</p>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Dishonour of a cheque for insufficiency of funds is a criminal offence under Section 138 of the Negotiable Instruments Act, 1881. Notice requirements, timelines, and defence strategies for both payees and accused.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/cheque-bounce-section-138-ni-act.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Family Law &nbsp;·&nbsp; September 2025</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/domestic-violence-act-2005.html" style="color:inherit;">Domestic Violence Act 2005: Protection Orders and Your Legal Options</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">The Protection of Women from Domestic Violence Act, 2005 provides civil remedies — protection orders, residence orders, and monetary relief — to women facing domestic abuse, separate from and complementary to criminal law remedies.</p>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">The Protection of Women from Domestic Violence Act, 2005 provides civil remedies — protection orders, residence orders, and monetary relief — separate from and complementary to criminal law remedies.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/domestic-violence-act-2005.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Consumer Law &nbsp;·&nbsp; August 2025</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/consumer-complaint-consumer-protection-act-2019.html" style="color:inherit;">How to File a Consumer Complaint Under the Consumer Protection Act 2019</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">The Consumer Protection Act 2019 significantly upgraded India's consumer redressal framework — raising pecuniary limits, introducing e-filing, and providing for product liability and unfair contracts. A complete guide to filing a complaint.</p>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">The Consumer Protection Act 2019 significantly upgraded India's consumer redressal framework — raising pecuniary limits, introducing e-filing, and providing for product liability. A complete guide to filing a complaint.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/consumer-complaint-consumer-protection-act-2019.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Family Law &nbsp;·&nbsp; July 2025</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/child-custody-laws-india.html" style="color:inherit;">Child Custody Laws in India: Best Interest of the Child Principle</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Child custody disputes are among the most emotionally charged in family law. Indian courts apply the 'welfare of the child' as the paramount principle, guided by the Hindu Minority and Guardianship Act 1956 and Guardians and Wards Act 1890.</p>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Child custody disputes are among the most emotionally charged in family law. Indian courts apply the 'welfare of the child' as the paramount principle, guided by the Hindu Minority and Guardianship Act 1956.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/child-custody-laws-india.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Property Law &nbsp;·&nbsp; June 2025</div>
-      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/land-revenue-laws-rajasthan.html" style="color:inherit;">Land Revenue Laws in Rajasthan: Mutation, Khasra & Revenue Court Proceedings</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Revenue records — Khasra, Khatauni, Jamabandi — are the bedrock of land ownership documentation in Rajasthan. Understanding mutation procedures, revenue court jurisdiction, and the Board of Revenue's role is essential for every property owner.</p>
+      <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/land-revenue-laws-rajasthan.html" style="color:inherit;">Land Revenue Laws in Rajasthan: Mutation, Khasra &amp; Revenue Court Proceedings</a></h2>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Revenue records — Khasra, Khatauni, Jamabandi — are the bedrock of land ownership documentation in Rajasthan. Mutation procedures, revenue court jurisdiction, and the Board of Revenue's role explained.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/land-revenue-laws-rajasthan.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Criminal Law &nbsp;·&nbsp; May 2025</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/bail-types-procedure-india.html" style="color:inherit;">Bail in India: Types, Procedure and Your Fundamental Right to Liberty</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Bail is not a privilege — it is the rule, and jail is the exception. The BNSS 2023 streamlines India's bail framework while the Supreme Court has repeatedly held that the right to personal liberty under Article 21 must be zealously protected.</p>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Bail is not a privilege — it is the rule, and jail is the exception. The BNSS 2023 streamlines India's bail framework while the Supreme Court has repeatedly held that personal liberty under Article 21 must be zealously protected.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/bail-types-procedure-india.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Civil Law &nbsp;·&nbsp; April 2025</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/specific-performance-contracts-india.html" style="color:inherit;">Specific Performance of Contracts: When Can You Force a Sale?</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">When a party refuses to honour a contract for sale of property, the aggrieved party can seek a court decree directing actual performance. The Specific Relief Act 1963 (as amended in 2018) makes specific performance the general rule for property contracts.</p>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">When a party refuses to honour a contract for sale of property, the aggrieved party can seek a court decree directing actual performance. The Specific Relief Act 1963 (as amended in 2018) makes this the general rule.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/specific-performance-contracts-india.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Service Law &nbsp;·&nbsp; March 2025</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/service-law-writ-petitions-rajasthan.html" style="color:inherit;">Service Law Matters: Challenging Government Orders Through Writ Petitions</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Government employees whose service rights are violated — through unlawful termination, illegal supersession, or denial of pension — have powerful remedies through writ petitions under Article 226. Natural justice and constitutional protections are their shield.</p>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Government employees whose service rights are violated — through unlawful termination, illegal supersession, or denial of pension — have powerful remedies through writ petitions under Article 226.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/service-law-writ-petitions-rajasthan.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
     <article style="border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:24px;background:var(--white);box-shadow:var(--shadow);transition:all .3s;display:flex;flex-direction:column;">
       <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Criminal Law &nbsp;·&nbsp; January 2025</div>
       <h2 style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:10px;"><a href="/articles/fir-registration-rights-india.html" style="color:inherit;">FIR Registration: Your Right Under Law and What to Do If Police Refuse</a></h2>
-      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Every person who reports a cognisable offence to the police has the right to have an FIR registered. The Supreme Court's landmark judgment in Lalita Kumari settles this absolutely. Section 173 BNSS 2023 governs FIR registration today.</p>
+      <p style="font-size:0.85rem;color:var(--text-light);line-height:1.65;flex:1;margin-bottom:14px;">Every person who reports a cognisable offence has the right to have an FIR registered. The Supreme Court's landmark judgment in Lalita Kumari settles this absolutely. Section 173 BNSS 2023 governs FIR registration today.</p>
       <div style="font-size:0.72rem;color:var(--gold);margin-bottom:14px;">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)</div>
       <a href="/articles/fir-registration-rights-india.html" style="font-size:0.78rem;font-weight:600;color:var(--gold);letter-spacing:0.04em;text-transform:uppercase;">Read Article →</a>
     </article>
 </div>
 </div>
-<footer class="art-footer"><div class="art-footer-inner"><div class="art-footer-name">Shubham Ojha &amp; Associates</div><p class="art-footer-copy">Advocates at the Rajasthan High Court, Jodhpur Bench &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2025 All rights reserved.</p></div></footer>
+<footer class="art-footer"><div class="art-footer-inner"><div class="art-footer-name">Shubham Ojha &amp; Associates</div><p class="art-footer-copy">Advocates at the Rajasthan High Court, Jodhpur Bench &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2026 All rights reserved.</p></div></footer>
 <div class="bci-bar"><p><strong style="color:rgba(255,255,255,0.6);">Bar Council of India Notice:</strong> This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.</p></div>
+
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+  <a href="tel:+917023051275" class="mobile-cta-call">📞 Call Now</a>
+  <a href="https://wa.me/917023051275" class="mobile-cta-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+</div>
 </body>
 </html>

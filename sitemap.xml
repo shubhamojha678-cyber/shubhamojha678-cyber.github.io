@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://shubhamojhaandassociates.com/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://shubhamojhaandassociates.com/articles/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -123,6 +123,24 @@
   <url>
     <loc>https://shubhamojhaandassociates.com/articles/quashing-fir-section-528-bnss.html</loc>
     <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shubhamojhaandassociates.com/articles/section-498a-ipc-section-85-bns-cruelty.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shubhamojhaandassociates.com/articles/partition-suit-family-property-rajasthan.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://shubhamojhaandassociates.com/articles/tenant-eviction-rajasthan-rent-control-act.html</loc>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
