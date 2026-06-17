@@ -1,0 +1,209 @@
+================================================================
+CLAUDE REKAVRI — FULL CONTEXT RECOVERY FILE
+Last Updated: June 2026
+Purpose: Permanent record so Claude never forgets again
+================================================================
+
+----------------------------------------------------------------
+WHO YOU ARE
+----------------------------------------------------------------
+
+Name            : Shubham Ojha
+Profession      : Advocate (Lawyer)
+Firm Name       : Shubham Ojha & Associates
+Website         : shubhamojhaandassociates.com
+Email           : shubham@shubhamojhaandassociates.com
+Personal Email  : shubhamojha678@gmail.com
+GitHub          : shubhamojha678-cyber
+Court           : Rajasthan High Court (and subordinate courts)
+
+Practice Areas  :
+  - Bail (Anticipatory Bail, Regular Bail)
+  - Property Disputes (Rajasthan)
+  - Family Law (Divorce, Child Custody, Maintenance, Domestic Violence)
+  - Criminal Law (NDPS, Section 498A/85 BNS, FIR Quashing)
+  - Civil Law (Specific Performance, Arbitration, Consumer Cases)
+  - Revenue Laws (Land Revenue, Rajasthan Rent Control)
+  - Service Law (Writ Petitions)
+  - Motor Accident Claims (MACT)
+  - Cheque Bounce (Section 138 NI Act)
+
+----------------------------------------------------------------
+FAMILY
+----------------------------------------------------------------
+
+Brother         : Mohit Oja (birthday message was made for him in Hindi)
+
+----------------------------------------------------------------
+WHAT WAS BUILT (from git history — April to June 2026)
+----------------------------------------------------------------
+
+1. LAW FIRM WEBSITE (shubhamojhaandassociates.com)
+   - Built on pure HTML/CSS/JavaScript (no framework)
+   - Hosted on GitHub Pages
+   - Features:
+     * Homepage with animations and interactive elements
+     * Contact form (using FormSubmit)
+     * Email fallback on contact form
+     * BCI disclaimer popup
+     * Stat counters (real numbers)
+     * Mobile CTA bar
+     * SVG iconography
+     * Modal cleanup
+     * Office hours: Sun-Thu & Sat 7-11 PM, Friday closed
+
+2. LEGAL ARTICLES (15+ articles written)
+   Topics covered:
+   - Anticipatory Bail (BNSS)
+   - Bail types and procedure India
+   - Cheque Bounce Section 138 NI Act
+   - Child Custody Laws India
+   - Consumer Complaint Consumer Protection Act 2019
+   - Divorce Mutual Consent India
+   - Domestic Violence Act 2005
+   - FIR Registration Rights India
+   - Land Revenue Laws Rajasthan
+   - Maintenance Section 144 BNSS
+   - Motor Accident MACT Rajasthan
+   - NDPS Act Defence Strategies
+   - Partition Suit Family Property Rajasthan
+   - Property Disputes Rajasthan
+   - Quashing FIR Section 528 BNSS
+   - Section 498A IPC / Section 85 BNS Cruelty
+   - Service Law Writ Petitions Rajasthan
+   - Specific Performance Contracts India
+   - Stay Orders Execution Proceedings (balancing equities)
+   - Tenant Eviction Rajasthan Rent Control Act
+   - Writ Petition Articles 226 and 227
+   - Arbitration vs Litigation India
+
+3. SEO WORK DONE
+   - sitemap.xml created and maintained
+   - robots.txt configured
+   - Structured data: LegalService + LocalBusiness + Person schema
+   - Open Graph image (og:image)
+   - Favicons (16, 32, 48px + Apple touch icon + maskable icons)
+   - IndexNow key file for search engine notification
+   - FAQ schema
+   - Hindi keywords added
+   - Geo tags
+   - Internal linking between articles
+   - Hash fragments removed from sitemap (Google rejects them)
+   - Blog redirect (/blog/)
+
+4. ANALYTICS
+   - Google Analytics 4 (GA4) integrated
+   - Lead events tracking added
+
+5. BRANDING
+   - Firm name large and prominent in header
+   - Stacked with court tagline
+   - Personal email replaced with firm email everywhere
+   - 404 page created
+   - Privacy page created
+   - Disclaimer page created
+   - Manifest.json (PWA ready)
+
+6. BLOG SECTION
+   - /blog/index.html created
+
+----------------------------------------------------------------
+WHAT YOU WANT TO BUILD (discussed in this session)
+----------------------------------------------------------------
+
+LOCAL AI SETUP (OFFLINE FALLBACK SYSTEM)
+Goal:
+  - Run local AI models on your own machine
+  - Use when internet is down / Claude is unavailable
+  - Possibly fine-tune/train models on your legal domain
+  - Use local AI in conjunction with Claude (hybrid system)
+
+Discussed approach:
+  - Ollama (to run models locally — offline)
+  - Models: Llama 3.2 / Mistral / Phi4 / DeepSeek-R1
+  - Open WebUI (browser interface like ChatGPT, but local)
+  - RAG (Retrieval Augmented Generation) with your legal docs
+  - ChromaDB or Qdrant as vector database
+  - Fine-tuning with Unsloth or LLaMA-Factory
+  - Hybrid routing: Claude when online, local model when offline
+
+NOTE: Machine specs NOT YET RECORDED — need to fill in below
+
+----------------------------------------------------------------
+YOUR MACHINE SPECS (FILL THIS IN — VERY IMPORTANT)
+----------------------------------------------------------------
+
+Operating System : [NOT RECORDED — please fill in]
+RAM              : [NOT RECORDED — please fill in]
+GPU              : [NOT RECORDED — please fill in, or write "No GPU"]
+Processor        : [NOT RECORDED — please fill in]
+Storage          : [NOT RECORDED — please fill in]
+
+----------------------------------------------------------------
+LOCAL AI — WHAT WAS ALREADY INSTALLED (FILL THIS IN)
+----------------------------------------------------------------
+
+Tools installed  : [NOT RECORDED — e.g. Ollama, LM Studio, etc.]
+Models downloaded: [NOT RECORDED — e.g. llama3.2, mistral, etc.]
+Dashboard built  : [NOT RECORDED — please describe what it was]
+Other tools      : [NOT RECORDED]
+
+----------------------------------------------------------------
+SUBSCRIPTION STATUS (as of June 2026)
+----------------------------------------------------------------
+
+Claude Plan      : Cancelled but 17 days remaining
+Note             : Claude.ai Memory feature may have been wiped
+                   or restricted due to plan change. This is why
+                   all previous context was lost. Going forward,
+                   this file in GitHub is the permanent memory.
+
+----------------------------------------------------------------
+IMPORTANT TECHNICAL NOTES
+----------------------------------------------------------------
+
+1. Claude Code runs in EPHEMERAL CLOUD CONTAINERS.
+   Every new session = fresh container = blank slate.
+   NOTHING is saved unless committed to GitHub.
+
+2. CLAUDE.md was written in a previous session but NEVER
+   committed to git. That is why it disappeared.
+   From now on: always commit and push CLAUDE.md immediately.
+
+3. This file (EVERYTHING-I-KNOW.txt) and CLAUDE.md must BOTH
+   be committed to GitHub. Never leave them only as local files.
+
+----------------------------------------------------------------
+PREFERENCES AND WORKING STYLE
+----------------------------------------------------------------
+
+Language         : English and Hindi both (comfortable with both)
+Communication    : Direct, explain things clearly and simply
+Session duration : Long working sessions over months
+Task type        : Website building, SEO, AI setup, legal content
+
+----------------------------------------------------------------
+WHAT TO DO AT START OF EVERY SESSION
+----------------------------------------------------------------
+
+1. Read this file first
+2. Read CLAUDE.md
+3. Ask the user: "What shall we work on today?"
+4. Do NOT ask for machine specs or context that is in this file
+5. If something is marked [NOT RECORDED], ask user to fill it in
+   and then update this file and commit immediately
+
+----------------------------------------------------------------
+RECOVERY INSTRUCTIONS (if this file is lost again)
+----------------------------------------------------------------
+
+1. Check git log: git log --oneline
+2. Check all branches: git branch -a
+3. The website domain is shubhamojhaandassociates.com
+4. The GitHub repo is shubhamojha678-cyber/shubhamojha678-cyber.github.io
+5. Rebuild from git history and ask user to fill in missing pieces
+
+================================================================
+END OF RECOVERY FILE
+Please fill in the [NOT RECORDED] sections above
+================================================================
