@@ -354,7 +354,7 @@ ul { list-style: none; }
 .contact-item:hover { border-color: rgba(199,163,90,0.35); box-shadow: var(--shadow); }
 .contact-item-icon { width: 44px; height: 44px; background: rgba(199,163,90,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
 .contact-item-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); font-weight: 500; margin-bottom: 4px; }
-.contact-item-value { font-size: 0.95rem; font-weight: 500; color: var(--text-dark); }
+.contact-item-value { font-size: 0.95rem; font-weight: 500; color: var(--text-dark); overflow-wrap: anywhere; word-break: break-word; }
 .contact-item-value a { color: var(--gold); transition: color var(--transition); }
 .contact-item-value a:hover { color: var(--gold-light); }
 
@@ -424,12 +424,14 @@ ul { list-style: none; }
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .hamburger { display: flex; }
+  #navCta { display: none !important; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .hero-card { display: none; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid { grid-template-columns: 1fr; }
   .about-visual { display: none; }
   .practice-grid { grid-template-columns: 1fr; }
+  .flip-card { height: 320px; }
   .articles-grid { grid-template-columns: 1fr; }
   .resources-grid { grid-template-columns: repeat(2, 1fr); }
   .process-steps { grid-template-columns: repeat(2, 1fr); }
@@ -442,11 +444,13 @@ ul { list-style: none; }
   .about-highlights { grid-template-columns: 1fr; }
   .hero-ctas { flex-direction: column; }
   .hero-ctas .btn { width: 100%; justify-content: center; }
+  body { padding-bottom: 70px; }
 }
 @media (max-width: 480px) {
   .stats-grid { grid-template-columns: 1fr; }
   .resources-grid { grid-template-columns: 1fr; }
   .process-steps { grid-template-columns: 1fr; }
+  .hero-eyebrow::before, .hero-eyebrow::after { display: none; }
 }
 </style>
 
