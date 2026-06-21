@@ -415,6 +415,11 @@ ul { list-style: none; }
 }
 
 /* ===== RESPONSIVE ===== */
+@media (max-width: 1000px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  #navCta { display: none !important; }
+}
 @media (max-width: 1024px) {
   .practice-grid { grid-template-columns: repeat(2, 1fr); }
   .resources-grid { grid-template-columns: repeat(2, 1fr); }
@@ -422,10 +427,8 @@ ul { list-style: none; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 768px) {
-  .nav-links { display: none; }
-  .hamburger { display: flex; }
-  #navCta { display: none !important; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+
   .hero-card { display: none; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid { grid-template-columns: 1fr; }
