@@ -55,7 +55,8 @@ document.addEventListener('click', function(e) {
 <meta name="twitter:image:alt" content="Shubham Ojha &amp; Associates — Advocates, Rajasthan High Court, Jodhpur">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
 
 <style>
 /* ===== CSS CUSTOM PROPERTIES ===== */
@@ -129,6 +130,10 @@ ul { list-style: none; }
 .btn-outline:hover { background: var(--gold); color: var(--navy-dark); transform: translateY(-2px); }
 
 /* ===== SCROLL ANIMATIONS ===== */
+@keyframes heroIn { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+@keyframes heroInRight { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+.hero-in { animation: heroIn 0.7s ease both; }
+.hero-in-right { animation: heroInRight 0.7s ease both; }
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .reveal.visible { opacity: 1; transform: none; }
 .reveal-left { opacity: 0; transform: translateX(-28px); transition: opacity 0.7s ease, transform 0.7s ease; }
@@ -375,12 +380,12 @@ ul { list-style: none; }
 .footer-brand-desc { font-size: 0.85rem; line-height: 1.7; color: rgba(255,255,255,0.55); max-width: 280px; margin-bottom: 20px; }
 .footer-col-title { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
 .footer-links { display: flex; flex-direction: column; gap: 10px; }
-.footer-links a { font-size: 0.85rem; color: rgba(255,255,255,0.55); transition: color var(--transition); }
+.footer-links a { font-size: 0.85rem; color: rgba(255,255,255,0.75); transition: color var(--transition); }
 .footer-links a:hover { color: var(--gold); }
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); flex-wrap: wrap; gap: 12px; }
-.footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.35); }
+.footer-copy { font-size: 0.78rem; color: rgba(255,255,255,0.62); }
 .footer-legal-links { display: flex; gap: 20px; }
-.footer-legal-links a { font-size: 0.78rem; color: rgba(255,255,255,0.35); transition: color var(--transition); }
+.footer-legal-links a { font-size: 0.78rem; color: rgba(255,255,255,0.62); transition: color var(--transition); }
 .footer-legal-links a:hover { color: var(--gold); }
 
 /* ===== BCI DISCLAIMER ===== */
@@ -665,20 +670,20 @@ ul { list-style: none; }
 <section class="hero" id="home">
   <div class="hero-grid">
     <div class="hero-content">
-      <div class="hero-eyebrow reveal">Rajasthan High Court, Jodhpur Bench</div>
-      <h1 class="reveal">Trusted Legal <em>Counsel</em> in Jodhpur</h1>
-      <p class="hero-desc reveal">Shubham Ojha &amp; Associates delivers principled, results-focused legal representation across property, family, civil, and criminal matters at the Rajasthan High Court and District Courts.</p>
-      <div class="hero-ctas reveal">
+      <div class="hero-eyebrow hero-in">Rajasthan High Court, Jodhpur Bench</div>
+      <h1 class="hero-in">Trusted Legal <em>Counsel</em> in Jodhpur</h1>
+      <p class="hero-desc hero-in">Shubham Ojha &amp; Associates delivers principled, results-focused legal representation across property, family, civil, and criminal matters at the Rajasthan High Court and District Courts.</p>
+      <div class="hero-ctas hero-in">
         <a href="tel:+917023051275" class="btn btn-primary">📞 +91 70230 51275</a>
         <a href="#practice" class="btn btn-outline">Explore Practice Areas</a>
       </div>
-      <div class="hero-badges reveal">
+      <div class="hero-badges hero-in">
         <span class="hero-badge"><span class="hero-badge-dot"></span>Bar Council of Rajasthan</span>
         <span class="hero-badge"><span class="hero-badge-dot"></span>Rajasthan High Court</span>
         <span class="hero-badge"><span class="hero-badge-dot"></span>District Court, Jodhpur</span>
       </div>
     </div>
-    <div class="hero-card reveal-right">
+    <div class="hero-card hero-in-right">
       <div class="hero-card-title">Direct Contact</div>
       <div class="hero-card-item">
         <div class="hero-card-icon">📞</div>
@@ -1200,7 +1205,7 @@ ul { list-style: none; }
       </article>
     </div>
     <div class="articles-view-all reveal">
-      <button class="btn btn-outline" id="viewAllBtn" onclick="toggleAllArticles()">View All 22 Articles</button>
+      <button class="btn btn-outline" id="viewAllBtn" onclick="toggleAllArticles()">View All Articles</button>
     </div>
   </div>
 </section>
@@ -1781,7 +1786,11 @@ function handleFormSubmit(e) {
   const matter = form.matter.value;
   const message = form.message.value.trim();
   const text = `Hello Advocate Shubham Ojha,\n\nMy name is ${first} ${last}.\n\nPhone: ${phone||'Not provided'}\nEmail: ${email||'Not provided'}\nMatter: ${matter||'Not specified'}\n\nMessage:\n${message||'No additional details.'}\n\nPlease advise on next steps.`;
-  window.open(`https://wa.me/917023051275?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+  if (typeof gtag === 'function') gtag('event', 'generate_lead', {method: 'contact_form'});
+  const w = window.open(`https://wa.me/917023051275?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+  if (!w) {
+    window.location.href = `mailto:shubham@shubhamojhaandassociates.com?subject=${encodeURIComponent('Website enquiry — ' + (matter||'General'))}&body=${encodeURIComponent(text)}`;
+  }
 }
 
 // Flip card touch support
@@ -1830,7 +1839,7 @@ function toggleAllArticles() {
     cards.forEach(function(el, i) {
       if (i >= 6) { el.classList.add('hidden-article'); el.classList.remove('visible'); }
     });
-    btn.textContent = 'View All 22 Articles';
+    btn.textContent = 'View All Articles';
     allShown = false;
     document.getElementById('articles').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
