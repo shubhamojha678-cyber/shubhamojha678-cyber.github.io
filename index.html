@@ -1711,7 +1711,8 @@ ul { list-style: none; }
 
 <script>
 function bciAgree() {
-  sessionStorage.setItem('bciAgreed', '1');
+  try { localStorage.setItem('bciAgreedAt', String(Date.now())); } catch(e) {}
+  try { sessionStorage.setItem('bciAgreed', '1'); } catch(e) {}
   document.getElementById('bciModal').style.display = 'none';
   document.body.style.overflow = '';
 }
@@ -1719,7 +1720,13 @@ function bciDecline() {
   window.location.href = 'https://www.google.com';
 }
 (function() {
-  if (!sessionStorage.getItem('bciAgreed')) {
+  var agreed = false;
+  try {
+    var ts = parseInt(localStorage.getItem('bciAgreedAt') || '0', 10);
+    agreed = ts > 0 && (Date.now() - ts) < 180 * 24 * 60 * 60 * 1000;
+    if (!agreed && sessionStorage.getItem('bciAgreed')) agreed = true;
+  } catch(e) {}
+  if (!agreed) {
     var modal = document.getElementById('bciModal');
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
