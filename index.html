@@ -20,7 +20,7 @@ document.addEventListener('click', function(e) {
 });
 document.addEventListener('DOMContentLoaded', function() {
   var t = (document.title || '').split('|')[0].trim();
-  if (t.length > 72) t = t.slice(0, 72).trim();
+  if (t.length > 60) { t = t.slice(0, 60); var k = t.lastIndexOf(' '); if (k > 20) t = t.slice(0, k); t = t.replace(/[\s:,\-–—]+$/, '') + '…'; }
   var wa = 'नमस्ते, मैंने आपकी वेबसाइट पर "' + t + '" पृष्ठ पढ़ा। मुझे इस विषय पर परामर्श चाहिए।';
   var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
   for (var i = 0; i < L.length; i++) {
