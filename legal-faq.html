@@ -13,10 +13,25 @@ document.addEventListener('click', function(e) {
   var a = e.target.closest ? e.target.closest('a[href]') : null;
   if (!a) return;
   var h = a.getAttribute('href') || '';
-  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call'});
-  else if (h.indexOf('wa.me') !== -1) gtag('event', 'generate_lead', {method: 'whatsapp'});
-  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email'});
-  else gtag('event', 'page_view', {page_title: document.title});
+  var p = location.pathname;
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call', source_page: p});
+  else if (h.indexOf('wa.me') !== -1) gtag('event', 'generate_lead', {method: 'whatsapp', source_page: p});
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email', source_page: p});
+});
+document.addEventListener('DOMContentLoaded', function() {
+  var t = (document.title || '').split('|')[0].trim();
+  if (t.length > 72) t = t.slice(0, 72).trim();
+  var wa = 'नमस्ते, मैंने आपकी वेबसाइट पर "' + t + '" पृष्ठ पढ़ा। मुझे इस विषय पर परामर्श चाहिए।';
+  var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
+  for (var i = 0; i < L.length; i++) {
+    var u = L[i].getAttribute('href');
+    if (u.indexOf('text=') === -1) L[i].setAttribute('href', u + (u.indexOf('?') === -1 ? '?' : '&') + 'text=' + encodeURIComponent(wa));
+  }
+  var M = document.querySelectorAll('a[href^="mailto:"]');
+  for (var j = 0; j < M.length; j++) {
+    var m = M[j].getAttribute('href');
+    if (m.indexOf('subject=') === -1) M[j].setAttribute('href', m + (m.indexOf('?') === -1 ? '?' : '&') + 'subject=' + encodeURIComponent('वेबसाइट पूछताछ — ' + t));
+  }
 });
 </script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
