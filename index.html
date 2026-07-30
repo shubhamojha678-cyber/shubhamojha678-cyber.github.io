@@ -83,6 +83,10 @@ document.addEventListener('DOMContentLoaded', function() {
   --gold: #c7a35a;
   --gold-light: #d4b575;
   --gold-pale: #f0e8d5;
+  /* --gold on a light background is only 2.4:1 (fails WCAG AA). Use --gold-ink
+     for gold TEXT on white/#f8f6f1: 5.0:1 on white, 4.7:1 on paper. Keep --gold
+     for gold on navy (8.0:1) and for borders/rules/decoration. */
+  --gold-ink: #8a6a1f;
   --white: #ffffff;
   --off-white: #f8f6f1;
   --text-dark: #1a1a2e;
@@ -144,6 +148,10 @@ ul { list-style: none; }
 .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(199,163,90,0.35); }
 .btn-outline { background: transparent; color: var(--gold); border: 1.5px solid var(--gold); }
 .btn-outline:hover { background: var(--gold); color: var(--navy-dark); transform: translateY(-2px); }
+.btn-outline.on-light { color: var(--gold-ink); border-color: var(--gold-ink); }
+.la-cap { min-height: 76px; }
+@media (max-width: 768px) { .la-cap { min-height: 0; } }
+.btn-outline.on-light:hover { background: var(--gold-ink); color: #fff; border-color: var(--gold-ink); }
 
 /* ===== SCROLL ANIMATIONS ===== */
 @keyframes heroIn { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
@@ -169,7 +177,9 @@ ul { list-style: none; }
 .navbar.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,0.3); }
 .nav-inner {
   display: flex; align-items: center; justify-content: space-between;
-  height: 68px; max-width: 1160px; margin: 0 auto;
+  /* 1112px = .container's content box (1160 - 2*24 padding), so the logo lines up
+     with every section below it instead of sitting 24px further left */
+  height: 68px; max-width: 1112px; margin: 0 auto;
 }
 .nav-brand { display: flex; align-items: center; gap: 12px; }
 .nav-logo {
@@ -182,14 +192,19 @@ ul { list-style: none; }
 .nav-name { display: flex; flex-direction: column; }
 .nav-name-primary { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: var(--white); line-height: 1.1; }
 .nav-name-secondary { font-size: 0.72rem; color: var(--gold); letter-spacing: 0.05em; text-transform: uppercase; }
-.nav-links { display: flex; align-items: center; gap: 6px; }
+.nav-links { display: flex; align-items: center; gap: 2px; }
 .nav-links a {
-  font-size: 0.82rem; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase;
-  color: rgba(255,255,255,0.82); padding: 8px 12px; border-radius: var(--radius);
+  font-size: 0.79rem; font-weight: 500; letter-spacing: 0.03em; text-transform: uppercase;
+  color: rgba(255,255,255,0.82); padding: 8px 8px; border-radius: var(--radius);
   transition: all var(--transition);
+  /* without nowrap, two-word items ("Practice Areas", "Legal FAQ") break onto a
+     second line once the Call Now CTA appears on scroll, making the bar 54px tall */
+  white-space: nowrap;
 }
 .nav-links a:hover { color: var(--gold); background: rgba(199,163,90,0.1); }
-.nav-actions { display: flex; align-items: center; gap: 12px; }
+.nav-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.nav-brand { flex-shrink: 0; }
+#navCta { white-space: nowrap; padding: 10px 18px; font-size: 0.8rem; letter-spacing: 0.04em; }
 .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; border: none; background: transparent; }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--gold); border-radius: 2px; transition: all var(--transition); }
 .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
@@ -220,7 +235,7 @@ ul { list-style: none; }
               radial-gradient(ellipse 40% 40% at 10% 80%, rgba(199,163,90,0.05) 0%, transparent 60%);
   pointer-events: none;
 }
-.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; max-width: 1160px; margin: 0 auto; width: 100%; }
+.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; max-width: 1112px; margin: 0 auto; width: 100%; }
 .hero-eyebrow {
   display: inline-flex; align-items: center; gap: 10px;
   font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
@@ -298,7 +313,7 @@ ul { list-style: none; }
 .flip-front-icon svg { width: 42px; height: 42px; stroke: var(--gold); fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
 .flip-front-title { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--navy); margin-bottom: 10px; }
 .flip-front-desc { font-size: 0.875rem; color: var(--text-light); line-height: 1.6; flex: 1; }
-.flip-front-hint { font-size: 0.75rem; color: var(--gold); letter-spacing: 0.05em; margin-top: 12px; text-transform: uppercase; }
+.flip-front-hint { font-size: 0.75rem; color: var(--gold-ink); letter-spacing: 0.05em; margin-top: 12px; text-transform: uppercase; }
 .flip-back-title { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 600; color: var(--gold); margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid rgba(199,163,90,0.3); }
 .flip-back ul { flex: 1; display: flex; flex-direction: column; gap: 8px; }
 .flip-back li { font-size: 0.85rem; color: rgba(255,255,255,0.82); display: flex; align-items: flex-start; gap: 8px; }
@@ -320,9 +335,9 @@ ul { list-style: none; }
 .article-meta { font-size: 0.73rem; color: var(--text-light); margin-bottom: 8px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .article-meta-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-light); flex-shrink: 0; }
 .article-title { font-family: var(--font-serif); font-size: 1.08rem; font-weight: 600; color: var(--navy); line-height: 1.35; margin-bottom: 8px; }
-.article-author { font-size: 0.72rem; color: var(--gold); font-weight: 500; margin-bottom: 8px; }
+.article-author { font-size: 0.72rem; color: var(--gold-ink); font-weight: 500; margin-bottom: 8px; }
 .article-excerpt { font-size: 0.84rem; color: var(--text-light); line-height: 1.6; flex: 1; }
-.article-read-more { margin-top: 14px; font-size: 0.78rem; font-weight: 600; color: var(--gold); letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 6px; transition: gap var(--transition); border: none; background: none; cursor: pointer; padding: 0; font-family: var(--font-sans); }
+.article-read-more { margin-top: 14px; font-size: 0.78rem; font-weight: 600; color: var(--gold-ink); letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 6px; transition: gap var(--transition); border: none; background: none; cursor: pointer; padding: 0; font-family: var(--font-sans); }
 .article-card:hover .article-read-more { gap: 10px; }
 .articles-view-all { text-align: center; margin-top: 40px; }
 
@@ -336,7 +351,7 @@ ul { list-style: none; }
 .resource-icon { font-size: 2rem; margin-bottom: 14px; display: block; }
 .resource-title { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
 .resource-desc { font-size: 0.82rem; color: var(--text-light); line-height: 1.55; margin-bottom: 16px; }
-.resource-link { font-size: 0.78rem; font-weight: 600; color: var(--gold); letter-spacing: 0.04em; text-transform: uppercase; border-bottom: 1px solid transparent; transition: border-color var(--transition); }
+.resource-link { font-size: 0.78rem; font-weight: 600; color: var(--gold-ink); letter-spacing: 0.04em; text-transform: uppercase; border-bottom: 1px solid transparent; transition: border-color var(--transition); }
 .resource-card:hover .resource-link { border-color: var(--gold); }
 
 /* ===== PROCESS ===== */
@@ -436,7 +451,7 @@ ul { list-style: none; }
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 1000px) {
+@media (max-width: 1210px) {
   .nav-links { display: none; }
   .hamburger { display: flex; }
   #navCta { display: none !important; }
@@ -448,6 +463,12 @@ ul { list-style: none; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 768px) {
+  /* section padding already supplies the gutter; stacking .container's 24px on top
+     pushed content to 48px and left only 279px of reading width */
+  .container { padding: 0; }
+  /* 21px-tall inline links are too small to tap reliably */
+  .article-read-more, .resource-link { padding: 7px 0; min-height: 34px; align-items: center; }
+  .resource-link { display: inline-flex; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
 
   .hero-card { display: none; }
@@ -753,7 +774,7 @@ ul { list-style: none; }
         </div>
       </div>
       <div class="about-content reveal-right">
-        <div class="hero-eyebrow" style="color:var(--gold);">About the Firm</div>
+        <div class="hero-eyebrow" style="color:var(--gold-ink);">About the Firm</div>
         <h2 class="section-title">Principled Advocacy at Rajasthan's Premier Court</h2>
         <div class="gold-line"></div>
         <p>Shubham Ojha &amp; Associates is a dedicated legal practice based at the Rajasthan High Court, Jodhpur Bench. Advocate Shubham Ojha practises across property disputes, family law, civil litigation, criminal defence, NDPS matters, and service law.</p>
@@ -1224,7 +1245,7 @@ ul { list-style: none; }
       </article>
     </div>
     <div class="articles-view-all reveal">
-      <button class="btn btn-outline" id="viewAllBtn" onclick="toggleAllArticles()">View All Articles</button>
+      <button class="btn btn-outline on-light" id="viewAllBtn" onclick="toggleAllArticles()">View All Articles</button>
     </div>
   </div>
 </section>
@@ -1519,7 +1540,7 @@ ul { list-style: none; }
 <!-- Testimonials section removed for Bar Council of India (Rule 36) compliance — no client endorsements/testimonials -->
 
 <!-- LEGAL AWARENESS — YouTube Channel (auto-updates with new uploads via playlist embed) -->
-<section id="legal-awareness" style="background:#060f22;padding:80px 20px;text-align:center;border-top:1px solid rgba(199,163,90,0.18)">
+<section id="legal-awareness" style="background:#060f22;padding:80px 24px;text-align:center;border-top:1px solid rgba(199,163,90,0.18)">
   <div class="container">
     <div class="reveal">
       <h2 class="section-title" style="color:#f8f6f1">Legal Awareness — कानून, आसान ज़ुबान में</h2>
@@ -1536,7 +1557,7 @@ ul { list-style: none; }
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen loading="lazy"></iframe>
         </div>
-        <p style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>DRT में धारा 17 — कब्ज़ा या नीलामी के बाद</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">45 दिन की समय-सीमा · कब्ज़ा वापसी · रोक अपने-आप नहीं मिलती।</span></p>
+        <p class="la-cap" style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>DRT में धारा 17 — कब्ज़ा या नीलामी के बाद</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">45 दिन की समय-सीमा · कब्ज़ा वापसी · रोक अपने-आप नहीं मिलती।</span></p>
       </div>
       <div style="flex:1 1 300px;max-width:330px">
         <div style="position:relative;padding-bottom:177.78%;height:0;border-radius:14px;overflow:hidden;box-shadow:0 10px 48px rgba(0,0,0,0.55);border:1px solid rgba(199,163,90,0.28)">
@@ -1546,7 +1567,7 @@ ul { list-style: none; }
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen loading="lazy"></iframe>
         </div>
-        <p style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>SARFAESI नोटिस — संपत्ति नीलामी से कैसे बचें?</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">धारा 13(2) · DRT धारा 17 · नीलामी से पहले संपत्ति छुड़ाने का अधिकार।</span></p>
+        <p class="la-cap" style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>SARFAESI नोटिस — संपत्ति नीलामी से कैसे बचें?</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">धारा 13(2) · DRT धारा 17 · नीलामी से पहले संपत्ति छुड़ाने का अधिकार।</span></p>
       </div>
       <div style="flex:1 1 300px;max-width:330px">
         <div style="position:relative;padding-bottom:177.78%;height:0;border-radius:14px;overflow:hidden;box-shadow:0 10px 48px rgba(0,0,0,0.55);border:1px solid rgba(199,163,90,0.28)">
@@ -1556,7 +1577,7 @@ ul { list-style: none; }
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen loading="lazy"></iframe>
         </div>
-        <p style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>बेटी का पैतृक संपत्ति में हक</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">विनीता शर्मा (2020) — बेटी जन्म से सहदायिक, बेटे के बराबर।</span></p>
+        <p class="la-cap" style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>बेटी का पैतृक संपत्ति में हक</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">विनीता शर्मा (2020) — बेटी जन्म से सहदायिक, बेटे के बराबर।</span></p>
       </div>
     </div>
     <div class="reveal" style="max-width:680px;margin:0 auto 34px">
@@ -1629,7 +1650,7 @@ ul { list-style: none; }
   <div class="container">
     <div class="contact-grid">
       <div class="reveal-left">
-        <div class="hero-eyebrow" style="color:var(--gold);margin-bottom:12px;">Get in Touch</div>
+        <div class="hero-eyebrow" style="color:var(--gold-ink);margin-bottom:12px;">Get in Touch</div>
         <div class="contact-info-title">Speak with an Advocate Today</div>
         <p class="contact-info-subtitle">Consultations are confidential. Reach us by phone, WhatsApp, or email — we respond promptly.</p>
         <div class="contact-items">
@@ -1696,7 +1717,7 @@ ul { list-style: none; }
           </div>
           <p class="form-disclaimer">This form does not create an attorney-client relationship. Do not submit confidential information until a formal engagement is established. All enquiries are treated with strict confidentiality.</p>
           <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">💬 Send via WhatsApp</button>
-          <a href="mailto:shubham@shubhamojhaandassociates.com?subject=Legal%20Consultation%20Enquiry" class="btn btn-outline" style="width:100%;justify-content:center;margin-top:10px;">📧 Send via Email Instead</a>
+          <a href="mailto:shubham@shubhamojhaandassociates.com?subject=Legal%20Consultation%20Enquiry" class="btn btn-outline on-light" style="width:100%;justify-content:center;margin-top:10px;">📧 Send via Email Instead</a>
         </form>
       </div>
     </div>
@@ -1792,11 +1813,11 @@ ul { list-style: none; }
 </div>
 
 <!-- BCI Disclaimer Modal -->
-<div id="bciModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(6,15,34,0.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:24px;">
+<div id="bciModal" role="dialog" aria-modal="true" aria-labelledby="bciModalTitle" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(6,15,34,0.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:24px;">
   <div style="background:#0b1a3a;border:1px solid rgba(199,163,90,0.4);border-radius:8px;max-width:560px;width:100%;padding:40px 36px;box-shadow:0 24px 64px rgba(0,0,0,0.5);">
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
       <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#c7a35a,#d4b575);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1rem;font-weight:700;color:#060f22;flex-shrink:0;">SO</div>
-      <div style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1.4rem;font-weight:600;color:#ffffff;line-height:1.2;">Disclaimer</div>
+      <div id="bciModalTitle" style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1.4rem;font-weight:600;color:#ffffff;line-height:1.2;">Disclaimer</div>
     </div>
     <div style="width:48px;height:2px;background:#c7a35a;margin-bottom:20px;border-radius:2px;"></div>
     <p style="font-size:0.9rem;color:rgba(255,255,255,0.75);line-height:1.75;margin-bottom:20px;">The Bar Council of India does not permit advertisement or solicitation by advocates. By clicking <strong style="color:#ffffff;">"I Agree"</strong>, the user acknowledges that:</p>
