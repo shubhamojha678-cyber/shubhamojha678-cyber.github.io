@@ -303,7 +303,7 @@ ul { list-style: none; }
 .practice-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 
 /* Flip Card */
-.flip-card { height: 280px; perspective: 1000px; cursor: pointer; }
+.flip-card { height: 440px; perspective: 1000px; cursor: pointer; }
 .flip-card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s ease; transform-style: preserve-3d; }
 .flip-card:hover .flip-card-inner, .flip-card:focus-within .flip-card-inner { transform: rotateY(180deg); }
 .flip-front, .flip-back { position: absolute; inset: 0; border-radius: 8px; backface-visibility: hidden; -webkit-backface-visibility: hidden; padding: 32px; display: flex; flex-direction: column; }
@@ -476,7 +476,7 @@ ul { list-style: none; }
   .about-grid { grid-template-columns: 1fr; }
   .about-visual { display: none; }
   .practice-grid { grid-template-columns: 1fr; }
-  .flip-card { height: 320px; }
+  .flip-card { height: 460px; }
   .articles-grid { grid-template-columns: 1fr; }
   .resources-grid { grid-template-columns: repeat(2, 1fr); }
   .process-steps { grid-template-columns: repeat(2, 1fr); }
@@ -809,7 +809,7 @@ ul { list-style: none; }
           <div class="flip-front">
             <div class="flip-front-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 11l9-8 9 8M5 9.5V21h14V9.5M9.5 21v-6.5h5V21"/></svg></div>
             <div class="flip-front-title">Property &amp; Real Estate Law</div>
-            <div class="flip-front-desc">Expert guidance on title disputes, partition matters, possession cases, and property transactions under Rajasthan and central property statutes.</div>
+            <div class="flip-front-desc">Expert guidance on title disputes, partition matters, possession cases, and property transactions under Rajasthan and central property statutes. Remote consultation available for owners based outside Rajasthan.</div>
             <div class="flip-front-hint">Hover to explore →</div>
           </div>
           <div class="flip-back">
@@ -821,7 +821,6 @@ ul { list-style: none; }
               <li>Property registration issues</li>
               <li>Benami transactions</li>
               <li>Land acquisition challenges</li>
-              <li>Agricultural land &amp; ancestral property — phone/video consultation for owners living outside Rajasthan</li>
             </ul>
             <div class="flip-back-cta">Contact for consultation →</div>
           </div>
@@ -833,7 +832,7 @@ ul { list-style: none; }
           <div class="flip-front">
             <div class="flip-front-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="9" cy="7.5" r="3"/><path d="M3 20.5v-1.5a6 6 0 0 1 12 0v1.5"/><circle cx="17.5" cy="8.5" r="2.4"/><path d="M16 13.8a4.6 4.6 0 0 1 5.5 4.5v2.2"/></svg></div>
             <div class="flip-front-title">Family &amp; Matrimonial Law</div>
-            <div class="flip-front-desc">Sensitive and professional handling of matrimonial disputes, divorce proceedings, child custody, maintenance, and succession matters.</div>
+            <div class="flip-front-desc">Sensitive and professional handling of matrimonial disputes, divorce proceedings, child custody, maintenance, and succession matters. Confidential consultation by phone/video — no in-person visit required.</div>
             <div class="flip-front-hint">Hover to explore →</div>
           </div>
           <div class="flip-back">
@@ -845,7 +844,6 @@ ul { list-style: none; }
               <li>Domestic violence matters</li>
               <li>Succession &amp; inheritance</li>
               <li>Hindu &amp; Muslim personal law</li>
-              <li>Confidential phone/video consultation — no in-person visit required</li>
             </ul>
             <div class="flip-back-cta">Contact for consultation →</div>
           </div>
@@ -1554,33 +1552,24 @@ ul { list-style: none; }
     <!-- Featured Shorts (vertical, newest first) -->
     <div class="reveal" style="display:flex;flex-wrap:wrap;gap:26px;justify-content:center;align-items:flex-start;max-width:1100px;margin:0 auto 26px">
       <div style="flex:1 1 300px;max-width:330px">
-        <div style="position:relative;padding-bottom:177.78%;height:0;border-radius:14px;overflow:hidden;box-shadow:0 10px 48px rgba(0,0,0,0.55);border:1px solid rgba(199,163,90,0.28)">
-          <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"
-            src="https://www.youtube-nocookie.com/embed/ZsNspy_bf5Y?rel=0&modestbranding=1"
-            title="कब्ज़ा या नीलामी के बाद DRT में धारा 17 का उपाय — 45 दिन की समय-सीमा"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen loading="lazy"></iframe>
-        </div>
+        <a href="https://www.youtube.com/shorts/ZsNspy_bf5Y" target="_blank" rel="noopener" aria-label="YouTube पर देखें: DRT में धारा 17 — कब्ज़ा या नीलामी के बाद" style="display:block;position:relative;padding-bottom:177.78%;height:0;border-radius:14px;overflow:hidden;box-shadow:0 10px 48px rgba(0,0,0,0.55);border:1px solid rgba(199,163,90,0.28)">
+          <img src="https://i.ytimg.com/vi/ZsNspy_bf5Y/hqdefault.jpg" alt="कब्ज़ा या नीलामी के बाद DRT में धारा 17 का उपाय — 45 दिन की समय-सीमा" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover">
+          <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(6,15,34,0.18)"><svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="28" fill="rgba(6,15,34,0.55)"/><circle cx="28" cy="28" r="27" fill="none" stroke="#c7a35a" stroke-width="1.5"/><path d="M23 18l16 10-16 10V18z" fill="#c7a35a"/></svg></span>
+        </a>
         <p class="la-cap" style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>DRT में धारा 17 — कब्ज़ा या नीलामी के बाद</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">45 दिन की समय-सीमा · कब्ज़ा वापसी · रोक अपने-आप नहीं मिलती।</span></p>
       </div>
       <div style="flex:1 1 300px;max-width:330px">
-        <div style="position:relative;padding-bottom:177.78%;height:0;border-radius:14px;overflow:hidden;box-shadow:0 10px 48px rgba(0,0,0,0.55);border:1px solid rgba(199,163,90,0.28)">
-          <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"
-            src="https://www.youtube-nocookie.com/embed/jBpxektfQH8?rel=0&modestbranding=1"
-            title="बैंक का SARFAESI नोटिस — संपत्ति नीलामी से कैसे बचें? | DRT धारा 17"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen loading="lazy"></iframe>
-        </div>
+        <a href="https://www.youtube.com/shorts/jBpxektfQH8" target="_blank" rel="noopener" aria-label="YouTube पर देखें: बैंक का SARFAESI नोटिस — संपत्ति नीलामी से कैसे बचें?" style="display:block;position:relative;padding-bottom:177.78%;height:0;border-radius:14px;overflow:hidden;box-shadow:0 10px 48px rgba(0,0,0,0.55);border:1px solid rgba(199,163,90,0.28)">
+          <img src="https://i.ytimg.com/vi/jBpxektfQH8/hqdefault.jpg" alt="बैंक का SARFAESI नोटिस — संपत्ति नीलामी से कैसे बचें? | DRT धारा 17" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover">
+          <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(6,15,34,0.18)"><svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="28" fill="rgba(6,15,34,0.55)"/><circle cx="28" cy="28" r="27" fill="none" stroke="#c7a35a" stroke-width="1.5"/><path d="M23 18l16 10-16 10V18z" fill="#c7a35a"/></svg></span>
+        </a>
         <p class="la-cap" style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>SARFAESI नोटिस — संपत्ति नीलामी से कैसे बचें?</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">धारा 13(2) · DRT धारा 17 · नीलामी से पहले संपत्ति छुड़ाने का अधिकार।</span></p>
       </div>
       <div style="flex:1 1 300px;max-width:330px">
-        <div style="position:relative;padding-bottom:177.78%;height:0;border-radius:14px;overflow:hidden;box-shadow:0 10px 48px rgba(0,0,0,0.55);border:1px solid rgba(199,163,90,0.28)">
-          <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"
-            src="https://www.youtube-nocookie.com/embed/vdRNuo7yVdo?rel=0&modestbranding=1"
-            title="बेटी का पिता की पैतृक संपत्ति में हक — विनीता शर्मा (2020)"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen loading="lazy"></iframe>
-        </div>
+        <a href="https://www.youtube.com/shorts/vdRNuo7yVdo" target="_blank" rel="noopener" aria-label="YouTube पर देखें: बेटी का पिता की पैतृक संपत्ति में हक" style="display:block;position:relative;padding-bottom:177.78%;height:0;border-radius:14px;overflow:hidden;box-shadow:0 10px 48px rgba(0,0,0,0.55);border:1px solid rgba(199,163,90,0.28)">
+          <img src="https://i.ytimg.com/vi/vdRNuo7yVdo/hqdefault.jpg" alt="बेटी का पिता की पैतृक संपत्ति में हक — विनीता शर्मा (2020)" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover">
+          <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(6,15,34,0.18)"><svg width="56" height="56" viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="28" fill="rgba(6,15,34,0.55)"/><circle cx="28" cy="28" r="27" fill="none" stroke="#c7a35a" stroke-width="1.5"/><path d="M23 18l16 10-16 10V18z" fill="#c7a35a"/></svg></span>
+        </a>
         <p class="la-cap" style="color:#f8f6f1;font-family:'Inter',sans-serif;font-size:0.95rem;line-height:1.5;margin-top:12px"><strong>बेटी का पैतृक संपत्ति में हक</strong><br><span style="color:rgba(248,246,241,0.6);font-size:0.82rem">विनीता शर्मा (2020) — बेटी जन्म से सहदायिक, बेटे के बराबर।</span></p>
       </div>
     </div>
@@ -1632,19 +1621,12 @@ ul { list-style: none; }
       "publisher": {"@type": "LegalService", "name": "शुभम ओझा एवं एसोसिएट्स / Shubham Ojha & Associates", "url": "https://shubhamojhaandassociates.com"}
     }
     </script>
-    <div class="reveal" style="max-width:860px;margin:0 auto 32px;position:relative;padding-bottom:56.25%;height:0;border-radius:10px;overflow:hidden;box-shadow:0 8px 48px rgba(0,0,0,0.5)">
-      <iframe
-        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"
-        src="https://www.youtube-nocookie.com/embed/videoseries?list=UULjR2b63svia7CHFLg96Ysw&rel=0&modestbranding=1"
-        title="Advocate Shubham Ojha — Legal Awareness in Hindi"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen loading="lazy"></iframe>
-    </div>
     <div class="reveal">
+      <p style="color:rgba(248,246,241,0.55);font-family:'Inter',sans-serif;font-size:0.85rem;margin-bottom:16px">More Hindi legal-awareness videos are posted regularly on our YouTube channel.</p>
       <a href="https://www.youtube.com/@advocateshubhamojha" target="_blank" rel="noopener"
          style="display:inline-block;border:1.5px solid #c7a35a;color:#c7a35a;font-family:'Inter',sans-serif;font-size:0.85rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;padding:12px 28px;border-radius:4px"
          onmouseover="this.style.background='#c7a35a';this.style.color='#060f22'"
-         onmouseout="this.style.background='transparent';this.style.color='#c7a35a'">View the Channel on YouTube</a>
+         onmouseout="this.style.background='transparent';this.style.color='#c7a35a'">View All Videos on YouTube →</a>
     </div>
   </div>
 </section>
