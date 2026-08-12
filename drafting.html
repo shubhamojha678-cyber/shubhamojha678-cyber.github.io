@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GJNCXM2691');
+document.addEventListener('click', function(e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  var p = location.pathname;
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call', source_page: p});
+  else if (h.indexOf('wa.me') !== -1) { gtag('event', 'generate_lead', {method: 'whatsapp', source_page: p}); gtag('event', 'drafting_enquiry', {method: 'whatsapp'}); }
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email', source_page: p});
+});
+/* Drafting-specific WhatsApp/email prefill. This page asks for the TYPE of draft
+   as well, so it deliberately does not use the site-wide enquiry template. */
+document.addEventListener('DOMContentLoaded', function() {
+  var wa = 'Draft required / ड्राफ्ट बनवाना है\n\nType of draft (legal notice / reply / application / agreement / petition):\n\nMatter in 2 lines / मामला 2 पंक्ति में:\n\nNotice or hearing date, if any:\n\nCity & State:\n';
+  var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
+  for (var i = 0; i < L.length; i++) {
+    var u = L[i].getAttribute('href');
+    if (u.indexOf('text=') === -1) L[i].setAttribute('href', u + (u.indexOf('?') === -1 ? '?' : '&') + 'text=' + encodeURIComponent(wa));
+  }
+  var M = document.querySelectorAll('a[href^="mailto:"]');
+  for (var j = 0; j < M.length; j++) {
+    var m = M[j].getAttribute('href');
+    if (m.indexOf('subject=') === -1) M[j].setAttribute('href', m + (m.indexOf('?') === -1 ? '?' : '&') + 'subject=' + encodeURIComponent('Drafting request') + '&body=' + encodeURIComponent(wa));
+  }
+});
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Get One Legal Document Drafted — Anywhere in India | Shubham Ojha &amp; Associates</title>
+<meta name="description" content="Engage an advocate for one document — legal notice, SARFAESI 13(2) reply, bail application, written statement, agreement or will — without retaining counsel for the case.">
+<meta name="author" content="Shubham Ojha, Advocate, Rajasthan High Court, Jodhpur">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://shubhamojhaandassociates.com/drafting.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b1a3a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Get One Legal Document Drafted — Anywhere in India">
+<meta property="og:description" content="Drafting taken up as a standalone engagement — notices, replies, applications, pleadings and deeds — without retaining counsel for the whole case.">
+<meta property="og:url" content="https://shubhamojhaandassociates.com/drafting.html">
+<meta property="og:locale" content="en_IN">
+<meta property="og:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<meta property="og:site_name" content="Shubham Ojha &amp; Associates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Get One Legal Document Drafted — Anywhere in India">
+<meta name="twitter:description" content="Drafting taken up as a standalone engagement — notices, replies, applications, pleadings and deeds — without retaining counsel for the whole case.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1a3a;--navy-dark:#060f22;--gold:#c7a35a;--gold-light:#d4b575;--white:#fff;--off-white:#f8f6f1;--text-dark:#1a1a2e;--text-mid:#3a3a5c;--text-light:#6b6b8a;--shadow:0 4px 24px rgba(11,26,58,0.12);--font-serif:'Cormorant Garamond',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:var(--font-sans);background:var(--white);color:var(--text-dark);line-height:1.7;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+.art-nav{background:rgba(11,26,58,0.97);padding:0 24px;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:900px;margin:0 auto;}
+.art-nav-brand{display:flex;align-items:center;gap:10px;}
+.art-nav-logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#c7a35a,#d4b575);display:flex;align-items:center;justify-content:center;font-family:var(--font-serif);font-size:1rem;font-weight:700;color:#060f22;}
+.art-nav-name{font-family:var(--font-serif);font-size:1rem;font-weight:600;color:var(--white);line-height:1.1;}
+.art-nav-sub{font-size:0.68rem;color:var(--gold);letter-spacing:0.05em;text-transform:uppercase;}
+.art-nav-links{display:flex;gap:8px;}
+.art-nav-links a{font-size:0.8rem;color:rgba(255,255,255,0.75);padding:7px 14px;border-radius:4px;transition:all .3s;}
+.art-nav-links a:hover{color:var(--gold);background:rgba(199,163,90,0.1);}
+.breadcrumb{background:var(--off-white);border-bottom:1px solid rgba(199,163,90,0.12);padding:10px 24px;}
+.breadcrumb-inner{max-width:900px;margin:0 auto;font-size:0.78rem;color:var(--text-light);display:flex;gap:6px;}
+.breadcrumb-inner a{color:var(--gold);}
+.art-container{max-width:900px;margin:0 auto;padding:48px 24px 72px;}
+.art-header{margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-tag{display:inline-block;background:var(--gold);color:var(--navy-dark);font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:2px;margin-bottom:16px;}
+.art-title{font-family:var(--font-serif);font-size:clamp(1.9rem,4vw,2.7rem);font-weight:600;color:var(--navy);line-height:1.2;}
+.art-lede{font-size:1.08rem;color:var(--text-mid);line-height:1.85;margin-top:14px;}
+.art-body h2{font-family:var(--font-serif);font-size:1.5rem;font-weight:600;color:var(--navy);margin:34px 0 12px;}
+.art-body h3{font-family:var(--font-serif);font-size:1.18rem;font-weight:600;color:var(--navy);margin:24px 0 8px;}
+.art-body p{font-size:1rem;color:var(--text-mid);line-height:1.9;margin-bottom:18px;}
+.art-body strong{color:var(--text-dark);}
+.art-body em{font-style:italic;}
+.art-body a{color:var(--gold);font-weight:600;border-bottom:1px solid rgba(199,163,90,0.35);}
+.plist{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:8px 0 18px;}
+.plist li{font-size:0.95rem;color:var(--text-mid);padding-left:18px;position:relative;}
+.plist li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--gold);}
+.art-contact{background:var(--off-white);border:1px solid rgba(199,163,90,0.2);border-radius:8px;padding:20px 26px;margin:32px 0;}
+.art-contact-title{font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);margin-bottom:6px;}
+.art-contact-line{font-size:0.92rem;color:var(--text-mid);line-height:1.8;}
+.art-contact-line a{color:var(--gold);font-weight:600;}
+.art-disclaimer{background:var(--off-white);border-left:3px solid var(--gold);padding:14px 18px;margin:28px 0 0;font-size:0.82rem;color:var(--text-light);line-height:1.65;font-style:italic;border-radius:0 4px 4px 0;}
+.related-section{margin-top:56px;padding-top:36px;border-top:1px solid rgba(199,163,90,0.15);}
+.related-title{font-family:var(--font-serif);font-size:1.5rem;font-weight:600;color:var(--navy);margin-bottom:20px;}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.related-card{border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:18px;background:var(--off-white);transition:all .3s;}
+.related-card:hover{border-color:rgba(199,163,90,0.4);box-shadow:var(--shadow);transform:translateY(-3px);}
+.related-card-tag{font-size:0.68rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block;}
+.related-card-title{font-family:var(--font-serif);font-size:0.98rem;font-weight:600;color:var(--navy);line-height:1.35;}
+.art-footer{background:var(--navy-dark);color:rgba(255,255,255,0.55);padding:32px 24px;text-align:center;}
+.art-footer-inner{max-width:900px;margin:0 auto;}
+.art-footer-name{font-family:var(--font-serif);font-size:1.1rem;color:var(--white);margin-bottom:8px;}
+.art-footer-copy{font-size:0.78rem;}
+.bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
+.bci-bar p{font-size:0.72rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.6;}
+.wa-button{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all .3s;}
+.wa-button:hover{transform:scale(1.08);}
+.glance{background:var(--off-white);border:1px solid rgba(199,163,90,0.28);border-radius:8px;padding:18px 22px;margin:26px 0;}
+.glance dl{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;margin:0;font-size:0.95rem;}
+.glance dt{color:var(--navy);font-weight:600;}
+.glance dd{margin:0;color:var(--text-mid);}
+.steps{counter-reset:s;list-style:none;padding:0;margin:8px 0 22px;}
+.steps li{counter-increment:s;position:relative;padding:0 0 14px 42px;color:var(--text-mid);line-height:1.85;}
+.steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:50%;background:var(--gold);color:var(--navy-dark);font-weight:700;font-size:0.82rem;display:flex;align-items:center;justify-content:center;}
+.doc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0 26px;}
+.doc-card{border:1px solid rgba(199,163,90,0.22);border-radius:8px;padding:20px;background:var(--off-white);}
+.doc-card h3{font-family:var(--font-serif);font-size:1.1rem;font-weight:600;color:var(--navy);margin:0 0 10px;}
+.doc-card ul{list-style:none;margin:0;padding:0;}
+.doc-card li{font-size:0.9rem;color:var(--text-mid);line-height:1.65;padding-left:16px;position:relative;margin-bottom:7px;}
+.doc-card li::before{content:"›";position:absolute;left:0;top:-1px;color:var(--gold);font-size:1rem;}
+.wa-cta{display:block;background:var(--navy);border:1px solid rgba(199,163,90,0.4);border-radius:8px;padding:26px;margin:30px 0;text-align:center;}
+.wa-cta p{color:rgba(255,255,255,0.82)!important;font-size:0.96rem;line-height:1.8;margin:0 0 18px!important;}
+.wa-cta a.wa-cta-btn{display:inline-block;background:var(--gold);color:var(--navy-dark);font-weight:600;font-size:0.84rem;letter-spacing:0.06em;text-transform:uppercase;padding:14px 26px;border-radius:4px;border:none;transition:all .3s;}
+.wa-cta a.wa-cta-btn:hover{background:var(--gold-light);}
+.wa-cta small{display:block;color:rgba(255,255,255,0.5);font-size:0.76rem;line-height:1.7;margin-top:18px;}
+@media(max-width:860px){.doc-grid{grid-template-columns:1fr;}}
+@media(max-width:640px){.plist,.related-grid{grid-template-columns:1fr;}.art-nav-sub{display:none;}.art-nav-brand{min-width:0;flex:1 1 auto;}.art-nav-brand>div:last-child{min-width:0;overflow:hidden;}.art-nav-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.88rem;}.art-nav-links{flex-shrink:0;}}
+@media(max-width:560px){.glance dl{grid-template-columns:1fr;gap:2px 0;}.glance dd{margin-bottom:10px;}}
+.mobile-cta-bar{display:none;}
+@media(max-width:768px){.mobile-cta-bar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:998;box-shadow:0 -4px 20px rgba(6,15,34,0.25);}.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;}.mobile-cta-call{background:#c7a35a;color:#060f22;}.mobile-cta-wa{background:#1da851;color:#fff;}.wa-button{bottom:76px;}body{padding-bottom:70px;}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Can a Lawyer Just Draft the Document, Without Taking the Whole Case?",
+  "description": "How standalone legal drafting works — which documents can be drafted on their own, what has to be sent, who can file the draft, and the statutory deadlines that decide when it must be ready.",
+  "author": {"@type": "Person", "name": "Shubham Ojha", "jobTitle": "Advocate",
+    "description": "BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court",
+    "worksFor": {"@type": "LegalService", "name": "Shubham Ojha & Associates", "url": "https://shubhamojhaandassociates.com"}},
+  "publisher": {"@type": "LegalService", "name": "Shubham Ojha & Associates", "url": "https://shubhamojhaandassociates.com"},
+  "datePublished": "2026-08-12",
+  "dateModified": "2026-08-12",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://shubhamojhaandassociates.com/drafting.html"},
+  "articleSection": "Drafting"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://shubhamojhaandassociates.com/"},
+    {"@type":"ListItem","position":2,"name":"Document Drafting","item":"https://shubhamojhaandassociates.com/drafting.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Can an advocate draft only one document without taking the whole case?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes. Drafting can be engaged as standalone work. A legal notice, a reply to a bank's SARFAESI Section 13(2) notice, a bail application, a written statement, an agreement or a will can each be drawn up on its own, with the scope fixed in advance, without retaining counsel for the entire proceeding. The papers are sent on WhatsApp and the drafted document is returned ready to sign and file."}},
+    {"@type":"Question","name":"Does the advocate who drafts a document have to be the one who files it?",
+     "acceptedAnswer":{"@type":"Answer","text":"No. Drafting and appearance are separate. A document can be settled by one advocate and filed and argued by another who holds the vakalatnama in that court — this is ordinary practice, and it is how counsel is briefed in matters across India. Under Section 30 of the Advocates Act, 1961 an advocate on any State roll is entitled to practise before courts throughout India, so a draft prepared here can be filed in any state, either by local counsel already engaged or by this office where the forum permits."}},
+    {"@type":"Question","name":"What has to be sent before a document can be drafted?",
+     "acceptedAnswer":{"@type":"Answer","text":"Four things: what kind of document is needed, the matter described in two lines, every page of any notice, order, FIR or agreement already on record including the date on it, and the city and state where the matter lies. The date is the item that decides the sequence of work, because most drafts are answering a clock that is already running."}},
+    {"@type":"Question","name":"How quickly must a reply or application be drafted?",
+     "acceptedAnswer":{"@type":"Answer","text":"That is fixed by statute, not by preference. A SARFAESI demand notice under Section 13(2) runs 60 days, and the borrower's representation under Section 13(3A) must be made inside it. A Securitisation Application under Section 17 must reach the Debts Recovery Tribunal within 45 days of the Section 13(4) measure. A cheque dishonour notice must issue within 30 days. A written statement is due within 30 days of service of summons under Order VIII Rule 1 of the Code of Civil Procedure, 1908. An appeal under Section 14A(2) of the SC/ST (Prevention of Atrocities) Act, 1989 carries 90 days."}},
+    {"@type":"Question","name":"What are the charges for drafting a document?",
+     "acceptedAnswer":{"@type":"Answer","text":"Charges are settled per document, not by a published schedule. The scope, the time required and the professional charges applicable to that particular document are confirmed on WhatsApp before any drafting begins, and no work starts until both are agreed. The Rules of the Bar Council of India do not permit advocates to advertise or publish fees, so the figure is given on enquiry rather than on the website."}},
+    {"@type":"Question","name":"Can a document be drafted for a matter outside Rajasthan or for someone living abroad?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes, where the governing statute is central. The SARFAESI Act, the Negotiable Instruments Act, the Hindu Succession Act, the Transfer of Property Act, the Code of Civil Procedure, the BNSS and the BNS apply identically in every state. Non-resident clients regularly need a power of attorney, a will, a partition or settlement deed, or a reply to a notice concerning inherited property, and none of that requires the client to travel; papers are exchanged on WhatsApp or email and the call is taken by video."}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Shubham Ojha & Associates",
+  "url": "https://shubhamojhaandassociates.com/drafting.html",
+  "areaServed": {"@type": "Country", "name": "India"},
+  "availableLanguage": ["Hindi", "English"],
+  "knowsAbout": ["Legal notices and replies", "SARFAESI and DRT pleadings", "Bail applications and criminal petitions", "Written statements and civil pleadings", "Agreements, deeds and wills", "Wills and succession documents"],
+  "address": {"@type": "PostalAddress", "streetAddress": "H. No. 245, Opp. Sardar Club, Ratanada", "addressLocality": "Jodhpur", "addressRegion": "Rajasthan", "postalCode": "342001", "addressCountry": "IN"},
+  "telephone": "+91-70230-51275",
+  "provider": {"@type": "Attorney", "name": "Shubham Ojha", "hasCredential": "Bar Council of Rajasthan Enrolment No. R/2958/2020"}
+}
+</script>
+</head>
+<body>
+<!-- ============================================================================
+     BCI RULE 36 — READ BEFORE EDITING THIS PAGE.
+     This page describes the SCOPE of drafting work and states that professional
+     charges apply and are confirmed privately before work begins. It must NEVER
+     carry an amount, a fee schedule, a rate card, a currency symbol, or any
+     comparative or soliciting wording ("best", "cheapest", "guaranteed",
+     "hire us"). The permitted website disclosure under the Rules of the Bar
+     Council of India is name, address, telephone, email, enrolment number,
+     qualifications and areas of practice — fees sit outside it. The figure is
+     quoted in the private WhatsApp conversation. Do not "complete" this page by
+     adding a price. This applies to the SEO autopilot as well.
+     ========================================================================= -->
+<nav class="art-nav">
+  <div class="art-nav-inner">
+    <a href="/" class="art-nav-brand">
+      <div class="art-nav-logo">SO</div>
+      <div>
+        <div class="art-nav-name">Shubham Ojha &amp; Associates</div>
+        <div class="art-nav-sub">Advocates &amp; Legal Consultants</div>
+      </div>
+    </a>
+    <div class="art-nav-links">
+      <a href="/#articles">← All Articles</a>
+      <a href="/consultation.html">Consultation</a>
+    </div>
+  </div>
+</nav>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner"><a href="/">Home</a><span>›</span><span>Document Drafting</span></div>
+</div>
+<article class="art-container">
+  <div class="art-header">
+    <div class="art-tag">Drafting</div>
+    <h1 class="art-title">Can a Lawyer Just Draft the Document, Without Taking the Whole Case?</h1>
+    <p class="art-lede">Often the position is already clear and what is actually needed is a piece of paper — a reply that goes back to the bank inside the sixty days, an application that is fit to be moved, a deed that will survive being read by the other side's counsel.</p>
+  </div>
+  <div class="art-body">
+
+    <p><strong>In short:</strong> yes. An advocate can be engaged to draft a single document — a legal notice, a reply to a bank's SARFAESI Section 13(2) notice, a bail application, a written statement, an agreement or a will — without being retained for the whole case. The scope is fixed in advance, the papers are sent on WhatsApp, and the drafted document comes back ready to be signed and filed.</p>
+
+    <div class="glance">
+      <dl>
+        <dt>What it is</dt><dd>A standalone engagement for one document, separate from representation</dd>
+        <dt>Send ahead</dt><dd>Type of document · the matter in two lines · every page of any notice or order, with its date · city and state</dd>
+        <dt>Route</dt><dd>WhatsApp — <a href="https://wa.me/917023051275" target="_blank" rel="noopener">+91 70230 51275</a></dd>
+        <dt>Reach</dt><dd>Anywhere in India for central statutes; Rajasthan for revenue and tenancy matters; non-resident clients by video</dd>
+        <dt>Engagement</dt><dd>Scope, time required and professional charges confirmed before drafting begins</dd>
+        <dt>Languages</dt><dd>Hindi or English; Hindi pleadings where the forum takes them</dd>
+      </dl>
+    </div>
+
+    <h2>Which documents can be drafted on their own?</h2>
+
+    <p>Broadly, anything whose value lies in how it is written rather than in who stands up to argue it. Three groups account for most of the work.</p>
+
+    <div class="doc-grid">
+      <div class="doc-card">
+        <h3>Notices &amp; Replies</h3>
+        <ul>
+          <li>Legal and demand notices</li>
+          <li>Cheque dishonour notice under Section 138, Negotiable Instruments Act, 1881</li>
+          <li>Representation in answer to a bank's SARFAESI Section 13(2) notice</li>
+          <li>Reply to a legal notice already received</li>
+          <li>Parawise reply to a petition or application</li>
+          <li>Reply to a departmental show-cause or charge-sheet</li>
+        </ul>
+      </div>
+      <div class="doc-card">
+        <h3>Pleadings &amp; Applications</h3>
+        <ul>
+          <li>Bail applications — regular under Section 483 BNSS, anticipatory under Section 482 BNSS, default under Section 187(2)</li>
+          <li>Criminal miscellaneous petitions under Section 528 BNSS</li>
+          <li>Securitisation Application under Section 17, SARFAESI Act</li>
+          <li>Plaints, written statements and objections</li>
+          <li>Writ petitions under Articles 226 and 227</li>
+          <li>Interim, transfer, early-listing and condonation applications</li>
+        </ul>
+      </div>
+      <div class="doc-card">
+        <h3>Deeds &amp; Documents</h3>
+        <ul>
+          <li>Agreements to sell, sale deeds and gift deeds</li>
+          <li>Partition deeds and family settlements</li>
+          <li>Wills and codicils</li>
+          <li>Powers of attorney, general and special</li>
+          <li>Affidavits and undertakings</li>
+          <li>Review and correction of a document drawn by someone else</li>
+        </ul>
+      </div>
+    </div>
+
+    <p>The third group deserves a word of its own. A great deal of avoidable litigation begins with a document nobody wanted to pay to have done properly, read carefully only once it was too late — a sale agreement that never got registered, a partition recorded in a family WhatsApp group, a will with one attesting witness instead of the two that <strong>Section 63 of the Indian Succession Act, 1925</strong> requires. Having an existing draft read before it is executed is smaller work than undoing it afterwards.</p>
+
+    <h2>Does the advocate who drafts it have to be the one who files it?</h2>
+
+    <p>No, and this is the part most people do not know. Drafting and appearance are separate functions. A document can be settled by one advocate and filed and argued by another who holds the <em>vakalatnama</em> in that court — briefing counsel to settle a pleading is ordinary practice at every level of the profession, and the client is not obliged to hand over the whole matter to get the drafting done well.</p>
+
+    <p>It also means geography is not the obstacle it appears to be. Under <strong>Section 30 of the Advocates Act, 1961</strong> an advocate on any State roll is entitled to practise before courts throughout India. A reply, a plaint or an application drafted here can be filed in any state — by local counsel already engaged in the matter, or by this office where the forum permits. What genuinely differs from state to state is court fee, local procedure and a particular registry's practice, and where that affects the document it is said so before drafting rather than after.</p>
+
+    <h2>What has to be sent for a draft to be usable?</h2>
+
+    <ol class="steps">
+      <li><strong>What kind of document is needed.</strong> If that is itself unclear — a reply or a suit, a bail application or an appeal — say so, and it is settled first. Drafting the wrong instrument well is still the wrong instrument.</li>
+      <li><strong>The matter in two lines.</strong> Not the history. What has happened, and what the other side has done.</li>
+      <li><strong>Every page of what is already on record.</strong> The notice, the order, the FIR, the agreement, the summons — photographed in full, including the date and, where it matters, the envelope. Half a notice produces half a reply.</li>
+      <li><strong>The date, stated separately.</strong> Because it decides the sequence of work, not the fee. A reply with eleven days left on the clock is taken up ahead of a deed that has no deadline at all.</li>
+      <li><strong>The city and state.</strong> Which forum, and therefore which procedure and court fee.</li>
+    </ol>
+
+    <h2>How quickly does a reply or application have to be ready?</h2>
+
+    <p>That is fixed by statute, not by anybody's preference, and it is the single reason drafting requests should not be left to sit. A SARFAESI demand notice under <strong>Section 13(2)</strong> runs <strong>60 days</strong>, and the borrower's representation under <strong>Section 13(3A)</strong> lives only inside that window — the bank must answer it within <strong>15 days</strong>. Once a measure is taken under <strong>Section 13(4)</strong>, a Securitisation Application under <strong>Section 17</strong> must reach the Debts Recovery Tribunal within <strong>45 days</strong>; an appeal to the DRAT under <strong>Section 18</strong> carries <strong>30 days</strong> and a pre-deposit of <strong>50 per cent</strong> of the debt, reducible by the Tribunal to no less than <strong>25 per cent</strong>.</p>
+
+    <p>Elsewhere the clocks are just as unforgiving. A cheque dishonour notice must issue within <strong>30 days</strong> of the bank's memo, the drawer then has <strong>15 days</strong> to pay, and the complaint follows within <strong>one month</strong> of that period expiring. A written statement is due within <strong>30 days</strong> of service of summons under <strong>Order VIII Rule 1 of the Code of Civil Procedure, 1908</strong>, extendable to an outer limit of <strong>120 days</strong> — and in a commercial dispute that outer limit is absolute, the right to file being forfeited altogether once it passes. Refusal of bail by a Special Court under the <strong>SC/ST (Prevention of Atrocities) Act, 1989</strong> is challenged by appeal under <strong>Section 14A(2)</strong> within <strong>90 days</strong>, not by a fresh bail application to the same court.</p>
+
+    <p>Every one of those numbers is printed on a document somebody already has in their phone. That is why the date is asked for before the story.</p>
+
+    <h2>How is the engagement fixed, and how are charges settled?</h2>
+
+    <p>Per document, and in advance. Once the papers have been seen, three things are confirmed on WhatsApp — what exactly the document will cover, how long it will take, and the professional charges applicable to it. Nothing is drafted until all three are agreed, and there is no obligation on the enquirer at the point of asking.</p>
+
+    <p>The figure is not published here, and that is deliberate rather than evasive: the Rules of the Bar Council of India permit an advocate's website to carry name, address, telephone, email, enrolment number, qualifications and areas of practice, and do not permit the advertising of fees. So the answer is given on enquiry, to the person who asks, about the document they actually need.</p>
+
+    <div class="wa-cta">
+      <p>Send the document type, the matter in two lines, the papers and the date. Scope and charges are confirmed before any drafting begins.</p>
+      <a href="https://wa.me/917023051275" class="wa-cta-btn" target="_blank" rel="noopener noreferrer">💬 Send a Drafting Request on WhatsApp</a>
+      <small>Drafting enquiries are handled on WhatsApp. Office hours for calls: Sun–Thu &amp; Sat, 7–11 PM (Friday closed).</small>
+    </div>
+
+    <h2>Can it be done from outside Rajasthan, or from abroad?</h2>
+
+    <p>Where the governing statute is central, yes — the SARFAESI Act, the Negotiable Instruments Act, the Hindu Succession Act, the Transfer of Property Act, the Code of Civil Procedure, the BNSS and the BNS read the same in every state, and a document drafted under them does not change at a state border.</p>
+
+    <p>Non-resident clients form a steady part of this work, and the pattern repeats: property inherited in India, a sibling or tenant in possession, a notice received by a relative, and no realistic prospect of flying back to deal with it. What is usually needed is a special power of attorney drawn narrowly enough to be safe, a reply to whatever notice has arrived, or a partition or settlement deed. None of it requires travel — papers are exchanged on WhatsApp or email, and the call is taken by video at a time that works across the time difference.</p>
+
+    <p>Rajasthan revenue and tenancy work is the exception that stays local. Mutation, <em>khatedari</em> and partition before revenue courts turn on the Rajasthan Land Revenue Act, 1956 and the Rajasthan Tenancy Act, 1955, and are handled here directly — see <a href="/articles/property-mutation-namantaran-apna-khata-rajasthan-hi.html">mutation and revenue record correction</a>.</p>
+
+    <h2>What a drafted document does not do</h2>
+
+    <p>It does not create representation. Filing, appearance, arguing an interim application and everything that follows are separate work, and where a matter plainly needs counsel in court rather than a document in the post, that is said at the outset instead of after a draft has been paid for. It does not promise an outcome; a well-drafted reply to a Section 13(2) notice improves the record and preserves the Section 17 remedy, but it does not oblige a bank to withdraw. It cannot revive a limitation period that has already run, though it can put the case for condonation as well as it can be put. And it cannot be built on a half-account — a pleading drafted on facts the client has edited is a liability in cross-examination, not an asset.</p>
+
+    <p>If what is actually needed is an assessment rather than a document, that is a <a href="/consultation.html">consultation</a>, and it is the better place to start.</p>
+
+    <div class="art-contact">
+      <div class="art-contact-title">Shubham Ojha &amp; Associates, Advocates</div>
+      <div class="art-contact-line">
+        Rajasthan High Court &nbsp;·&nbsp; Enrolment No. R/2958/2020 (Bar Council of Rajasthan)<br>
+        H. No. 245, Opp. Sardar Club, Ratanada, Jodhpur 342001<br>
+        <a href="tel:+917023051275">+91 70230 51275</a> &nbsp;·&nbsp; <a href="mailto:shubham@shubhamojhaandassociates.com">shubham@shubhamojhaandassociates.com</a> &nbsp;·&nbsp; <a href="https://wa.me/917023051275" target="_blank" rel="noopener">WhatsApp</a><br>
+        Office hours: Sun–Thu &amp; Sat, 7–11 PM (Friday closed)
+      </div>
+    </div>
+    <div class="art-disclaimer">This page is informational and provided on the reader's own enquiry. As per the Rules of the Bar Council of India, advocates do not advertise or solicit work; nothing here is an advertisement, a solicitation, an inducement or legal advice, no fee is quoted or held out, and reading this page does not create an advocate–client relationship. Statutory provisions are stated as at the date of publication and should be verified against the position applicable to a particular matter.</div>
+
+    <div class="related-section">
+      <div class="related-title">Related Reading</div>
+      <div class="related-grid">
+        <a href="/consultation.html" class="related-card">
+          <span class="related-card-tag">Firm</span>
+          <div class="related-card-title">Consulting an Advocate by Phone or Video</div>
+        </a>
+        <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" class="related-card">
+          <span class="related-card-tag">Banking &amp; Debt</span>
+          <div class="related-card-title">SARFAESI Notice under Section 13(2) and the DRT Remedy</div>
+        </a>
+        <a href="/articles/cheque-bounce-section-138-ni-act.html" class="related-card">
+          <span class="related-card-tag">Commercial</span>
+          <div class="related-card-title">Cheque Dishonour under Section 138 NI Act</div>
+        </a>
+        <a href="/articles/daughter-ancestral-property-rights-rajasthan-hi.html" class="related-card">
+          <span class="related-card-tag">Property</span>
+          <div class="related-card-title">A Daughter's Right in Ancestral Property after Vineeta Sharma</div>
+        </a>
+        <a href="/bail-lawyer-jodhpur.html" class="related-card">
+          <span class="related-card-tag">Criminal</span>
+          <div class="related-card-title">Bail at the Rajasthan High Court, Jodhpur</div>
+        </a>
+        <a href="/about.html" class="related-card">
+          <span class="related-card-tag">Firm</span>
+          <div class="related-card-title">About Advocate Shubham Ojha</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</article>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+    <div class="art-footer-name">Shubham Ojha &amp; Associates</div>
+    <p class="art-footer-copy">Advocates at the Rajasthan High Court &nbsp;|&nbsp; Enrolment No. R/2958/2020 (Bar Council of Rajasthan) &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2026 All rights reserved.</p>
+  </div>
+</footer>
+<div class="bci-bar"><p><strong style="color:rgba(255,255,255,0.6);">Bar Council of India Notice:</strong> This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.</p></div>
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+  <a href="tel:+917023051275" class="mobile-cta-call">📞 Call Now</a>
+  <a href="https://wa.me/917023051275" class="mobile-cta-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+</div>
+</body>
+</html>
