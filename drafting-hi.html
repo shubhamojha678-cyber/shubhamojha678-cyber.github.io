@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GJNCXM2691');
+document.addEventListener('click', function(e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  var p = location.pathname;
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call', source_page: p});
+  else if (h.indexOf('wa.me') !== -1) { gtag('event', 'generate_lead', {method: 'whatsapp', source_page: p}); gtag('event', 'drafting_enquiry', {method: 'whatsapp'}); }
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email', source_page: p});
+});
+/* Drafting-specific WhatsApp/email prefill — Hindi twin. Asks for the TYPE of
+   draft as well, so it deliberately does not use the site-wide enquiry template. */
+document.addEventListener('DOMContentLoaded', function() {
+  var wa = 'Draft required / ड्राफ्ट बनवाना है\n\nType of draft (legal notice / reply / application / agreement / petition):\n\nMatter in 2 lines / मामला 2 पंक्ति में:\n\nNotice or hearing date, if any:\n\nCity & State:\n';
+  var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
+  for (var i = 0; i < L.length; i++) {
+    var u = L[i].getAttribute('href');
+    if (u.indexOf('text=') === -1) L[i].setAttribute('href', u + (u.indexOf('?') === -1 ? '?' : '&') + 'text=' + encodeURIComponent(wa));
+  }
+  var M = document.querySelectorAll('a[href^="mailto:"]');
+  for (var j = 0; j < M.length; j++) {
+    var m = M[j].getAttribute('href');
+    if (m.indexOf('subject=') === -1) M[j].setAttribute('href', m + (m.indexOf('?') === -1 ? '?' : '&') + 'subject=' + encodeURIComponent('Drafting request') + '&body=' + encodeURIComponent(wa));
+  }
+});
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>क्या वकील से केवल दस्तावेज़ तैयार करवाया जा सकता है? | Shubham Ojha &amp; Associates</title>
+<meta name="description" content="विधिक सूचना, बैंक के SARFAESI नोटिस का जवाब, ज़मानत आवेदन, वसीयत, इकरारनामा या मुख़्तारनामा — पूरा मुकदमा सौंपे बिना, एक दस्तावेज़ का प्रारूपण। सामान्य दस्तावेज़ पुष्टि के 48 घंटों के भीतर।">
+<meta name="author" content="Shubham Ojha, Advocate, Rajasthan High Court, Jodhpur">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://shubhamojhaandassociates.com/drafting-hi.html">
+<link rel="alternate" hreflang="en" href="https://shubhamojhaandassociates.com/drafting.html">
+<link rel="alternate" hreflang="hi" href="https://shubhamojhaandassociates.com/drafting-hi.html">
+<link rel="alternate" hreflang="x-default" href="https://shubhamojhaandassociates.com/drafting.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b1a3a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="क्या वकील से केवल दस्तावेज़ तैयार करवाया जा सकता है?">
+<meta property="og:description" content="प्रारूपण एक स्वतंत्र कार्य के रूप में — नोटिस, जवाब, आवेदन, अभिवचन, विलेख और वसीयत — पूरा मुकदमा सौंपे बिना। सामान्य दस्तावेज़ पुष्टि के 48 घंटों के भीतर।">
+<meta property="og:url" content="https://shubhamojhaandassociates.com/drafting-hi.html">
+<meta property="og:locale" content="hi_IN">
+<meta property="og:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<meta property="og:site_name" content="Shubham Ojha &amp; Associates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="क्या वकील से केवल दस्तावेज़ तैयार करवाया जा सकता है?">
+<meta name="twitter:description" content="प्रारूपण एक स्वतंत्र कार्य के रूप में — नोटिस, जवाब, आवेदन, अभिवचन, विलेख और वसीयत — पूरा मुकदमा सौंपे बिना।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1a3a;--navy-dark:#060f22;--gold:#c7a35a;--gold-light:#d4b575;--white:#fff;--off-white:#f8f6f1;--text-dark:#1a1a2e;--text-mid:#3a3a5c;--text-light:#6b6b8a;--shadow:0 4px 24px rgba(11,26,58,0.12);--font-serif:'Cormorant Garamond',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:var(--font-sans);background:var(--white);color:var(--text-dark);line-height:1.7;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+.art-nav{background:rgba(11,26,58,0.97);padding:0 24px;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:900px;margin:0 auto;}
+.art-nav-brand{display:flex;align-items:center;gap:10px;}
+.art-nav-logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#c7a35a,#d4b575);display:flex;align-items:center;justify-content:center;font-family:var(--font-serif);font-size:1rem;font-weight:700;color:#060f22;}
+.art-nav-name{font-family:var(--font-serif);font-size:1rem;font-weight:600;color:var(--white);line-height:1.1;}
+.art-nav-sub{font-size:0.68rem;color:var(--gold);letter-spacing:0.05em;text-transform:uppercase;}
+.art-nav-links{display:flex;gap:8px;}
+.art-nav-links a{font-size:0.8rem;color:rgba(255,255,255,0.75);padding:7px 14px;border-radius:4px;transition:all .3s;}
+.art-nav-links a:hover{color:var(--gold);background:rgba(199,163,90,0.1);}
+.breadcrumb{background:var(--off-white);border-bottom:1px solid rgba(199,163,90,0.12);padding:10px 24px;}
+.breadcrumb-inner{max-width:900px;margin:0 auto;font-size:0.78rem;color:var(--text-light);display:flex;gap:6px;}
+.breadcrumb-inner a{color:var(--gold);}
+.art-container{max-width:900px;margin:0 auto;padding:48px 24px 72px;}
+.art-header{margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-tag{display:inline-block;background:var(--gold);color:var(--navy-dark);font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:2px;margin-bottom:16px;}
+.art-title{font-family:var(--font-serif);font-size:clamp(1.9rem,4vw,2.7rem);font-weight:600;color:var(--navy);line-height:1.2;}
+.art-lede{font-size:1.08rem;color:var(--text-mid);line-height:1.85;margin-top:14px;}
+.art-body h2{font-family:var(--font-serif);font-size:1.5rem;font-weight:600;color:var(--navy);margin:34px 0 12px;}
+.art-body h3{font-family:var(--font-serif);font-size:1.18rem;font-weight:600;color:var(--navy);margin:24px 0 8px;}
+.art-body p{font-size:1rem;color:var(--text-mid);line-height:1.9;margin-bottom:18px;}
+.art-body strong{color:var(--text-dark);}
+.art-body em{font-style:italic;}
+.art-body a{color:var(--gold);font-weight:600;border-bottom:1px solid rgba(199,163,90,0.35);}
+.plist{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:8px 0 18px;}
+.plist li{font-size:0.95rem;color:var(--text-mid);padding-left:18px;position:relative;}
+.plist li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;border-radius:50%;background:var(--gold);}
+.art-contact{background:var(--off-white);border:1px solid rgba(199,163,90,0.2);border-radius:8px;padding:20px 26px;margin:32px 0;}
+.art-contact-title{font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);margin-bottom:6px;}
+.art-contact-line{font-size:0.92rem;color:var(--text-mid);line-height:1.8;}
+.art-contact-line a{color:var(--gold);font-weight:600;}
+.art-disclaimer{background:var(--off-white);border-left:3px solid var(--gold);padding:14px 18px;margin:28px 0 0;font-size:0.82rem;color:var(--text-light);line-height:1.65;font-style:italic;border-radius:0 4px 4px 0;}
+.related-section{margin-top:56px;padding-top:36px;border-top:1px solid rgba(199,163,90,0.15);}
+.related-title{font-family:var(--font-serif);font-size:1.5rem;font-weight:600;color:var(--navy);margin-bottom:20px;}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.related-card{border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:18px;background:var(--off-white);transition:all .3s;}
+.related-card:hover{border-color:rgba(199,163,90,0.4);box-shadow:var(--shadow);transform:translateY(-3px);}
+.related-card-tag{font-size:0.68rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block;}
+.related-card-title{font-family:var(--font-serif);font-size:0.98rem;font-weight:600;color:var(--navy);line-height:1.35;}
+.art-footer{background:var(--navy-dark);color:rgba(255,255,255,0.55);padding:32px 24px;text-align:center;}
+.art-footer-inner{max-width:900px;margin:0 auto;}
+.art-footer-name{font-family:var(--font-serif);font-size:1.1rem;color:var(--white);margin-bottom:8px;}
+.art-footer-copy{font-size:0.78rem;}
+.bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
+.bci-bar p{font-size:0.72rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.6;}
+.wa-button{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all .3s;}
+.wa-button:hover{transform:scale(1.08);}
+.glance{background:var(--off-white);border:1px solid rgba(199,163,90,0.28);border-radius:8px;padding:18px 22px;margin:26px 0;}
+.glance dl{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;margin:0;font-size:0.95rem;}
+.glance dt{color:var(--navy);font-weight:600;}
+.glance dd{margin:0;color:var(--text-mid);}
+.steps{counter-reset:s;list-style:none;padding:0;margin:8px 0 22px;}
+.steps li{counter-increment:s;position:relative;padding:0 0 14px 42px;color:var(--text-mid);line-height:1.85;}
+.steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:50%;background:var(--gold);color:var(--navy-dark);font-weight:700;font-size:0.82rem;display:flex;align-items:center;justify-content:center;}
+.doc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:20px 0 26px;}
+.doc-card{border:1px solid rgba(199,163,90,0.22);border-radius:8px;padding:20px;background:var(--off-white);}
+.doc-card h3{font-family:var(--font-serif);font-size:1.1rem;font-weight:600;color:var(--navy);margin:0 0 10px;}
+.doc-card ul{list-style:none;margin:0;padding:0;}
+.doc-card li{font-size:0.9rem;color:var(--text-mid);line-height:1.65;padding-left:16px;position:relative;margin-bottom:7px;}
+.doc-card li::before{content:"›";position:absolute;left:0;top:-1px;color:var(--gold);font-size:1rem;}
+.wa-cta{display:block;background:var(--navy);border:1px solid rgba(199,163,90,0.4);border-radius:8px;padding:26px;margin:30px 0;text-align:center;}
+.wa-cta p{color:rgba(255,255,255,0.82)!important;font-size:0.96rem;line-height:1.8;margin:0 0 18px!important;}
+.wa-cta a.wa-cta-btn{display:inline-block;background:var(--gold);color:var(--navy-dark);font-weight:600;font-size:0.84rem;letter-spacing:0.06em;text-transform:uppercase;padding:14px 26px;border-radius:4px;border:none;transition:all .3s;}
+.wa-cta a.wa-cta-btn:hover{background:var(--gold-light);}
+.wa-cta small{display:block;color:rgba(255,255,255,0.5);font-size:0.76rem;line-height:1.7;margin-top:18px;}
+@media(max-width:860px){.doc-grid{grid-template-columns:1fr;}}
+@media(max-width:640px){.plist,.related-grid{grid-template-columns:1fr;}.art-nav-sub{display:none;}.art-nav-brand{min-width:0;flex:1 1 auto;}.art-nav-brand>div:last-child{min-width:0;overflow:hidden;}.art-nav-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.88rem;}.art-nav-links{flex-shrink:0;}}
+@media(max-width:560px){.glance dl{grid-template-columns:1fr;gap:2px 0;}.glance dd{margin-bottom:10px;}}
+.mobile-cta-bar{display:none;}
+@media(max-width:768px){.mobile-cta-bar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:998;box-shadow:0 -4px 20px rgba(6,15,34,0.25);}.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;}.mobile-cta-call{background:#c7a35a;color:#060f22;}.mobile-cta-wa{background:#1da851;color:#fff;}.wa-button{bottom:76px;}body{padding-bottom:70px;}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "क्या वकील से केवल दस्तावेज़ तैयार करवाया जा सकता है, पूरा मुकदमा सौंपे बिना?",
+  "description": "स्वतंत्र प्रारूपण कैसे होता है — कौन-से दस्तावेज़ अलग से बन सकते हैं, क्या भेजना होता है, दाख़िल कौन कर सकता है, और वे वैधानिक समय-सीमाएँ जो तय करती हैं कि ड्राफ्ट कब तक तैयार होना चाहिए।",
+  "inLanguage": "hi",
+  "author": {"@type": "Person", "name": "Shubham Ojha", "jobTitle": "Advocate",
+    "description": "BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court",
+    "worksFor": {"@type": "LegalService", "name": "Shubham Ojha & Associates", "url": "https://shubhamojhaandassociates.com"}},
+  "publisher": {"@type": "LegalService", "name": "Shubham Ojha & Associates", "url": "https://shubhamojhaandassociates.com"},
+  "datePublished": "2026-08-15",
+  "dateModified": "2026-08-15",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://shubhamojhaandassociates.com/drafting-hi.html"},
+  "articleSection": "Drafting"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://shubhamojhaandassociates.com/"},
+    {"@type":"ListItem","position":2,"name":"दस्तावेज़ प्रारूपण","item":"https://shubhamojhaandassociates.com/drafting-hi.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "hi",
+  "mainEntity": [
+    {"@type":"Question","name":"क्या वकील से केवल एक दस्तावेज़ बनवाया जा सकता है, पूरा केस दिए बिना?",
+     "acceptedAnswer":{"@type":"Answer","text":"हाँ। विधिक सूचना (लीगल नोटिस), बैंक के SARFAESI धारा 13(2) नोटिस का जवाब, ज़मानत आवेदन, लिखित कथन, इकरारनामा या वसीयत — इनमें से कोई भी दस्तावेज़ अलग से, पूरे मुकदमे की पैरवी सौंपे बिना, तैयार करवाया जा सकता है। काम की सीमा पहले तय होती है, कागज़ WhatsApp पर भेजे जाते हैं, और तैयार दस्तावेज़ हस्ताक्षर व दाख़िले योग्य रूप में वापस मिलता है।"}},
+    {"@type":"Question","name":"क्या ड्राफ्ट बनाने वाला वकील ही उसे दाख़िल करेगा?",
+     "acceptedAnswer":{"@type":"Answer","text":"नहीं। प्रारूपण और पैरवी अलग-अलग कार्य हैं। एक अधिवक्ता का तैयार किया दस्तावेज़ वह अधिवक्ता दाख़िल कर सकता है जिसके पास उस न्यायालय का वकालतनामा है — यह पेशे की सामान्य पद्धति है। अधिवक्ता अधिनियम, 1961 की धारा 30 के अंतर्गत किसी भी राज्य की सूची में दर्ज अधिवक्ता पूरे भारत के न्यायालयों में विधि-व्यवसाय का हक़दार है, इसलिए यहाँ तैयार ड्राफ्ट किसी भी राज्य में दाख़िल हो सकता है।"}},
+    {"@type":"Question","name":"ड्राफ्ट बनवाने के लिए क्या-क्या भेजना होगा?",
+     "acceptedAnswer":{"@type":"Answer","text":"चार चीज़ें: किस प्रकार का दस्तावेज़ चाहिए, मामला दो पंक्तियों में, रिकॉर्ड पर जो भी नोटिस, आदेश, FIR या इकरारनामा हो उसका हर पृष्ठ तारीख़ सहित, और शहर व राज्य। तारीख़ सबसे पहले पूछी जाती है, क्योंकि अधिकांश ड्राफ्ट किसी चल रही समय-सीमा का उत्तर होते हैं।"}},
+    {"@type":"Question","name":"तैयार दस्तावेज़ कब तक मिल जाता है?",
+     "acceptedAnswer":{"@type":"Answer","text":"सामान्य दस्तावेज़ — विधिक सूचना और जवाब, लिखित राय, वसीयत, मुख़्तारनामा, शपथ-पत्र, इकरारनामे और समझौता-विलेख — पुष्टि के 48 घंटों के भीतर मिल जाते हैं। पुष्टि का अर्थ है वह क्षण जब काम की सीमा, पूरे कागज़ और व्यावसायिक शुल्क तीनों तय हो जाएँ। शुक्रवार को कार्यालय बंद रहता है, वह दिन 48 घंटों में नहीं गिना जाता। रिट याचिका, अपील जैसे बड़े दस्तावेज़ों के लिए पुष्टि के समय ही एक निश्चित तिथि बता दी जाती है। जहाँ वैधानिक समय-सीमा निकट हो, वहाँ काम क़ानून की घड़ी से चलता है, कतार से नहीं।"}},
+    {"@type":"Question","name":"दस्तावेज़ बनवाने का शुल्क कितना है?",
+     "acceptedAnswer":{"@type":"Answer","text":"शुल्क प्रत्येक दस्तावेज़ के अनुसार तय होता है, किसी प्रकाशित सूची से नहीं। कागज़ देखने के बाद काम की सीमा, लगने वाला समय और उस दस्तावेज़ पर लागू व्यावसायिक शुल्क — तीनों WhatsApp पर पहले बता दिए जाते हैं, और सहमति से पहले कोई काम प्रारंभ नहीं होता। बार काउंसिल ऑफ़ इंडिया के नियम अधिवक्ताओं को शुल्क का विज्ञापन या प्रकाशन करने की अनुमति नहीं देते, इसलिए राशि वेबसाइट पर नहीं, पूछताछ पर बताई जाती है।"}},
+    {"@type":"Question","name":"क्या कोई दस्तावेज़ केवल पढ़वाकर, लिखित राय ली जा सकती है?",
+     "acceptedAnswer":{"@type":"Answer","text":"हाँ। लिखित राय इस कार्यालय का सबसे छोटा काम है: जो भी काग़ज़ आया हो — विधिक सूचना, बैंक की माँग, न्यायालय का आदेश, या हस्ताक्षर के लिए रखा गया इकरारनामा — उसे भेजिए, और बदले में सरल हिन्दी या अंग्रेज़ी में एक संक्षिप्त हस्ताक्षरित टिप्पणी मिलती है: दस्तावेज़ वास्तव में क्या कहता है, कौन-से रास्ते खुले हैं, प्रत्येक में क्या लगेगा, और कोई वैधानिक समय-सीमा चल तो नहीं रही। राय दस्तावेज़ और स्थिति पर होती है; पहले से नियुक्त किसी अधिवक्ता के कार्य पर टिप्पणी इस कार्यालय का काम नहीं है।"}},
+    {"@type":"Question","name":"क्या वसीयत भी इसी तरह बन सकती है?",
+     "acceptedAnswer":{"@type":"Answer","text":"हाँ। वसीयत के लिए स्टाम्प पेपर आवश्यक नहीं और रजिस्ट्रेशन अधिनियम, 1908 की धारा 18 के अंतर्गत उसका पंजीकरण ऐच्छिक है; भारतीय उत्तराधिकार अधिनियम, 1925 की धारा 63 जो माँगती है वह है वसीयतकर्ता के हस्ताक्षर और दो गवाहों का साक्ष्यांकन। राजस्थान में खातेदार काश्तकार राजस्थान काश्तकारी अधिनियम, 1955 की धारा 39 के अंतर्गत वसीयत से कृषि-भूमि दे सकता है। इच्छाएँ बातचीत से ली जाती हैं — WhatsApp संदेश, वॉइस नोट या कार्यालय-समय में फ़ोन, जो सुविधाजनक हो।"}},
+    {"@type":"Question","name":"क्या राजस्थान के बाहर से, या विदेश से दस्तावेज़ बनवाया जा सकता है?",
+     "acceptedAnswer":{"@type":"Answer","text":"जहाँ क़ानून केंद्रीय है, वहाँ हाँ। SARFAESI अधिनियम, परक्राम्य लिखत अधिनियम, हिन्दू उत्तराधिकार अधिनियम, सम्पत्ति अंतरण अधिनियम, सिविल प्रक्रिया संहिता, BNSS और BNS हर राज्य में एक समान हैं। प्रवासी भारतीयों को प्रायः मुख़्तारनामा, वसीयत, बँटवारा या समझौता-विलेख, अथवा विरासत की सम्पत्ति से जुड़े नोटिस का जवाब चाहिए होता है — इसके लिए यात्रा आवश्यक नहीं; कागज़ WhatsApp या ईमेल से आते-जाते हैं और बात वीडियो कॉल पर हो जाती है।"}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Shubham Ojha & Associates",
+  "url": "https://shubhamojhaandassociates.com/drafting-hi.html",
+  "areaServed": {"@type": "Country", "name": "India"},
+  "availableLanguage": ["Hindi", "English"],
+  "knowsAbout": ["विधिक सूचना और जवाब", "SARFAESI व DRT अभिवचन", "ज़मानत आवेदन और दांडिक याचिकाएँ", "लिखित कथन और सिविल अभिवचन", "इकरारनामे, विलेख और वसीयत", "लिखित विधिक राय"],
+  "address": {"@type": "PostalAddress", "streetAddress": "H. No. 245, Opp. Sardar Club, Ratanada", "addressLocality": "Jodhpur", "addressRegion": "Rajasthan", "postalCode": "342001", "addressCountry": "IN"},
+  "telephone": "+91-70230-51275",
+  "provider": {"@type": "Attorney", "name": "Shubham Ojha", "hasCredential": "Bar Council of Rajasthan Enrolment No. R/2958/2020"}
+}
+</script>
+</head>
+<body>
+<!-- ============================================================================
+     BCI RULE 36 — READ BEFORE EDITING THIS PAGE (Hindi twin of /drafting.html).
+     This page describes the SCOPE of drafting work and states that professional
+     charges apply and are confirmed privately before work begins. It must NEVER
+     carry an amount, a fee schedule, a rate card, a currency symbol, or any
+     comparative or soliciting wording ("best", "cheapest", "guaranteed",
+     "hire us" — in Hindi or English). The figure is quoted in the private
+     WhatsApp conversation. Do not "complete" this page by adding a price.
+     This applies to the SEO autopilot as well.
+     ========================================================================= -->
+<nav class="art-nav">
+  <div class="art-nav-inner">
+    <a href="/" class="art-nav-brand">
+      <div class="art-nav-logo">SO</div>
+      <div>
+        <div class="art-nav-name">Shubham Ojha &amp; Associates</div>
+        <div class="art-nav-sub">Advocates &amp; Legal Consultants</div>
+      </div>
+    </a>
+    <div class="art-nav-links">
+      <a href="/#articles">← सभी लेख</a>
+      <a href="/consultation.html">परामर्श</a>
+      <a href="/drafting.html" lang="en">English</a>
+    </div>
+  </div>
+</nav>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner"><a href="/">Home</a><span>›</span><span>दस्तावेज़ प्रारूपण</span></div>
+</div>
+<article class="art-container">
+  <div class="art-header">
+    <div class="art-tag">Drafting · प्रारूपण</div>
+    <h1 class="art-title">क्या वकील से केवल दस्तावेज़ तैयार करवाया जा सकता है, पूरा मुकदमा सौंपे बिना?</h1>
+    <p class="art-lede">प्रायः स्थिति पहले से स्पष्ट होती है और वास्तव में जिस चीज़ की आवश्यकता है वह एक काग़ज़ है — वह जवाब जो साठ दिनों के भीतर बैंक तक पहुँच जाए, वह आवेदन जो पेश करने योग्य हो, वह विलेख जो सामने वाले पक्ष के वकील की नज़र से पढ़े जाने पर भी टिका रहे।</p>
+  </div>
+  <div class="art-body">
+
+    <p><strong>संक्षेप में:</strong> हाँ। अधिवक्ता से केवल एक दस्तावेज़ तैयार करवाया जा सकता है — विधिक सूचना, बैंक के SARFAESI धारा 13(2) नोटिस का जवाब, ज़मानत आवेदन, लिखित कथन, इकरारनामा या वसीयत — पूरे मुकदमे की पैरवी सौंपे बिना। काम की सीमा पहले तय होती है, कागज़ WhatsApp पर भेजे जाते हैं, और तैयार दस्तावेज़ हस्ताक्षर तथा दाख़िले योग्य रूप में वापस मिलता है।</p>
+
+    <div class="glance">
+      <dl>
+        <dt>यह क्या है</dt><dd>एक दस्तावेज़ के लिए स्वतंत्र काम — पैरवी से अलग</dd>
+        <dt>पहले भेजें</dt><dd>दस्तावेज़ का प्रकार · मामला दो पंक्तियों में · जो भी नोटिस या आदेश आया हो उसका हर पृष्ठ, तारीख़ सहित · शहर और राज्य</dd>
+        <dt>माध्यम</dt><dd>WhatsApp — <a href="https://wa.me/917023051275" target="_blank" rel="noopener">+91 70230 51275</a></dd>
+        <dt>डिलीवरी</dt><dd>काम की सीमा, कागज़ और शुल्क तय होने के <strong>48 घंटों के भीतर</strong> — सामान्य दस्तावेज़ों के लिए इस कार्यालय की स्थायी प्रतिबद्धता</dd>
+        <dt>पहुँच</dt><dd>केंद्रीय क़ानूनों में पूरे भारत में; राजस्व व काश्तकारी मामलों में राजस्थान; प्रवासी भारतीयों से वीडियो कॉल पर</dd>
+        <dt>भाषा</dt><dd>हिन्दी या अंग्रेज़ी; जहाँ मंच स्वीकार करे वहाँ हिन्दी अभिवचन</dd>
+      </dl>
+    </div>
+
+    <h2>कौन-से दस्तावेज़ अलग से तैयार हो सकते हैं?</h2>
+
+    <p>मोटे तौर पर वह सब कुछ जिसका मूल्य इस बात में है कि वह कैसे लिखा गया है, न कि इस बात में कि उसे लेकर बहस कौन करता है। अधिकांश काम चार समूहों में आता है।</p>
+
+    <div class="doc-grid">
+      <div class="doc-card">
+        <h3>नोटिस और जवाब</h3>
+        <ul>
+          <li>विधिक सूचना और माँग-पत्र (लीगल नोटिस)</li>
+          <li>चेक अनादरण की सूचना — धारा 138, परक्राम्य लिखत अधिनियम, 1881</li>
+          <li>बैंक के SARFAESI धारा 13(2) नोटिस के उत्तर में अभ्यावेदन</li>
+          <li>प्राप्त हुई विधिक सूचना का जवाब</li>
+          <li>याचिका या आवेदन का पैरावार जवाब</li>
+          <li>विभागीय कारण-बताओ नोटिस या आरोप-पत्र का जवाब</li>
+        </ul>
+      </div>
+      <div class="doc-card">
+        <h3>याचिकाएँ और आवेदन</h3>
+        <ul>
+          <li>ज़मानत आवेदन — नियमित धारा 483 BNSS, अग्रिम धारा 482 BNSS, डिफ़ॉल्ट धारा 187(2)</li>
+          <li>दांडिक प्रकीर्ण याचिकाएँ — धारा 528 BNSS</li>
+          <li>प्रतिभूतिकरण आवेदन — धारा 17, SARFAESI अधिनियम</li>
+          <li>वाद-पत्र, लिखित कथन और आपत्तियाँ</li>
+          <li>अनुच्छेद 226 व 227 के अंतर्गत रिट याचिकाएँ</li>
+          <li>अंतरिम, स्थानांतरण, शीघ्र-सुनवाई और विलम्ब-माफ़ी आवेदन</li>
+        </ul>
+      </div>
+      <div class="doc-card">
+        <h3>विलेख और दस्तावेज़</h3>
+        <ul>
+          <li>बेचान का इकरारनामा, विक्रय-विलेख और दान-विलेख</li>
+          <li>बँटवारानामा और पारिवारिक समझौते</li>
+          <li>वसीयत और उपवसीयत (कोडिसिल)</li>
+          <li>मुख़्तारनामा — आम और ख़ास</li>
+          <li>शपथ-पत्र और वचन-पत्र</li>
+          <li>किसी और के बनाए दस्तावेज़ की जाँच और सुधार</li>
+        </ul>
+      </div>
+      <div class="doc-card">
+        <h3>लिखित राय</h3>
+        <ul>
+          <li>आया हुआ नोटिस, आदेश या इकरारनामा पढ़कर लिखित में समझाना</li>
+          <li>दस्तावेज़ का वास्तविक अर्थ — सरल हिन्दी या अंग्रेज़ी में</li>
+          <li>खुले हुए रास्ते, और प्रत्येक में क्या लगेगा</li>
+          <li>कोई समय-सीमा चल रही हो तो उसका स्पष्ट उल्लेख</li>
+          <li>हस्ताक्षरित लिखित टिप्पणी — रिकॉर्ड पर रखने योग्य</li>
+        </ul>
+      </div>
+    </div>
+
+    <p>तीसरे समूह पर एक बात अलग से कहनी आवश्यक है। बहुत-सी टाली जा सकने वाली मुक़दमेबाज़ी उस दस्तावेज़ से शुरू होती है जिसे ठीक से बनवाने पर कोई ख़र्च नहीं करना चाहता था, और जिसे ध्यान से तब पढ़ा गया जब देर हो चुकी थी — वह बेचान का इकरारनामा जो कभी पंजीकृत नहीं हुआ, वह बँटवारा जो परिवार के WhatsApp समूह में दर्ज है, वह वसीयत जिस पर <strong>भारतीय उत्तराधिकार अधिनियम, 1925 की धारा 63</strong> के अनिवार्य दो गवाहों के स्थान पर एक ही गवाह है। किसी दस्तावेज़ को हस्ताक्षर से पहले पढ़वा लेना, बाद में उसे खोलने-सुधारने से कहीं छोटा काम है।</p>
+
+    <h2 id="opinion">क्या दस्तावेज़ केवल पढ़वाकर, लिखित राय ली जा सकती है — बिना कुछ बनवाए?</h2>
+
+    <p>हाँ, और प्रायः यही सही पहला क़दम है। लिखित राय इस कार्यालय का सबसे छोटा काम है: जो भी काग़ज़ आया हो — विधिक सूचना, बैंक की माँग, न्यायालय का आदेश, या हस्ताक्षर के लिए सामने रखा गया इकरारनामा — उसे भेजिए, और बदले में सरल हिन्दी या अंग्रेज़ी में एक संक्षिप्त हस्ताक्षरित टिप्पणी मिलती है: यह दस्तावेज़ वास्तव में क्या कहता है, कौन-से रास्ते खुले हैं, प्रत्येक में क्या लगेगा, और कोई वैधानिक घड़ी चल तो नहीं रही। यह फ़ोन की वह बात नहीं जो हवा में उड़ जाए; यह लिखा हुआ काग़ज़ है जिसे परिवार दो बार पढ़ सकता है और सँभालकर रख सकता है।</p>
+
+    <p>दो सीमाएँ स्पष्ट कह दी जाती हैं। लिखित राय दस्तावेज़ और स्थिति का आकलन है — पहले से नियुक्त किसी अधिवक्ता के कार्य पर टिप्पणी इस कार्यालय का काम नहीं है। और जहाँ ईमानदार उत्तर यह हो कि मामले को टिप्पणी नहीं, अदालत चाहिए, वहाँ राय यही कहकर रुक जाती है।</p>
+
+    <h2>क्या वसीयत भी इसी तरह बन सकती है?</h2>
+
+    <p>हाँ, और यह सबसे अधिक माँगे जाने वाले दस्तावेज़ों में है। वसीयत के लिए स्टाम्प पेपर आवश्यक नहीं, और उसका पंजीकरण <strong>रजिस्ट्रेशन अधिनियम, 1908 की धारा 18</strong> के अंतर्गत ऐच्छिक है — क़ानून वास्तव में जो माँगता है वह है धारा 63 के दो साक्ष्यांकन-गवाह, और अदालत उससे भी आगे कुछ माँगती है: ऐसी वसीयत जो चुनौती में टिके। नियंत्रक सिद्धांत <em>एच. वेंकटचल अयंगार बनाम बी.एन. थिम्मजम्मा</em> (सर्वोच्च न्यायालय, 1959) से आता है — वसीयत के इर्द-गिर्द की हर संदेहास्पद परिस्थिति उसे साबित करने वाले को ही दूर करनी होती है। इस कसौटी को ध्यान में रखकर बनी वसीयत टाइप किए फ़ॉर्म से भिन्न पढ़ी जाती है: निष्पक्ष गवाह, वृद्ध वसीयतकर्ता के लिए चिकित्सकीय स्वस्थता प्रमाण-पत्र, जहाँ किसी स्वाभाविक उत्तराधिकारी को कम मिले वहाँ कारणों का उल्लेख, और हर सम्पत्ति की पहचान वैसे ही जैसे राजस्व रिकॉर्ड उसे पहचानता है।</p>
+
+    <p>राजस्थान से जुड़ी एक बात का उल्लेख आवश्यक है, क्योंकि पूछी निरंतर जाती है और लिखी लगभग कहीं नहीं मिलती: <strong>खातेदारी कृषि-भूमि वसीयत से दी जा सकती है</strong> — <strong>राजस्थान काश्तकारी अधिनियम, 1955 की धारा 39</strong> के अंतर्गत, काश्तकार पर लागू व्यक्तिगत विधि के अनुसार — किंतु धारा 42 के प्रतिबंध के अधीन, जो अनुसूचित जाति या अनुसूचित जनजाति के सदस्य द्वारा अपने वर्ग से बाहर के व्यक्ति के पक्ष में की गई वसीयत को शून्य करती है। जहाँ वसीयत में कोई जोत शामिल हो, वहाँ खसरा नंबर, रक़बा और गाँव दस्तावेज़ में ही दर्ज होने चाहिए; वर्षों बाद होने वाला नामांतरण उसी शुद्धता की गति से चलता है।</p>
+
+    <p>इच्छाएँ कैसे ली जाएँ, यह पूरी तरह वसीयतकर्ता की सुविधा पर है — WhatsApp संदेश, वॉइस नोट, या कार्यालय-समय में फ़ोन; प्रश्न बातचीत में पूछे जाते हैं और किसी चरण पर कुछ भी लिखकर देना आवश्यक नहीं। वसीयत के क़ानून पर विस्तृत लेख: <a href="/articles/vasiyat-will-kaise-banaye-rajasthan-hi.html">वसीयत कैसे बनाएं — गवाह, रजिस्ट्रेशन और खातेदारी ज़मीन</a>।</p>
+
+    <h2>क्या ड्राफ्ट बनाने वाला वकील ही उसे दाख़िल करेगा?</h2>
+
+    <p>नहीं, और यही वह बात है जो अधिकांश लोग नहीं जानते। प्रारूपण और पैरवी अलग-अलग कार्य हैं। एक अधिवक्ता का तैयार किया अभिवचन वह अधिवक्ता दाख़िल कर सकता है और उस पर बहस कर सकता है जिसके पास उस न्यायालय का <em>वकालतनामा</em> है — अभिवचन तैयार करवाने के लिए वरिष्ठ को ब्रीफ़ देना पेशे के हर स्तर की सामान्य पद्धति है, और अच्छे प्रारूपण के लिए मुवक्किल को पूरा मुकदमा सौंपना आवश्यक नहीं।</p>
+
+    <p>इसका यह अर्थ भी है कि दूरी उतनी बड़ी बाधा नहीं जितनी दिखती है। <strong>अधिवक्ता अधिनियम, 1961 की धारा 30</strong> के अंतर्गत किसी भी राज्य की सूची में दर्ज अधिवक्ता पूरे भारत के न्यायालयों में विधि-व्यवसाय का हक़दार है। यहाँ तैयार किया गया जवाब, वाद-पत्र या आवेदन किसी भी राज्य में दाख़िल हो सकता है — मामले में पहले से लगे स्थानीय अधिवक्ता के माध्यम से, या जहाँ मंच अनुमति दे वहाँ इसी कार्यालय से। राज्य-दर-राज्य जो वास्तव में बदलता है वह है कोर्ट-फ़ीस, स्थानीय प्रक्रिया और किसी रजिस्ट्री की अपनी पद्धति — और जहाँ इसका असर दस्तावेज़ पर पड़ता है, वहाँ यह बात प्रारूपण से पहले कह दी जाती है, बाद में नहीं।</p>
+
+    <h2>ड्राफ्ट के काम आने लायक़ होने के लिए क्या भेजना होगा?</h2>
+
+    <ol class="steps">
+      <li><strong>किस प्रकार का दस्तावेज़ चाहिए।</strong> यदि यही अस्पष्ट है — जवाब या वाद, ज़मानत आवेदन या अपील — तो यही कहिए, और पहले यही तय होता है। ग़लत दस्तावेज़ का उत्तम प्रारूपण भी ग़लत दस्तावेज़ ही रहता है।</li>
+      <li><strong>मामला दो पंक्तियों में।</strong> पूरा इतिहास नहीं। क्या हुआ है, और सामने वाले पक्ष ने क्या किया है।</li>
+      <li><strong>रिकॉर्ड पर जो कुछ है, उसका हर पृष्ठ।</strong> नोटिस, आदेश, FIR, इकरारनामा, समन — पूरा फोटो, तारीख़ सहित, और जहाँ महत्व रखता हो वहाँ लिफ़ाफ़ा भी। आधा नोटिस आधा जवाब ही बनवाता है।</li>
+      <li><strong>तारीख़, अलग से।</strong> क्योंकि वह शुल्क नहीं, काम का क्रम तय करती है। जिस जवाब की घड़ी में ग्यारह दिन बचे हैं, वह उस विलेख से पहले उठाया जाता है जिस पर कोई समय-सीमा ही नहीं।</li>
+      <li><strong>शहर और राज्य।</strong> कौन-सा मंच — और इसलिए कौन-सी प्रक्रिया, कौन-सी कोर्ट-फ़ीस।</li>
+    </ol>
+
+    <h2>जवाब या आवेदन कितनी जल्दी तैयार होना चाहिए?</h2>
+
+    <p>यह किसी की पसंद से नहीं, क़ानून से तय होता है — और यही एक कारण है कि प्रारूपण का काम टालना नहीं चाहिए। SARFAESI की <strong>धारा 13(2)</strong> का माँग-नोटिस <strong>60 दिन</strong> चलता है, और कर्ज़दार का <strong>धारा 13(3A)</strong> का अभ्यावेदन उसी अवधि के भीतर ही जीवित है — बैंक को उसका उत्तर <strong>15 दिनों</strong> में देना होता है। <strong>धारा 13(4)</strong> की कार्रवाई हो जाने पर <strong>धारा 17</strong> का प्रतिभूतिकरण आवेदन <strong>45 दिनों</strong> के भीतर ऋण वसूली अधिकरण पहुँचना चाहिए; DRAT में <strong>धारा 18</strong> की अपील <strong>30 दिन</strong> और ऋण के <strong>50 प्रतिशत</strong> पूर्व-जमा के साथ चलती है, जिसे अधिकरण घटाकर न्यूनतम <strong>25 प्रतिशत</strong> तक कर सकता है।</p>
+
+    <p>अन्यत्र भी घड़ियाँ उतनी ही निर्मम हैं। चेक अनादरण की सूचना बैंक के मेमो से <strong>30 दिनों</strong> के भीतर जानी चाहिए, फिर लिखने वाले के पास भुगतान के <strong>15 दिन</strong> होते हैं, और परिवाद उस अवधि के बीतने से <strong>एक माह</strong> के भीतर दायर होता है। लिखित कथन समन की तामील से <strong>30 दिनों</strong> में देय है — <strong>सिविल प्रक्रिया संहिता, 1908 के आदेश VIII नियम 1</strong> — जो अधिकतम <strong>120 दिनों</strong> तक बढ़ सकता है; वाणिज्यिक विवाद में वह बाहरी सीमा निरपेक्ष है, समय निकल जाने पर दाख़िले का अधिकार ही समाप्त हो जाता है। <strong>अनुसूचित जाति/जनजाति (अत्याचार निवारण) अधिनियम, 1989</strong> के विशेष न्यायालय से ज़मानत नामंज़ूर हो तो चुनौती उसी न्यायालय में नई अर्ज़ी से नहीं, <strong>धारा 14A(2)</strong> की अपील से दी जाती है — <strong>90 दिनों</strong> के भीतर।</p>
+
+    <p>इनमें से हर अंक किसी ऐसे दस्तावेज़ पर छपा है जो किसी के फ़ोन में पहले से है। इसीलिए कहानी से पहले तारीख़ पूछी जाती है।</p>
+
+    <h2>काम कैसे तय होता है, और शुल्क कैसे?</h2>
+
+    <p>प्रत्येक दस्तावेज़ के अनुसार, और पहले से। कागज़ देख लेने के बाद WhatsApp पर तीन बातें तय होती हैं — दस्तावेज़ में ठीक-ठीक क्या शामिल होगा, समय कितना लगेगा, और उस पर लागू व्यावसायिक शुल्क क्या होगा। तीनों पर सहमति से पहले कुछ भी प्रारूपित नहीं होता, और पूछने भर से पूछने वाले पर कोई बाध्यता नहीं आती।</p>
+
+    <p>राशि यहाँ प्रकाशित नहीं है, और यह टालमटोल नहीं, नियम है: बार काउंसिल ऑफ़ इंडिया के नियम अधिवक्ता की वेबसाइट पर नाम, पता, टेलीफ़ोन, ईमेल, नामांकन संख्या, योग्यताएँ और कार्य-क्षेत्र की अनुमति देते हैं — शुल्क के विज्ञापन की नहीं। इसलिए उत्तर पूछताछ पर दिया जाता है — उसी व्यक्ति को, उसी दस्तावेज़ के लिए, जिसकी उसे वास्तव में आवश्यकता है।</p>
+
+    <h2 id="delivery">ड्राफ्ट कब मिलेगा?</h2>
+
+    <p><strong>सामान्य दस्तावेज़ों के लिए, पुष्टि के 48 घंटों के भीतर।</strong> पुष्टि का अर्थ है वह क्षण जब तीनों बातें तय हो जाएँ — काम की सीमा, पूरे कागज़ प्राप्त, और व्यावसायिक शुल्क सहमत। उस क्षण से घड़ी इस कार्यालय की ज़िम्मेदारी है, और यह प्रतिबद्धता विधिक सूचनाओं और जवाबों, लिखित रायों, वसीयतों, मुख़्तारनामों, शपथ-पत्रों, इकरारनामों और समझौता-विलेखों पर लागू है। 48 घंटे अदालती और कार्यालयी दिनों में समान रूप से चलते हैं; केवल शुक्रवार, जब यह कार्यालय बंद रहता है, उनमें नहीं गिना जाता।</p>
+
+    <p>बड़े दस्तावेज़ — रिट याचिकाएँ, अपीलें, प्रतिभूतिकरण आवेदन, भारी रिकॉर्ड पर टिके अभिवचन — ऐसी खिड़की में ठूँसे नहीं जाते जिसमें वे समाते नहीं। उनके लिए पुष्टि के समय ही एक निश्चित तिथि बता दी जाती है — कोई भी राशि हाथ बदलने से पहले — और फिर वह तिथि उसी तरह निभाई जाती है। जो यह कार्यालय नहीं करता, वह है किसी अनुरोध को अनिश्चित छोड़ना: हर पुष्ट काम के साथ एक कही हुई डिलीवरी-तिथि होती है, और जहाँ वैधानिक समय-सीमा सामान्य खिड़की से निकट हो, वहाँ काम क़ानून की घड़ी से क्रमबद्ध होता है, कतार से नहीं।</p>
+
+    <p>दस्तावेज़ PDF रूप में मिलता है — उसी प्रारूप में जो प्राप्त करने वाला मंच या कार्यालय वास्तव में स्वीकार करता है — साथ में सरल भाषा की एक संक्षिप्त टिप्पणी: यह दस्तावेज़ क्या करता है और इसका क्या करना है — हस्ताक्षर यहाँ, प्रेषण इस माध्यम से, यह प्रमाण सँभालकर। डिलीवरी के सात दिनों के भीतर एक बार संशोधन काम का हिस्सा है, अतिरिक्त नहीं।</p>
+
+    <div class="wa-cta">
+      <p>दस्तावेज़ का प्रकार, मामला दो पंक्तियों में, कागज़ और तारीख़ भेजिए। काम की सीमा और शुल्क प्रारूपण शुरू होने से पहले तय होते हैं — और सामान्य दस्तावेज़ पुष्टि के 48 घंटों के भीतर मिल जाते हैं।</p>
+      <a href="https://wa.me/917023051275" class="wa-cta-btn" target="_blank" rel="noopener noreferrer">💬 WhatsApp पर ड्राफ्टिंग अनुरोध भेजें</a>
+      <small>प्रारूपण की पूछताछ WhatsApp पर ली जाती है। फ़ोन के लिए कार्यालय-समय: रवि–गुरु व शनि, सायं 7–11 (शुक्रवार अवकाश)।</small>
+    </div>
+
+    <h2>क्या यह राजस्थान के बाहर से, या विदेश से हो सकता है?</h2>
+
+    <p>जहाँ क़ानून केंद्रीय है, वहाँ हाँ — SARFAESI अधिनियम, परक्राम्य लिखत अधिनियम, हिन्दू उत्तराधिकार अधिनियम, सम्पत्ति अंतरण अधिनियम, सिविल प्रक्रिया संहिता, BNSS और BNS हर राज्य में एक जैसे पढ़े जाते हैं, और उनके अंतर्गत बना दस्तावेज़ राज्य की सीमा पर नहीं बदलता।</p>
+
+    <p>प्रवासी भारतीय इस काम का नियमित हिस्सा हैं, और कहानी दोहराई जाती है: भारत में विरासत की सम्पत्ति, क़ब्ज़े में कोई भाई-बंधु या किरायेदार, किसी रिश्तेदार को मिला नोटिस, और वापस उड़कर आने की कोई वास्तविक संभावना नहीं। प्रायः जो चाहिए वह है सावधानी से सीमित मुख़्तारनामा, आए हुए नोटिस का जवाब, या बँटवारा अथवा समझौता-विलेख। इनमें से किसी के लिए यात्रा आवश्यक नहीं — कागज़ WhatsApp या ईमेल से आते-जाते हैं, और बात समय-अंतर के अनुकूल वीडियो कॉल पर हो जाती है।</p>
+
+    <p>राजस्थान का राजस्व और काश्तकारी काम वह अपवाद है जो स्थानीय ही रहता है। नामांतरण, <em>खातेदारी</em> और राजस्व न्यायालयों के समक्ष बँटवारा राजस्थान भू-राजस्व अधिनियम, 1956 और राजस्थान काश्तकारी अधिनियम, 1955 पर चलते हैं और यहीं से सीधे देखे जाते हैं — विस्तार से: <a href="/articles/property-mutation-namantaran-apna-khata-rajasthan-hi.html">नामांतरण और राजस्व रिकॉर्ड सुधार</a>।</p>
+
+    <h2>तैयार दस्तावेज़ क्या नहीं करता</h2>
+
+    <p>वह पैरवी उत्पन्न नहीं करता। दाख़िला, उपस्थिति, अंतरिम आवेदन पर बहस और उसके आगे का सब कुछ अलग काम है — और जहाँ मामले को स्पष्टतः डाक में भेजा दस्तावेज़ नहीं, अदालत में खड़ा वकील चाहिए, वहाँ यह बात प्रारूपण का शुल्क लेने के बाद नहीं, शुरुआत में ही कह दी जाती है। वह परिणाम का वचन नहीं देता; धारा 13(2) के नोटिस का सुगठित जवाब रिकॉर्ड सुधारता है और धारा 17 का उपाय सुरक्षित रखता है, किंतु बैंक को पीछे हटने के लिए बाध्य नहीं करता। वह निकल चुकी परिसीमा को पुनर्जीवित नहीं कर सकता — यद्यपि विलम्ब-माफ़ी का पक्ष जितना अच्छा रखा जा सकता है, रख सकता है। और वह आधे बताए तथ्यों पर नहीं टिक सकता — जिन तथ्यों को मुवक्किल ने काट-छाँटकर बताया हो, उन पर बना अभिवचन जिरह में सम्पत्ति नहीं, दायित्व सिद्ध होता है।</p>
+
+    <p>यदि वास्तव में दस्तावेज़ नहीं, आकलन चाहिए, तो वह <a href="/consultation.html">परामर्श</a> है — और आरंभ के लिए वही बेहतर स्थान है।</p>
+
+    <div class="art-contact">
+      <div class="art-contact-title">Shubham Ojha &amp; Associates, Advocates</div>
+      <div class="art-contact-line">
+        राजस्थान उच्च न्यायालय &nbsp;·&nbsp; नामांकन संख्या R/2958/2020 (बार काउंसिल ऑफ़ राजस्थान)<br>
+        H. No. 245, सरदार क्लब के सामने, रातानाडा, जोधपुर 342001<br>
+        <a href="tel:+917023051275">+91 70230 51275</a> &nbsp;·&nbsp; <a href="mailto:shubham@shubhamojhaandassociates.com">shubham@shubhamojhaandassociates.com</a> &nbsp;·&nbsp; <a href="https://wa.me/917023051275" target="_blank" rel="noopener">WhatsApp</a><br>
+        कार्यालय-समय: रवि–गुरु व शनि, सायं 7–11 (शुक्रवार अवकाश)
+      </div>
+    </div>
+    <div class="art-disclaimer">यह पृष्ठ सूचनात्मक है और पाठक की अपनी पूछताछ पर उपलब्ध कराया गया है। बार काउंसिल ऑफ़ इंडिया के नियमों के अनुसार अधिवक्ता विज्ञापन या कार्य-याचना नहीं करते; यहाँ कुछ भी विज्ञापन, याचना, प्रलोभन या विधिक परामर्श नहीं है, कोई शुल्क उद्धृत या प्रस्तावित नहीं है, और इस पृष्ठ को पढ़ने से अधिवक्ता–मुवक्किल संबंध उत्पन्न नहीं होता। वैधानिक प्रावधान प्रकाशन की तिथि के अनुसार हैं और किसी विशेष मामले पर लागू स्थिति से मिलाकर ही उपयोग किए जाएँ।</div>
+
+    <div class="related-section">
+      <div class="related-title">संबंधित पठन</div>
+      <div class="related-grid">
+        <a href="/consultation.html" class="related-card">
+          <span class="related-card-tag">Firm</span>
+          <div class="related-card-title">फ़ोन या वीडियो पर अधिवक्ता से परामर्श</div>
+        </a>
+        <a href="/articles/vasiyat-will-kaise-banaye-rajasthan-hi.html" class="related-card">
+          <span class="related-card-tag">Property</span>
+          <div class="related-card-title">वसीयत कैसे बनाएं — गवाह, रजिस्ट्रेशन और खातेदारी ज़मीन</div>
+        </a>
+        <a href="/articles/property-mutation-namantaran-apna-khata-rajasthan-hi.html" class="related-card">
+          <span class="related-card-tag">Revenue</span>
+          <div class="related-card-title">नामांतरण और राजस्व रिकॉर्ड सुधार — अपना खाता</div>
+        </a>
+        <a href="/articles/cheque-bounce-section-138-ni-act-hi.html" class="related-card">
+          <span class="related-card-tag">Commercial</span>
+          <div class="related-card-title">चेक बाउंस — धारा 138 की समय-सीमाएँ</div>
+        </a>
+        <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" class="related-card">
+          <span class="related-card-tag">Banking</span>
+          <div class="related-card-title">बैंक का SARFAESI नोटिस और DRT का उपाय</div>
+        </a>
+        <a href="/drafting.html" class="related-card">
+          <span class="related-card-tag">English</span>
+          <div class="related-card-title">This page in English — Standalone Document Drafting</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</article>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+    <div class="art-footer-name">Shubham Ojha &amp; Associates</div>
+    <p class="art-footer-copy">Advocates at the Rajasthan High Court &nbsp;|&nbsp; Enrolment No. R/2958/2020 (Bar Council of Rajasthan) &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2026 All rights reserved.</p>
+  </div>
+</footer>
+<div class="bci-bar"><p><strong style="color:rgba(255,255,255,0.6);">Bar Council of India Notice:</strong> This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.</p></div>
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+  <a href="tel:+917023051275" class="mobile-cta-call">📞 कॉल करें</a>
+  <a href="https://wa.me/917023051275" class="mobile-cta-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+</div>
+</body>
+</html>
