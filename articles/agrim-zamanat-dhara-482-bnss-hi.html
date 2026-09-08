@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GJNCXM2691');
+document.addEventListener('click', function(e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  var p = location.pathname;
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call', source_page: p});
+  else if (h.indexOf('wa.me') !== -1) gtag('event', 'generate_lead', {method: 'whatsapp', source_page: p});
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email', source_page: p});
+});
+document.addEventListener('DOMContentLoaded', function() {
+  var t = (document.title || '').split('|')[0].trim();
+  if (t.length > 60) { t = t.slice(0, 60); var k = t.lastIndexOf(' '); if (k > 20) t = t.slice(0, k); t = t.replace(/[\s:,\-–—]+$/, '') + '…'; }
+  var hi = (document.documentElement.getAttribute('lang') || 'en').indexOf('hi') === 0;
+  var wa = hi
+    ? 'नमस्ते। मैंने आपकी वेबसाइट पर "' + t + '" पढ़ा।\nमेरी समस्या और शहर — '
+    : 'Hello. I read "' + t + '" on your website.\nMy problem, and my city — ';
+  var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
+  for (var i = 0; i < L.length; i++) {
+    var u = L[i].getAttribute('href');
+    if (u.indexOf('text=') === -1) L[i].setAttribute('href', u + (u.indexOf('?') === -1 ? '?' : '&') + 'text=' + encodeURIComponent(wa));
+  }
+  var M = document.querySelectorAll('a[href^="mailto:"]');
+  for (var j = 0; j < M.length; j++) {
+    var m = M[j].getAttribute('href');
+    if (m.indexOf('subject=') === -1) M[j].setAttribute('href', m + (m.indexOf('?') === -1 ? '?' : '&') + 'subject=' + encodeURIComponent((hi ? 'वेबसाइट पूछताछ — ' : 'Website enquiry — ') + t) + '&body=' + encodeURIComponent(wa));
+  }
+});
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>धारा 482 BNSS (अग्रिम ज़मानत) हिंदी में — पूरा पाठ, शर्तें और प्रक्रिया | शुभम ओझा एवं एसोसिएट्स</title>
+<meta name="description" content="BNSS 2023 की धारा 482 — अग्रिम ज़मानत (anticipatory bail) का मूल पाठ, हर उप-धारा का हिंदी सार, 482(4) की रोक, court कौन-सी शर्तें लगाती है, और Sessions Court या Rajasthan High Court, Jodhpur में आवेदन कैसे होता है।">
+<meta name="author" content="शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation)">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://shubhamojhaandassociates.com/articles/agrim-zamanat-dhara-482-bnss-hi.html">
+<link rel="alternate" hreflang="en" href="https://shubhamojhaandassociates.com/articles/anticipatory-bail-bnss.html">
+<link rel="alternate" hreflang="hi" href="https://shubhamojhaandassociates.com/articles/agrim-zamanat-dhara-482-bnss-hi.html">
+<link rel="alternate" hreflang="x-default" href="https://shubhamojhaandassociates.com/articles/anticipatory-bail-bnss.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b1a3a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="धारा 482 BNSS (अग्रिम ज़मानत) हिंदी में — पूरा पाठ, शर्तें और प्रक्रिया">
+<meta property="og:description" content="BNSS 2023 की धारा 482 — अग्रिम ज़मानत (anticipatory bail) का मूल पाठ, हर उप-धारा का हिंदी सार, 482(4) की रोक, court कौन-सी शर्तें लगाती है, और Sessions Court या Rajasthan High Court, Jodhpur में आवेदन कैसे होता है।">
+<meta property="og:url" content="https://shubhamojhaandassociates.com/articles/agrim-zamanat-dhara-482-bnss-hi.html">
+<meta property="og:locale" content="hi_IN">
+<meta property="og:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<meta property="og:site_name" content="Shubham Ojha &amp; Associates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="धारा 482 BNSS (अग्रिम ज़मानत) हिंदी में — पूरा पाठ, शर्तें और प्रक्रिया">
+<meta name="twitter:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<style>
+:root{--navy:#0b1a3a;--navy-dark:#060f22;--gold:#c7a35a;--gold-light:#d4b575;--white:#ffffff;--off-white:#f8f6f1;--text-dark:#1a1a2e;--text-mid:#3a3a5c;--text-light:#6b6b8a;--shadow:0 4px 24px rgba(11,26,58,0.12);--font-serif:'Noto Serif Devanagari','Cormorant Garamond',Georgia,serif;--font-sans:'Noto Sans Devanagari','Inter',system-ui,sans-serif;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:var(--font-sans);background:var(--white);color:var(--text-dark);line-height:1.8;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.art-nav{background:rgba(11,26,58,0.97);padding:0 24px;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:900px;margin:0 auto;}
+.art-nav-brand{display:flex;align-items:center;gap:10px;}
+.art-nav-logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#c7a35a,#d4b575);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:700;color:#060f22;flex-shrink:0;}
+.art-nav-name{font-family:var(--font-serif);font-size:1rem;font-weight:600;color:var(--white);line-height:1.1;}
+.art-nav-sub{font-size:0.68rem;color:var(--gold);letter-spacing:0.03em;}
+.art-nav-links{display:flex;gap:8px;align-items:center;}
+.art-nav-links a{font-size:0.8rem;color:rgba(255,255,255,0.75);padding:7px 14px;border-radius:4px;transition:all .3s;}
+.art-nav-links a:hover{color:var(--gold);background:rgba(199,163,90,0.1);}
+.art-lang{font-size:0.72rem;color:var(--gold);border:1px solid rgba(199,163,90,0.4);}
+.breadcrumb{background:var(--off-white);border-bottom:1px solid rgba(199,163,90,0.12);padding:10px 24px;}
+.breadcrumb-inner{max-width:900px;margin:0 auto;font-size:0.78rem;color:var(--text-light);display:flex;align-items:center;flex-wrap:wrap;gap:6px;}
+.breadcrumb-inner a{color:var(--gold);}
+.breadcrumb-sep{color:var(--text-light);}
+.art-container{max-width:900px;margin:0 auto;padding:48px 24px 72px;}
+.art-header{margin-bottom:36px;padding-bottom:28px;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-tag{display:inline-block;background:var(--gold);color:var(--navy-dark);font-size:0.7rem;font-weight:700;letter-spacing:0.04em;padding:4px 12px;border-radius:2px;margin-bottom:16px;}
+.art-title{font-family:var(--font-serif);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:700;color:var(--navy);line-height:1.35;margin-bottom:16px;}
+.art-byline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:0.82rem;color:var(--text-light);margin-bottom:8px;}
+.art-byline-author{color:var(--gold);font-weight:600;}
+.art-byline-dot{width:3px;height:3px;border-radius:50%;background:var(--text-light);}
+.art-body p{font-size:1.02rem;color:var(--text-mid);line-height:2;margin-bottom:22px;}
+.art-body strong{color:var(--text-dark);font-weight:600;}
+.art-body em{font-style:normal;color:var(--navy);font-weight:500;}
+.art-disclaimer{background:var(--off-white);border-left:3px solid var(--gold);padding:14px 18px;margin:36px 0 0;font-size:0.84rem;color:var(--text-light);line-height:1.7;border-radius:0 4px 4px 0;}
+.art-contact{background:var(--off-white);border:1px solid rgba(199,163,90,0.2);border-radius:8px;padding:22px 26px;margin:36px 0;}
+.art-contact-title{font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);margin-bottom:6px;}
+.art-contact-line{font-size:0.92rem;color:var(--text-mid);}
+.art-contact-line a{color:var(--gold);font-weight:600;}
+.related-section{margin-top:56px;padding-top:36px;border-top:1px solid rgba(199,163,90,0.15);}
+.related-title{font-family:var(--font-serif);font-size:1.4rem;font-weight:600;color:var(--navy);margin-bottom:20px;}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.related-card{border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:18px;background:var(--off-white);transition:all .3s;}
+.related-card:hover{border-color:rgba(199,163,90,0.4);box-shadow:var(--shadow);transform:translateY(-3px);}
+.related-card-tag{font-size:0.68rem;font-weight:700;letter-spacing:0.04em;color:var(--gold);margin-bottom:8px;display:block;}
+.related-card-title{font-family:var(--font-serif);font-size:1rem;font-weight:600;color:var(--navy);line-height:1.4;}
+.art-footer{background:var(--navy-dark);color:rgba(255,255,255,0.55);padding:32px 24px;text-align:center;}
+.art-footer-inner{max-width:900px;margin:0 auto;}
+.art-footer-name{font-family:var(--font-serif);font-size:1.1rem;color:var(--white);margin-bottom:8px;}
+.art-footer-copy{font-size:0.78rem;}
+.bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
+.bci-bar p{font-size:0.74rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.7;}
+@media(max-width:640px){.related-grid{grid-template-columns:1fr;}}
+.wa-button{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);}
+</style>
+<style>
+.statute{background:#fbfaf6;border:1px solid rgba(199,163,90,.45);border-radius:8px;padding:22px 26px;margin:8px 0 32px;}
+.statute-h{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--navy);margin:0 0 4px;}
+.statute-src{font-size:.78rem;color:var(--text-light);margin:0 0 14px;letter-spacing:.02em;}
+.statute-sub{font-size:.95rem;line-height:1.8;color:var(--text-dark);margin:0 0 12px;padding-left:2.6em;text-indent:-2.6em;}
+.statute-sub b{color:var(--navy);display:inline-block;width:2.6em;text-indent:0;}
+.statute-hi{font-size:.97rem;line-height:1.95;color:var(--text-mid);margin:0 0 16px;padding:10px 14px;border-left:3px solid var(--gold);background:var(--off-white);}
+.statute-note{font-size:.8rem;color:var(--text-light);margin:10px 0 0;line-height:1.6;}
+.art-body h2{font-family:var(--font-serif);font-size:1.45rem;font-weight:600;color:var(--navy);margin:36px 0 14px;line-height:1.35;}
+.dl-box{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:var(--navy);color:#f8f6f1;border-radius:10px;padding:18px 22px;margin:0 0 30px;}
+.dl-box a{color:var(--gold);font-weight:700;text-decoration:underline;}
+.dl-box .dl-ic{font-size:1.9rem;line-height:1;}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "inLanguage": "hi",
+  "headline": "धारा 482 BNSS (अग्रिम ज़मानत) हिंदी में — पूरा पाठ, शर्तें और प्रक्रिया",
+  "description": "BNSS 2023 की धारा 482 — अग्रिम ज़मानत (anticipatory bail) का मूल पाठ, हर उप-धारा का हिंदी सार, 482(4) की रोक, court कौन-सी शर्तें लगाती है, और Sessions Court या Rajasthan High Court, Jodhpur में आवेदन कैसे होता है।",
+  "author": {
+    "@type": "Person",
+    "name": "Shubham Ojha",
+    "jobTitle": "Advocate",
+    "description": "BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur",
+    "worksFor": {
+      "@type": "LegalService",
+      "name": "Shubham Ojha & Associates",
+      "url": "https://shubhamojhaandassociates.com"
+    }
+  },
+  "publisher": {
+    "@type": "LegalService",
+    "name": "Shubham Ojha & Associates",
+    "url": "https://shubhamojhaandassociates.com"
+  },
+  "datePublished": "2026-09-09",
+  "dateModified": "2026-09-09",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shubhamojhaandassociates.com/articles/agrim-zamanat-dhara-482-bnss-hi.html"
+  },
+  "keywords": "482 bnss in hindi, dhara 482 bnss, agrim zamanat, anticipatory bail in hindi, धारा 482 बीएनएसएस, अग्रिम ज़मानत, 438 crpc in bnss, section 482 bnss hindi",
+  "articleSection": "Criminal Law"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "मुख्य पृष्ठ",
+      "item": "https://shubhamojhaandassociates.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "विधिक जानकारी",
+      "item": "https://shubhamojhaandassociates.com/#articles"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "धारा 482 BNSS (अग्रिम ज़मानत) हिंदी में — पूरा पाठ, शर्तें और प्रक्रिया",
+      "item": "https://shubhamojhaandassociates.com/articles/agrim-zamanat-dhara-482-bnss-hi.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "hi",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "क्या FIR दर्ज होने से पहले अग्रिम ज़मानत का आवेदन हो सकता है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "हाँ। धारा 482(1) की शर्त FIR नहीं, बल्कि \"गिरफ़्तारी का विश्वास करने का कारण\" (reason to believe) है। पुलिस का नोटिस, किसी शिकायत की जानकारी या जाँच में नाम आना — इनसे यह कारण बनता है। पर आशंका ठोस होनी चाहिए; केवल डर या अटकल पर आवेदन खारिज होता है।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "अग्रिम ज़मानत कितने समय तक चलती है?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "सुप्रीम कोर्ट की संविधान पीठ ने सुशीला अग्रवाल बनाम राज्य (NCT दिल्ली), 2020 में तय किया कि अग्रिम ज़मानत किसी निश्चित अवधि तक सीमित नहीं होती और सामान्यतः मुक़दमे के अंत तक चल सकती है — जब तक न्यायालय विशेष कारणों से उसे सीमित न करे। इसलिए \"चार्जशीट के बाद ख़त्म हो जाती है\" वाली धारणा ग़लत है।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "पहले Sessions Court जाएँ या सीधे High Court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "धारा 482(1) दोनों को अधिकार देती है। जोधपुर में सामान्य व्यवहार यही है कि पहले सत्र न्यायालय में आवेदन हो; अस्वीकार होने पर उच्च न्यायालय में। सीधे उच्च न्यायालय जाने पर प्रायः पूछा जाता है कि सत्र न्यायालय क्यों नहीं गए — विशेष कारण हों (जैसे गिरफ़्तारी अत्यंत आसन्न हो या मामला बहु-ज़िला हो) तो सीधे आवेदन संभव है।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "किन अपराधों में धारा 482 के तहत अग्रिम ज़मानत बिल्कुल नहीं मिलती?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "धारा 482(4) स्वयं दो अपराधों को बाहर रखती है — भारतीय न्याय संहिता, 2023 की धारा 65 (16 वर्ष से कम आयु की स्त्री से बलात्संग) और धारा 70(2) (18 वर्ष से कम आयु की स्त्री से सामूहिक बलात्संग)। इनके अलावा SC/ST (अत्याचार निवारण) अधिनियम की धारा 18 अपनी रोक लगाती है, और NDPS अधिनियम की धारा 37 की दोहरी शर्तें व्यावहारिक रूप से इसे बहुत कठिन बना देती हैं — पर वे 482(4) की रोक नहीं, अलग क़ानून हैं।"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "अग्रिम ज़मानत मिलने के बाद गिरफ़्तारी हो जाए तो?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "धारा 482(3) का यही काम है — यदि थाना प्रभारी उसी आरोप में बिना वारंट गिरफ़्तार करे और व्यक्ति ज़मानत देने को तैयार हो, तो उसे छोड़ना होगा। आदेश की प्रमाणित प्रति हमेशा साथ रखें और परिवार के पास भी एक प्रति हो।"
+      }
+    }
+  ]
+}
+</script>
+<style>.mobile-cta-bar{display:none;}@media(max-width:768px){.mobile-cta-bar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:998;box-shadow:0 -4px 20px rgba(6,15,34,0.25);}.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;}.mobile-cta-call{background:#c7a35a;color:#060f22;}.mobile-cta-wa{background:#1da851;color:#fff;}.wa-button{bottom:76px;}body{padding-bottom:70px;}}</style>
+</head>
+<body>
+<nav class="art-nav">
+  <div class="art-nav-inner">
+    <a href="/" class="art-nav-brand">
+      <div class="art-nav-logo">SO</div>
+      <div>
+        <div class="art-nav-name">शुभम ओझा एवं एसोसिएट्स</div>
+        <div class="art-nav-sub">अधिवक्ता एवं विधिक परामर्शदाता</div>
+      </div>
+    </a>
+    <div class="art-nav-links">
+      <a href="/#articles">← सभी लेख</a>
+      <a href="/articles/anticipatory-bail-bnss.html" class="art-lang">English</a>
+    </div>
+  </div>
+</nav>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="/">मुख्य पृष्ठ</a><span class="breadcrumb-sep">›</span>
+    <a href="/#articles">विधिक जानकारी</a><span class="breadcrumb-sep">›</span>
+    <span>धारा 482 BNSS — अग्रिम ज़मानत</span>
+  </div>
+</div>
+<div class="art-container">
+  <div class="art-header">
+    <div class="art-tag">आपराधिक विधि</div>
+    <h1 class="art-title">धारा 482 BNSS (अग्रिम ज़मानत) हिंदी में — पूरा पाठ, शर्तें और प्रक्रिया</h1>
+    <div class="art-byline">
+      <span class="art-byline-author">लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर</span>
+      <span class="art-byline-dot"></span><span>सितंबर 2026</span>
+    </div>
+  </div>
+  <div class="art-body">
+
+    <div class="statute-hi" style="margin:0 0 26px;font-size:1.03rem;color:var(--text-dark);">
+      <strong>एक पंक्ति में —</strong> धारा 482 BNSS वह प्रावधान है जिसके तहत गिरफ़्तारी से <em>पहले</em> ज़मानत मिलती है (पुरानी CrPC की धारा 438)। आवेदन सत्र न्यायालय या उच्च न्यायालय में होता है; शर्तें उप-धारा (2) में हैं; और उप-धारा (4) दो अपराधों को इससे पूरी तरह बाहर रखती है। नीचे धारा का पूरा पाठ, हर उप-धारा का हिंदी सार, और जोधपुर की अदालतों में यह व्यवहार में कैसे चलती है।
+    </div>
+
+<div class="statute" id="text">
+<div class="statute-h">धारा 482 का मूल पाठ (Bare Act)</div>
+<div class="statute-src">भारतीय नागरिक सुरक्षा संहिता, 2023 (अधिनियम सं. 46 of 2023) — अंग्रेज़ी पाठ यथावत; हिंदी सार अनौपचारिक अनुवाद है, प्रामाणिक पाठ अंग्रेज़ी ही है। पुरानी दंड प्रक्रिया संहिता, 1973 की धारा 438 का स्थान।</div>
+<p class="statute-sub"><b>(1)</b>When any person has reason to believe that he may be arrested on an accusation of having committed a non-bailable offence, he may apply to the High Court or the Court of Session for a direction under this section; and that Court may, if it thinks fit, direct that in the event of such arrest, he shall be released on bail.</p>
+<p class="statute-hi"><strong>हिंदी सार (1) —</strong> जिस व्यक्ति के पास यह विश्वास करने का कारण हो कि उसे किसी अजमानती (non-bailable) अपराध के आरोप में गिरफ़्तार किया जा सकता है, वह उच्च न्यायालय या सत्र न्यायालय में इस धारा के अधीन निदेश के लिए आवेदन कर सकता है; और वह न्यायालय, उचित समझे तो, निदेश दे सकता है कि गिरफ़्तारी की स्थिति में उसे ज़मानत पर छोड़ दिया जाए।</p>
+<p class="statute-sub"><b>(2)</b>When the High Court or the Court of Session makes a direction under sub-section (1), it may include such conditions in such directions in the light of the facts of the particular case, as it may think fit, including— (i) a condition that the person shall make himself available for interrogation by a police officer as and when required; (ii) a condition that the person shall not, directly or indirectly, make any inducement, threat or promise to any person acquainted with the facts of the case so as to dissuade him from disclosing such facts to the Court or to any police officer; (iii) a condition that the person shall not leave India without the previous permission of the Court; (iv) such other condition as may be imposed under sub-section (3) of section 480, as if the bail were granted under that section.</p>
+<p class="statute-hi"><strong>हिंदी सार (2) —</strong> निदेश देते समय न्यायालय मामले के तथ्यों के अनुसार शर्तें लगा सकता है — (i) पुलिस अधिकारी द्वारा पूछताछ के लिए जब भी बुलाया जाए, उपलब्ध रहना; (ii) मामले के तथ्यों से परिचित किसी व्यक्ति को प्रत्यक्ष या परोक्ष रूप से कोई प्रलोभन, धमकी या वचन न देना, ताकि वह न्यायालय या पुलिस को तथ्य बताने से विमुख न हो; (iii) न्यायालय की पूर्व अनुमति के बिना भारत न छोड़ना; (iv) धारा 480(3) के अधीन लगाई जा सकने वाली कोई अन्य शर्त।</p>
+<p class="statute-sub"><b>(3)</b>If such person is thereafter arrested without warrant by an officer in charge of a police station on such accusation, and is prepared either at the time of arrest or at any time while in the custody of such officer to give bail, he shall be released on bail; and if a Magistrate taking cognizance of such offence decides that a warrant should be issued in the first instance against that person, he shall issue a bailable warrant in conformity with the direction of the Court under sub-section (1).</p>
+<p class="statute-hi"><strong>हिंदी सार (3) —</strong> यदि ऐसे व्यक्ति को बाद में उसी आरोप में थाना प्रभारी बिना वारंट गिरफ़्तार करे और वह गिरफ़्तारी के समय या हिरासत में रहते हुए ज़मानत देने को तैयार हो, तो उसे ज़मानत पर छोड़ा जाएगा; और यदि संज्ञान लेने वाला मजिस्ट्रेट पहले ही वारंट जारी करने का निर्णय ले, तो वह उप-धारा (1) के निदेश के अनुरूप जमानती वारंट (bailable warrant) जारी करेगा।</p>
+<p class="statute-sub"><b>(4)</b>Nothing in this section shall apply to any case involving the arrest of any person on accusation of having committed an offence under section 65 and sub-section (2) of section 70 of the Bharatiya Nyaya Sanhita, 2023.</p>
+<p class="statute-hi"><strong>हिंदी सार (4) —</strong> यह धारा भारतीय न्याय संहिता, 2023 की धारा 65 और धारा 70 की उप-धारा (2) के अपराधों के आरोप में गिरफ़्तारी पर लागू नहीं होगी।</p>
+</div>
+
+    <h2>"482 BNSS" खोजने वाले असल में क्या पूछ रहे हैं</h2>
+
+    <p>इस धारा पर मुझसे रोज़ जो सवाल आते हैं, वे क़ानून की किताब के नहीं होते। सवाल यह होता है कि पुलिस का फ़ोन आया है, थाने बुलाया है, या किसी रिश्तेदार ने बताया कि रिपोर्ट लिखवा दी गई है — अब क्या करें। धारा 482 का उत्तर सीधा है: अगर अपराध अजमानती (non-bailable) है और गिरफ़्तारी का <em>वास्तविक</em> अंदेशा है, तो गिरफ़्तारी का इंतज़ार करने की ज़रूरत नहीं है; न्यायालय पहले ही निदेश दे सकता है कि गिरफ़्तारी हो तो ज़मानत पर छोड़ा जाए। यह ज़मानत नहीं, ज़मानत का <em>निदेश</em> है — फ़र्क़ उप-धारा (3) पढ़ने पर समझ आता है।</p>
+
+    <h2>FIR ज़रूरी नहीं — "reason to believe" ज़रूरी है</h2>
+
+    <p>उप-धारा (1) में FIR शब्द है ही नहीं। शर्त है "reason to believe that he may be arrested" — यानी यह विश्वास करने का कारण कि गिरफ़्तारी हो सकती है। व्यवहार में यह कारण तीन तरह से बनता है: पुलिस का धारा 35(3) BNSS के अधीन हाज़िर होने का नोटिस (पुरानी धारा 41A), किसी दर्ज FIR में नाम होना, या किसी परिवाद/शिकायत की विश्वसनीय जानकारी। जोधपुर की अदालतें आवेदन के साथ इस "कारण" का आधार देखती हैं — नोटिस की प्रति, FIR की प्रति, या कम-से-कम शिकायत का सार। केवल "डर लग रहा है" पर आवेदन नहीं टिकता; सुप्रीम कोर्ट ने <em>गुरबख्श सिंह सिब्बिया बनाम पंजाब राज्य</em> (1980) में ही कहा था कि आशंका ठोस और विशिष्ट होनी चाहिए, अस्पष्ट या काल्पनिक नहीं।</p>
+
+    <h2>सत्र न्यायालय या उच्च न्यायालय — जोधपुर में व्यवहार</h2>
+
+    <p>क़ानून दोनों विकल्प देता है और दोनों का क्षेत्राधिकार समवर्ती (concurrent) है। लेकिन व्यवहार में क्रम है। सामान्य मामलों में आवेदन पहले संबंधित सत्र न्यायाधीश के यहाँ जाता है; वहाँ अस्वीकार होने पर राजस्थान उच्च न्यायालय की जोधपुर पीठ में नया आवेदन होता है — यह अपील नहीं, स्वतंत्र आवेदन है। सीधे उच्च न्यायालय पहुँचने पर पहला प्रश्न प्रायः यही होता है कि सत्र न्यायालय क्यों नहीं गए। विशेष परिस्थिति — गिरफ़्तारी अत्यंत आसन्न हो, मामला कई ज़िलों में फैला हो, या सत्र न्यायालय में सुनवाई की तारीख़ बहुत दूर हो — हो तो सीधे आवेदन का औचित्य बनता है, और उसे आवेदन में लिखना पड़ता है।</p>
+
+    <p>एक व्यावहारिक बात जो परिवार अक्सर नहीं जानते: सत्र न्यायालय में आवेदन लगते ही न्यायालय राज्य को नोटिस देकर अंतरिम संरक्षण (interim protection) दे सकता है — "अगली तारीख़ तक गिरफ़्तारी न हो, जाँच में सहयोग करें" — ताकि सुनवाई तक व्यक्ति सुरक्षित रहे। यही अंतरिम आदेश असल में सबसे पहले माँगा जाता है।</p>
+
+    <h2>न्यायालय क्या देखता है</h2>
+
+    <p>धारा 482 में आधार गिनाए नहीं गए हैं; वे निर्णयों से आए हैं। अदालत देखती है — आरोप की प्रकृति और गंभीरता; आवेदक का पूर्व-इतिहास (पहले कोई दोषसिद्धि या मामला?); भागने की संभावना; क्या आरोप किसी को अपमानित करने या दबाव बनाने के लिए लगाया गया है; और क्या हिरासत में पूछताछ (custodial interrogation) वास्तव में आवश्यक है। अंतिम बिंदु पर ही अधिकतर मामले तय होते हैं — यदि दस्तावेज़ पहले से पुलिस के पास हैं और आवेदक पूछताछ में हाज़िर होने को तैयार है, तो हिरासत का औचित्य कमज़ोर पड़ता है। आवेदन में यह प्रस्ताव स्पष्ट लिखना — "पूछताछ के लिए जब भी बुलाया जाए, उपस्थित रहेंगे" — उप-धारा (2)(i) की शर्त को स्वयं स्वीकारना है, और अदालतें इसे सकारात्मक रूप में लेती हैं।</p>
+
+    <h2>अवधि: चार्जशीट के बाद ख़त्म नहीं होती</h2>
+
+    <p>एक ग़लतफ़हमी जो वर्षों से चली आ रही थी — कि अग्रिम ज़मानत "चार्जशीट तक" या "कुछ हफ़्तों तक" ही रहती है — सुप्रीम कोर्ट की पाँच-न्यायाधीशों की पीठ ने <em>सुशीला अग्रवाल बनाम राज्य (NCT दिल्ली)</em>, 2020 में समाप्त कर दी। निर्णय यह है कि अग्रिम ज़मानत किसी समय-सीमा से बँधी नहीं है और सामान्यतः मुक़दमे के अंत तक चल सकती है; न्यायालय विशेष कारणों से उसे सीमित कर सकता है, पर सीमित करना नियम नहीं, अपवाद है। इसलिए आदेश मिलने के बाद यह मानकर न बैठें कि नियमित ज़मानत का अलग आवेदन अनिवार्य है — आदेश की भाषा पढ़ें; यदि उसमें कोई अवधि नहीं लिखी, तो वह मुक़दमे के अंत तक प्रभावी है।</p>
+
+    <h2>उप-धारा (4) की रोक, और वे क़ानून जो अपनी रोक लाते हैं</h2>
+
+    <p>धारा 482(4) केवल दो अपराधों को बाहर रखती है — भारतीय न्याय संहिता की धारा 65 और धारा 70(2), दोनों नाबालिग स्त्री से बलात्संग/सामूहिक बलात्संग से संबंधित। इन मामलों में इस धारा के अधीन आवेदन विचारणीय ही नहीं है। इसके बाहर कठिनाई क़ानूनी नहीं, व्यावहारिक है। अनुसूचित जाति/जनजाति (अत्याचार निवारण) अधिनियम की धारा 18 अपनी अलग रोक लगाती है, जिसे सुप्रीम कोर्ट ने <em>पृथ्वीराज चौहान बनाम भारत संघ</em> (2020) में बरक़रार रखा — पर यह भी कहा कि जहाँ प्रथम दृष्टया उस अधिनियम का अपराध बनता ही न हो, वहाँ रोक लागू नहीं होती। NDPS अधिनियम में धारा 37 की दोहरी शर्तें वाणिज्यिक मात्रा में अग्रिम राहत को लगभग असंभव बना देती हैं। POCSO में अदालतें स्वाभाविक रूप से अत्यंत सतर्क रहती हैं। इन श्रेणियों में आवेदन से पहले यह ईमानदार आकलन ज़रूरी है कि क्या आधार वास्तव में असाधारण है।</p>
+
+    <h2>शर्तें — और उनके टूटने का परिणाम</h2>
+
+    <p>उप-धारा (2) की चार शर्तें लगभग हर आदेश में आती हैं: पूछताछ में उपलब्ध रहना, गवाहों को न धमकाना, बिना अनुमति देश न छोड़ना, और धारा 480(3) की अन्य शर्तें — जिनमें पासपोर्ट जमा कराना और ज़मानती (surety) देना शामिल है। जोधपुर में सामान्यतः व्यक्तिगत बंधपत्र के साथ एक या दो ज़मानती माँगे जाते हैं। इन शर्तों का उल्लंघन — विशेषकर गवाहों से संपर्क या पूछताछ में अनुपस्थिति — ज़मानत रद्द कराने का सबसे सामान्य आधार है, और रद्द होने के बाद दोबारा राहत बहुत कठिन होती है।</p>
+
+    <h2>आवेदन के साथ क्या लाएँ</h2>
+
+    <p>पहली बैठक में जो काग़ज़ सबसे अधिक समय बचाते हैं: पुलिस का नोटिस या FIR की प्रति (ऑनलाइन उपलब्ध हो तो उसका प्रिंट); आवेदक का पहचान-पत्र और स्थायी पते का प्रमाण; यदि कोई पूर्व मामला है तो उसकी स्थिति; और जिस घटना का आरोप है, उससे जुड़े आवेदक के पक्ष के दस्तावेज़ — लेन-देन की रसीदें, संदेश, उपस्थिति का प्रमाण। धारा 482 का आवेदन दस्तावेज़ों पर चलता है, बयानों पर नहीं।</p>
+
+    <p>ज़मानत के तीनों प्रकार — नियमित (धारा 483), अग्रिम (धारा 482) और व्यतिक्रम ज़मानत (धारा 187) — की तुलनात्मक प्रक्रिया <a href="/articles/zamaanat-prakar-prakriya-bnss-hi.html" style="color:var(--gold);font-weight:600;">ज़मानत कैसे मिलती है</a> में है, और जोधपुर की अदालतों में आवेदन का क्रम <a href="/jodhpur-jamanat-prakriya-hi.html" style="color:var(--gold);font-weight:600;">जोधपुर में ज़मानत की प्रक्रिया</a> में। यही धारा अंग्रेज़ी में, आधारों और प्रक्रिया सहित: <a href="/articles/anticipatory-bail-bnss.html" style="color:var(--gold);font-weight:600;">Section 482 BNSS — Anticipatory Bail</a>।</p>
+
+    <div class="art-disclaimer">यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। धारा का हिंदी सार अनौपचारिक अनुवाद है; प्रामाणिक पाठ अंग्रेज़ी में है। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।</div>
+  </div>
+  <div class="art-contact">
+    <div class="art-contact-title">शुभम ओझा एवं एसोसिएट्स</div>
+    <div class="art-contact-line">अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर &nbsp;·&nbsp; दूरभाष: <a href="tel:+917023051275">+91 70230 51275</a> &nbsp;·&nbsp; <a href="https://wa.me/917023051275" target="_blank" rel="noopener">WhatsApp</a> &nbsp;·&nbsp; राजस्थान से बाहर के मामलों में फ़ोन/वीडियो परामर्श उपलब्ध।</div>
+  </div>
+  <div class="related-section">
+    <div class="related-title">संबंधित लेख</div>
+    <div class="related-grid">
+      <a href="/articles/zamaanat-prakar-prakriya-bnss-hi.html" class="related-card"><span class="related-card-tag">आपराधिक विधि</span><div class="related-card-title">ज़मानत कैसे मिलती है — Regular, Anticipatory और Default Bail</div></a>
+      <a href="/articles/fir-kaise-radad-karaen-bnss-528-hi.html" class="related-card"><span class="related-card-tag">आपराधिक विधि</span><div class="related-card-title">FIR कैसे रद्द होती है — BNSS धारा 528</div></a>
+      <a href="/articles/girftari-ke-baad-kanuni-adhikar-bnss-hi.html" class="related-card"><span class="related-card-tag">आपराधिक विधि</span><div class="related-card-title">गिरफ़्तारी के बाद आपके कानूनी अधिकार — BNSS 2023</div></a>
+    </div>
+  </div>
+</div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+    <div class="art-footer-name">शुभम ओझा एवं एसोसिएट्स</div>
+    <p class="art-footer-copy">अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर पीठ &nbsp;|&nbsp; नामांकन सं. R/2958/2020 (बार काउंसिल ऑफ राजस्थान) &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2026 सर्वाधिकार सुरक्षित।</p>
+  </div>
+</footer>
+<div class="bci-bar"><p><strong style="color:rgba(255,255,255,0.6);">बार काउंसिल ऑफ इंडिया सूचना:</strong> यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।</p></div>
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+  <a href="tel:+917023051275" class="mobile-cta-call">📞 Call Now</a>
+  <a href="https://wa.me/917023051275" class="mobile-cta-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+</div>
+</body>
+</html>

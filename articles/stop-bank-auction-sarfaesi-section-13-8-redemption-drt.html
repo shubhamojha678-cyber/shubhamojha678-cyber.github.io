@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GJNCXM2691');
+document.addEventListener('click', function(e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  var p = location.pathname;
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call', source_page: p});
+  else if (h.indexOf('wa.me') !== -1) gtag('event', 'generate_lead', {method: 'whatsapp', source_page: p});
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email', source_page: p});
+});
+document.addEventListener('DOMContentLoaded', function() {
+  var t = (document.title || '').split('|')[0].trim();
+  if (t.length > 60) { t = t.slice(0, 60); var k = t.lastIndexOf(' '); if (k > 20) t = t.slice(0, k); t = t.replace(/[\s:,\-–—]+$/, '') + '…'; }
+  var hi = (document.documentElement.getAttribute('lang') || 'en').indexOf('hi') === 0;
+  var wa = hi
+    ? 'नमस्ते। मैंने आपकी वेबसाइट पर "' + t + '" पढ़ा।\nमेरी समस्या और शहर — '
+    : 'Hello. I read "' + t + '" on your website.\nMy problem, and my city — ';
+  var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
+  for (var i = 0; i < L.length; i++) {
+    var u = L[i].getAttribute('href');
+    if (u.indexOf('text=') === -1) L[i].setAttribute('href', u + (u.indexOf('?') === -1 ? '?' : '&') + 'text=' + encodeURIComponent(wa));
+  }
+  var M = document.querySelectorAll('a[href^="mailto:"]');
+  for (var j = 0; j < M.length; j++) {
+    var m = M[j].getAttribute('href');
+    if (m.indexOf('subject=') === -1) M[j].setAttribute('href', m + (m.indexOf('?') === -1 ? '?' : '&') + 'subject=' + encodeURIComponent((hi ? 'वेबसाइट पूछताछ — ' : 'Website enquiry — ') + t) + '&body=' + encodeURIComponent(wa));
+  }
+});
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Can a Bank Auction of My Property Be Stopped? Section 13(8) SARFAESI, the DRT and the Dates That Decide It | Shubham Ojha &amp; Associates</title>
+<meta name="description" content="Three lawful ways to stop a SARFAESI auction and the date each one turns on: full payment before the sale notice is published (Section 13(8), Celir LLP v. Bafna Motors), a Section 17 application to the Debts Recovery Tribunal within forty-five days, and challenge of the sale for breach of the Security Interest (Enforcement) Rules, 2002.">
+<meta name="author" content="Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://shubhamojhaandassociates.com/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html">
+<link rel="alternate" hreflang="en" href="https://shubhamojhaandassociates.com/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html">
+<link rel="alternate" hreflang="x-default" href="https://shubhamojhaandassociates.com/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b1a3a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The bank has sent a Section 13(2) notice. What can a borrower actually do?">
+<meta property="og:description" content="The sixty-day period, the written objection and the fifteen-day duty to give reasons, the forty-five-day window to apply to the Debts Recovery Tribunal, the fifty per cent pre-deposit on appeal, and the point at which the property can no longer be redeemed.">
+<meta property="og:url" content="https://shubhamojhaandassociates.com/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html">
+<meta property="og:locale" content="en_IN">
+<meta property="og:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<meta property="og:site_name" content="Shubham Ojha &amp; Associates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The bank has sent a Section 13(2) notice. What can a borrower actually do?">
+<meta name="twitter:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<style>
+:root{--navy:#0b1a3a;--navy-dark:#060f22;--gold:#c7a35a;--gold-light:#d4b575;--white:#ffffff;--off-white:#f8f6f1;--text-dark:#1a1a2e;--text-mid:#3a3a5c;--text-light:#6b6b8a;--shadow:0 4px 24px rgba(11,26,58,0.12);--shadow-lg:0 12px 48px rgba(11,26,58,0.18);--font-serif:'Cormorant Garamond',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:var(--font-sans);background:var(--white);color:var(--text-dark);line-height:1.7;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.art-nav{background:rgba(11,26,58,0.97);padding:0 24px;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:900px;margin:0 auto;}
+.art-nav-brand{display:flex;align-items:center;gap:10px;}
+.art-nav-logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#c7a35a,#d4b575);display:flex;align-items:center;justify-content:center;font-family:var(--font-serif);font-size:1rem;font-weight:700;color:#060f22;flex-shrink:0;}
+.art-nav-name{font-family:var(--font-serif);font-size:1rem;font-weight:600;color:var(--white);line-height:1.1;}
+.art-nav-sub{font-size:0.68rem;color:var(--gold);letter-spacing:0.05em;text-transform:uppercase;}
+.art-nav-links{display:flex;gap:8px;}
+.art-nav-links a{font-size:0.8rem;color:rgba(255,255,255,0.75);padding:7px 14px;border-radius:4px;transition:all .3s;}
+.art-nav-links a:hover{color:var(--gold);background:rgba(199,163,90,0.1);}
+.art-nav-links .btn-cta{background:var(--gold);color:#060f22;font-weight:600;padding:8px 18px;border-radius:4px;}
+.art-nav-links .btn-cta:hover{background:var(--gold-light);}
+.breadcrumb{background:var(--off-white);border-bottom:1px solid rgba(199,163,90,0.12);padding:10px 24px;}
+.breadcrumb-inner{max-width:900px;margin:0 auto;font-size:0.78rem;color:var(--text-light);display:flex;align-items:center;flex-wrap:wrap;gap:6px;}
+.breadcrumb-inner a{color:var(--gold);transition:color .3s;}
+.breadcrumb-inner a:hover{color:var(--gold-light);}
+.breadcrumb-sep{color:var(--text-light);}
+.art-container{max-width:900px;margin:0 auto;padding:48px 24px 72px;}
+.art-header{margin-bottom:36px;padding-bottom:28px;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-tag{display:inline-block;background:var(--gold);color:var(--navy-dark);font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:2px;margin-bottom:16px;}
+.art-title{font-family:var(--font-serif);font-size:clamp(1.8rem,4vw,2.6rem);font-weight:600;color:var(--navy);line-height:1.25;margin-bottom:16px;}
+.art-byline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:0.82rem;color:var(--text-light);margin-bottom:8px;}
+.art-byline-author{color:var(--gold);font-weight:600;}
+.art-byline-dot{width:3px;height:3px;border-radius:50%;background:var(--text-light);}
+.art-body p{font-size:1rem;color:var(--text-mid);line-height:1.9;margin-bottom:22px;}
+.art-body strong{color:var(--text-dark);}
+.art-body em{font-style:italic;}
+.art-body h4{font-family:var(--font-serif);font-size:1.2rem;font-weight:600;color:var(--navy);margin:28px 0 12px;}
+.art-disclaimer{background:var(--off-white);border-left:3px solid var(--gold);padding:14px 18px;margin:36px 0 0;font-size:0.82rem;color:var(--text-light);line-height:1.65;font-style:italic;border-radius:0 4px 4px 0;}
+.art-cta-box{background:linear-gradient(135deg,var(--navy-dark),var(--navy));border-radius:8px;padding:32px 36px;margin:40px 0;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+.art-cta-title{font-family:var(--font-serif);font-size:1.4rem;font-weight:600;color:var(--white);}
+.art-cta-sub{font-size:0.88rem;color:rgba(255,255,255,0.65);margin-top:4px;}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:4px;font-family:var(--font-sans);font-size:0.85rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;border:none;transition:all .3s;}
+.btn-primary{background:var(--gold);color:#060f22;}
+.btn-primary:hover{background:var(--gold-light);transform:translateY(-2px);}
+.btn-outline{background:transparent;color:var(--gold);border:1.5px solid var(--gold);}
+.btn-outline:hover{background:var(--gold);color:#060f22;}
+.related-section{margin-top:56px;padding-top:36px;border-top:1px solid rgba(199,163,90,0.15);}
+.related-title{font-family:var(--font-serif);font-size:1.5rem;font-weight:600;color:var(--navy);margin-bottom:20px;}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.related-card{border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:18px;background:var(--off-white);transition:all .3s;}
+.related-card:hover{border-color:rgba(199,163,90,0.4);box-shadow:var(--shadow);transform:translateY(-3px);}
+.related-card-tag{font-size:0.68rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block;}
+.related-card-title{font-family:var(--font-serif);font-size:0.98rem;font-weight:600;color:var(--navy);line-height:1.35;}
+.art-footer{background:var(--navy-dark);color:rgba(255,255,255,0.55);padding:32px 24px;text-align:center;margin-top:0;}
+.art-footer-inner{max-width:900px;margin:0 auto;}
+.art-footer-name{font-family:var(--font-serif);font-size:1.1rem;color:var(--white);margin-bottom:8px;}
+.art-footer-copy{font-size:0.78rem;}
+.bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
+.bci-bar p{font-size:0.72rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.6;}
+@media(max-width:640px){.related-grid{grid-template-columns:1fr;.art-nav-sub{display:none;}.art-nav-brand{min-width:0;flex:1 1 auto;}.art-nav-brand>div:last-child{min-width:0;overflow:hidden;}.art-nav-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.88rem;}.art-nav-links{flex-shrink:0;}}.art-nav-links .art-nav-back{display:none;}.art-cta-box{flex-direction:column;text-align:center;}}
+
+.wa-button{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all .3s;}
+.wa-button:hover{transform:scale(1.08);}
+.mobile-cta-bar{display:none;}
+@media(max-width:768px){.mobile-cta-bar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:998;box-shadow:0 -4px 20px rgba(6,15,34,0.25);}.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;}.mobile-cta-call{background:var(--gold);color:#060f22;}.mobile-cta-wa{background:#1da851;color:#fff;}.wa-button{bottom:76px;}body{padding-bottom:70px;}}
+</style>
+<style>
+.art-lead{background:var(--off-white);border-left:3px solid var(--gold);padding:18px 22px;margin-bottom:30px;border-radius:0 6px 6px 0;}
+.art-lead p{font-size:1.05rem;color:var(--text-dark);line-height:1.85;font-weight:500;margin:0;}
+</style>
+<style>
+.statute{background:#fbfaf6;border:1px solid rgba(199,163,90,.45);border-radius:8px;padding:22px 26px;margin:8px 0 32px;}
+.statute-h{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--navy);margin:0 0 4px;}
+.statute-src{font-size:.78rem;color:var(--text-light);margin:0 0 14px;letter-spacing:.02em;}
+.statute-sub{font-size:.95rem;line-height:1.8;color:var(--text-dark);margin:0 0 12px;padding-left:2.6em;text-indent:-2.6em;}
+.statute-sub b{color:var(--navy);display:inline-block;width:2.6em;text-indent:0;}
+.statute-hi{font-size:.97rem;line-height:1.95;color:var(--text-mid);margin:0 0 16px;padding:10px 14px;border-left:3px solid var(--gold);background:var(--off-white);}
+.statute-note{font-size:.8rem;color:var(--text-light);margin:10px 0 0;line-height:1.6;}
+.art-body h2{font-family:var(--font-serif);font-size:1.45rem;font-weight:600;color:var(--navy);margin:36px 0 14px;line-height:1.35;}
+.dl-box{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:var(--navy);color:#f8f6f1;border-radius:10px;padding:18px 22px;margin:0 0 30px;}
+.dl-box a{color:var(--gold);font-weight:700;text-decoration:underline;}
+.dl-box .dl-ic{font-size:1.9rem;line-height:1;}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "inLanguage": "en",
+  "headline": "Can a Bank Auction of My Property Be Stopped? Section 13(8) SARFAESI, the DRT and the Dates That Decide It",
+  "description": "Three lawful ways to stop a SARFAESI auction and the date each one turns on: full payment before the sale notice is published (Section 13(8), Celir LLP v. Bafna Motors), a Section 17 application to the Debts Recovery Tribunal within forty-five days, and challenge of the sale for breach of the Security Interest (Enforcement) Rules, 2002.",
+  "author": {
+    "@type": "Person",
+    "name": "Shubham Ojha",
+    "jobTitle": "Advocate",
+    "description": "BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur",
+    "worksFor": {
+      "@type": "LegalService",
+      "name": "Shubham Ojha & Associates",
+      "url": "https://shubhamojhaandassociates.com"
+    }
+  },
+  "publisher": {
+    "@type": "LegalService",
+    "name": "Shubham Ojha & Associates",
+    "url": "https://shubhamojhaandassociates.com"
+  },
+  "datePublished": "2026-09-09",
+  "dateModified": "2026-09-09",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shubhamojhaandassociates.com/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html"
+  },
+  "keywords": "stop bank auction, SARFAESI auction stay, section 13(8) SARFAESI, redemption before auction, DRT stay auction, section 17 SARFAESI 45 days, Celir LLP v Bafna Motors, security interest enforcement rules 30 days notice",
+  "articleSection": "Banking & Debt Recovery"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://shubhamojhaandassociates.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Legal Insights",
+      "item": "https://shubhamojhaandassociates.com/#articles"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Can a Bank Auction of My Property Be Stopped? Section 13(8) SARFAESI, the DRT and the Dates That Decide It",
+      "item": "https://shubhamojhaandassociates.com/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I stop the auction by paying on the morning of the sale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not as of right. Section 13(8) of the SARFAESI Act, 2002, as substituted in 2016, protects a tender of the full dues with costs, charges and expenses made at any time before the date of publication of the notice for public auction, quotations, tender or private treaty. The Supreme Court in Celir LLP v. Bafna Motors (Mumbai) Pvt. Ltd. (2023) held that the borrower's right of redemption stands extinguished on that publication. Money produced after it depends on the secured creditor's consent, not on the statute."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does applying for a one-time settlement stop the auction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. An OTS proposal is a commercial offer; nothing in the Act suspends the measures under Section 13(4) while it is pending. Unless the bank issues a written acceptance and the auction is withdrawn in writing, the published sale date stands and the forty-five days under Section 17 keep running."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the Debts Recovery Tribunal stay the auction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. On an application under Section 17(1), filed within forty-five days of the measure complained of, the Tribunal may grant interim relief and, if it finds the measure not in accordance with the Act and the Rules, may declare it invalid and restore possession under Section 17(3). Interim stay is frequently conditional on a deposit; the amount is in the Tribunal's discretion and is argued case by case."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if the mortgaged property is agricultural land?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 31(i) puts a security interest created in agricultural land outside the Act altogether, so no measure under Section 13(4) can lawfully be taken against it. Whether the land is agricultural is decided on the revenue record and actual use, not on the description in the loan documents — obtain the jamabandi and khasra entries first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much must the auction purchaser deposit, and can a sale be set aside afterwards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under Rule 9(3) of the Security Interest (Enforcement) Rules, 2002 the purchaser must deposit twenty-five per cent of the sale price immediately, on the same day or the next working day, and the balance within fifteen days of confirmation or such longer period agreed in writing, not exceeding three months (Rule 9(4)). A sale conducted in breach of the Rules — no thirty days' notice to the borrower, defective publication, sale below reserve without the borrower's consent — can be challenged under Section 17 within forty-five days of the sale."
+      }
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+<nav class="art-nav">
+  <div class="art-nav-inner">
+    <a href="/" class="art-nav-brand">
+      <div class="art-nav-logo">SO</div>
+      <div>
+        <div class="art-nav-name">Shubham Ojha &amp; Associates</div>
+        <div class="art-nav-sub">Advocates &amp; Legal Consultants</div>
+      </div>
+    </a>
+    <div class="art-nav-links">
+      <a href="/#articles">← All Articles</a>
+      <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" class="art-lang">हिंदी</a>
+    </div>
+  </div>
+</nav>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="/">Home</a><span class="breadcrumb-sep">›</span>
+    <a href="/#articles">Legal Insights</a><span class="breadcrumb-sep">›</span>
+    <span>Stopping a bank auction — Section 13(8)</span>
+  </div>
+</div>
+<div class="art-container">
+  <div class="art-header">
+    <div class="art-tag">Banking &amp; Debt Recovery</div>
+    <h1 class="art-title">Can a Bank Auction of My Property Be Stopped? Section 13(8) SARFAESI, the DRT and the Dates That Decide It</h1>
+    <div class="art-byline">
+      <span class="art-byline-author">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+      <span class="art-byline-dot"></span>
+      <span>September 2026</span>
+    </div>
+  </div>
+
+  <div class="art-body">
+
+    <div class="art-lead">
+      <p>Yes — in three lawful ways, and each of them turns on a date rather than on an argument. The dues can be paid in full at any time before the sale notice is <em>published</em> (Section 13(8)); the measure can be challenged before the Debts Recovery Tribunal within forty-five days of its being taken (Section 17); and a sale conducted in breach of the Security Interest (Enforcement) Rules, 2002 can be set aside afterwards. The auction date printed on the notice is not the deadline for any of them.</p>
+    </div>
+
+    <div style="background:var(--off-white);border-left:3px solid var(--gold);padding:18px 22px;margin:0 0 28px;">
+      <div style="font-family:var(--font-serif);font-size:1.1rem;font-weight:600;color:var(--navy);margin-bottom:10px;">At a glance</div>
+      <ul style="list-style:none;margin:0;padding:0;font-size:0.95rem;line-height:1.85;color:var(--text-mid);">
+        <li><strong>Redemption by payment</strong> — the whole of the dues with costs, charges and expenses, tendered <strong>before the date of publication</strong> of the notice for auction, quotations, tender or private treaty (Section 13(8)). After publication the right is extinguished: <em>Celir LLP v. Bafna Motors (Mumbai) Pvt. Ltd.</em>, Supreme Court, 21 September 2023</li>
+        <li><strong>Tribunal</strong> — application under Section 17(1) <strong>within forty-five days</strong> of the measure; the Tribunal may declare the measure invalid and restore possession (Section 17(3)); disposal within sixty days, total pendency not beyond four months (Section 17(5))</li>
+        <li><strong>Notice of sale</strong> — <strong>thirty days'</strong> notice to the borrower before a sale of immovable property, and public notice in two leading newspapers, one in the vernacular (Rule 8(6)); no first sale before thirty days from the public notice; a re-sale after a failed attempt needs not less than fifteen days' notice (Rule 9(1))</li>
+        <li><strong>Reserve price</strong> — fixed after valuation by an approved valuer (Rule 8(5)); a sale below reserve needs the borrower's written consent</li>
+        <li><strong>Purchaser's money</strong> — twenty-five per cent immediately (Rule 9(3)); balance within fifteen days of confirmation, extendable by written agreement to not more than three months (Rule 9(4))</li>
+        <li><strong>Where the case cannot go</strong> — no civil suit (Section 34); a writ petition is ordinarily declined where the Section 17 remedy exists (<em>United Bank of India v. Satyawati Tondon</em>, Supreme Court, 2010)</li>
+        <li><strong>Outside the Act</strong> — agricultural land (Section 31(i)); a financial asset not exceeding one lakh rupees (Section 31(h)); dues below twenty per cent of principal and interest (Section 31(j))</li>
+      </ul>
+    </div>
+
+<div class="statute">
+<div class="statute-h">Text of Section 13(8), SARFAESI Act, 2002</div>
+<div class="statute-src">Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (Act 54 of 2002), sub-section (8) as substituted by Act 44 of 2016 with effect from 1 September 2016 — reproduced verbatim.</div>
+<p class="statute-sub"><b>(8)</b>Where the amount of dues of the secured creditor together with all costs, charges and expenses incurred by him is tendered to the secured creditor at any time before the date of publication of notice for public auction or inviting quotations or tender from public or private treaty for transfer by way of lease, assignment or sale of the secured assets,— (i) the secured assets shall not be transferred by way of lease assignment or sale by the secured creditor; and (ii) in case, any step has been taken by the secured creditor for transfer by way of lease or assignment or sale of the assets before tendering of such amount under this sub-section, no further step shall be taken by such secured creditor for transfer by way of lease or assignment or sale of such secured assets.</p>
+</div>
+
+    <h2>The date that matters is not the auction date</h2>
+
+    <p>Every borrower who telephones about an auction has one date in mind — the one printed in bold on the sale notice. Section 13(8) fixes a different one. The right to redeem the property by paying the dues survives only until "the date of publication of notice for public auction or inviting quotations or tender from public or private treaty". Once that notice is published, clause (i) no longer restrains the transfer and clause (ii) no longer stops further steps. The auction itself may still be a month away; the statutory right to stop it by payment has already gone.</p>
+
+    <p>Before the 2016 amendment the sub-section read differently — the cut-off was the date fixed for sale or transfer, and money produced before the hammer fell was in time. That version is no longer the law, and much of what is still said about "paying before the auction" describes it. The Supreme Court settled the point in <em>Celir LLP v. Bafna Motors (Mumbai) Pvt. Ltd.</em> (21 September 2023): under the substituted Section 13(8) the borrower's right of redemption is extinguished on publication of the auction notice, and a tender after that date cannot defeat the auction purchaser who has complied with the Rules. The Court also treated a confirmed sale as one the secured creditor is bound to complete, which is why the later "we will pay slightly more than the bid" offers that borrowers make after the sale seldom succeed.</p>
+
+    <h2>Paying in full: what has to be tendered, and how</h2>
+
+    <p>The amount that redeems is "the amount of dues of the secured creditor together with all costs, charges and expenses incurred by him". It is not the amount in the Section 13(2) notice, which is now months old, and it is not the outstanding principal. Ask the authorised officer in writing for the redemption figure as on a stated date, with the break-up of costs. Section 13(7) is the provision under which those costs are recoverable, and it is also the provision that entitles the borrower to have them accounted for.</p>
+
+    <p>Tender by a mode that produces a dated record — RTGS with the UTR, or a banker's cheque handed over against a signed acknowledgment — and send a covering letter the same day stating that the amount is tendered under Section 13(8) in full discharge. If the bank declines to accept, the letter and the proof of readiness are what the Tribunal will read. A tender made in instalments, or of a part with a promise of the rest, is not a tender under the sub-section.</p>
+
+    <h2>The second route: Section 17 and the forty-five days</h2>
+
+<div class="statute">
+<div class="statute-h">Text of Section 17(1) and 17(3), SARFAESI Act, 2002</div>
+<div class="statute-src">Reproduced verbatim from the Act as amended by Act 44 of 2016.</div>
+<p class="statute-sub"><b>17(1)</b>Any person (including borrower), aggrieved by any of the measures referred to in sub-section (4) of section 13 taken by the secured creditor or his authorised officer under this Chapter, may make an application along with such fee, as may be prescribed, to the Debts Recovery Tribunal having jurisdiction in the matter within forty-five days from the date on which such measure had been taken.</p>
+<p class="statute-sub"><b>17(3)</b>If, the Debts Recovery Tribunal, after examining the facts and circumstances of the case and evidence produced by the parties, comes to the conclusion that any of the measures referred to in sub-section (4) of section 13, taken by the secured creditor are not in accordance with the provisions of this Act and the rules made thereunder, and require restoration of the management or restoration of possession, of the secured assets to the borrower or other aggrieved person, it may, by order,— (a) declare the recourse to any one or more measures referred to in sub-section (4) of section 13 taken by the secured creditor as invalid; and (b) restore the possession of secured assets or management of secured assets to the borrower or such other aggrieved person, who has made an application under sub-section (1), as the case may be; and (c) pass such other direction as it may consider appropriate and necessary in relation to any of the recourse taken by the secured creditor under sub-section (4) of section 13.</p>
+</div>
+
+    <p>The application lies against a <em>measure</em> under Section 13(4). The measures are possession — symbolic or physical — takeover of management, appointment of a manager, and the notice to a debtor of the borrower. Publication of the sale notice and the sale itself are steps taken in furtherance of the possession measure, and the settled practice is that each fresh step gives a fresh cause to apply, with the forty-five days counted from that step. The safe course is to count from the earliest measure and file early; an application filed within forty-five days of the possession notice can carry a challenge to everything that follows.</p>
+
+    <p>On such an application the Tribunal can stay the auction. The stay is discretionary and is usually conditional — a deposit of a proportion of the dues, or an undertaking on the property — and the proportion is argued on the facts. What the borrower must show is not hardship but a breach: that a step required by the Act or the Rules was skipped, or a period cut short. Section 17(3) is explicit about the consequence — the Tribunal may declare the recourse invalid and restore possession. Section 17(5) then requires the Tribunal to dispose of the application within sixty days, extendable for reasons recorded, but not beyond four months in all.</p>
+
+    <h2>What the Tribunal actually checks</h2>
+
+    <p>The ground that succeeds most often in practice is a defect in the sale notice under the Security Interest (Enforcement) Rules, 2002. Rule 8(6) requires the authorised officer to serve the borrower with thirty days' notice of the sale of immovable property, and to publish the notice in two leading newspapers of which one is in the vernacular. Rule 9(1) forbids the first sale before thirty days from the public notice. A re-sale after a failed attempt may proceed on not less than fifteen days' notice, but only if the first sale in fact failed for want of a bid — a point on which the record is examined.</p>
+
+    <p>The second ground is valuation. Rule 8(5) requires the authorised officer to obtain a valuation from an approved valuer and, in consultation with the secured creditor, to fix a reserve price. A reserve fixed without a valuation, or a valuation that ignores the revenue record and the building on the land, can be shown from the bank's own file. A sale below the reserve price needs the borrower's consent in writing, and its absence is fatal. The third ground is the account itself — whether the sixty days under Section 13(2) were allowed in full, whether the representation under Section 13(3A) was answered within fifteen days, and whether the notice under Section 13(2) was served at all. These are the questions the Tribunal asks; the arguments that the loan was mis-sold, or that the interest is excessive, belong to a different forum and do not stop a sale.</p>
+
+    <h2>After the hammer falls</h2>
+
+    <p>A sale does not put the property beyond challenge. The purchaser must deposit twenty-five per cent of the sale price immediately — on the same day or the next working day — under Rule 9(3), failing which the property is to be re-sold and the deposit forfeited. The balance is payable within fifteen days of confirmation, or within such longer period as the purchaser and the secured creditor agree in writing, not exceeding three months (Rule 9(4)). A sale conducted in breach of the Rules can be set aside on an application under Section 17 filed within forty-five days of the sale; but a purchaser who has paid in full and holds a sale certificate is on strong ground, and the borrower who waits for the certificate before applying has usually waited too long.</p>
+
+    <h2>Three ways to lose the remaining days</h2>
+
+    <p>The first is to file a writ petition in the High Court instead of going to the Tribunal. Article 226 is not excluded, but the Supreme Court in <em>United Bank of India v. Satyawati Tondon</em> (2010) directed that where the statute provides an effective remedy, the High Court should ordinarily insist on it, and with greater rigour in matters of recovery of bank dues. A petition that is dismissed on that ground has cost two or three weeks of the forty-five days.</p>
+
+    <p>The second is to wait for the one-time settlement. An OTS proposal is a commercial offer; nothing in the Act suspends the Section 13(4) measures while it is pending, and the auction goes ahead unless the bank withdraws it in writing. The third is a civil suit — an injunction against the auction from the civil court — which Section 34 bars outright. A suit filed in that court is dismissed for want of jurisdiction, and the time spent on it is not restored.</p>
+
+    <h2>Loans the Act is not allowed to touch</h2>
+
+    <p>Section 31 takes several categories out of the Act. Clause (i) excludes any security interest created in agricultural land; clause (h) excludes a security interest securing repayment of a financial asset not exceeding one lakh rupees; clause (j) excludes a case where the amount due is less than twenty per cent of the principal and interest. Where any of these applies, the measures under Section 13(4) are without authority from the start, and the Tribunal declares them so. The agricultural-land exclusion is the one raised most often and documented least: whether a parcel is agricultural is decided on the revenue record and actual use, which is why the jamabandi and khasra entries described in the note on <a href="/articles/land-revenue-laws-rajasthan.html" style="color:var(--gold);font-weight:600;">land revenue laws in Rajasthan</a> are obtained before anything else.</p>
+
+    <h2>What to do this week</h2>
+
+    <p>Read the published sale notice for its date of publication, not the auction date, and write both down. Ask the authorised officer in writing for the redemption figure as on a stated date. Obtain the possession notice and count forty-five days from it. Obtain the valuation report and the reserve price from the bank's file, and the revenue record for the property. Then decide, on the documents, between payment and the Tribunal — or both, since a tender made and refused is itself a ground before the Tribunal.</p>
+
+    <p>The stage before this one — what the Section 13(2) notice means and what the sixty days are for — is set out in <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" style="color:var(--gold);font-weight:600;">SARFAESI Section 13(2) notice: what a borrower can actually do</a>, and the same ground in Hindi, written around the Rajasthan borrower and DRT Jaipur, in <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" style="color:var(--gold);font-weight:600;">SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में बचाव</a>. A three-page note with the statutory text and the day-by-day sequence can be downloaded at <a href="/downloads/after-the-banks-notice-sarfaesi.pdf" style="color:var(--gold);font-weight:600;">After the Bank's Notice (PDF)</a>. The Act is a central statute; consultation by telephone or video is available to borrowers outside Rajasthan.</p>
+
+    <div class="art-disclaimer">This article is for informational purposes only and does not constitute legal advice. Whether an auction can be stopped depends on the measure actually taken, the date on which it was taken, the date on which the sale notice was published and the contents of the secured creditor's file. For guidance on a particular matter, please consult a qualified advocate.</div>
+  </div>
+
+  <div style="background:var(--off-white);border:1px solid rgba(199,163,90,0.25);border-radius:8px;padding:20px 26px;margin:36px 0;">
+    <div style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);">Shubham Ojha &amp; Associates</div>
+    <div style="font-size:0.9rem;color:var(--text-mid);margin-top:4px;">Advocates, Rajasthan High Court, Jodhpur &nbsp;·&nbsp; <a href="tel:+917023051275" style="color:var(--gold);font-weight:600;">+91 70230 51275</a> &nbsp;·&nbsp; <a href="https://wa.me/917023051275" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600;">WhatsApp</a></div>
+  </div>
+
+  <div class="related-section">
+    <div class="related-title">Related Articles</div>
+    <div class="related-grid">
+      <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">SARFAESI Section 13(2) Notice: What a Borrower Can Actually Do</div></a>
+      <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" class="related-card"><span class="related-card-tag">बैंकिंग / DRT</span><div class="related-card-title">SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में बचाव</div></a>
+      <a href="/articles/stay-orders-execution-proceedings-balancing-equities.html" class="related-card"><span class="related-card-tag">Civil Procedure</span><div class="related-card-title">Stay Orders in Execution Proceedings: How Courts Balance the Equities</div></a>
+    </div>
+  </div>
+</div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+    <div class="art-footer-name">Shubham Ojha &amp; Associates</div>
+    <p class="art-footer-copy">Advocates at the Rajasthan High Court, Jodhpur Bench &nbsp;|&nbsp; Enrolment No. R/2958/2020 (Bar Council of Rajasthan) &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2026 All rights reserved.</p>
+  </div>
+</footer>
+<div class="bci-bar">
+  <p><strong style="color:rgba(255,255,255,0.6);">Bar Council of India Notice:</strong> This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.</p>
+</div>
+
+
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+  <a href="tel:+917023051275" class="mobile-cta-call">📞 Call</a>
+  <a href="https://wa.me/917023051275" class="mobile-cta-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+</div>
+</body>
+</html>
