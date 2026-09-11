@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GJNCXM2691');
+document.addEventListener('click', function(e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  var p = location.pathname;
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call', source_page: p});
+  else if (h.indexOf('wa.me') !== -1) gtag('event', 'generate_lead', {method: 'whatsapp', source_page: p});
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email', source_page: p});
+});
+document.addEventListener('DOMContentLoaded', function() {
+  var t = (document.title || '').split('|')[0].trim();
+  if (t.length > 60) { t = t.slice(0, 60); var k = t.lastIndexOf(' '); if (k > 20) t = t.slice(0, k); t = t.replace(/[\s:,\-–—]+$/, '') + '…'; }
+  var hi = (document.documentElement.getAttribute('lang') || 'en').indexOf('hi') === 0;
+  var wa = hi
+    ? 'नमस्ते। मैंने आपकी वेबसाइट पर "' + t + '" पढ़ा।\nमेरी समस्या और शहर — '
+    : 'Hello. I read "' + t + '" on your website.\nMy problem, and my city — ';
+  var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
+  for (var i = 0; i < L.length; i++) {
+    var u = L[i].getAttribute('href');
+    if (u.indexOf('text=') === -1) L[i].setAttribute('href', u + (u.indexOf('?') === -1 ? '?' : '&') + 'text=' + encodeURIComponent(wa));
+  }
+  var M = document.querySelectorAll('a[href^="mailto:"]');
+  for (var j = 0; j < M.length; j++) {
+    var m = M[j].getAttribute('href');
+    if (m.indexOf('subject=') === -1) M[j].setAttribute('href', m + (m.indexOf('?') === -1 ? '?' : '&') + 'subject=' + encodeURIComponent((hi ? 'वेबसाइट पूछताछ — ' : 'Website enquiry — ') + t) + '&body=' + encodeURIComponent(wa));
+  }
+});
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How Is a Section 17 Application Filed in the DRT? The Forty-Five Days, the Right Tribunal and What a Stay Requires | Shubham Ojha &amp; Associates</title>
+<meta name="description" content="Section 17 SARFAESI application to the DRT: who may file, which Tribunal under Section 17(1A), when the forty-five days run, the bank's caveat, and why no deposit is due to be heard.">
+<meta name="author" content="Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://shubhamojhaandassociates.com/articles/sarfaesi-section-17-application-drt-45-days-stay.html">
+<link rel="alternate" hreflang="en" href="https://shubhamojhaandassociates.com/articles/sarfaesi-section-17-application-drt-45-days-stay.html">
+<link rel="alternate" hreflang="x-default" href="https://shubhamojhaandassociates.com/articles/sarfaesi-section-17-application-drt-45-days-stay.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b1a3a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How is a Section 17 application filed in the DRT?">
+<meta property="og:description" content="Who may apply, which Tribunal, when the forty-five days run, the caveat under Section 18C, interim stay after Mardia Chemicals, and the fifty per cent deposit that arises only on appeal.">
+<meta property="og:url" content="https://shubhamojhaandassociates.com/articles/sarfaesi-section-17-application-drt-45-days-stay.html">
+<meta property="og:locale" content="en_IN">
+<meta property="og:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<meta property="og:site_name" content="Shubham Ojha &amp; Associates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How is a Section 17 application filed in the DRT?">
+<meta name="twitter:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<style>
+:root{--navy:#0b1a3a;--navy-dark:#060f22;--gold:#c7a35a;--gold-light:#d4b575;--white:#ffffff;--off-white:#f8f6f1;--text-dark:#1a1a2e;--text-mid:#3a3a5c;--text-light:#6b6b8a;--shadow:0 4px 24px rgba(11,26,58,0.12);--shadow-lg:0 12px 48px rgba(11,26,58,0.18);--font-serif:'Cormorant Garamond',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:var(--font-sans);background:var(--white);color:var(--text-dark);line-height:1.7;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.art-nav{background:rgba(11,26,58,0.97);padding:0 24px;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:900px;margin:0 auto;}
+.art-nav-brand{display:flex;align-items:center;gap:10px;}
+.art-nav-logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#c7a35a,#d4b575);display:flex;align-items:center;justify-content:center;font-family:var(--font-serif);font-size:1rem;font-weight:700;color:#060f22;flex-shrink:0;}
+.art-nav-name{font-family:var(--font-serif);font-size:1rem;font-weight:600;color:var(--white);line-height:1.1;}
+.art-nav-sub{font-size:0.68rem;color:var(--gold);letter-spacing:0.05em;text-transform:uppercase;}
+.art-nav-links{display:flex;gap:8px;}
+.art-nav-links a{font-size:0.8rem;color:rgba(255,255,255,0.75);padding:7px 14px;border-radius:4px;transition:all .3s;}
+.art-nav-links a:hover{color:var(--gold);background:rgba(199,163,90,0.1);}
+.art-nav-links .btn-cta{background:var(--gold);color:#060f22;font-weight:600;padding:8px 18px;border-radius:4px;}
+.art-nav-links .btn-cta:hover{background:var(--gold-light);}
+.breadcrumb{background:var(--off-white);border-bottom:1px solid rgba(199,163,90,0.12);padding:10px 24px;}
+.breadcrumb-inner{max-width:900px;margin:0 auto;font-size:0.78rem;color:var(--text-light);display:flex;align-items:center;flex-wrap:wrap;gap:6px;}
+.breadcrumb-inner a{color:var(--gold);transition:color .3s;}
+.breadcrumb-inner a:hover{color:var(--gold-light);}
+.breadcrumb-sep{color:var(--text-light);}
+.art-container{max-width:900px;margin:0 auto;padding:48px 24px 72px;}
+.art-header{margin-bottom:36px;padding-bottom:28px;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-tag{display:inline-block;background:var(--gold);color:var(--navy-dark);font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:2px;margin-bottom:16px;}
+.art-title{font-family:var(--font-serif);font-size:clamp(1.8rem,4vw,2.6rem);font-weight:600;color:var(--navy);line-height:1.25;margin-bottom:16px;}
+.art-byline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:0.82rem;color:var(--text-light);margin-bottom:8px;}
+.art-byline-author{color:var(--gold);font-weight:600;}
+.art-byline-dot{width:3px;height:3px;border-radius:50%;background:var(--text-light);}
+.art-body p{font-size:1rem;color:var(--text-mid);line-height:1.9;margin-bottom:22px;}
+.art-body strong{color:var(--text-dark);}
+.art-body em{font-style:italic;}
+.art-body h4{font-family:var(--font-serif);font-size:1.2rem;font-weight:600;color:var(--navy);margin:28px 0 12px;}
+.art-disclaimer{background:var(--off-white);border-left:3px solid var(--gold);padding:14px 18px;margin:36px 0 0;font-size:0.82rem;color:var(--text-light);line-height:1.65;font-style:italic;border-radius:0 4px 4px 0;}
+.art-cta-box{background:linear-gradient(135deg,var(--navy-dark),var(--navy));border-radius:8px;padding:32px 36px;margin:40px 0;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+.art-cta-title{font-family:var(--font-serif);font-size:1.4rem;font-weight:600;color:var(--white);}
+.art-cta-sub{font-size:0.88rem;color:rgba(255,255,255,0.65);margin-top:4px;}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:4px;font-family:var(--font-sans);font-size:0.85rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;border:none;transition:all .3s;}
+.btn-primary{background:var(--gold);color:#060f22;}
+.btn-primary:hover{background:var(--gold-light);transform:translateY(-2px);}
+.btn-outline{background:transparent;color:var(--gold);border:1.5px solid var(--gold);}
+.btn-outline:hover{background:var(--gold);color:#060f22;}
+.related-section{margin-top:56px;padding-top:36px;border-top:1px solid rgba(199,163,90,0.15);}
+.related-title{font-family:var(--font-serif);font-size:1.5rem;font-weight:600;color:var(--navy);margin-bottom:20px;}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.related-card{border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:18px;background:var(--off-white);transition:all .3s;}
+.related-card:hover{border-color:rgba(199,163,90,0.4);box-shadow:var(--shadow);transform:translateY(-3px);}
+.related-card-tag{font-size:0.68rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block;}
+.related-card-title{font-family:var(--font-serif);font-size:0.98rem;font-weight:600;color:var(--navy);line-height:1.35;}
+.art-footer{background:var(--navy-dark);color:rgba(255,255,255,0.55);padding:32px 24px;text-align:center;margin-top:0;}
+.art-footer-inner{max-width:900px;margin:0 auto;}
+.art-footer-name{font-family:var(--font-serif);font-size:1.1rem;color:var(--white);margin-bottom:8px;}
+.art-footer-copy{font-size:0.78rem;}
+.bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
+.bci-bar p{font-size:0.72rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.6;}
+@media(max-width:640px){.related-grid{grid-template-columns:1fr;.art-nav-sub{display:none;}.art-nav-brand{min-width:0;flex:1 1 auto;}.art-nav-brand>div:last-child{min-width:0;overflow:hidden;}.art-nav-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.88rem;}.art-nav-links{flex-shrink:0;}}.art-nav-links .art-nav-back{display:none;}.art-cta-box{flex-direction:column;text-align:center;}}
+
+.wa-button{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all .3s;}
+.wa-button:hover{transform:scale(1.08);}
+.mobile-cta-bar{display:none;}
+@media(max-width:768px){.mobile-cta-bar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:998;box-shadow:0 -4px 20px rgba(6,15,34,0.25);}.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;}.mobile-cta-call{background:var(--gold);color:#060f22;}.mobile-cta-wa{background:#1da851;color:#fff;}.wa-button{bottom:76px;}body{padding-bottom:70px;}}
+</style>
+<style>
+.art-lead{background:var(--off-white);border-left:3px solid var(--gold);padding:18px 22px;margin-bottom:30px;border-radius:0 6px 6px 0;}
+.art-lead p{font-size:1.05rem;color:var(--text-dark);line-height:1.85;font-weight:500;margin:0;}
+</style>
+<style>
+.statute{background:#fbfaf6;border:1px solid rgba(199,163,90,.45);border-radius:8px;padding:22px 26px;margin:8px 0 32px;}
+.statute-h{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--navy);margin:0 0 4px;}
+.statute-src{font-size:.78rem;color:var(--text-light);margin:0 0 14px;letter-spacing:.02em;}
+.statute-sub{font-size:.95rem;line-height:1.8;color:var(--text-dark);margin:0 0 12px;padding-left:2.6em;text-indent:-2.6em;}
+.statute-sub b{color:var(--navy);display:inline-block;width:2.6em;text-indent:0;}
+.statute-hi{font-size:.97rem;line-height:1.95;color:var(--text-mid);margin:0 0 16px;padding:10px 14px;border-left:3px solid var(--gold);background:var(--off-white);}
+.statute-note{font-size:.8rem;color:var(--text-light);margin:10px 0 0;line-height:1.6;}
+.art-body h2{font-family:var(--font-serif);font-size:1.45rem;font-weight:600;color:var(--navy);margin:36px 0 14px;line-height:1.35;}
+.dl-box{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:var(--navy);color:#f8f6f1;border-radius:10px;padding:18px 22px;margin:0 0 30px;}
+.dl-box a{color:var(--gold);font-weight:700;text-decoration:underline;}
+.dl-box .dl-ic{font-size:1.9rem;line-height:1;}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "inLanguage": "en",
+  "headline": "How Is a Section 17 Application Filed in the DRT? The Forty-Five Days, the Right Tribunal and What a Stay Requires",
+  "description": "Section 17 SARFAESI application to the DRT: who may file, which Tribunal under Section 17(1A), when the forty-five days run, the bank's caveat, and why no deposit is due to be heard.",
+  "author": {
+    "@type": "Person",
+    "name": "Shubham Ojha",
+    "jobTitle": "Advocate",
+    "description": "BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur",
+    "url": "https://shubhamojhaandassociates.com/about.html",
+    "worksFor": {
+      "@type": "LegalService",
+      "name": "Shubham Ojha & Associates",
+      "url": "https://shubhamojhaandassociates.com"
+    }
+  },
+  "publisher": {
+    "@type": "LegalService",
+    "name": "Shubham Ojha & Associates",
+    "url": "https://shubhamojhaandassociates.com"
+  },
+  "datePublished": "2026-09-12",
+  "dateModified": "2026-09-12",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shubhamojhaandassociates.com/articles/sarfaesi-section-17-application-drt-45-days-stay.html"
+  },
+  "keywords": "section 17 SARFAESI application, securitisation application DRT, how to file SA in DRT, 45 days limitation section 17 SARFAESI, section 17(1A) DRT jurisdiction, DRT stay of possession, no pre-deposit section 17 Mardia Chemicals, section 18C caveat SARFAESI, section 17(4A) tenant, DRAT appeal 50 per cent pre-deposit",
+  "articleSection": "Banking & Debt Recovery"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://shubhamojhaandassociates.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Legal Insights",
+      "item": "https://shubhamojhaandassociates.com/#articles"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "How Is a Section 17 Application Filed in the DRT? The Forty-Five Days, the Right Tribunal and What a Stay Requires",
+      "item": "https://shubhamojhaandassociates.com/articles/sarfaesi-section-17-application-drt-45-days-stay.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I file a Section 17 application as soon as I receive the Section 13(2) notice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Section 17(1) lies against a measure taken under Section 13(4): taking possession, taking over management, appointing a manager, or a notice to a person who owes money to the borrower. The Explanation to Section 17(1) states that the bank's communication of reasons for not accepting the borrower's representation does not entitle anyone to apply, and Mardia Chemicals Ltd. v. Union of India (Supreme Court, 2004), para 80(1), says the same."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Debts Recovery Tribunal should the application be filed in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 17(1A) allows the application to be filed before the Tribunal within whose local limits the cause of action arises wholly or in part, the secured asset is located, or the branch or office of the bank maintaining the account in which the debt is outstanding is situated. Where the property, the borrower and the branch are in different States, the applicant may choose among those places."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a deposit required before the DRT will hear a Section 17 application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The original Section 17(2), which required seventy-five per cent of the amount claimed to be deposited before the application was entertained, was declared ultra vires Article 14 in Mardia Chemicals Ltd. v. Union of India (Supreme Court, 8 April 2004). The Tribunal may attach conditions, including a deposit, to an interim stay. A statutory deposit of fifty per cent of the debt, reducible to not less than twenty-five per cent, arises only on appeal to the Appellate Tribunal under Section 18."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a guarantor, co-owner or tenant file under Section 17?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if aggrieved by the measure: Section 17(1) opens the Tribunal to any person, including the borrower. For a tenant, Section 17(4A) allows the Tribunal to examine whether the lease or tenancy has expired or stood determined, is contrary to Section 65A of the Transfer of Property Act, 1882, is contrary to the terms of the mortgage, or was created after the notice under Section 13(2)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if the Tribunal does not decide the application within four months?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 17(5) requires disposal within sixty days, extendable for reasons recorded in writing to a total pendency of four months. If that period passes, Section 17(6) allows a party to apply to the Appellate Tribunal for a direction to the Debts Recovery Tribunal to dispose of the application expeditiously. Delay does not by itself stay the bank's measures, so interim relief has to be sought in the application."
+      }
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+<nav class="art-nav">
+  <div class="art-nav-inner">
+    <a href="/" class="art-nav-brand">
+      <div class="art-nav-logo">SO</div>
+      <div>
+        <div class="art-nav-name">Shubham Ojha &amp; Associates</div>
+        <div class="art-nav-sub">Advocates &amp; Legal Consultants</div>
+      </div>
+    </a>
+    <div class="art-nav-links">
+      <a href="/#articles">← All Articles</a>
+      <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" class="art-lang">हिंदी</a>
+    </div>
+  </div>
+</nav>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="/">Home</a><span class="breadcrumb-sep">›</span>
+    <a href="/#articles">Legal Insights</a><span class="breadcrumb-sep">›</span>
+    <span>Filing a Section 17 application in the DRT</span>
+  </div>
+</div>
+<div class="art-container">
+  <div class="art-header">
+    <div class="art-tag">Banking &amp; Debt Recovery</div>
+    <h1 class="art-title">How Is a Section 17 Application Filed in the DRT? The Forty-Five Days, the Right Tribunal and What a Stay Requires</h1>
+    <div class="art-byline">
+      <span class="art-byline-author">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+      <span class="art-byline-dot"></span>
+      <span>September 2026</span>
+    </div>
+  </div>
+
+  <div class="art-body">
+
+    <div class="art-lead">
+      <p>A Section 17 application is filed before the Debts Recovery Tribunal within forty-five days of the measure under Section 13(4) that is being challenged, usually the taking of possession. Any aggrieved person may file, not only the borrower. No deposit is required to be heard; a stay is discretionary and, where granted, usually comes with conditions.</p>
+    </div>
+
+    <div style="background:var(--off-white);border-left:3px solid var(--gold);padding:18px 22px;margin:0 0 28px;">
+      <div style="font-family:var(--font-serif);font-size:1.1rem;font-weight:600;color:var(--navy);margin-bottom:10px;">At a glance</div>
+      <ul style="list-style:none;margin:0;padding:0;font-size:0.95rem;line-height:1.85;color:var(--text-mid);">
+        <li><strong>Deadline</strong> — <strong>forty-five days</strong> from the date on which the Section 13(4) measure was taken (Section 17(1))</li>
+        <li><strong>Not yet</strong> — the demand notice, and the bank's letter rejecting your objection, do not open the Tribunal (Explanation to Section 17(1))</li>
+        <li><strong>Which Tribunal</strong> — where the cause of action arises, where the secured asset is, or where the branch holding the account is (Section 17(1A))</li>
+        <li><strong>Who may file</strong> — "any person (including borrower)"; tenancy claims are examined under Section 17(4A)</li>
+        <li><strong>Deposit to be heard</strong> — <strong>none</strong>; the seventy-five per cent condition in the original Section 17(2) was struck down in <em>Mardia Chemicals Ltd. v. Union of India</em>, Supreme Court, 8 April 2004, (2004) 4 SCC 311</li>
+        <li><strong>Stay</strong> — an ancillary power of the Tribunal, exercisable on conditions (<em>Mardia Chemicals</em>, para 80(3)); the bank may already have lodged a caveat (Section 18C, valid <strong>ninety days</strong>)</li>
+        <li><strong>Time to decide</strong> — <strong>sixty days</strong>, extendable, <strong>four months</strong> in all (Section 17(5)); then an application to the Appellate Tribunal (Section 17(6))</li>
+        <li><strong>Appeal</strong> — to the Appellate Tribunal within <strong>thirty days</strong> of receiving the order; the borrower deposits <strong>fifty per cent</strong> of the debt, reducible to not less than <strong>twenty-five per cent</strong> (Section 18)</li>
+      </ul>
+      <p style="font-size:0.9rem;line-height:1.75;color:var(--text-mid);margin:12px 0 0;padding-top:12px;border-top:1px solid rgba(199,163,90,0.25);"><strong>Jurisdiction.</strong> The SARFAESI Act, 2002 is a <strong>central statute and applies across India</strong>, and Section 17(7) makes the Tribunal decide these applications, as far as may be, under the Recovery of Debts and Bankruptcy Act, 1993 — the Act Section 17(7) still calls by its former name, the Recovery of Debts Due to Banks and Financial Institutions Act. The Tribunal changes with the property and the account; the law does not. Section 30 of the Advocates Act, 1961 entitles an advocate to practise throughout India.</p>
+    </div>
+
+<div class="statute">
+<div class="statute-h">Text of the Explanation to Section 17(1), Section 17(1A) and Section 17(5), SARFAESI Act, 2002</div>
+<div class="statute-src">Explanation inserted by Act 30 of 2004 (w.e.f. 11-11-2004); sub-section (1A) inserted by Act 44 of 2016 (w.e.f. 1-9-2016) — reproduced verbatim.</div>
+<p class="statute-sub"><b>Expl.</b>For the removal of doubts, it is hereby declared that the communication of the reasons to the borrower by the secured creditor for not having accepted his representation or objection or the likely action of the secured creditor at the stage of communication of reasons to the borrower shall not entitle the person (including borrower) to make an application to the Debts Recovery Tribunal under this sub-section.</p>
+<p class="statute-sub"><b>(1A)</b>An application under sub-section (1) shall be filed before the Debts Recovery Tribunal within the local limits of whose jurisdiction— (a) the cause of action, wholly or in part, arises; (b) where the secured asset is located; or (c) the branch or any other office of a bank or financial institution is maintaining an account in which debt claimed is outstanding for the time being.</p>
+<p class="statute-sub"><b>(5)</b>Any application made under sub-section (1) shall be dealt with by the Debts Recovery Tribunal as expeditiously as possible and disposed of within sixty days from the date of such application: Provided that the Debts Recovery Tribunal may, from time to time, extend the said period for reasons to be recorded in writing, so, however, that the total period of pendency of the application with the Debts Recovery Tribunal, shall not exceed four months from the date of making of such application made under sub-section (1).</p>
+</div>
+
+    <h2>What can be challenged under Section 17, and what cannot yet?</h2>
+
+    <p>Section 17(1) opens the Tribunal to a person "aggrieved by any of the measures referred to in sub-section (4) of section 13". There are four such measures: taking possession of the secured assets, with the right to transfer them by lease, assignment or sale; taking over the management of the borrower's business; appointing a manager for assets already taken; and a written notice to anyone who owes money to the borrower, requiring that money to be paid to the bank instead. Until one of them has happened, there is nothing before the Tribunal to decide.</p>
+
+    <p>A good many people who telephone with a Section 13(2) notice in hand have to be slowed down at exactly this point. The notice is a demand, not a measure. Nor is the bank's letter turning down the borrower's objection. The Explanation to Section 17(1), set out above, says so in terms, and it restates what the Supreme Court held in <em>Mardia Chemicals</em>: the reasons are given for the borrower's information, "without giving rise to any right to approach the Debt Recovery Tribunal under Section 17 of the Act, at that stage" (para 80(1)). An application filed on the notice alone is premature. What the sixty days are for, and what a written objection can achieve, is set out in <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" style="color:var(--gold);font-weight:600;">SARFAESI Section 13(2) notice: what a borrower can actually do</a>.</p>
+
+    <p>Where the bank took physical possession with the help of the District Magistrate or Chief Metropolitan Magistrate under Section 14, the Magistrate's own act is protected: Section 14(3) provides that no act of the Magistrate, or of an officer the Magistrate authorises, done under the section "shall be called in question in any court or before any authority". The application is therefore framed against the secured creditor's measure, which is what Section 17 reaches.</p>
+
+    <h2>Who can file it?</h2>
+
+    <p>The words are "any person (including borrower)". The Act does not confine the Tribunal to the person who signed the loan. A guarantor whose house is the security, a co-owner who never joined in the mortgage, a buyer who learnt of the loan from a possession notice pasted on the gate, a tenant in occupation: each is a person aggrieved if the measure reaches his interest. Whether the claim succeeds is another matter; standing is not the obstacle.</p>
+
+    <p>Tenants have a sub-section of their own. Section 17(4A), inserted in 2016, lets the Tribunal examine a claimed lease or tenancy and decide whether it has expired or stood determined, is contrary to Section 65A of the Transfer of Property Act, 1882, is contrary to the terms of the mortgage, or was created after the notice under Section 13(2). If it falls within any of the four, the Tribunal may pass such order as it deems fit in accordance with the Act, notwithstanding anything to the contrary in any other law. A lease that bears a date after the demand notice is the first document the bank's counsel will point to.</p>
+
+    <p>The application is made "along with such fee, as may be prescribed", and the proviso to Section 17(1) allows the rules to prescribe different fees for a borrower and for anyone else. The fee is paid at filing; it is not a deposit, and it is not a condition of the kind discussed below.</p>
+
+    <h2>Which Debts Recovery Tribunal?</h2>
+
+    <p>Section 17(1) itself speaks only of "the Debts Recovery Tribunal having jurisdiction in the matter". Since 1 September 2016, Section 17(1A) has said what that means, and it gives three places, any of which will do: where the cause of action arises, wholly or in part; where the secured asset is located; or where the branch or other office of the bank maintains the account in which the debt is outstanding.</p>
+
+    <p>The choice matters more than it looks. Take a Jodhpur trader whose working-capital account is run from a branch in another State, with the mortgaged shop in Jodhpur: clause (b) takes the application to the Tribunal that hears Rajasthan matters, which sits at Jaipur, and clause (c) takes it to the Tribunal where the branch is. Clients from western Rajasthan are often surprised that the case will not be heard in Jodhpur at all. The reverse case is as common: a borrower living in Delhi or Mumbai with inherited or mortgaged property in Rajasthan can file where the property is or where the account is, and the choice is worth making deliberately rather than by default.</p>
+
+    <h2>When do the forty-five days start, and what if they have gone?</h2>
+
+    <p>The period runs "from the date on which such measure had been taken". Not from the demand notice, and not from the sale notice if the real complaint is about the possession. Count from the earliest measure you mean to attack and file well inside the forty-five days. Do not rely on a later step, whether a sale notice or a Magistrate's order, to revive a challenge to an earlier measure that has already gone unchallenged for longer than the period.</p>
+
+    <p>Is the forty-fifth day final? Section 24 of the 1993 Act applies the Limitation Act, 1963 "as far as may be" to "an application made to a Tribunal", and applications to condone delay are filed and argued on that footing. But an application that arrives on the forty-sixth day has turned a right into a request, and the safer course is to treat the forty-fifth day as a wall. The periods under the Limitation Act itself are tabulated in the <a href="/articles/limitation-period-lookup-hi.html" style="color:var(--gold);font-weight:600;">Limitation Period Lookup</a>.</p>
+
+    <h2>What goes into the application?</h2>
+
+    <p>Section 22(1) of the 1993 Act frees the Tribunal from the procedure of the Code of Civil Procedure and tells it to be guided by the principles of natural justice; Section 22(2)(c) lets it receive evidence on affidavit. None of this makes the application informal. It is decided largely on documents, and a document the applicant does not file is, for practical purposes, not in the case. The papers usually needed are:</p>
+
+    <ul style="margin:0 0 18px 1.2em;line-height:1.85;color:var(--text-mid);">
+      <li>the Section 13(2) notice, with the envelope, postal receipt or acknowledgment that shows how and when it was served;</li>
+      <li>the objection or representation sent in reply, and the bank's letter giving reasons under Section 13(3A);</li>
+      <li>the possession notice and the newspaper publications of it;</li>
+      <li>any order under Section 14, with the bank's application and affidavit on which it was made;</li>
+      <li>the sale notice, if one has issued, and the valuation on which the reserve price was fixed;</li>
+      <li>the sanction letter, the mortgage documents and a statement of account;</li>
+      <li>for agricultural land, the revenue record (Section 31(i) keeps such security outside the Act); for a tenant, the lease, its registration and its date.</li>
+    </ul>
+
+    <p>The grounds follow from Section 17(2), which tells the Tribunal to consider whether the measures "are in accordance with the provisions of this Act and the rules made thereunder". That is the frame for every ground worth pleading: the sixty days were not allowed in full; the notice did not give the amount or identify the assets as Section 13(3) requires; the objection was not answered within fifteen days under Section 13(3A); the property is outside the Act under Section 31; the claim was not made within the period of limitation, in which case Section 36 disentitles the creditor from taking any measure at all. An application that argues the merits of the loan rather than the legality of the measure reads as a grievance, not a ground. The relief clause should track Section 17(3): a declaration that the recourse is invalid, restoration of possession or management, such other directions as are necessary, and interim relief pending disposal.</p>
+
+    <h2>Will filing stop the bank? The stay, the caveat and the conditions</h2>
+
+    <p>Nothing in Section 17 halts the bank because an application has been filed. The stay has to be asked for and granted, and its source is not a sub-section but the judgment that upheld the Act. In <em>Mardia Chemicals</em>, para 80(3), the Supreme Court held that the Tribunal, "in exercise of its ancillary powers", has jurisdiction to pass a stay or interim order, subject to such conditions as it thinks fit to impose. Conditions are built into that sentence. The one most often imposed is a deposit of part of the dues, fixed on the facts; the arguments that move it are the ones about the legality of the measure and the value of the security, not the ones about hardship.</p>
+
+    <p>Expect the bank to be there at the first hearing. Section 18C allows a secured creditor to lodge a caveat where an application is expected. If one has been lodged, the caveator must serve notice of it on you by registered post, acknowledgment due; once your application is filed, the Tribunal must serve notice of it on the caveator; and you must give the caveator copies of the application and of the documents filed with it. A caveat lapses after ninety days unless the application is made within that period. A registered letter from the bank giving notice of a caveat means exactly this, and the file should be ready for a contested hearing rather than an <em>ex parte</em> one.</p>
+
+    <h2>Is any deposit needed just to be heard?</h2>
+
+    <p>No. As enacted in 2002, Section 17(2) required a borrower to deposit seventy-five per cent of the amount claimed in the demand notice before the Tribunal would entertain the application. The Supreme Court called that "an oppressive, onerous and arbitrary condition against all the canons of reasonableness" (<em>Mardia Chemicals</em>, para 80(4)) and declared the sub-section ultra vires Article 14 (para 82). The Section 17(2) in the Act today, substituted in 2004, is a different provision altogether: it tells the Tribunal what to examine. A deposit enters at two points only: as a condition the Tribunal may attach to an interim stay, and on appeal to the Appellate Tribunal.</p>
+
+    <h2>How long does the Tribunal take, and what can it order?</h2>
+
+    <p>Section 17(5) requires disposal within sixty days of the application, extendable for reasons recorded in writing, but not beyond four months of pendency in all. Section 17(6) exists because that period is not always kept: once it has passed, any party may apply to the Appellate Tribunal for a direction to the Debts Recovery Tribunal to dispose of the matter expeditiously. For the borrower, this is why the interim order, and the conditions on it, is often the order that matters most in the first months.</p>
+
+    <p>At the end, Section 17(3) allows the Tribunal to declare the recourse to any measure invalid, restore possession or management to the applicant, and pass such other directions as are necessary. If the measure is upheld, Section 17(4) entitles the secured creditor to proceed "notwithstanding anything contained in any other law for the time being in force". Where possession is held to have been taken otherwise than in accordance with the Act and is ordered to be returned, Section 19 entitles the borrower or other applicant to compensation and costs as the Tribunal determines.</p>
+
+    <h2>What if the Tribunal rules against you?</h2>
+
+    <p>Section 18(1) allows an appeal to the Debts Recovery Appellate Tribunal within thirty days from the date of receipt of the order. The second proviso is the hard part: no appeal is entertained unless the borrower has deposited fifty per cent of the amount of debt due from him, as claimed by the secured creditor or determined by the Tribunal, whichever is less. The third proviso lets the Appellate Tribunal, for reasons recorded, reduce the deposit to not less than twenty-five per cent. The contrast with Section 17 is the practical lesson: the first stage is the one a borrower can contest without paying to be heard, and it is the one to prepare for properly.</p>
+
+    <h2>Why not go to the High Court or a civil court instead?</h2>
+
+    <p>A writ petition against a possession notice is still one of the commonest false starts at the Rajasthan High Court's Principal Seat in Jodhpur, usually because the High Court is nearby and the Tribunal is at Jaipur. Article 226 is not excluded, but in <em>United Bank of India v. Satyawati Tondon</em> (Supreme Court, 26 July 2010) it was held that the High Court "will ordinarily not entertain a petition under Article 226 of the Constitution if an effective remedy is available to the aggrieved person", and that the rule applies with greater rigour where the dues of banks and financial institutions are concerned. A petition dismissed on that ground has spent days the forty-five-day period cannot spare. The civil court is closed more firmly still: Section 34 takes away its jurisdiction over matters the Tribunal is empowered to determine and forbids any court or authority to grant an injunction against action taken under the Act.</p>
+
+    <p>The stage before this one is set out in <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" style="color:var(--gold);font-weight:600;">SARFAESI Section 13(2) notice: what a borrower can actually do</a>; the auction stage, including redemption under Section 13(8), in <a href="/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html" style="color:var(--gold);font-weight:600;">Can a bank auction of my property be stopped?</a>; and the same ground in Hindi, written around the Rajasthan borrower, in <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" style="color:var(--gold);font-weight:600;">SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में बचाव</a>. The Act is a central statute; consultation by telephone or video is available to borrowers outside Rajasthan, and how a consultation is arranged is described on the <a href="/consultation.html" style="color:var(--gold);font-weight:600;">consultation page</a>.</p>
+
+    <div class="art-disclaimer">This article is for informational purposes only and does not constitute legal advice. Whether a Section 17 application lies, where it should be filed and what interim relief is realistic depend on the measure actually taken, the date on which it was taken and the contents of the secured creditor's file. For guidance on a particular matter, please consult a qualified advocate.</div>
+  </div>
+
+  <div style="background:var(--off-white);border:1px solid rgba(199,163,90,0.25);border-radius:8px;padding:20px 26px;margin:36px 0;">
+    <div style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);">Shubham Ojha &amp; Associates</div>
+    <div style="font-size:0.9rem;color:var(--text-mid);margin-top:4px;">Advocates, Rajasthan High Court, Jodhpur &nbsp;·&nbsp; <a href="tel:+917023051275" style="color:var(--gold);font-weight:600;">+91 70230 51275</a> &nbsp;·&nbsp; <a href="https://wa.me/917023051275" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600;">WhatsApp</a></div>
+  </div>
+
+  <div class="related-section">
+    <div class="related-title">Related Articles</div>
+    <div class="related-grid">
+      <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">SARFAESI Section 13(2) Notice: What a Borrower Can Actually Do</div></a>
+      <a href="/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">Can a Bank Auction of My Property Be Stopped? Section 13(8) SARFAESI</div></a>
+      <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" class="related-card"><span class="related-card-tag">बैंकिंग / DRT</span><div class="related-card-title">SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में बचाव</div></a>
+    </div>
+  </div>
+</div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+    <div class="art-footer-name">Shubham Ojha &amp; Associates</div>
+    <p class="art-footer-copy">Advocates at the Rajasthan High Court, Jodhpur Bench &nbsp;|&nbsp; Enrolment No. R/2958/2020 (Bar Council of Rajasthan) &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2026 All rights reserved.</p>
+  </div>
+</footer>
+<div class="bci-bar">
+  <p><strong style="color:rgba(255,255,255,0.6);">Bar Council of India Notice:</strong> This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.</p>
+</div>
+
+
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+  <a href="tel:+917023051275" class="mobile-cta-call">📞 Call</a>
+  <a href="https://wa.me/917023051275" class="mobile-cta-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+</div>
+</body>
+</html>
