@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GJNCXM2691');
+document.addEventListener('click', function(e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  var p = location.pathname;
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call', source_page: p});
+  else if (h.indexOf('wa.me') !== -1) gtag('event', 'generate_lead', {method: 'whatsapp', source_page: p});
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email', source_page: p});
+});
+document.addEventListener('DOMContentLoaded', function() {
+  var t = (document.title || '').split('|')[0].trim();
+  if (t.length > 60) { t = t.slice(0, 60); var k = t.lastIndexOf(' '); if (k > 20) t = t.slice(0, k); t = t.replace(/[\s:,\-–—]+$/, '') + '…'; }
+  var hi = (document.documentElement.getAttribute('lang') || 'en').indexOf('hi') === 0;
+  var wa = hi
+    ? 'नमस्ते। मैंने आपकी वेबसाइट पर "' + t + '" पढ़ा।\nमेरी समस्या और शहर — '
+    : 'Hello. I read "' + t + '" on your website.\nMy problem, and my city — ';
+  var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
+  for (var i = 0; i < L.length; i++) {
+    var u = L[i].getAttribute('href');
+    if (u.indexOf('text=') === -1) L[i].setAttribute('href', u + (u.indexOf('?') === -1 ? '?' : '&') + 'text=' + encodeURIComponent(wa));
+  }
+  var M = document.querySelectorAll('a[href^="mailto:"]');
+  for (var j = 0; j < M.length; j++) {
+    var m = M[j].getAttribute('href');
+    if (m.indexOf('subject=') === -1) M[j].setAttribute('href', m + (m.indexOf('?') === -1 ? '?' : '&') + 'subject=' + encodeURIComponent((hi ? 'वेबसाइट पूछताछ — ' : 'Website enquiry — ') + t) + '&body=' + encodeURIComponent(wa));
+  }
+});
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bank Took Possession Through the District Magistrate Under Section 14 SARFAESI: Was It Legal? | Shubham Ojha &amp; Associates</title>
+<meta name="description" content="Section 14 SARFAESI: the nine declarations the bank must swear, the thirty- and sixty-day limits, and where a District Magistrate's possession order is challenged.">
+<meta name="author" content="Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://shubhamojhaandassociates.com/articles/sarfaesi-section-14-district-magistrate-possession-order.html">
+<link rel="alternate" hreflang="en" href="https://shubhamojhaandassociates.com/articles/sarfaesi-section-14-district-magistrate-possession-order.html">
+<link rel="alternate" hreflang="x-default" href="https://shubhamojhaandassociates.com/articles/sarfaesi-section-14-district-magistrate-possession-order.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b1a3a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The bank took possession through the District Magistrate under Section 14. Was that legal?">
+<meta property="og:description" content="What the bank's affidavit must declare, the thirty- and sixty-day limits, why the Magistrate does not decide the borrower's objections, and why the challenge lies to the DRT under Section 17.">
+<meta property="og:url" content="https://shubhamojhaandassociates.com/articles/sarfaesi-section-14-district-magistrate-possession-order.html">
+<meta property="og:locale" content="en_IN">
+<meta property="og:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<meta property="og:site_name" content="Shubham Ojha &amp; Associates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The bank took possession through the District Magistrate under Section 14. Was that legal?">
+<meta name="twitter:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<style>
+:root{--navy:#0b1a3a;--navy-dark:#060f22;--gold:#c7a35a;--gold-light:#d4b575;--white:#ffffff;--off-white:#f8f6f1;--text-dark:#1a1a2e;--text-mid:#3a3a5c;--text-light:#6b6b8a;--shadow:0 4px 24px rgba(11,26,58,0.12);--shadow-lg:0 12px 48px rgba(11,26,58,0.18);--font-serif:'Cormorant Garamond',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:var(--font-sans);background:var(--white);color:var(--text-dark);line-height:1.7;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.art-nav{background:rgba(11,26,58,0.97);padding:0 24px;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:900px;margin:0 auto;}
+.art-nav-brand{display:flex;align-items:center;gap:10px;}
+.art-nav-logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#c7a35a,#d4b575);display:flex;align-items:center;justify-content:center;font-family:var(--font-serif);font-size:1rem;font-weight:700;color:#060f22;flex-shrink:0;}
+.art-nav-name{font-family:var(--font-serif);font-size:1rem;font-weight:600;color:var(--white);line-height:1.1;}
+.art-nav-sub{font-size:0.68rem;color:var(--gold);letter-spacing:0.05em;text-transform:uppercase;}
+.art-nav-links{display:flex;gap:8px;}
+.art-nav-links a{font-size:0.8rem;color:rgba(255,255,255,0.75);padding:7px 14px;border-radius:4px;transition:all .3s;}
+.art-nav-links a:hover{color:var(--gold);background:rgba(199,163,90,0.1);}
+.art-nav-links .btn-cta{background:var(--gold);color:#060f22;font-weight:600;padding:8px 18px;border-radius:4px;}
+.art-nav-links .btn-cta:hover{background:var(--gold-light);}
+.breadcrumb{background:var(--off-white);border-bottom:1px solid rgba(199,163,90,0.12);padding:10px 24px;}
+.breadcrumb-inner{max-width:900px;margin:0 auto;font-size:0.78rem;color:var(--text-light);display:flex;align-items:center;flex-wrap:wrap;gap:6px;}
+.breadcrumb-inner a{color:var(--gold);transition:color .3s;}
+.breadcrumb-inner a:hover{color:var(--gold-light);}
+.breadcrumb-sep{color:var(--text-light);}
+.art-container{max-width:900px;margin:0 auto;padding:48px 24px 72px;}
+.art-header{margin-bottom:36px;padding-bottom:28px;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-tag{display:inline-block;background:var(--gold);color:var(--navy-dark);font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:2px;margin-bottom:16px;}
+.art-title{font-family:var(--font-serif);font-size:clamp(1.8rem,4vw,2.6rem);font-weight:600;color:var(--navy);line-height:1.25;margin-bottom:16px;}
+.art-byline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:0.82rem;color:var(--text-light);margin-bottom:8px;}
+.art-byline-author{color:var(--gold);font-weight:600;}
+.art-byline-dot{width:3px;height:3px;border-radius:50%;background:var(--text-light);}
+.art-body p{font-size:1rem;color:var(--text-mid);line-height:1.9;margin-bottom:22px;}
+.art-body strong{color:var(--text-dark);}
+.art-body em{font-style:italic;}
+.art-body h4{font-family:var(--font-serif);font-size:1.2rem;font-weight:600;color:var(--navy);margin:28px 0 12px;}
+.art-disclaimer{background:var(--off-white);border-left:3px solid var(--gold);padding:14px 18px;margin:36px 0 0;font-size:0.82rem;color:var(--text-light);line-height:1.65;font-style:italic;border-radius:0 4px 4px 0;}
+.art-cta-box{background:linear-gradient(135deg,var(--navy-dark),var(--navy));border-radius:8px;padding:32px 36px;margin:40px 0;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+.art-cta-title{font-family:var(--font-serif);font-size:1.4rem;font-weight:600;color:var(--white);}
+.art-cta-sub{font-size:0.88rem;color:rgba(255,255,255,0.65);margin-top:4px;}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:4px;font-family:var(--font-sans);font-size:0.85rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;border:none;transition:all .3s;}
+.btn-primary{background:var(--gold);color:#060f22;}
+.btn-primary:hover{background:var(--gold-light);transform:translateY(-2px);}
+.btn-outline{background:transparent;color:var(--gold);border:1.5px solid var(--gold);}
+.btn-outline:hover{background:var(--gold);color:#060f22;}
+.related-section{margin-top:56px;padding-top:36px;border-top:1px solid rgba(199,163,90,0.15);}
+.related-title{font-family:var(--font-serif);font-size:1.5rem;font-weight:600;color:var(--navy);margin-bottom:20px;}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.related-card{border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:18px;background:var(--off-white);transition:all .3s;}
+.related-card:hover{border-color:rgba(199,163,90,0.4);box-shadow:var(--shadow);transform:translateY(-3px);}
+.related-card-tag{font-size:0.68rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block;}
+.related-card-title{font-family:var(--font-serif);font-size:0.98rem;font-weight:600;color:var(--navy);line-height:1.35;}
+.art-footer{background:var(--navy-dark);color:rgba(255,255,255,0.55);padding:32px 24px;text-align:center;margin-top:0;}
+.art-footer-inner{max-width:900px;margin:0 auto;}
+.art-footer-name{font-family:var(--font-serif);font-size:1.1rem;color:var(--white);margin-bottom:8px;}
+.art-footer-copy{font-size:0.78rem;}
+.bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
+.bci-bar p{font-size:0.72rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.6;}
+@media(max-width:640px){.related-grid{grid-template-columns:1fr;.art-nav-sub{display:none;}.art-nav-brand{min-width:0;flex:1 1 auto;}.art-nav-brand>div:last-child{min-width:0;overflow:hidden;}.art-nav-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.88rem;}.art-nav-links{flex-shrink:0;}}.art-nav-links .art-nav-back{display:none;}.art-cta-box{flex-direction:column;text-align:center;}}
+
+.wa-button{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all .3s;}
+.wa-button:hover{transform:scale(1.08);}
+.mobile-cta-bar{display:none;}
+@media(max-width:768px){.mobile-cta-bar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:998;box-shadow:0 -4px 20px rgba(6,15,34,0.25);}.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;}.mobile-cta-call{background:var(--gold);color:#060f22;}.mobile-cta-wa{background:#1da851;color:#fff;}.wa-button{bottom:76px;}body{padding-bottom:70px;}}
+</style>
+<style>
+.art-lead{background:var(--off-white);border-left:3px solid var(--gold);padding:18px 22px;margin-bottom:30px;border-radius:0 6px 6px 0;}
+.art-lead p{font-size:1.05rem;color:var(--text-dark);line-height:1.85;font-weight:500;margin:0;}
+</style>
+<style>
+.statute{background:#fbfaf6;border:1px solid rgba(199,163,90,.45);border-radius:8px;padding:22px 26px;margin:8px 0 32px;}
+.statute-h{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--navy);margin:0 0 4px;}
+.statute-src{font-size:.78rem;color:var(--text-light);margin:0 0 14px;letter-spacing:.02em;}
+.statute-sub{font-size:.95rem;line-height:1.8;color:var(--text-dark);margin:0 0 12px;padding-left:2.6em;text-indent:-2.6em;}
+.statute-sub b{color:var(--navy);display:inline-block;width:2.6em;text-indent:0;}
+.statute-hi{font-size:.97rem;line-height:1.95;color:var(--text-mid);margin:0 0 16px;padding:10px 14px;border-left:3px solid var(--gold);background:var(--off-white);}
+.statute-note{font-size:.8rem;color:var(--text-light);margin:10px 0 0;line-height:1.6;}
+.art-body h2{font-family:var(--font-serif);font-size:1.45rem;font-weight:600;color:var(--navy);margin:36px 0 14px;line-height:1.35;}
+.dl-box{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:var(--navy);color:#f8f6f1;border-radius:10px;padding:18px 22px;margin:0 0 30px;}
+.dl-box a{color:var(--gold);font-weight:700;text-decoration:underline;}
+.dl-box .dl-ic{font-size:1.9rem;line-height:1;}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "inLanguage": "en",
+  "headline": "The Bank Took Possession Through the District Magistrate Under Section 14. Was That Legal?",
+  "description": "Section 14 SARFAESI: the nine declarations the bank must swear, the thirty- and sixty-day limits, and where a District Magistrate's possession order is challenged.",
+  "author": {
+    "@type": "Person",
+    "name": "Shubham Ojha",
+    "jobTitle": "Advocate",
+    "description": "BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur",
+    "url": "https://shubhamojhaandassociates.com/about.html",
+    "worksFor": {
+      "@type": "LegalService",
+      "name": "Shubham Ojha & Associates",
+      "url": "https://shubhamojhaandassociates.com"
+    }
+  },
+  "publisher": {
+    "@type": "LegalService",
+    "name": "Shubham Ojha & Associates",
+    "url": "https://shubhamojhaandassociates.com"
+  },
+  "datePublished": "2026-09-15",
+  "dateModified": "2026-09-15",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shubhamojhaandassociates.com/articles/sarfaesi-section-14-district-magistrate-possession-order.html"
+  },
+  "keywords": "section 14 SARFAESI, District Magistrate possession order SARFAESI, bank physical possession through DM, section 14 affidavit nine declarations, section 14 thirty days sixty days, Additional District Magistrate section 14, R.D. Jain Capital First, Balkrishna Rama Tarle Phoenix ARC, section 14(3) SARFAESI bar, challenge DM order DRT section 17",
+  "articleSection": "Banking & Debt Recovery"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://shubhamojhaandassociates.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Legal Insights",
+      "item": "https://shubhamojhaandassociates.com/#articles"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "The Bank Took Possession Through the District Magistrate Under Section 14. Was That Legal?",
+      "item": "https://shubhamojhaandassociates.com/articles/sarfaesi-section-14-district-magistrate-possession-order.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does the District Magistrate have to hear the borrower before ordering possession under Section 14?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 14 requires the Magistrate to satisfy himself of the contents of the authorised officer's affidavit; it does not provide for a hearing of the borrower. In R.D. Jain and Co. v. Capital First Ltd. (Supreme Court, 27 July 2022) the step was held to be ministerial, involving no adjudication of the points a borrower raises against the bank. Those points are decided by the Debts Recovery Tribunal under Section 17."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the Magistrate have to pass a Section 14 order?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thirty days from the date of the bank's application, under the second proviso to Section 14(1). If no order can be passed within that period for reasons beyond his control, the Magistrate may record the reasons in writing and pass it within a further period, but not more than sixty days in all, under the third proviso. Both limits came in with the 2016 amendment, in force from 1 September 2016."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an Additional District Magistrate pass the Section 14 order?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. In R.D. Jain and Co. v. Capital First Ltd. (Supreme Court, 2022) the Court held that the District Magistrate and the Chief Metropolitan Magistrate are not persona designata under Section 14, and that the power may be exercised by an Additional District Magistrate or an Additional Chief Metropolitan Magistrate. Separately, Section 14(1A) allows the Magistrate to authorise a subordinate officer to take possession and hand it to the bank."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a Section 14 possession order be challenged in the High Court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 14(3) provides that no act of the Magistrate, or of an officer he authorises, done under the section shall be called in question in any court or before any authority. What is challenged is the bank's measure under Section 13(4), before the Debts Recovery Tribunal under Section 17, within forty-five days of the measure. Under United Bank of India v. Satyawati Tondon (Supreme Court, 2010), a High Court ordinarily declines an Article 226 petition where that remedy is available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I am a tenant in the mortgaged property. Will the Magistrate decide my tenancy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. In Balkrishna Rama Tarle v. Phoenix ARC Pvt. Ltd. (Supreme Court, 26 September 2022) the Court held that the Magistrate does not adjudicate a dispute between a third party and the secured creditor, and that the aggrieved person raises it under Section 17. Section 17(4A) lets the Tribunal examine whether the tenancy has expired, is contrary to Section 65A of the Transfer of Property Act, 1882, is contrary to the mortgage, or was created after the Section 13(2) notice."
+      }
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+<nav class="art-nav">
+  <div class="art-nav-inner">
+    <a href="/" class="art-nav-brand">
+      <div class="art-nav-logo">SO</div>
+      <div>
+        <div class="art-nav-name">Shubham Ojha &amp; Associates</div>
+        <div class="art-nav-sub">Advocates &amp; Legal Consultants</div>
+      </div>
+    </a>
+    <div class="art-nav-links">
+      <a href="/#articles">← All Articles</a>
+      <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" class="art-lang">हिंदी</a>
+    </div>
+  </div>
+</nav>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="/">Home</a><span class="breadcrumb-sep">›</span>
+    <a href="/#articles">Legal Insights</a><span class="breadcrumb-sep">›</span>
+    <span>Possession through the District Magistrate under Section 14</span>
+  </div>
+</div>
+<div class="art-container">
+  <div class="art-header">
+    <div class="art-tag">Banking &amp; Debt Recovery</div>
+    <h1 class="art-title">The Bank Took Possession Through the District Magistrate Under Section 14. Was That Legal?</h1>
+    <div class="art-byline">
+      <span class="art-byline-author">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+      <span class="art-byline-dot"></span>
+      <span>September 2026</span>
+    </div>
+  </div>
+
+  <div class="art-body">
+
+    <div class="art-lead">
+      <p>A District Magistrate's order under Section 14 of the SARFAESI Act is lawful only if the bank applied with its authorised officer's affidavit making the nine statutory declarations, and the Magistrate checked that affidavit before ordering. The Magistrate does not decide the borrower's objections. Those go to the Debts Recovery Tribunal under Section 17, within forty-five days of the measure.</p>
+    </div>
+
+    <div style="background:var(--off-white);border-left:3px solid var(--gold);padding:18px 22px;margin:0 0 28px;">
+      <div style="font-family:var(--font-serif);font-size:1.1rem;font-weight:600;color:var(--navy);margin-bottom:10px;">At a glance</div>
+      <ul style="list-style:none;margin:0;padding:0;font-size:0.95rem;line-height:1.85;color:var(--text-mid);">
+        <li><strong>Who orders</strong> — the Chief Metropolitan Magistrate or the District Magistrate within whose jurisdiction the secured asset or its documents are situated or found (Section 14(1)); an Additional District Magistrate or Additional Chief Metropolitan Magistrate may exercise the power (<em>R.D. Jain and Co. v. Capital First Ltd.</em>, Supreme Court, 27 July 2022)</li>
+        <li><strong>What the bank must file</strong> — a written request and an affidavit of its authorised officer making <strong>nine</strong> declarations (first proviso to Section 14(1), in force from 15 January 2013)</li>
+        <li><strong>Time for the order</strong> — <strong>thirty days</strong> from the application; for reasons beyond the Magistrate's control, recorded in writing, not more than <strong>sixty days</strong> in all (second and third provisos)</li>
+        <li><strong>Who comes to the property</strong> — the Magistrate or an officer he authorises (Section 14(1A)), using such force as in his opinion is necessary (Section 14(2))</li>
+        <li><strong>The Magistrate's act</strong> — cannot be called in question in any court or before any authority (Section 14(3)); the step is ministerial (<em>R.D. Jain</em>, para 8.1)</li>
+        <li><strong>Where objections go</strong> — the Debts Recovery Tribunal under Section 17, within <strong>forty-five days</strong> of the measure; tenancy claims under Section 17(4A) (<em>Balkrishna Rama Tarle v. Phoenix ARC Pvt. Ltd.</em>, Supreme Court, 26 September 2022, para 5)</li>
+        <li><strong>If possession was wrongly taken</strong> — the Tribunal may restore it (Section 17(3)(b)), with compensation and costs (Section 19)</li>
+      </ul>
+      <p style="font-size:0.9rem;line-height:1.75;color:var(--text-mid);margin:12px 0 0;padding-top:12px;border-top:1px solid rgba(199,163,90,0.25);"><strong>Jurisdiction.</strong> The SARFAESI Act, 2002 is a <strong>central statute and applies across India</strong>. The Magistrate who acts under Section 14 is the one where the property is; the Tribunal that hears the challenge may be chosen under Section 17(1A) from the place of the cause of action, the property or the branch holding the account. Section 30 of the Advocates Act, 1961 entitles an advocate to practise throughout India.</p>
+    </div>
+
+<div class="statute">
+<div class="statute-h">Text of the second and third provisos to Section 14(1), and Sections 14(1A), 14(2) and 14(3), SARFAESI Act, 2002</div>
+<div class="statute-src">Provisos to sub-section (1) and sub-section (1A) inserted by Act 1 of 2013 (w.e.f. 15-1-2013); the words "within a period of thirty days from the date of application", the third proviso and the words "any officer authorised by the Chief Metropolitan Magistrate or District Magistrate" in sub-section (3) inserted by Act 44 of 2016 (w.e.f. 1-9-2016) — reproduced verbatim.</div>
+<p class="statute-sub"><b>2nd</b>Provided further that on receipt of the affidavit from the Authorised Officer, the District Magistrate or the Chief Metropolitan Magistrate, as the case may be, shall after satisfying the contents of the affidavit pass suitable orders for the purpose of taking possession of the secured assets within a period of thirty days from the date of application:</p>
+<p class="statute-sub"><b>3rd</b>Provided also that if no order is passed by the Chief Metropolitan Magistrate or District Magistrate within the said period of thirty days for reasons beyond his control, he may, after recording reasons in writing for the same, pass the order within such further period but not exceeding in aggregate sixty days.</p>
+<p class="statute-sub"><b>(1A)</b>The District Magistrate or the Chief Metropolitan Magistrate may authorise any officer subordinate to him,— (i) to take possession of such assets and documents relating thereto; and (ii) to forward such assets and documents to the secured creditor.</p>
+<p class="statute-sub"><b>(2)</b>For the purpose of securing compliance with the provisions of sub-section (1), the Chief Metropolitan Magistrate or the District Magistrate may take or cause to be taken such steps and use, or cause to be used, such force, as may, in his opinion, be necessary.</p>
+<p class="statute-sub"><b>(3)</b>No act of the Chief Metropolitan Magistrate or the District Magistrate any officer authorised by the Chief Metropolitan Magistrate or District Magistrate done in pursuance of this section shall be called in question in any court or before any authority.</p>
+<p class="statute-note">Sub-section (3) is reproduced as it appears in the official text of the Act.</p>
+</div>
+
+    <h2>Why does the bank need the Magistrate if it has already taken possession?</h2>
+
+    <p>Section 13(4)(a) lets the secured creditor itself "take possession of the secured assets of the borrower". The authorised officer does this under Rule 8 of the Security Interest (Enforcement) Rules, 2002, by delivering a possession notice to the borrower, affixing it on the outer door or another conspicuous place of the property and publishing it in two newspapers, one in the local language. The Supreme Court noted in <em>R.D. Jain and Co. v. Capital First Ltd.</em> (27 July 2022, para 8) that possession can be taken this way by the bank's own officer. But a notice does not empty a house. "For taking physical possession of the secured assets in terms of Section 14(1)", the same judgment goes on, "the secured creditor is obliged to approach the CMM/DM" (para 8.1). The Magistrate then takes possession of the asset and its documents and forwards them to the secured creditor, which is all that Section 14(1)(a) and (b) ask of him.</p>
+
+    <p>The telephone call about Section 14 usually comes late. The possession notice has been on the gate for weeks, the family is still living inside, and it is only the news that the Magistrate has passed an order that makes the matter feel real. By then the useful question is no longer whether the bank can do this, but whether it did it properly, and where that can be tested.</p>
+
+    <h2>Which Magistrate can pass the order?</h2>
+
+    <p>Section 14(1) names the Chief Metropolitan Magistrate or the District Magistrate "within whose jurisdiction any such secured asset or other documents relating thereto may be situated or found". The Magistrate follows the property, not the branch and not the borrower's address. A borrower living in Delhi whose mortgaged house is in Jodhpur will be dealing with the District Magistrate at Jodhpur, who in the ordinary course is also the Collector.</p>
+
+    <p>Orders signed by an Additional District Magistrate are often queried, and the query has been answered. In <em>R.D. Jain</em> the Supreme Court held that the District Magistrate and the Chief Metropolitan Magistrate are not persona designata under Section 14, and that the expressions include the Additional District Magistrate and the Additional Chief Metropolitan Magistrate (para 12), overruling decisions of the Gujarat, Calcutta and Kerala High Courts that had held otherwise (para 13). An objection on that ground alone is not worth the time it costs.</p>
+
+    <h2>What must the bank's application say?</h2>
+
+    <p>Since 15 January 2013 the bank's request must be accompanied by an affidavit "duly affirmed by the authorised officer". The first proviso to Section 14(1) lists what that affidavit must declare. In substance:</p>
+
+    <ul style="margin:0 0 18px 1.2em;line-height:1.85;color:var(--text-mid);">
+      <li>the total financial assistance granted and the bank's total claim on the date of the application;</li>
+      <li>that the borrower created a security interest over the properties, that the bank holds a valid and subsisting security interest over them, and that its claim is within the limitation period;</li>
+      <li>the details of those properties;</li>
+      <li>that the borrower defaulted in repaying the specified amount;</li>
+      <li>that the account was classified as a non-performing asset in consequence of the default;</li>
+      <li>that the sixty-day notice under Section 13(2) was served on the borrower;</li>
+      <li>that the borrower's objection or representation was considered and the reasons for not accepting it were communicated;</li>
+      <li>that no repayment was made despite the notice, so that the authorised officer is entitled to take possession under Section 13(4) read with Section 14;</li>
+      <li>that the Act and the rules made under it have been complied with.</li>
+    </ul>
+
+    <p>Each of these is a statement of fact sworn by an officer of the bank, and several of them can be checked against the borrower's own papers. Was the Section 13(2) notice actually served, and on whom? Was a representation sent, and did a reasoned reply ever arrive? Is the property one to which the Act applies at all? The application and the affidavit are the first documents to obtain, because a declaration that the borrower's own records contradict is a ground a tribunal can act on, where a general complaint about the loan is not.</p>
+
+    <h2>Does the Magistrate have to hear me before passing the order?</h2>
+
+    <p>The section asks the Magistrate to act "after satisfying the contents of the affidavit". It says nothing about hearing the borrower, and the Supreme Court has read it narrowly. In <em>R.D. Jain</em> the Court held that the step is ministerial: "no element of quasi-judicial function or application of mind would require. The Magistrate has to adjudicate and decide the correctness of the information given in the application and nothing more. Therefore, Section 14 does not involve an adjudicatory process qua points raised by the borrower against the secured creditor taking possession of secured assets" (para 8.1).</p>
+
+    <p>Two months later, in <em>Balkrishna Rama Tarle v. Phoenix ARC Pvt. Ltd.</em> (26 September 2022), the Court applied this to a Magistrate who had gone further. The Additional District Magistrate at Nashik had kept the secured creditor's application pending until a tenant's rights were terminated by due process of law. The Supreme Court upheld the High Court's decision setting that order aside, holding that once the requirements of Section 14 are satisfied it is the Magistrate's duty to assist the secured creditor, and that the Magistrate "is not required to adjudicate the dispute between the borrower and the secured creditor and/or between any other third party and the secured creditor", the aggrieved party being "relegated to raise objections in the proceedings under Section 17" (para 5).</p>
+
+    <p>So objections about the interest charged, a one-time settlement that was being negotiated, or the value of the property do not belong in a letter to the Collector. They belong in an application to the Tribunal.</p>
+
+    <h2>What if the order was passed after thirty or sixty days?</h2>
+
+    <p>The second proviso gives the Magistrate thirty days from the date of the application. The third allows more time only where the delay is for reasons beyond his control, only after those reasons are recorded in writing, and never beyond sixty days in all. In <em>R.D. Jain</em> the Court described the limit in strong terms: the Magistrate "has to act within the stipulated time limit", "cannot brook delay", and "time is of the essence" (para 8.1).</p>
+
+    <p>Those words were written to speed the bank up, not to give the borrower a defence. The Act does not say that a late order is void, and a borrower should not build a plan on the hope that it is. The dates are still worth noting in the application to the Tribunal, alongside grounds that go to the bank's own compliance.</p>
+
+    <h2>Who comes to the property, and can force be used?</h2>
+
+    <p>Section 14 does not require the Magistrate to go personally. Section 14(1A) allows him to authorise "any officer subordinate to him" to take possession and hand it over to the bank, and <em>R.D. Jain</em> records that this includes an advocate commissioner, who is treated as an officer of the court (para 8.1). Section 14(2) allows the Magistrate to take such steps and use such force "as may, in his opinion, be necessary".</p>
+
+    <p>The practical point is timing. If an officer has been authorised and a date has been fixed, the Tribunal has to be approached before that date, not after it, because an order restoring possession under Section 17(3) takes months to obtain while the handing over takes an afternoon.</p>
+
+    <h2>Section 14(3) says the order cannot be questioned. Is there any remedy at all?</h2>
+
+    <p>There is, and it is the one the Act itself provides. Section 14(3) protects the act of the Magistrate and of the officer he authorises; it does not protect the secured creditor's measure. Section 17(1) gives "any person (including borrower)" aggrieved by a measure under Section 13(4) the right to apply to the Debts Recovery Tribunal within forty-five days from the date on which the measure was taken, and Section 17(2) tells the Tribunal to consider whether the measure was "in accordance with the provisions of this Act and the rules made thereunder". If it was not, Section 17(3) allows the Tribunal to declare the recourse invalid and restore possession to the applicant, and Section 19 entitles the applicant to compensation and costs. This is the forum <em>Balkrishna Rama Tarle</em> sends the borrower to.</p>
+
+    <p>Count the forty-five days from the earliest measure you mean to challenge, which is usually the taking of possession recorded in the notice under Section 13(4), and do not wait for the Magistrate's order to start counting. How the application is drafted, which Tribunal to choose and what an interim stay requires are covered in <a href="/articles/sarfaesi-section-17-application-drt-45-days-stay.html" style="color:var(--gold);font-weight:600;">How is a Section 17 application filed in the DRT?</a></p>
+
+    <p>A writ petition against the Magistrate's order is the obvious alternative and usually the wrong one. In <em>United Bank of India v. Satyawati Tondon</em> (Supreme Court, 26 July 2010) the Court held that a High Court "will ordinarily not entertain a petition under Article 226 of the Constitution if an effective remedy is available to the aggrieved person", and that the rule applies with greater rigour to the dues of banks and financial institutions. A civil suit is closed off by Section 34, which bars civil courts from matters the Tribunal is empowered to determine and forbids any court or authority from granting an injunction against action taken under the Act.</p>
+
+    <h2>I am a tenant, a co-owner or a buyer in occupation. What then?</h2>
+
+    <p>You are a person aggrieved, and the route is the same. The Magistrate will not decide your claim: that is the holding in <em>Balkrishna Rama Tarle</em>, which was itself a tenant's case. In the same judgment the Court read its earlier decision in <em>Harshad Govardhan Sondagar</em> as requiring notice and an opportunity of hearing for a person in possession who claims to be a lessee, but not as requiring the Magistrate to adjudicate the rights between the parties (para 6).</p>
+
+    <p>The adjudication happens under Section 17(4A). Where an applicant claims a tenancy or lease over the secured asset, the Tribunal examines whether it has expired or stood determined, is contrary to Section 65A of the Transfer of Property Act, 1882, is contrary to the terms of the mortgage, or was created after the Section 13(2) notice. A lease dated after the demand notice will be the first thing the bank points to, and a tenant who can show an earlier registered lease and rent actually paid is in a very different position from one who cannot.</p>
+
+    <h2>What if the property is agricultural land?</h2>
+
+    <p>Then the question is not how the order was passed but whether the Act applies. Section 31(i) provides that the Act does not apply to "any security interest created in agricultural land". In western Rajasthan, where a family's main asset is as often a field as a house, it is the first question to ask about any security. The revenue record, the jamabandi and the khasra girdawari, is the first document to put before the Tribunal in that case, because the objection goes to the root of the bank's power and not merely to the way it was used.</p>
+
+    <p>The earlier stages are set out in <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" style="color:var(--gold);font-weight:600;">SARFAESI Section 13(2) notice: what a borrower can actually do</a>, and the auction stage in <a href="/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html" style="color:var(--gold);font-weight:600;">Can a bank auction of my property be stopped?</a>; the same ground in Hindi, written around the Rajasthan borrower, is in <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" style="color:var(--gold);font-weight:600;">SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में बचाव</a>. The Act is a central statute; consultation by telephone or video is available to borrowers and occupants outside Rajasthan, and how a consultation is arranged is described on the <a href="/consultation.html" style="color:var(--gold);font-weight:600;">consultation page</a>.</p>
+
+    <div class="art-disclaimer">This article is for informational purposes only and does not constitute legal advice. Whether a particular Section 14 order can be challenged, and on what grounds, depends on the bank's application and affidavit, the dates on which each measure was taken and the nature of the property. For guidance on a particular matter, please consult a qualified advocate.</div>
+  </div>
+
+  <div style="background:var(--off-white);border:1px solid rgba(199,163,90,0.25);border-radius:8px;padding:20px 26px;margin:36px 0;">
+    <div style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);">Shubham Ojha &amp; Associates</div>
+    <div style="font-size:0.9rem;color:var(--text-mid);margin-top:4px;">Advocates, Rajasthan High Court, Jodhpur &nbsp;·&nbsp; <a href="tel:+917023051275" style="color:var(--gold);font-weight:600;">+91 70230 51275</a> &nbsp;·&nbsp; <a href="https://wa.me/917023051275" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600;">WhatsApp</a></div>
+  </div>
+
+  <div class="related-section">
+    <div class="related-title">Related Articles</div>
+    <div class="related-grid">
+      <a href="/articles/sarfaesi-section-17-application-drt-45-days-stay.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">How Is a Section 17 Application Filed in the DRT? The Forty-Five Days and the Stay</div></a>
+      <a href="/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">Can a Bank Auction of My Property Be Stopped? Section 13(8) SARFAESI</div></a>
+      <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">SARFAESI Section 13(2) Notice: What a Borrower Can Actually Do</div></a>
+    </div>
+  </div>
+</div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+    <div class="art-footer-name">Shubham Ojha &amp; Associates</div>
+    <p class="art-footer-copy">Advocates at the Rajasthan High Court, Jodhpur Bench &nbsp;|&nbsp; Enrolment No. R/2958/2020 (Bar Council of Rajasthan) &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2026 All rights reserved.</p>
+  </div>
+</footer>
+<div class="bci-bar">
+  <p><strong style="color:rgba(255,255,255,0.6);">Bar Council of India Notice:</strong> This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.</p>
+</div>
+
+
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+  <a href="tel:+917023051275" class="mobile-cta-call">📞 Call</a>
+  <a href="https://wa.me/917023051275" class="mobile-cta-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+</div>
+</body>
+</html>
