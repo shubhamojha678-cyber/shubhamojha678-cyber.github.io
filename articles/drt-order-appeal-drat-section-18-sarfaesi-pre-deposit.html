@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-GJNCXM2691');
+document.addEventListener('click', function(e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a) return;
+  var h = a.getAttribute('href') || '';
+  var p = location.pathname;
+  if (h.indexOf('tel:') === 0) gtag('event', 'generate_lead', {method: 'phone_call', source_page: p});
+  else if (h.indexOf('wa.me') !== -1) gtag('event', 'generate_lead', {method: 'whatsapp', source_page: p});
+  else if (h.indexOf('mailto:') === 0) gtag('event', 'generate_lead', {method: 'email', source_page: p});
+});
+document.addEventListener('DOMContentLoaded', function() {
+  var t = (document.title || '').split('|')[0].trim();
+  if (t.length > 60) { t = t.slice(0, 60); var k = t.lastIndexOf(' '); if (k > 20) t = t.slice(0, k); t = t.replace(/[\s:,\-–—]+$/, '') + '…'; }
+  var hi = (document.documentElement.getAttribute('lang') || 'en').indexOf('hi') === 0;
+  var wa = hi
+    ? 'नमस्ते। मैंने आपकी वेबसाइट पर "' + t + '" पढ़ा।\nमेरी समस्या और शहर — '
+    : 'Hello. I read "' + t + '" on your website.\nMy problem, and my city — ';
+  var L = document.querySelectorAll('a[href*="wa.me/917023051275"]');
+  for (var i = 0; i < L.length; i++) {
+    var u = L[i].getAttribute('href');
+    if (u.indexOf('text=') === -1) L[i].setAttribute('href', u + (u.indexOf('?') === -1 ? '?' : '&') + 'text=' + encodeURIComponent(wa));
+  }
+  var M = document.querySelectorAll('a[href^="mailto:"]');
+  for (var j = 0; j < M.length; j++) {
+    var m = M[j].getAttribute('href');
+    if (m.indexOf('subject=') === -1) M[j].setAttribute('href', m + (m.indexOf('?') === -1 ? '?' : '&') + 'subject=' + encodeURIComponent((hi ? 'वेबसाइट पूछताछ — ' : 'Website enquiry — ') + t) + '&body=' + encodeURIComponent(wa));
+  }
+});
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Appealing a DRT Order to the DRAT Under Section 18 SARFAESI: Thirty Days and the Fifty Per Cent Pre-Deposit | Shubham Ojha &amp; Associates</title>
+<meta name="description" content="Section 18 SARFAESI: thirty days from receipt of the DRT order, fifty per cent of the debt due — claimed or determined, whichever is less — reducible to twenty-five per cent, never waived.">
+<meta name="author" content="Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation)">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://shubhamojhaandassociates.com/articles/drt-order-appeal-drat-section-18-sarfaesi-pre-deposit.html">
+<link rel="alternate" hreflang="en" href="https://shubhamojhaandassociates.com/articles/drt-order-appeal-drat-section-18-sarfaesi-pre-deposit.html">
+<link rel="alternate" hreflang="x-default" href="https://shubhamojhaandassociates.com/articles/drt-order-appeal-drat-section-18-sarfaesi-pre-deposit.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b1a3a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The DRT has dismissed my application. Can I appeal to the DRAT under Section 18?">
+<meta property="og:description" content="Thirty days from receipt, the fifty per cent pre-deposit and the twenty-five per cent floor, who counts as a borrower, and why the High Court cannot waive the deposit.">
+<meta property="og:url" content="https://shubhamojhaandassociates.com/articles/drt-order-appeal-drat-section-18-sarfaesi-pre-deposit.html">
+<meta property="og:locale" content="en_IN">
+<meta property="og:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<meta property="og:site_name" content="Shubham Ojha &amp; Associates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The DRT has dismissed my application. Can I appeal to the DRAT under Section 18?">
+<meta name="twitter:image" content="https://shubhamojhaandassociates.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<style>
+:root{--navy:#0b1a3a;--navy-dark:#060f22;--gold:#c7a35a;--gold-light:#d4b575;--white:#ffffff;--off-white:#f8f6f1;--text-dark:#1a1a2e;--text-mid:#3a3a5c;--text-light:#6b6b8a;--shadow:0 4px 24px rgba(11,26,58,0.12);--shadow-lg:0 12px 48px rgba(11,26,58,0.18);--font-serif:'Cormorant Garamond',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:var(--font-sans);background:var(--white);color:var(--text-dark);line-height:1.7;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.art-nav{background:rgba(11,26,58,0.97);padding:0 24px;position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:900px;margin:0 auto;}
+.art-nav-brand{display:flex;align-items:center;gap:10px;}
+.art-nav-logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#c7a35a,#d4b575);display:flex;align-items:center;justify-content:center;font-family:var(--font-serif);font-size:1rem;font-weight:700;color:#060f22;flex-shrink:0;}
+.art-nav-name{font-family:var(--font-serif);font-size:1rem;font-weight:600;color:var(--white);line-height:1.1;}
+.art-nav-sub{font-size:0.68rem;color:var(--gold);letter-spacing:0.05em;text-transform:uppercase;}
+.art-nav-links{display:flex;gap:8px;}
+.art-nav-links a{font-size:0.8rem;color:rgba(255,255,255,0.75);padding:7px 14px;border-radius:4px;transition:all .3s;}
+.art-nav-links a:hover{color:var(--gold);background:rgba(199,163,90,0.1);}
+.art-nav-links .btn-cta{background:var(--gold);color:#060f22;font-weight:600;padding:8px 18px;border-radius:4px;}
+.art-nav-links .btn-cta:hover{background:var(--gold-light);}
+.breadcrumb{background:var(--off-white);border-bottom:1px solid rgba(199,163,90,0.12);padding:10px 24px;}
+.breadcrumb-inner{max-width:900px;margin:0 auto;font-size:0.78rem;color:var(--text-light);display:flex;align-items:center;flex-wrap:wrap;gap:6px;}
+.breadcrumb-inner a{color:var(--gold);transition:color .3s;}
+.breadcrumb-inner a:hover{color:var(--gold-light);}
+.breadcrumb-sep{color:var(--text-light);}
+.art-container{max-width:900px;margin:0 auto;padding:48px 24px 72px;}
+.art-header{margin-bottom:36px;padding-bottom:28px;border-bottom:1px solid rgba(199,163,90,0.15);}
+.art-tag{display:inline-block;background:var(--gold);color:var(--navy-dark);font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:2px;margin-bottom:16px;}
+.art-title{font-family:var(--font-serif);font-size:clamp(1.8rem,4vw,2.6rem);font-weight:600;color:var(--navy);line-height:1.25;margin-bottom:16px;}
+.art-byline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:0.82rem;color:var(--text-light);margin-bottom:8px;}
+.art-byline-author{color:var(--gold);font-weight:600;}
+.art-byline-dot{width:3px;height:3px;border-radius:50%;background:var(--text-light);}
+.art-body p{font-size:1rem;color:var(--text-mid);line-height:1.9;margin-bottom:22px;}
+.art-body strong{color:var(--text-dark);}
+.art-body em{font-style:italic;}
+.art-body h4{font-family:var(--font-serif);font-size:1.2rem;font-weight:600;color:var(--navy);margin:28px 0 12px;}
+.art-disclaimer{background:var(--off-white);border-left:3px solid var(--gold);padding:14px 18px;margin:36px 0 0;font-size:0.82rem;color:var(--text-light);line-height:1.65;font-style:italic;border-radius:0 4px 4px 0;}
+.art-cta-box{background:linear-gradient(135deg,var(--navy-dark),var(--navy));border-radius:8px;padding:32px 36px;margin:40px 0;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+.art-cta-title{font-family:var(--font-serif);font-size:1.4rem;font-weight:600;color:var(--white);}
+.art-cta-sub{font-size:0.88rem;color:rgba(255,255,255,0.65);margin-top:4px;}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:4px;font-family:var(--font-sans);font-size:0.85rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;border:none;transition:all .3s;}
+.btn-primary{background:var(--gold);color:#060f22;}
+.btn-primary:hover{background:var(--gold-light);transform:translateY(-2px);}
+.btn-outline{background:transparent;color:var(--gold);border:1.5px solid var(--gold);}
+.btn-outline:hover{background:var(--gold);color:#060f22;}
+.related-section{margin-top:56px;padding-top:36px;border-top:1px solid rgba(199,163,90,0.15);}
+.related-title{font-family:var(--font-serif);font-size:1.5rem;font-weight:600;color:var(--navy);margin-bottom:20px;}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.related-card{border:1px solid rgba(199,163,90,0.15);border-radius:8px;padding:18px;background:var(--off-white);transition:all .3s;}
+.related-card:hover{border-color:rgba(199,163,90,0.4);box-shadow:var(--shadow);transform:translateY(-3px);}
+.related-card-tag{font-size:0.68rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;display:block;}
+.related-card-title{font-family:var(--font-serif);font-size:0.98rem;font-weight:600;color:var(--navy);line-height:1.35;}
+.art-footer{background:var(--navy-dark);color:rgba(255,255,255,0.55);padding:32px 24px;text-align:center;margin-top:0;}
+.art-footer-inner{max-width:900px;margin:0 auto;}
+.art-footer-name{font-family:var(--font-serif);font-size:1.1rem;color:var(--white);margin-bottom:8px;}
+.art-footer-copy{font-size:0.78rem;}
+.bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
+.bci-bar p{font-size:0.72rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.6;}
+@media(max-width:640px){.related-grid{grid-template-columns:1fr;.art-nav-sub{display:none;}.art-nav-brand{min-width:0;flex:1 1 auto;}.art-nav-brand>div:last-child{min-width:0;overflow:hidden;}.art-nav-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.88rem;}.art-nav-links{flex-shrink:0;}}.art-nav-links .art-nav-back{display:none;}.art-cta-box{flex-direction:column;text-align:center;}}
+
+.wa-button{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:all .3s;}
+.wa-button:hover{transform:scale(1.08);}
+.mobile-cta-bar{display:none;}
+@media(max-width:768px){.mobile-cta-bar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:998;box-shadow:0 -4px 20px rgba(6,15,34,0.25);}.mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-size:0.82rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;}.mobile-cta-call{background:var(--gold);color:#060f22;}.mobile-cta-wa{background:#1da851;color:#fff;}.wa-button{bottom:76px;}body{padding-bottom:70px;}}
+</style>
+<style>
+.art-lead{background:var(--off-white);border-left:3px solid var(--gold);padding:18px 22px;margin-bottom:30px;border-radius:0 6px 6px 0;}
+.art-lead p{font-size:1.05rem;color:var(--text-dark);line-height:1.85;font-weight:500;margin:0;}
+</style>
+<style>
+.statute{background:#fbfaf6;border:1px solid rgba(199,163,90,.45);border-radius:8px;padding:22px 26px;margin:8px 0 32px;}
+.statute-h{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--navy);margin:0 0 4px;}
+.statute-src{font-size:.78rem;color:var(--text-light);margin:0 0 14px;letter-spacing:.02em;}
+.statute-sub{font-size:.95rem;line-height:1.8;color:var(--text-dark);margin:0 0 12px;padding-left:2.6em;text-indent:-2.6em;}
+.statute-sub b{color:var(--navy);display:inline-block;width:2.6em;text-indent:0;}
+.statute-hi{font-size:.97rem;line-height:1.95;color:var(--text-mid);margin:0 0 16px;padding:10px 14px;border-left:3px solid var(--gold);background:var(--off-white);}
+.statute-note{font-size:.8rem;color:var(--text-light);margin:10px 0 0;line-height:1.6;}
+.art-body h2{font-family:var(--font-serif);font-size:1.45rem;font-weight:600;color:var(--navy);margin:36px 0 14px;line-height:1.35;}
+.dl-box{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:var(--navy);color:#f8f6f1;border-radius:10px;padding:18px 22px;margin:0 0 30px;}
+.dl-box a{color:var(--gold);font-weight:700;text-decoration:underline;}
+.dl-box .dl-ic{font-size:1.9rem;line-height:1;}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The DRT has dismissed my application. Can I appeal to the DRAT under Section 18?",
+  "description": "Appealing an order of the Debts Recovery Tribunal to the Debts Recovery Appellate Tribunal under Section 18 of the SARFAESI Act, 2002: thirty days from receipt of the order, the fifty per cent pre-deposit on the lower of the claimed or determined debt, the twenty-five per cent floor, and the settled rule that the deposit cannot be waived altogether.",
+  "inLanguage": "en-IN",
+  "author": {
+    "@type": "Person",
+    "name": "Shubham Ojha",
+    "jobTitle": "Advocate",
+    "honorificSuffix": "BA LL.B., LL.M., ICWA (Foundation)",
+    "worksFor": {"@type": "LegalService", "name": "Shubham Ojha & Associates"}
+  },
+  "publisher": {
+    "@type": "LegalService",
+    "name": "Shubham Ojha & Associates",
+    "telephone": "+91-7023051275",
+    "areaServed": "IN"
+  },
+  "datePublished": "2026-09-18",
+  "dateModified": "2026-09-18",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://shubhamojhaandassociates.com/articles/drt-order-appeal-drat-section-18-sarfaesi-pre-deposit.html"},
+  "about": [
+    {"@type": "Legislation", "name": "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002", "legislationIdentifier": "Section 18"},
+    {"@type": "Legislation", "name": "Recovery of Debts and Bankruptcy Act, 1993", "legislationIdentifier": "Sections 20 and 21"}
+  ],
+  "keywords": "section 18 SARFAESI appeal, DRAT appeal pre-deposit, 50 per cent pre-deposit DRAT, reduce pre-deposit 25 per cent, Narayan Chandra Ghosh UCO Bank, Kotak Mahindra Bank Ambuj Kasliwal, condonation of delay section 18 SARFAESI, Baleshwar Dayal Jaiswal, appeal against DRT order securitisation application"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://shubhamojhaandassociates.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Legal Insights", "item": "https://shubhamojhaandassociates.com/#articles"},
+    {"@type": "ListItem", "position": 3, "name": "Appealing a DRT order to the DRAT under Section 18", "item": "https://shubhamojhaandassociates.com/articles/drt-order-appeal-drat-section-18-sarfaesi-pre-deposit.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long do I have to appeal a DRT order under Section 18 of the SARFAESI Act?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Thirty days from the date of receipt of the order of the Debts Recovery Tribunal, under Section 18(1). The period runs from receipt, not from the date the order was pronounced. Delay can be condoned by the Appellate Tribunal under the proviso to Section 20(3) of the Recovery of Debts Act, 1993 read with Section 18(2) of the SARFAESI Act, as held in Baleshwar Dayal Jaiswal v. Bank of India (Supreme Court, 5 August 2015)."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is the fifty per cent pre-deposit before the DRAT compulsory?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. The second proviso to Section 18(1) says no appeal shall be entertained unless the borrower has deposited with the Appellate Tribunal fifty per cent of the amount of debt due from him. In Narayan Chandra Ghosh v. UCO Bank (Supreme Court, 18 March 2011, Civil Appeal No. 2681 of 2011) the Court held that the requirement of pre-deposit is mandatory and that there is no reason for not giving full effect to Section 18."}
+    },
+    {
+      "@type": "Question",
+      "name": "On which amount is the fifty per cent pre-deposit calculated?",
+      "acceptedAnswer": {"@type": "Answer", "text": "On the amount of debt due from the borrower as claimed by the secured creditor or as determined by the Debts Recovery Tribunal, whichever is less. Where both figures exist on the record the lower one governs, so the claimed figure and the Tribunal's figure should both be placed before the Appellate Tribunal. The deposit is made with the Appellate Tribunal, not paid to the bank."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can the DRAT waive the pre-deposit completely?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No. The third proviso to Section 18(1) allows the Appellate Tribunal, for reasons to be recorded in writing, to reduce the deposit to not less than twenty-five per cent of the debt. Complete waiver is outside the Act (Narayan Chandra Ghosh v. UCO Bank, Supreme Court, 18 March 2011). In Kotak Mahindra Bank Pvt. Ltd. v. Ambuj A. Kasliwal (Supreme Court, 16 February 2021), on the parallel Section 21 of the Recovery of Debts Act, the Court held that the High Court has no power to waive the pre-deposit in its entirety, and itself fixed twenty-five per cent."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does a guarantor who mortgaged his property have to make the pre-deposit?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The second proviso conditions the appeal on a deposit by the borrower, and Section 2(f) of the SARFAESI Act defines a borrower to include any person who has given a guarantee or created a mortgage or pledge as security for the financial assistance. A guarantor who mortgaged his own house for another person's loan therefore falls within the definition even though he received no money himself."}
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+<nav class="art-nav">
+  <div class="art-nav-inner">
+    <a href="/" class="art-nav-brand">
+      <div class="art-nav-logo">SO</div>
+      <div>
+        <div class="art-nav-name">Shubham Ojha &amp; Associates</div>
+        <div class="art-nav-sub">Advocates &amp; Legal Consultants</div>
+      </div>
+    </a>
+    <div class="art-nav-links">
+      <a href="/#articles">← All Articles</a>
+      <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" class="art-lang">हिंदी</a>
+    </div>
+  </div>
+</nav>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="/">Home</a><span class="breadcrumb-sep">›</span>
+    <a href="/#articles">Legal Insights</a><span class="breadcrumb-sep">›</span>
+    <span>Appealing a DRT order to the DRAT under Section 18</span>
+  </div>
+</div>
+<div class="art-container">
+  <div class="art-header">
+    <div class="art-tag">Banking &amp; Debt Recovery</div>
+    <h1 class="art-title">The DRT Has Dismissed My Application. Can I Appeal to the DRAT Under Section 18?</h1>
+    <div class="art-byline">
+      <span class="art-byline-author">By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur</span>
+      <span class="art-byline-dot"></span>
+      <span>September 2026</span>
+    </div>
+  </div>
+
+  <div class="art-body">
+
+    <div class="art-lead">
+      <p>An appeal against a Debts Recovery Tribunal's order under Section 17 of the SARFAESI Act lies to the Debts Recovery Appellate Tribunal within thirty days of receiving the order. It is not entertained unless the borrower deposits fifty per cent of the debt due — as claimed by the secured creditor or determined by the Tribunal, whichever is less.</p>
+    </div>
+
+    <div style="background:var(--off-white);border-left:3px solid var(--gold);padding:18px 22px;margin:0 0 28px;">
+      <div style="font-family:var(--font-serif);font-size:1.1rem;font-weight:600;color:var(--navy);margin-bottom:10px;">At a glance</div>
+      <ul style="list-style:none;margin:0;padding:0;font-size:0.95rem;line-height:1.85;color:var(--text-mid);">
+        <li><strong>What is appealable</strong> — an order made by the Debts Recovery Tribunal under Section 17, at the instance of any person aggrieved (Section 18(1))</li>
+        <li><strong>Time</strong> — <strong>thirty days</strong> from the date of receipt of the Tribunal's order; delay is condonable by the Appellate Tribunal under the proviso to Section 20(3) of the Recovery of Debts Act, 1993 read with Section 18(2) (<em>Baleshwar Dayal Jaiswal v. Bank of India</em>, Supreme Court, 5 August 2015)</li>
+        <li><strong>Pre-deposit</strong> — <strong>fifty per cent</strong> of the amount of debt due from the borrower, as claimed by the secured creditors or determined by the Tribunal, <strong>whichever is less</strong>, deposited with the Appellate Tribunal (second proviso to Section 18(1), in force from 11 November 2004)</li>
+        <li><strong>Floor</strong> — reducible, for reasons to be recorded in writing, to <strong>not less than twenty-five per cent</strong> (third proviso); no complete waiver (<em>Narayan Chandra Ghosh v. UCO Bank</em>, Supreme Court, 18 March 2011, paras 8 and 9)</li>
+        <li><strong>Fee</strong> — as prescribed; different fees may be prescribed for an appeal by the borrower and by a person other than the borrower (first proviso to Section 18(1))</li>
+        <li><strong>Who is a borrower</strong> — includes a person who has given a guarantee or created a mortgage or pledge as security for the financial assistance (Section 2(f))</li>
+        <li><strong>Powers on appeal</strong> — the Recovery of Debts Act applies as far as may be (Section 18(2)); the Appellate Tribunal may, after hearing the parties, confirm, modify or set aside the order (Section 20(4) of that Act), with an endeavour to dispose of the appeal within <strong>six months</strong> (Section 20(6))</li>
+        <li><strong>Caveat</strong> — the secured creditor may lodge a caveat against an expected appeal; it lapses after <strong>ninety days</strong> (Section 18C)</li>
+      </ul>
+      <p style="font-size:0.9rem;line-height:1.75;color:var(--text-mid);margin:12px 0 0;padding-top:12px;border-top:1px solid rgba(199,163,90,0.25);"><strong>Jurisdiction.</strong> The SARFAESI Act, 2002 and the Recovery of Debts and Bankruptcy Act, 1993 are <strong>central statutes and apply across India</strong>. The appeal lies to the Appellate Tribunal having jurisdiction over the Tribunal that passed the order, wherever the borrower lives. Section 30 of the Advocates Act, 1961 entitles an advocate to practise throughout India.</p>
+    </div>
+
+    <div class="statute">
+      <p class="statute-h">Section 18, SARFAESI Act, 2002 — Appeal to Appellate Tribunal</p>
+      <p class="statute-src">Bare text as it stands today, with the amendments of 2004 in place</p>
+      <p class="statute-sub"><b>(1)</b> Any person aggrieved, by any order made by the Debts Recovery Tribunal under section 17, may prefer an appeal along with such fee, as may be prescribed to the Appellate Tribunal within thirty days from the date of receipt of the order of Debts Recovery Tribunal.</p>
+      <p class="statute-sub" style="padding-left:3.4em;text-indent:0;">Provided that different fees may be prescribed for filing an appeal by the borrower or by the person other than the borrower:</p>
+      <p class="statute-sub" style="padding-left:3.4em;text-indent:0;">Provided further that no appeal shall be entertained unless the borrower has deposited with the Appellate Tribunal fifty per cent. of the amount of debt due from him, as claimed by the secured creditors or determined by the Debts Recovery Tribunal, whichever is less:</p>
+      <p class="statute-sub" style="padding-left:3.4em;text-indent:0;">Provided also that the Appellate Tribunal may, for the reasons to be recorded in writing, reduce the amount to not less than twenty-five per cent. of debt referred to in the second proviso.</p>
+      <p class="statute-sub"><b>(2)</b> Save as otherwise provided in this Act, the Appellate Tribunal shall, as far as may be, dispose of the appeal in accordance with the provisions of the Recovery of Debts Due to Banks and Financial Institutions Act, 1993 (51 of 1993) and rules made thereunder.</p>
+      <p class="statute-note">The second and third provisos were inserted by Act 30 of 2004 with effect from 11 November 2004. The parent Act of 1993 is now cited as the Recovery of Debts and Bankruptcy Act, 1993.</p>
+    </div>
+
+    <h2>What can be appealed under Section 18, and what cannot</h2>
+
+    <p>The section opens to "any person aggrieved, by any order made by the Debts Recovery Tribunal under section 17". Two words in that phrase do the work. The order must be one of the <em>Tribunal</em>, and it must be made <em>under Section 17</em>. Neither the Section 13(2) demand notice nor the bank's letter rejecting a representation is an order of anyone; there is nothing to appeal against until the Tribunal has spoken, and an appeal filed against the bank's conduct rather than against an order goes nowhere. The person aggrieved need not be the borrower — a tenant, a co-owner or an auction purchaser whose objection the Tribunal has rejected is a person aggrieved by an order made under Section 17.</p>
+
+    <p>One route is often mistaken for an appeal and is not one. Section 17(5) requires the Tribunal to dispose of a securitisation application within sixty days, and in no case beyond four months. If that four-month period passes, Section 17(6) allows any party to apply to the Appellate Tribunal for a direction to the Tribunal to dispose of the pending application expeditiously. That is an application for a direction, not an appeal; it carries no pre-deposit, because the pre-deposit in the second proviso is attached to an appeal under Section 18. A borrower whose matter has been adjourned for months in a heavily loaded Tribunal is sometimes better served by that application than by waiting for an order he can appeal.</p>
+
+    <h2>Thirty days from when — and can the delay be condoned?</h2>
+
+    <p>The thirty days run "from the date of receipt of the order", not from the date it was pronounced. In practice the difference is real: orders are commonly reserved and uploaded, and the certified copy reaches the borrower days later. The date of receipt should therefore be capable of proof — the application for the certified copy, the endorsement on it, the covering letter. I ask for this at the first meeting, because it is the one fact that is easy to establish on the day and almost impossible to reconstruct six weeks later.</p>
+
+    <p>Delay is not fatal. In <em>Baleshwar Dayal Jaiswal v. Bank of India</em> (Supreme Court, 5 August 2015, Civil Appeal Nos. 5924–5927 of 2015) the Court held that "delay in filing an appeal under Section 18(1) of the SARFAESI Act can be condoned by the Appellate Tribunal under proviso to Section 20(3) of the RDB Act read with Section 18(2) of the SARFAESI Act". The Court was careful about the source of the power: it did not rest on Section 5 of the Limitation Act, holding instead that Section 29(2) of that Act stands impliedly excluded because the power to condone is expressly incorporated in the special statute. The practical effect is the same — an appeal beyond thirty days must carry an application showing sufficient cause, and the cause must be stated in the language of fact and not of regret.</p>
+
+    <h2>How much has to be deposited, and on what figure?</h2>
+
+    <p>Fifty per cent, but of what is the question that decides whether the appeal is affordable. The second proviso gives two candidate figures and directs that the lower governs: the amount of debt due from the borrower <em>as claimed by the secured creditors</em>, or <em>as determined by the Debts Recovery Tribunal</em>, whichever is less. Where both figures are on the record the appellant is entitled to have the smaller of them used, and both should be placed before the Appellate Tribunal in the appeal itself rather than left to be discovered.</p>
+
+    <p>A securitisation application, however, tests the validity of the measures taken under Section 13(4); it is not a suit for money, and the Tribunal's order in it frequently determines no figure at all. When that happens, only the creditor's claimed amount stands on the record, and the argument shifts to what that claim actually is — the figure in the Section 13(2) notice, the figure in the statement of account, or the figure after crediting a sale already held. Borrowers who walk into the chamber in Jodhpur usually bring the notice and nothing else. The statement of account, the recovery of any part of the dues and any amount already realised from another security are what turn an unaffordable deposit into a reachable one.</p>
+
+    <p>Two further points are worth stating plainly. The deposit goes to the Appellate Tribunal, not to the bank — it is a condition of the appeal being entertained, not a part payment negotiated with the branch. And it is a condition of entertainment, so it has to be dealt with at the threshold; an appeal filed on the thirtieth day with the deposit left for later has not been effectively filed at all.</p>
+
+    <h2>Can the Appellate Tribunal waive the deposit altogether?</h2>
+
+    <p>It cannot. The third proviso lets the Appellate Tribunal reduce the amount, "for the reasons to be recorded in writing", to not less than twenty-five per cent of the debt referred to in the second proviso. That is the whole of the discretion. In <em>Narayan Chandra Ghosh v. UCO Bank</em> (Supreme Court, 18 March 2011, Civil Appeal No. 2681 of 2011) the Court held that "the requirement of pre-deposit under sub-section (1) of Section 18 of the Act is mandatory and there is no reason whatsoever for not giving full effect to the provisions contained in Section 18 of the Act", and that at best the Appellate Tribunal could have, after recording the reasons, reduced the deposit of fifty per cent to an amount not less than twenty-five per cent of the debt.</p>
+
+    <p>The same architecture governs an appeal in a recovery proceeding under the parent Act. Section 21 of the Recovery of Debts Act requires a deposit of fifty per cent of the debt determined under Section 19, reducible for written reasons to not less than twenty-five per cent. In <em>Kotak Mahindra Bank Pvt. Ltd. v. Ambuj A. Kasliwal</em> (Supreme Court, 16 February 2021, Civil Appeal No. 538 of 2021) the Appellate Tribunal had directed a deposit on the balance amount, the High Court had waived it entirely on the view that little was really due, and the Supreme Court set that aside, holding that the High Court does not have the power to waive the pre-deposit in its entirety, and fixing twenty-five per cent instead. Read together, the two judgments close the door on complete waiver from either side.</p>
+
+    <p>What remains open is the reduction itself, and it is not granted for the asking. Because the proviso requires reasons in writing, the application has to supply the material those reasons can be built on: what the borrower's assets actually are, what has already been realised by the secured creditor, and why the balance of convenience during the appeal favours a lower figure. An affidavit of means, prepared properly, does more work here than argument.</p>
+
+    <h2>Who has to make the deposit — a guarantor, a mortgagor, an auction purchaser?</h2>
+
+    <p>The second proviso conditions entertainment on a deposit by "the borrower", and Section 2(f) defines a borrower widely: any person who has been granted financial assistance by a bank or financial institution, <em>or who has given any guarantee or created any mortgage or pledge as security</em> for the financial assistance granted to another, and a person who becomes the borrower of an asset reconstruction company when the loan is assigned to it.</p>
+
+    <p>That definition is the source of the hardest conversation in this area of practice. A father or an uncle who mortgaged the family house in Jodhpur so that a younger relative could take a working-capital limit is, in the language of the Act, a borrower — he received no money, but he created a mortgage as security, and when he appeals against the order rejecting his securitisation application he carries the deposit as fully as the principal debtor does. People are entitled to know this before they take the appeal on, not after.</p>
+
+    <p>A person who is genuinely outside the definition is in a different position on the text. The first proviso contemplates separate fees "for filing an appeal by the borrower or by the person other than the borrower", which shows the section knows the distinction; the second proviso speaks only of the borrower. A tenant, an auction purchaser or a third party claiming independent title is therefore arguing from the words of the statute when he says the deposit is not a condition on him. It is a point that turns on who the appellant really is, and it should be pleaded in the appeal itself rather than raised at the hearing when the registry has already taken an objection.</p>
+
+    <h2>What can the Appellate Tribunal do with the appeal?</h2>
+
+    <p>Section 18(2) borrows the machinery of the Recovery of Debts Act, 1993, "as far as may be". The Appellate Tribunal, after giving the parties an opportunity of being heard, may pass such orders as it thinks fit confirming, modifying or setting aside the order appealed against (Section 20(4)), and it is to send a copy of every order to the parties and to the Tribunal below (Section 20(5)). The appeal is to be dealt with as expeditiously as possible, with an endeavour to dispose of it finally within six months of receipt (Section 20(6)). Neither Tribunal is bound by the Code of Civil Procedure; both are guided by the principles of natural justice and regulate their own procedure, including where they sit (Section 22(1)).</p>
+
+    <p>Nothing in Section 18 suspends what the bank has already done. Filing the appeal does not restore possession, does not stall a sale already notified and does not by itself protect the property. Interim protection has to be asked for, on the appeal's own merits, and asked for at the time of filing rather than after the auction date is published.</p>
+
+    <h2>Can I go to the High Court instead and avoid the deposit?</h2>
+
+    <p>This is the commonest question at the Principal Seat in Jodhpur, and the answer has been consistent for many years. Article 226 is not excluded, but in <em>United Bank of India v. Satyawati Tondon</em> (Supreme Court, 26 July 2010) it was held that the High Court "will ordinarily not entertain a petition under Article 226 of the Constitution if an effective remedy is available to the aggrieved person", a rule applied with greater rigour where the dues of banks and financial institutions are concerned. Where the grievance is an order under Section 17, the effective remedy is the appeal under Section 18, and the pre-deposit is a part of that remedy, not an obstacle to it. <em>Kasliwal</em> makes the position sharper still: a High Court cannot waive the deposit in its entirety, so the writ petition does not even carry the borrower past the condition he was trying to avoid. The civil court is closed more firmly — Section 34 of the SARFAESI Act takes away its jurisdiction over matters the Tribunal is empowered to determine and forbids any injunction against action taken under the Act.</p>
+
+    <p>There is one question that should be asked before any of this, and in western Rajasthan it is not rare for it to answer the whole case. Section 31(i) provides that the Act does not apply to any security interest created in agricultural land. If the security is agricultural land, the fight is not about a deposit of fifty or twenty-five per cent; it is about whether the bank had power to act under the Act at all, and the jamabandi and the khasra girdawari are the first documents to look at rather than the last.</p>
+
+    <h2>What is worth doing in the thirty days</h2>
+
+    <p>Four things, in this order. Fix the date of receipt of the order and keep proof of it. Obtain the statement of account and set the creditor's claimed figure against whatever figure the Tribunal's order records, because the lower of the two is what the deposit is calculated on. Prepare the application for reduction with the material behind it, not as a paragraph at the end of the memorandum of appeal. And check whether the secured creditor has lodged a caveat under Section 18C — if it has, it is entitled to notice, and the appeal will not be heard <em>ex parte</em> however urgent the auction date looks.</p>
+
+    <p>The stage before this one — the securitisation application itself, the forty-five days and what a stay requires — is set out in <a href="/articles/sarfaesi-section-17-application-drt-45-days-stay.html" style="color:var(--gold);font-weight:600;">How is a Section 17 application filed in the DRT?</a>. The earlier stages are in <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" style="color:var(--gold);font-weight:600;">SARFAESI Section 13(2) notice: what a borrower can actually do</a>, possession through the District Magistrate in <a href="/articles/sarfaesi-section-14-district-magistrate-possession-order.html" style="color:var(--gold);font-weight:600;">Section 14 and the Magistrate's order</a>, and the auction stage in <a href="/articles/stop-bank-auction-sarfaesi-section-13-8-redemption-drt.html" style="color:var(--gold);font-weight:600;">Can a bank auction of my property be stopped?</a>; the same ground in Hindi, written for the Rajasthan borrower, is in <a href="/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html" style="color:var(--gold);font-weight:600;">SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में बचाव</a>. Both Acts are central statutes; consultation by telephone or video is available to borrowers and guarantors outside Rajasthan, and how a consultation is arranged is described on the <a href="/consultation.html" style="color:var(--gold);font-weight:600;">consultation page</a>.</p>
+
+    <div class="art-disclaimer">This article is for informational purposes only and does not constitute legal advice. Whether an appeal under Section 18 is available on a particular order, what the deposit will work out to and whether a reduction can be sought depend on the order passed by the Tribunal, the figures on the record and who the appellant is. For guidance on a particular matter, please consult a qualified advocate.</div>
+  </div>
+
+  <div style="background:var(--off-white);border:1px solid rgba(199,163,90,0.25);border-radius:8px;padding:20px 26px;margin:36px 0;">
+    <div style="font-family:var(--font-serif);font-size:1.15rem;font-weight:600;color:var(--navy);">Shubham Ojha &amp; Associates</div>
+    <div style="font-size:0.9rem;color:var(--text-mid);margin-top:4px;">Advocates, Rajasthan High Court, Jodhpur &nbsp;·&nbsp; <a href="tel:+917023051275" style="color:var(--gold);font-weight:600;">+91 70230 51275</a> &nbsp;·&nbsp; <a href="https://wa.me/917023051275" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600;">WhatsApp</a></div>
+  </div>
+
+  <div class="related-section">
+    <div class="related-title">Related Articles</div>
+    <div class="related-grid">
+      <a href="/articles/sarfaesi-section-17-application-drt-45-days-stay.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">How Is a Section 17 Application Filed in the DRT? The Forty-Five Days and the Stay</div></a>
+      <a href="/articles/sarfaesi-section-14-district-magistrate-possession-order.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">The Bank Took Possession Through the District Magistrate Under Section 14. Was That Legal?</div></a>
+      <a href="/articles/sarfaesi-section-13-2-notice-borrower-options-india.html" class="related-card"><span class="related-card-tag">Banking &amp; Debt Recovery</span><div class="related-card-title">SARFAESI Section 13(2) Notice: What a Borrower Can Actually Do</div></a>
+    </div>
+  </div>
+</div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+    <div class="art-footer-name">Shubham Ojha &amp; Associates</div>
+    <p class="art-footer-copy">Advocates at the Rajasthan High Court, Jodhpur Bench &nbsp;|&nbsp; Enrolment No. R/2958/2020 (Bar Council of Rajasthan) &nbsp;|&nbsp; +91 70230 51275 &nbsp;|&nbsp; © 2026 All rights reserved.</p>
+  </div>
+</footer>
+<div class="bci-bar">
+  <p><strong style="color:rgba(255,255,255,0.6);">Bar Council of India Notice:</strong> This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.</p>
+</div>
+
+
+<a href="https://wa.me/917023051275" class="wa-button" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+  <a href="tel:+917023051275" class="mobile-cta-call">📞 Call</a>
+  <a href="https://wa.me/917023051275" class="mobile-cta-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+</div>
+</body>
+</html>
