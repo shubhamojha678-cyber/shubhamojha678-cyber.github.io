@@ -101,6 +101,12 @@ a{color:inherit;text-decoration:none;}
 .art-footer-copy{font-size:0.78rem;}
 .bci-bar{background:#1a0a0a;border-top:2px solid #8b1a1a;padding:12px 24px;text-align:center;}
 .bci-bar p{font-size:0.72rem;color:rgba(255,255,255,0.45);max-width:860px;margin:0 auto;line-height:1.6;}
+#chamber{scroll-margin-top:96px;}
+.chamber-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:22px 0 8px;}
+.chamber-fig{margin:0;}
+.chamber-fig img{width:100%;height:auto;display:block;border-radius:8px;border:1px solid rgba(199,163,90,0.22);background:var(--off-white);}
+.chamber-cap{font-size:0.82rem;color:var(--text-mid);line-height:1.6;margin-top:8px;}
+@media(max-width:640px){.chamber-grid{grid-template-columns:1fr;}}
 @media(max-width:640px){.fact-grid,.plist{grid-template-columns:1fr;}.art-nav-sub{display:none;}.art-nav-brand{min-width:0;flex:1 1 auto;}.art-nav-brand>div:last-child{min-width:0;overflow:hidden;}.art-nav-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.88rem;}.art-nav-links{flex-shrink:0;}}
 </style>
 <script type="application/ld+json">
@@ -111,7 +117,13 @@ a{color:inherit;text-decoration:none;}
     "@type": "Attorney",
     "name": "Shubham Ojha",
     "jobTitle": "Advocate",
-    "image": "https://shubhamojhaandassociates.com/assets/og-image.png",
+    "image": [
+      "https://shubhamojhaandassociates.com/assets/og-image.png",
+      "https://shubhamojhaandassociates.com/assets/chamber/chamber-room.jpg",
+      "https://shubhamojhaandassociates.com/assets/chamber/chamber-consultation.jpg",
+      "https://shubhamojhaandassociates.com/assets/chamber/chamber-library.jpg",
+      "https://shubhamojhaandassociates.com/assets/chamber/chamber-entrance.jpg"
+    ],
     "url": "https://shubhamojhaandassociates.com/about.html",
     "description": "Advocate enrolled with the Bar Council of Rajasthan, practising before the Rajasthan High Court (Jodhpur Bench) and the District Courts at Jodhpur in property, family, civil, criminal, constitutional and service matters.",
     "hasCredential": ["Bar Council of Rajasthan Enrolment No. R/2958/2020", "BA LL.B.", "LL.M.", "ICWA (Foundation)"],
@@ -177,6 +189,44 @@ a{color:inherit;text-decoration:none;}
     <h2>Approach</h2>
     <p>Every matter begins with an honest assessment of its merits, the appropriate forum, the documents required, and the likely timeline and cost — before any step is taken. Where a fair settlement or family arrangement serves the client better than prolonged litigation, that route is placed on the table first. Where litigation is necessary, the matter is pleaded and conducted with diligence and full disclosure to the client at each stage.</p>
     <p>The firm also publishes plain-language legal explainers in English and Hindi so that members of the public can understand their rights and the procedure that applies to common disputes. These writings are for general information and awareness; they are not advertisements and do not solicit work.</p>
+    <h2 id="chamber">The Chamber</h2>
+    <p>Clients are seen at the chamber by prior appointment. The photographs below are of the chamber itself, so that a person coming for the first time knows what to look for and what to expect; they were taken in September 2026 and are not of any court premises.</p>
+    <div class="chamber-grid">
+      <figure class="chamber-fig">
+        <picture>
+          <source type="image/webp" srcset="/assets/chamber/chamber-entrance-700.webp 700w, /assets/chamber/chamber-entrance.webp 1400w" sizes="(max-width:640px) 92vw, 46vw">
+          <source type="image/jpeg" srcset="/assets/chamber/chamber-entrance-700.jpg 700w, /assets/chamber/chamber-entrance.jpg 1400w" sizes="(max-width:640px) 92vw, 46vw">
+          <img src="/assets/chamber/chamber-entrance-700.jpg" width="517" height="700" loading="lazy" decoding="async" alt="Chamber entrance — panelled door with frosted glass panel">
+        </picture>
+        <figcaption class="chamber-cap">The entrance. The scales device on the glass panel is the chamber&rsquo;s own marking.</figcaption>
+      </figure>
+      <figure class="chamber-fig">
+        <picture>
+          <source type="image/webp" srcset="/assets/chamber/chamber-room-700.webp 700w, /assets/chamber/chamber-room.webp 1400w" sizes="(max-width:640px) 92vw, 46vw">
+          <source type="image/jpeg" srcset="/assets/chamber/chamber-room-700.jpg 700w, /assets/chamber/chamber-room.jpg 1400w" sizes="(max-width:640px) 92vw, 46vw">
+          <img src="/assets/chamber/chamber-room-700.jpg" width="525" height="700" loading="lazy" decoding="async" alt="Chamber interior showing the working desk, case papers and cause-list monitor">
+        </picture>
+        <figcaption class="chamber-cap">The working desk. The second screen carries the day&rsquo;s cause list; the bundles above it are current files.</figcaption>
+      </figure>
+      <figure class="chamber-fig">
+        <picture>
+          <source type="image/webp" srcset="/assets/chamber/chamber-consultation-700.webp 700w, /assets/chamber/chamber-consultation.webp 1400w" sizes="(max-width:640px) 92vw, 46vw">
+          <source type="image/jpeg" srcset="/assets/chamber/chamber-consultation-700.jpg 700w, /assets/chamber/chamber-consultation.jpg 1400w" sizes="(max-width:640px) 92vw, 46vw">
+          <img src="/assets/chamber/chamber-consultation-700.jpg" width="525" height="700" loading="lazy" decoding="async" alt="Consultation seating facing the advocate&rsquo;s desk in the chamber">
+        </picture>
+        <figcaption class="chamber-cap">Where a client sits. A first consultation usually runs through the papers already in hand before anything is advised.</figcaption>
+      </figure>
+      <figure class="chamber-fig">
+        <picture>
+          <source type="image/webp" srcset="/assets/chamber/chamber-library-700.webp 700w, /assets/chamber/chamber-library.webp 1400w" sizes="(max-width:640px) 92vw, 46vw">
+          <source type="image/jpeg" srcset="/assets/chamber/chamber-library-700.jpg 700w, /assets/chamber/chamber-library.jpg 1400w" sizes="(max-width:640px) 92vw, 46vw">
+          <img src="/assets/chamber/chamber-library-700.jpg" width="525" height="700" loading="lazy" decoding="async" alt="Chamber law library — bound volumes of the AIR Manual, Civil and Criminal">
+        </picture>
+        <figcaption class="chamber-cap">Part of the chamber library — the AIR Manual (Civil and Criminal), 6th edition, Hansaria &amp; Chitaley, alongside the bare Acts in regular use.</figcaption>
+      </figure>
+    </div>
+    <p>What helps most at a first meeting is the paper itself. For a civil or revenue matter that usually means the sale deed, the jamabandi and the mutation order; for a criminal matter, the FIR and the latest order sheet of the trial court. Certified copies matter. Where a certified copy is prescribed, the Jodhpur Bench registry will not accept a petition that annexes a plain photocopy, and obtaining one from the trial court at Jodhpur can itself take several days — so that application is worth moving early, before the limitation period is spent waiting.</p>
+    <p>The chamber address, telephone number and email are set out below and on every page of this site. Directions are usually easiest from Sardar Club, Ratanada; the Rajasthan High Court, Jodhpur Bench, is a short drive from there.</p>
     <div class="art-contact">
       <div class="art-contact-title">Shubham Ojha &amp; Associates</div>
       <div class="art-contact-line">Advocates, Rajasthan High Court, Jodhpur &nbsp;·&nbsp; H. No. 245, Opp. Sardar Club, Ratanada, Jodhpur 342001 &nbsp;·&nbsp; <a href="tel:+917023051275">+91 70230 51275</a> &nbsp;·&nbsp; <a href="https://wa.me/917023051275" target="_blank" rel="noopener">WhatsApp</a></div>
