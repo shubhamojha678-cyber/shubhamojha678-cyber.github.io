@@ -258,6 +258,10 @@ ul { list-style: none; }
 .hero-badge { display: flex; align-items: center; gap: 8px; font-size: 0.82rem; color: rgba(255,255,255,0.65); }
 .hero-badge-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
 
+.hero-side { display: flex; flex-direction: column; gap: 18px; align-items: stretch; }
+.hero-portrait { margin: 0; width: 220px; align-self: flex-start; border-radius: 12px; overflow: hidden; border: 1px solid rgba(199,163,90,0.35); box-shadow: 0 24px 60px rgba(0,0,0,0.35); background: #0b1a3a; }
+.hero-portrait img { display: block; width: 100%; height: auto; }
+.hero-portrait figcaption { font-size: 0.72rem; letter-spacing: 0.02em; color: rgba(255,255,255,0.7); padding: 8px 10px; text-align: center; background: rgba(255,255,255,0.04); }
 .hero-card {
   background: rgba(255,255,255,0.05); border: 1px solid rgba(199,163,90,0.2);
   border-radius: 8px; padding: 36px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
@@ -483,6 +487,10 @@ ul { list-style: none; }
   .resource-link { display: inline-flex; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
 
+  .hero-side { align-items: center; margin-top: 8px; }
+  .hero-portrait { width: 132px; height: 132px; border-radius: 50%; align-self: center; }
+  .hero-portrait img { height: 100%; object-fit: cover; object-position: 50% 18%; }
+  .hero-portrait figcaption { display: none; }
   .hero-card { display: none; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid { grid-template-columns: 1fr; }
@@ -747,7 +755,15 @@ ul { list-style: none; }
         <span class="hero-badge"><span class="hero-badge-dot"></span>Phone &amp; Video Consultations — Anywhere in India</span>
       </div>
     </div>
-    <div class="hero-card hero-in-right">
+    <div class="hero-side">
+      <figure class="hero-portrait hero-in-right">
+        <picture>
+          <source type="image/webp" srcset="/assets/about/advocate-shubham-ojha-400.webp 400w, /assets/about/advocate-shubham-ojha-700.webp 700w" sizes="(max-width:768px) 132px, 220px">
+          <img src="/assets/about/advocate-shubham-ojha-400.jpg" srcset="/assets/about/advocate-shubham-ojha-400.jpg 400w, /assets/about/advocate-shubham-ojha-700.jpg 700w" sizes="(max-width:768px) 132px, 220px" width="400" height="500" alt="Advocate Shubham Ojha" decoding="async">
+        </picture>
+        <figcaption>Advocate Shubham Ojha · Bar Council of Rajasthan R/2958/2020</figcaption>
+      </figure>
+      <div class="hero-card hero-in-right">
       <div class="hero-card-title">Direct Contact</div>
       <div class="hero-card-item">
         <div class="hero-card-icon">📞</div>
@@ -769,6 +785,7 @@ ul { list-style: none; }
         <div class="hero-card-icon">🕐</div>
         <div class="hero-card-text"><strong>Office Hours</strong>Sun–Thu &amp; Sat: 7:00 PM – 11:00 PM (Fri closed)</div>
       </div>
+    </div>
     </div>
   </div>
   <div class="hero-watermark" aria-hidden="true">
