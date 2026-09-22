@@ -82,6 +82,10 @@ a{color:inherit;text-decoration:none;}
 .breadcrumb-inner{max-width:900px;margin:0 auto;font-size:0.78rem;color:var(--text-light);display:flex;gap:6px;}
 .breadcrumb-inner a{color:var(--gold);}
 .art-container{max-width:900px;margin:0 auto;padding:48px 24px 72px;}
+.about-portrait{float:right;width:min(280px,42%);margin:0 0 20px 28px;border-radius:10px;overflow:hidden;box-shadow:0 18px 44px rgba(0,0,0,0.22);border:1px solid rgba(199,163,90,0.35)}
+.about-portrait img{display:block;width:100%;height:auto}
+.about-portrait figcaption{font-size:0.78rem;color:#6b6b6b;padding:8px 10px;background:#f7f5f0;text-align:center}
+@media (max-width:640px){.about-portrait{float:none;width:100%;max-width:340px;margin:0 auto 22px}}
 .art-header{margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid rgba(199,163,90,0.15);}
 .art-tag{display:inline-block;background:var(--gold);color:var(--navy-dark);font-size:0.7rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:2px;margin-bottom:16px;}
 .art-title{font-family:var(--font-serif);font-size:clamp(1.9rem,4vw,2.7rem);font-weight:600;color:var(--navy);line-height:1.2;}
@@ -123,6 +127,7 @@ a{color:inherit;text-decoration:none;}
     "name": "Shubham Ojha",
     "jobTitle": "Advocate",
     "image": [
+      "https://shubhamojhaandassociates.com/assets/about/advocate-shubham-ojha-700.jpg",
       "https://shubhamojhaandassociates.com/assets/og-image.png",
       "https://shubhamojhaandassociates.com/assets/chamber/chamber-room.jpg",
       "https://shubhamojhaandassociates.com/assets/chamber/chamber-consultation.jpg",
@@ -172,6 +177,13 @@ a{color:inherit;text-decoration:none;}
     <h1 class="art-title">About Advocate Shubham Ojha</h1>
   </div>
   <div class="art-body">
+    <figure class="about-portrait">
+      <picture>
+        <source type="image/webp" srcset="/assets/about/advocate-shubham-ojha-400.webp 400w, /assets/about/advocate-shubham-ojha-700.webp 700w" sizes="(max-width:640px) 340px, 280px">
+        <img src="/assets/about/advocate-shubham-ojha-700.jpg" srcset="/assets/about/advocate-shubham-ojha-400.jpg 400w, /assets/about/advocate-shubham-ojha-700.jpg 700w" sizes="(max-width:640px) 340px, 280px" width="700" height="876" alt="Advocate Shubham Ojha, Rajasthan High Court, Jodhpur" decoding="async" fetchpriority="high">
+      </picture>
+      <figcaption>Advocate Shubham Ojha · Enrolment R/2958/2020</figcaption>
+    </figure>
     <p><strong>Shubham Ojha</strong> is an Advocate enrolled with the <strong>Bar Council of Rajasthan</strong>, practising before the <strong>Rajasthan High Court, Jodhpur Bench</strong>, and the District &amp; Sessions Courts at Jodhpur. The chamber, <strong>Shubham Ojha &amp; Associates</strong>, advises and represents clients across property, family, civil, criminal, constitutional and service-law matters.</p>
     <p>The practice combines careful statutory and precedent-based analysis with clear, plain-language guidance, so that clients understand both the law that governs their matter and the realistic course it is likely to take. Particular attention is given to Rajasthan-specific procedure — the division of jurisdiction between civil and revenue courts, the Rajasthan Tenancy Act, 1955, land-record and mutation practice, and proceedings before the Board of Revenue.</p>
     <div class="fact-grid">
