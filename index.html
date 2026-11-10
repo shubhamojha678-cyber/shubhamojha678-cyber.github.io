@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691"></script>
+<!-- Google tag (gtag.js) — deferred: gtag.js is injected on first pointerdown/keydown/scroll/touchstart or after 4 s; dataLayer/gtag() are defined below first so queued events are kept -->
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-GJNCXM2691');
+(function(){var done=false,ev=['pointerdown','keydown','scroll','touchstart'],o={passive:true,capture:true};function load(){if(done)return;done=true;for(var i=0;i<ev.length;i++)window.removeEventListener(ev[i],load,o);var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id=G-GJNCXM2691';document.head.appendChild(g);}for(var i=0;i<ev.length;i++)window.addEventListener(ev[i],load,o);setTimeout(load,4000);})();
 document.addEventListener('click', function(e) {
   var a = e.target.closest ? e.target.closest('a[href]') : null;
   if (!a) return;
@@ -386,19 +386,6 @@ ul { list-style: none; }
 .step-title { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
 .step-desc { font-size: 0.85rem; color: var(--text-light); line-height: 1.6; }
 
-/* ===== TESTIMONIALS ===== */
-.testimonials { padding: 96px 24px; background: linear-gradient(135deg, var(--navy-dark), var(--navy)); }
-.testimonials-header { text-align: center; margin-bottom: 48px; }
-.testimonials-header .section-title { color: var(--white); }
-.testimonials-header .gold-line { margin: 16px auto 24px; }
-.testimonials-header .section-subtitle { color: rgba(255,255,255,0.6); margin: 0 auto; }
-.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.testimonial-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(199,163,90,0.2); border-radius: 8px; padding: 32px 28px; transition: all var(--transition); }
-.testimonial-card:hover { background: rgba(255,255,255,0.09); border-color: rgba(199,163,90,0.4); transform: translateY(-4px); }
-.testimonial-stars { color: var(--gold); font-size: 0.9rem; margin-bottom: 16px; letter-spacing: 2px; }
-.testimonial-text { font-family: var(--font-serif); font-size: 1.05rem; font-style: italic; color: rgba(255,255,255,0.88); line-height: 1.7; margin-bottom: 20px; }
-.testimonial-author { font-size: 0.85rem; color: var(--gold); font-weight: 600; }
-.testimonial-role { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 2px; }
 
 /* ===== CONTACT ===== */
 .contact { padding: 96px 24px; background: var(--off-white); }
@@ -506,7 +493,6 @@ ul { list-style: none; }
   .resources-grid { grid-template-columns: repeat(2, 1fr); }
   .process-steps { grid-template-columns: repeat(2, 1fr); }
   .process-steps::before { display: none; }
-  .testimonials-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
@@ -578,7 +564,7 @@ ul { list-style: none; }
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["LegalService", "LocalBusiness"],
+      "@type": ["LegalService", "LocalBusiness", "Attorney"],
       "@id": "https://shubhamojhaandassociates.com/#firm",
       "name": "Shubham Ojha & Associates",
       "alternateName": "Shubham Ojha and Associates",
@@ -818,7 +804,7 @@ ul { list-style: none; }
       </div>
       <div class="about-content reveal-right">
         <div class="hero-eyebrow" style="color:var(--gold-ink);">About the Firm</div>
-        <h2 class="section-title">Principled Advocacy at Rajasthan's Premier Court</h2>
+        <h2 class="section-title">Principled Advocacy at the Rajasthan High Court</h2>
         <div class="gold-line"></div>
         <p>Shubham Ojha &amp; Associates is a dedicated legal practice based at the Rajasthan High Court, Jodhpur Bench. Advocate Shubham Ojha practises across property disputes, family law, civil litigation, criminal defence, NDPS matters, and service law.</p>
         <p>The firm is built on a foundation of integrity, thorough legal research, and client-centred advocacy. Every case is approached with the seriousness it deserves — whether a straightforward contractual dispute or a complex constitutional matter.</p>
@@ -854,7 +840,7 @@ ul { list-style: none; }
           <div class="flip-front">
             <div class="flip-front-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 11l9-8 9 8M5 9.5V21h14V9.5M9.5 21v-6.5h5V21"/></svg></div>
             <div class="flip-front-title">Property &amp; Real Estate Law</div>
-            <div class="flip-front-desc">Expert guidance on title disputes, partition matters, possession cases, and property transactions under Rajasthan and central property statutes. Remote consultation available for owners based outside Rajasthan.</div>
+            <div class="flip-front-desc">Guidance on title disputes, partition matters, possession cases, and property transactions under Rajasthan and central property statutes. Remote consultation available for owners based outside Rajasthan.</div>
             <div class="flip-front-hint">Hover to explore →</div>
           </div>
           <div class="flip-back">
@@ -923,7 +909,7 @@ ul { list-style: none; }
           <div class="flip-front">
             <div class="flip-front-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 3l8 3v6c0 4.4-3.2 7.7-8 9-4.8-1.3-8-4.6-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-4.5"/></svg></div>
             <div class="flip-front-title">Criminal Defence &amp; NDPS</div>
-            <div class="flip-front-desc">Vigorous criminal defence across IPC, BNSS, NDPS Act, and anticipatory bail applications at the High Court and District Courts.</div>
+            <div class="flip-front-desc">Criminal defence across IPC, BNSS, NDPS Act, and anticipatory bail applications at the High Court and District Courts.</div>
             <div class="flip-front-hint">Hover to explore →</div>
           </div>
           <div class="flip-back">
@@ -936,7 +922,7 @@ ul { list-style: none; }
               <li>White-collar criminal matters</li>
               <li>Bail under §483 BNSS</li>
             </ul>
-            <a class="flip-back-cta" href="/bail-lawyer-jodhpur.html" style="display:block;text-decoration:none;">How bail matters work in Jodhpur →</a>
+            <a class="flip-back-cta" href="/bail-lawyer-jodhpur.html" style="display:block;text-decoration:none;">Bail lawyer in Jodhpur — regular, anticipatory and default bail →</a>
             <a class="flip-back-cta" href="/jodhpur-jamanat-prakriya-hi.html" style="display:block;text-decoration:none;">जोधपुर में ज़मानत की प्रक्रिया →</a>
           </div>
         </div>
@@ -1728,13 +1714,13 @@ ul { list-style: none; }
       <div class="process-step reveal" style="transition-delay:0.45s">
         <div class="step-number">04</div>
         <div class="step-title">Advocacy &amp; Resolution</div>
-        <p class="step-desc">We appear in court, argue your case vigorously, and keep you informed at every stage until your matter is resolved.</p>
+        <p class="step-desc">We appear in court, argue the case, and keep you informed at every stage until the matter is decided.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Testimonials section removed for Bar Council of India (Rule 36) compliance — no client endorsements/testimonials -->
+<!-- Client-endorsement section removed for Bar Council of India (Rule 36) compliance -->
 
 <!-- LEGAL AWARENESS — YouTube Channel (auto-updates with new uploads via playlist embed) -->
 <section id="legal-awareness" style="background:#060f22;padding:80px 24px;text-align:center;border-top:1px solid rgba(199,163,90,0.18)">
@@ -1856,7 +1842,7 @@ ul { list-style: none; }
             <div><div class="contact-item-label">Office Hours</div><div class="contact-item-value">Mon–Sat: 12 noon – 10:00 PM <span style="color:var(--text-light);font-size:0.85em;">(Sunday closed)</span></div></div>
           </div>
         </div>
-        <iframe src="https://maps.google.com/maps?q=Rajasthan+High+Court,+Jodhpur,+Rajasthan&output=embed" width="100%" height="220" style="border:1px solid rgba(199,163,90,0.25);border-radius:8px;margin-top:20px;display:block;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Rajasthan High Court, Jodhpur — location map" allowfullscreen></iframe>
+        <div id="mapBox" style="width:100%;height:220px;box-sizing:border-box;border:1px solid rgba(199,163,90,0.25);border-radius:8px;margin-top:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:var(--white);overflow:hidden;"><button type="button" style="font-family:var(--font-sans);font-size:0.88rem;font-weight:600;color:var(--navy);background:var(--off-white);border:1px solid rgba(199,163,90,0.5);border-radius:6px;padding:12px 20px;cursor:pointer;" onclick="var b=this.parentNode,f=document.createElement('iframe');f.src='https://maps.google.com/maps?q=Rajasthan+High+Court,+Jodhpur,+Rajasthan&amp;output=embed';f.title='Rajasthan High Court, Jodhpur — location map';f.setAttribute('referrerpolicy','no-referrer-when-downgrade');f.setAttribute('allowfullscreen','');f.style.cssText='border:0;display:block;width:100%;height:100%;';b.replaceChildren(f);">Load map: Rajasthan High Court, Jodhpur</button><a href="https://maps.google.com/?cid=15467730390012766295" target="_blank" rel="noopener" style="font-size:0.8rem;color:var(--text-light);text-decoration:underline;text-underline-offset:3px;">Open in Google Maps</a></div>
       </div>
       <div class="reveal-right">
         <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
@@ -1939,7 +1925,7 @@ ul { list-style: none; }
           <li><a href="#practice">Property Law</a></li>
           <li><a href="#practice">Family Law</a></li>
           <li><a href="#practice">Civil Litigation</a></li>
-          <li><a href="#practice">Criminal Defence</a></li>
+          <li><a href="/criminal-lawyer-jodhpur.html">Criminal cases at Jodhpur</a></li>
           <li><a href="#practice">Writ Petitions</a></li>
           <li><a href="#practice">Service Law</a></li>
         </ul>
