@@ -352,7 +352,7 @@ Two things decide where the file goes. The first is time. If a notice under Sect
 
 ## What the courts actually weigh
 
-Across hundreds of orders, the factors repeat: the gravity and the specific role attributed in the FIR, the stage of investigation, criminal antecedents, the risk of tampering with witnesses, and parity — whether a co-accused with a similar role has already been granted bail. Parity is argued loosely everywhere, but at the Jodhpur bench it works only when the roles genuinely match on the FIR's own language. After Arnesh Kumar v. State of Bihar, arrest itself is no longer automatic in offences punishable up to seven years; a surprising number of matters are better fought at the notice stage under Section 35 BNSS than after a needless arrest. Where the FIR itself is an abuse of process, the parallel remedy is not bail at all but quashing of the FIR under Section 528 BNSS — and knowing how an FIR is registered and what a complainant's rights are often decides which route to take first.
+Across hundreds of orders, the factors repeat: the gravity and the specific role attributed in the FIR, the stage of investigation, criminal antecedents, the risk of tampering with witnesses, and parity — whether a co-accused with a similar role has already been granted bail. Parity is argued loosely everywhere, but at the Jodhpur bench it works only when the roles genuinely match on the FIR's own language. After Arnesh Kumar v. State of Bihar, arrest itself is no longer automatic in offences punishable up to seven years; a surprising number of matters are better fought at the notice stage under Section 35 BNSS than after a needless arrest. Where the FIR itself is an abuse of process, the parallel remedy is not bail at all but quashing of the FIR under Section 528 BNSS — and knowing how an FIR is registered and what a complainant's rights are often decides which route to take first. What that petition must annex, and where it is presented, is in the section on Filing a Section 528 BNSS petition at the Rajasthan High Court, Jodhpur.
 
 ## Documents a family should gather before the first meeting
 
@@ -477,7 +477,7 @@ An appeal against a conviction by a Magistrate goes to the Court of Session unde
 
 Revision is where the costly mistakes happen. Section 438(2) bars a revision against an interlocutory order, and Section 438(3) says that once a person has applied to either the High Court or the Sessions Judge, the other will not entertain a further application by the same person. A party in a hurry moves the Sessions Judge because it is quicker, and by doing so forecloses the High Court on that very order. I have seen that one line of the section decide more matters than any argument on merits.
 
-Section 528 BNSS, the successor to Section 482 CrPC, is the High Court's own power and no Sessions Court or Magistrate shares it. The categories in which an FIR can be quashed are still those listed in State of Haryana v. Bhajan Lal (1992), and after Neeharika Infrastructure v. State of Maharashtra (2021) a stay on investigation is an exception rather than the ordinary relief; the detail sits in the note on quashing an FIR under Section 528 BNSS. One statutory trap deserves repeating: where a Special Court refuses bail under the Atrocities Act, the remedy is the appeal under Section 14A(2) of that Act, with its own limitation, and not a fresh application under Section 483.
+Section 528 BNSS, the successor to Section 482 CrPC, is the High Court's own power and no Sessions Court or Magistrate shares it. The categories in which an FIR can be quashed are still those listed in State of Haryana v. Bhajan Lal (1992), and after Neeharika Infrastructure v. State of Maharashtra (2021) a stay on investigation is an exception rather than the ordinary relief; the detail sits in the note on quashing an FIR under Section 528 BNSS, and the registry side of it in the section on Filing a Section 528 BNSS petition at the Rajasthan High Court, Jodhpur. One statutory trap deserves repeating: where a Special Court refuses bail under the Atrocities Act, the remedy is the appeal under Section 14A(2) of that Act, with its own limitation, and not a fresh application under Section 483.
 
 ## What actually consumes the time
 
@@ -1581,103 +1581,6 @@ URL: https://shubhamojhaandassociates.com/articles/agricultural-land-partition-r
 
 ---
 
-# SARFAESI धारा 13(2) नोटिस: 60 दिन की मियाद, कब्ज़ा और DRT
-URL: https://shubhamojhaandassociates.com/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html
-
-मुख्य पृष्ठ›
- विधिक जानकारी›
- SARFAESI नोटिस — धारा 13(2) एवं DRT
-
-बैंकिंग एवं वसूली विधि
-
-# SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में आपके बचाव
-
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- जुलाई 2026
-
-बैंक का SARFAESI नोटिस — यानी धारा 13(2) का माँग-नोटिस — मिलने पर आपके पास 60 दिन होते हैं। इसी दौरान धारा 13(3A) में लिखित आपत्ति दें, जिसका जवाब बैंक को 15 दिन में देना पड़ता है। 60 दिन बाद बैंक धारा 13(4) में कब्ज़ा ले सकता है; इसके विरुद्ध असली उपाय है DRT में धारा 17 की अर्ज़ी — कार्रवाई से 45 दिन के भीतर।
-
-कागज़ आपके पास हैं? नोटिस, आदेश या याचिका की फोटो WhatsApp पर +91 70230 51275 भेजी जा सकती है, या इसी नंबर पर कॉल करें (सोम–शनि, दोपहर 12 – रात 10 बजे)।
-
-एक नज़र में
-
-60 दिन — धारा 13(2) के माँग-नोटिस पर बकाया चुकाने की अवधि
- 
-15 दिन — आपकी धारा 13(3A) आपत्ति का जवाब देने के लिए बैंक को मिलने वाला समय
- 
-45 दिन — धारा 13(4) की कार्रवाई से DRT में धारा 17 की अर्ज़ी दायर करने की समय-सीमा
- 
-मंच (forum) — ऋण वसूली अधिकरण (Debts Recovery Tribunal), सिविल न्यायालय नहीं (धारा 34 की रोक)
- 
-अपवाद — कृषि भूमि धारा 31(i) के तहत SARFAESI से बाहर
-
-SARFAESI अधिनियम, 2002 एक केंद्रीय कानून है और पूरे भारत में समान रूप से लागू होता है — धारा 13, 14, 17 और 34 की यही प्रक्रिया हर राज्य में चलती है। नीचे दिए गए राजस्थान/जोधपुर के व्यावहारिक उदाहरण केवल दृष्टांत हैं; कानून वही रहता है। DRT का क्षेत्राधिकार उस स्थान से तय होता है जहाँ संपत्ति या शाखा स्थित है।
-
-▶ इस विषय पर वीडियो · 36 सेकंड
-
-Bank Se Notice Aaya? Kabza Nahi, 60 Din Hain — SARFAESI Section 13(2)
-पूरा चैनल →
-
-SARFAESI का नोटिस आते ही ज़्यादातर लोग दो में से एक गलती करते हैं — या तो घबराकर कुछ नहीं करते, या सोचते हैं "देखा जाएगा"। दोनों महँगी पड़ती हैं, क्योंकि इस कानून में हर चीज़ की घड़ी चलती है। पूरा नाम है Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002। इसकी खासियत यही है कि यह बैंक को अदालत गए बिना, सीधे गिरवी संपत्ति पर कार्रवाई की ताकत देता है — और इसी ताकत का संतुलन आपके सख्त समय-सीमा वाले अधिकारों से बनता है।
-
-सबसे पहले यह जाँचिए कि SARFAESI आप पर लागू होता भी है या नहीं। दो अहम अपवाद हैं। पहला — अगर लोन unsecured है (कोई property, plot, दुकान या stock गिरवी नहीं), तो SARFAESI लागू ही नहीं होता; बैंक को civil suit या arbitration का रास्ता लेना पड़ता है। दूसरा, और राजस्थान के लिए बेहद अहम — धारा 31(i) के तहत कृषि भूमि इस कानून से बाहर है। खेती की ज़मीन पर बैंक SARFAESI से कब्ज़ा नहीं ले सकता। पर सावधानी: केवल राजस्व रिकॉर्ड में "कृषि" लिखा होना काफी नहीं — न्यायालय ज़मीन का वास्तविक उपयोग देखता है। यह अपवाद मैंने कई मामलों में निर्णायक बनते देखा है, पर उसे प्रमाण से खड़ा करना पड़ता है।
-
-## धारा 13(2) का नोटिस — मतलब समझिए
- 
-यह नोटिस तब आता है जब आपका खाता RBI के मानकों के अनुसार NPA (Non-Performing Asset) घोषित हो चुका होता है। धारा 13(2) के तहत बैंक आपको 60 दिन देता है पूरा बकाया चुकाने के लिए। यह अंत नहीं है — यह पहला पड़ाव है। इन 60 दिनों में जो आप करते हैं (या नहीं करते), वही आगे की पूरी लड़ाई की दिशा तय करता है।
-
-## धारा 13(3A) — वह अधिकार जो लोग गँवा देते हैं
- 
-इसी 60 दिन की अवधि में आपके पास धारा 13(3A) का अधिकार है — बैंक को लिखित objection/representation देने का। और बैंक की कानूनी duty है कि आपकी आपत्ति पर reasoned जवाब 15 दिन के भीतर दे। मैंने बहुत से मामलों में देखा है कि बैंक यह जवाब देता ही नहीं, या केवल औपचारिकता निभाता है — और यही आगे DRT में एक मज़बूत ground बन जाता है। इसके उलट, जो borrower चुप रह जाता है, वह अपना सबसे आसान हथियार खुद फेंक देता है। आपत्ति सोच-समझकर, तथ्यों के साथ, समय पर दीजिए।
-
-## धारा 13(4) और धारा 14 — कब्ज़े की कार्रवाई
- 
-60 दिन पूरे होते ही बैंक धारा 13(4) के तहत कदम उठा सकता है। पहले आता है symbolic possession (कागज़ी कब्ज़ा), फिर physical possession। भौतिक कब्ज़े के लिए बैंक प्रायः धारा 14 के तहत जिला मजिस्ट्रेट (या महानगरों में CMM) से आदेश लेता है — यह एक प्रशासनिक सहायता है, न्यायिक सुनवाई नहीं, इसलिए यहाँ आपकी दलील बहुत सीमित सुनी जाती है। इसके आगे नीलामी (auction) की प्रक्रिया शुरू होती है। कई लोग यहीं गलती करते हैं — physical possession के इंतज़ार में बैठे रहते हैं; असल में लड़ाई इससे पहले लड़नी होती है। धारा 14 की सुनवाई का दायरा बहुत सँकरा है। बैंक किस affidavit के साथ अर्ज़ी लगाता है, जिला मजिस्ट्रेट क्या तय कर सकता है और क्या नहीं, और borrower की आपत्ति असल में किस मंच पर सुनी जाएगी — यह हिसाब मैंने अलग से Section 14: what the District Magistrate can and cannot decide में रखा है।
-
-## असली उपाय — DRT में धारा 17 की अर्ज़ी
- 
-SARFAESI की धारा 13(4) की किसी भी कार्रवाई के विरुद्ध borrower का मुख्य remedy है DRT में धारा 17 की Securitisation Application (SA) — और वह भी कार्रवाई से 45 दिन के भीतर। यह limitation सख्त है, और मैंने यही चूक सबसे महँगी पड़ते देखी है। राजस्थान के सभी मामलों के लिए यह अर्ज़ी DRT जयपुर में लगती है। DRT यह देखता है कि बैंक की कार्रवाई में prima facie कोई खोट है या नहीं — जैसे 13(3A) के जवाब की अनदेखी, नोटिस में रकम का गलत या बिना-हिसाब दावा, या Rules 8-9 की प्रक्रिया का उल्लंघन। एक बात ईमानदारी से — stay अक्सर conditional मिलता है, यानी कुछ राशि जमा करने की शर्त पर; Tribunal का मकसद बैंक की वसूली रोकना नहीं, प्रक्रिया की वैधता जाँचना है। (और यदि DRT का आदेश खिलाफ जाए, तो DRAT में अपील पर statutory pre-deposit — 50%, जो घटकर 25% हो सकता है — अनिवार्य ही है।) यह शर्त कोई औपचारिकता नहीं। pre-deposit किस रकम पर गिना जाता है, अपील की अवधि किस दिन से चलती है, और उसे घटवाने की प्रार्थना किस आधार पर टिकती है — इन तीनों को धारा 18 के provisos के साथ appealing a DRT order to the DRAT under Section 18 में पढ़िए।
-
-## नीलामी और redemption — Celir LLP का असर
- 
-नीलामी से पहले Security Interest (Enforcement) Rules के Rule 8 और 9 बैंक पर सख्त प्रक्रिया लगाते हैं — सही valuation, reserve price, और कम-से-कम 30 दिन का public sale notice। इनमें defect मिलना बहुत आम है, और यही DRT में नीलामी रुकवाने के सबसे कामयाब grounds हैं। पर एक बदलाव समझ लीजिए: 2016 के संशोधन के बाद धारा 13(8) कड़ी हो गई है, और Supreme Court ने Celir LLP v. Bafna Motors (2023) में साफ कर दिया कि auction notice प्रकाशित होते ही borrower का redemption right समाप्त। यानी "नीलामी के दिन पैसा लेकर पहुँच जाएँगे" वाली पुरानी सोच अब कानूनन नहीं चलती — पूरा बकाया चुकाकर संपत्ति छुड़ानी है, तो notice छपने से पहले। तारीख़ यहाँ सब कुछ है। नीलामी रुकवाने के लिए DRT से व्यवहार में क्या माँगा जाता है, और redemption की खिड़की किस दिन बंद मानी जाती है, इसका विस्तार stopping a bank auction: Section 13(8) and the right of redemption में है।
-
-## Civil Court क्यों नहीं — धारा 34 की रोक
- 
-एक सवाल अक्सर आता है — "क्या हम दीवानी न्यायालय (Civil Court) में injunction ले लें?" व्यावहारिक जवाब: नहीं। SARFAESI की धारा 34 ऐसे मामलों में Civil Court का दरवाज़ा लगभग बंद कर देती है, सिवाय fraud जैसी बहुत सीमित स्थितियों के। इसी तरह High Court में writ भी केवल exceptional cases में टिकती है — वरना "alternative remedy available" कहकर खारिज हो जाती है। कानून ने मंच बाँट रखा है: secured loan और SARFAESI का विवाद = DRT का रास्ता। गलत मंच चुनना सिर्फ़ कीमती समय गँवाना है।
-
-अंत में एक व्यावहारिक सलाह जो हर मुवक्किल को देता हूँ — नोटिस मिलते ही सारे loan documents, account statements और बैंक से हुई हर चिट्ठी एक file में लगाइए। DRT में केस दलील से नहीं, दस्तावेज़ से लड़ा जाता है। और सबसे बड़ी बात: नोटिस को अनदेखा करना कोई रणनीति नहीं है — यह सिर्फ़ अपने विकल्प घटाना है। इस क्षेत्र में देरी ही सबसे बड़ा नुकसान है।
-
-तारीख़ों की एक अलग सूची
- 
-ऊपर जिन तारीख़ों की बात हुई है, उन्हें मैंने एक तीन-पृष्ठ के नोट में क्रम से रख दिया है — After the Bank’s Notice — जिसमें धारा 13(2), 13(3A), 17(1) और 18(1) का पाठ bare Act से ज्यों-का-त्यों उद्धृत है, और अंत में Day 0 से आगे की पूरी sequence एक तालिका में है। नोट अंग्रेज़ी में है, ताकि बैंक की चिट्ठी में लिखी भाषा से मिलान करते हुए पढ़ा जा सके: After the Bank’s Notice — SARFAESI Act, 2002 (PDF, 3 पृष्ठ)।
-
-बहुत से borrower राजस्थान से बाहर के हैं, या अंग्रेज़ी में ही पढ़ना पसंद करते हैं — उनके लिए यही विषय पूरे भारत के सन्दर्भ में, धारा 13(2) से लेकर धारा 17 और धारा 18 के pre-deposit तक, SARFAESI Section 13(2) notice: what a borrower can actually do में रखा गया है।
-
-जोधपुर के borrower के लिए एक बात अलग से नोट करने योग्य है। राजस्थान का Debts Recovery Tribunal जयपुर में बैठता है, जोधपुर में नहीं। यानी धारा 17 का आवेदन जोधपुर में तैयार होता है और सुनवाई के लिए जयपुर जाता है; धारा 14 के कब्ज़ा-आदेश की कार्यवाही उस ज़िले के ज़िला मजिस्ट्रेट (District Magistrate) के सामने चलती है जहाँ सम्पत्ति है; और writ जोधपुर पीठ में। तीन मंच, एक ही मामला। किस काग़ज़ का मंच कहाँ है, और इस चैम्बर का पता, बैठने का समय और नामांकन संख्या, जोधपुर में अधिवक्ता वाले पृष्ठ पर एक जगह दिए हैं।
-
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। SARFAESI/DRT के मामले तथ्यों और तारीखों पर बहुत निर्भर करते हैं; अपने विशिष्ट मामले में किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
- 
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  DRT जयपुर के मामले  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
-
-संबंधित लेख
-
-संपत्ति विधि
-राजस्थान में संपत्ति विवाद: प्रकार और समाधान
- बैंकिंग विधि
-चेक बाउंस — धारा 138 NI Act की पूरी जानकारी
- राजस्व विधि
-राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा एवं राजस्व न्यायालय
-
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
-
-📞 Call Now
- 💬 WhatsApp
-
----
-
 # Land Revenue Laws in Rajasthan: Mutation, Khatedari, Jamabandi
 URL: https://shubhamojhaandassociates.com/articles/land-revenue-laws-rajasthan.html
 
@@ -1844,6 +1747,103 @@ Bar Council of India Notice: This website is for informational purposes only and
 
 ---
 
+# SARFAESI धारा 13(2) नोटिस: 60 दिन की मियाद, कब्ज़ा और DRT
+URL: https://shubhamojhaandassociates.com/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html
+
+मुख्य पृष्ठ›
+ विधिक जानकारी›
+ SARFAESI नोटिस — धारा 13(2) एवं DRT
+
+बैंकिंग एवं वसूली विधि
+
+# SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में आपके बचाव
+
+लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
+ जुलाई 2026
+
+बैंक का SARFAESI नोटिस — यानी धारा 13(2) का माँग-नोटिस — मिलने पर आपके पास 60 दिन होते हैं। इसी दौरान धारा 13(3A) में लिखित आपत्ति दें, जिसका जवाब बैंक को 15 दिन में देना पड़ता है। 60 दिन बाद बैंक धारा 13(4) में कब्ज़ा ले सकता है; इसके विरुद्ध असली उपाय है DRT में धारा 17 की अर्ज़ी — कार्रवाई से 45 दिन के भीतर।
+
+कागज़ आपके पास हैं? नोटिस, आदेश या याचिका की फोटो WhatsApp पर +91 70230 51275 भेजी जा सकती है, या इसी नंबर पर कॉल करें (सोम–शनि, दोपहर 12 – रात 10 बजे)।
+
+एक नज़र में
+
+60 दिन — धारा 13(2) के माँग-नोटिस पर बकाया चुकाने की अवधि
+ 
+15 दिन — आपकी धारा 13(3A) आपत्ति का जवाब देने के लिए बैंक को मिलने वाला समय
+ 
+45 दिन — धारा 13(4) की कार्रवाई से DRT में धारा 17 की अर्ज़ी दायर करने की समय-सीमा
+ 
+मंच (forum) — ऋण वसूली अधिकरण (Debts Recovery Tribunal), सिविल न्यायालय नहीं (धारा 34 की रोक)
+ 
+अपवाद — कृषि भूमि धारा 31(i) के तहत SARFAESI से बाहर
+
+SARFAESI अधिनियम, 2002 एक केंद्रीय कानून है और पूरे भारत में समान रूप से लागू होता है — धारा 13, 14, 17 और 34 की यही प्रक्रिया हर राज्य में चलती है। नीचे दिए गए राजस्थान/जोधपुर के व्यावहारिक उदाहरण केवल दृष्टांत हैं; कानून वही रहता है। DRT का क्षेत्राधिकार उस स्थान से तय होता है जहाँ संपत्ति या शाखा स्थित है।
+
+▶ इस विषय पर वीडियो · 36 सेकंड
+
+Bank Se Notice Aaya? Kabza Nahi, 60 Din Hain — SARFAESI Section 13(2)
+पूरा चैनल →
+
+SARFAESI का नोटिस आते ही ज़्यादातर लोग दो में से एक गलती करते हैं — या तो घबराकर कुछ नहीं करते, या सोचते हैं "देखा जाएगा"। दोनों महँगी पड़ती हैं, क्योंकि इस कानून में हर चीज़ की घड़ी चलती है। पूरा नाम है Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002। इसकी खासियत यही है कि यह बैंक को अदालत गए बिना, सीधे गिरवी संपत्ति पर कार्रवाई की ताकत देता है — और इसी ताकत का संतुलन आपके सख्त समय-सीमा वाले अधिकारों से बनता है।
+
+सबसे पहले यह जाँचिए कि SARFAESI आप पर लागू होता भी है या नहीं। दो अहम अपवाद हैं। पहला — अगर लोन unsecured है (कोई property, plot, दुकान या stock गिरवी नहीं), तो SARFAESI लागू ही नहीं होता; बैंक को civil suit या arbitration का रास्ता लेना पड़ता है। दूसरा, और राजस्थान के लिए बेहद अहम — धारा 31(i) के तहत कृषि भूमि इस कानून से बाहर है। खेती की ज़मीन पर बैंक SARFAESI से कब्ज़ा नहीं ले सकता। पर सावधानी: केवल राजस्व रिकॉर्ड में "कृषि" लिखा होना काफी नहीं — न्यायालय ज़मीन का वास्तविक उपयोग देखता है। यह अपवाद मैंने कई मामलों में निर्णायक बनते देखा है, पर उसे प्रमाण से खड़ा करना पड़ता है।
+
+## धारा 13(2) का नोटिस — मतलब समझिए
+ 
+यह नोटिस तब आता है जब आपका खाता RBI के मानकों के अनुसार NPA (Non-Performing Asset) घोषित हो चुका होता है। धारा 13(2) के तहत बैंक आपको 60 दिन देता है पूरा बकाया चुकाने के लिए। यह अंत नहीं है — यह पहला पड़ाव है। इन 60 दिनों में जो आप करते हैं (या नहीं करते), वही आगे की पूरी लड़ाई की दिशा तय करता है।
+
+## धारा 13(3A) — वह अधिकार जो लोग गँवा देते हैं
+ 
+इसी 60 दिन की अवधि में आपके पास धारा 13(3A) का अधिकार है — बैंक को लिखित objection/representation देने का। और बैंक की कानूनी duty है कि आपकी आपत्ति पर reasoned जवाब 15 दिन के भीतर दे। मैंने बहुत से मामलों में देखा है कि बैंक यह जवाब देता ही नहीं, या केवल औपचारिकता निभाता है — और यही आगे DRT में एक मज़बूत ground बन जाता है। इसके उलट, जो borrower चुप रह जाता है, वह अपना सबसे आसान हथियार खुद फेंक देता है। आपत्ति सोच-समझकर, तथ्यों के साथ, समय पर दीजिए।
+
+## धारा 13(4) और धारा 14 — कब्ज़े की कार्रवाई
+ 
+60 दिन पूरे होते ही बैंक धारा 13(4) के तहत कदम उठा सकता है। पहले आता है symbolic possession (कागज़ी कब्ज़ा), फिर physical possession। भौतिक कब्ज़े के लिए बैंक प्रायः धारा 14 के तहत जिला मजिस्ट्रेट (या महानगरों में CMM) से आदेश लेता है — यह एक प्रशासनिक सहायता है, न्यायिक सुनवाई नहीं, इसलिए यहाँ आपकी दलील बहुत सीमित सुनी जाती है। इसके आगे नीलामी (auction) की प्रक्रिया शुरू होती है। कई लोग यहीं गलती करते हैं — physical possession के इंतज़ार में बैठे रहते हैं; असल में लड़ाई इससे पहले लड़नी होती है। धारा 14 की सुनवाई का दायरा बहुत सँकरा है। बैंक किस affidavit के साथ अर्ज़ी लगाता है, जिला मजिस्ट्रेट क्या तय कर सकता है और क्या नहीं, और borrower की आपत्ति असल में किस मंच पर सुनी जाएगी — यह हिसाब मैंने अलग से Section 14: what the District Magistrate can and cannot decide में रखा है।
+
+## असली उपाय — DRT में धारा 17 की अर्ज़ी
+ 
+SARFAESI की धारा 13(4) की किसी भी कार्रवाई के विरुद्ध borrower का मुख्य remedy है DRT में धारा 17 की Securitisation Application (SA) — और वह भी कार्रवाई से 45 दिन के भीतर। यह limitation सख्त है, और मैंने यही चूक सबसे महँगी पड़ते देखी है। राजस्थान के सभी मामलों के लिए यह अर्ज़ी DRT जयपुर में लगती है। DRT यह देखता है कि बैंक की कार्रवाई में prima facie कोई खोट है या नहीं — जैसे 13(3A) के जवाब की अनदेखी, नोटिस में रकम का गलत या बिना-हिसाब दावा, या Rules 8-9 की प्रक्रिया का उल्लंघन। एक बात ईमानदारी से — stay अक्सर conditional मिलता है, यानी कुछ राशि जमा करने की शर्त पर; Tribunal का मकसद बैंक की वसूली रोकना नहीं, प्रक्रिया की वैधता जाँचना है। (और यदि DRT का आदेश खिलाफ जाए, तो DRAT में अपील पर statutory pre-deposit — 50%, जो घटकर 25% हो सकता है — अनिवार्य ही है।) यह शर्त कोई औपचारिकता नहीं। pre-deposit किस रकम पर गिना जाता है, अपील की अवधि किस दिन से चलती है, और उसे घटवाने की प्रार्थना किस आधार पर टिकती है — इन तीनों को धारा 18 के provisos के साथ appealing a DRT order to the DRAT under Section 18 में पढ़िए।
+
+## नीलामी और redemption — Celir LLP का असर
+ 
+नीलामी से पहले Security Interest (Enforcement) Rules के Rule 8 और 9 बैंक पर सख्त प्रक्रिया लगाते हैं — सही valuation, reserve price, और कम-से-कम 30 दिन का public sale notice। इनमें defect मिलना बहुत आम है, और यही DRT में नीलामी रुकवाने के सबसे कामयाब grounds हैं। पर एक बदलाव समझ लीजिए: 2016 के संशोधन के बाद धारा 13(8) कड़ी हो गई है, और Supreme Court ने Celir LLP v. Bafna Motors (2023) में साफ कर दिया कि auction notice प्रकाशित होते ही borrower का redemption right समाप्त। यानी "नीलामी के दिन पैसा लेकर पहुँच जाएँगे" वाली पुरानी सोच अब कानूनन नहीं चलती — पूरा बकाया चुकाकर संपत्ति छुड़ानी है, तो notice छपने से पहले। तारीख़ यहाँ सब कुछ है। नीलामी रुकवाने के लिए DRT से व्यवहार में क्या माँगा जाता है, और redemption की खिड़की किस दिन बंद मानी जाती है, इसका विस्तार stopping a bank auction: Section 13(8) and the right of redemption में है।
+
+## Civil Court क्यों नहीं — धारा 34 की रोक
+ 
+एक सवाल अक्सर आता है — "क्या हम दीवानी न्यायालय (Civil Court) में injunction ले लें?" व्यावहारिक जवाब: नहीं। SARFAESI की धारा 34 ऐसे मामलों में Civil Court का दरवाज़ा लगभग बंद कर देती है, सिवाय fraud जैसी बहुत सीमित स्थितियों के। इसी तरह High Court में writ भी केवल exceptional cases में टिकती है — वरना "alternative remedy available" कहकर खारिज हो जाती है। कानून ने मंच बाँट रखा है: secured loan और SARFAESI का विवाद = DRT का रास्ता। गलत मंच चुनना सिर्फ़ कीमती समय गँवाना है।
+
+अंत में एक व्यावहारिक सलाह जो हर मुवक्किल को देता हूँ — नोटिस मिलते ही सारे loan documents, account statements और बैंक से हुई हर चिट्ठी एक file में लगाइए। DRT में केस दलील से नहीं, दस्तावेज़ से लड़ा जाता है। और सबसे बड़ी बात: नोटिस को अनदेखा करना कोई रणनीति नहीं है — यह सिर्फ़ अपने विकल्प घटाना है। इस क्षेत्र में देरी ही सबसे बड़ा नुकसान है।
+
+तारीख़ों की एक अलग सूची
+ 
+ऊपर जिन तारीख़ों की बात हुई है, उन्हें मैंने एक तीन-पृष्ठ के नोट में क्रम से रख दिया है — After the Bank’s Notice — जिसमें धारा 13(2), 13(3A), 17(1) और 18(1) का पाठ bare Act से ज्यों-का-त्यों उद्धृत है, और अंत में Day 0 से आगे की पूरी sequence एक तालिका में है। नोट अंग्रेज़ी में है, ताकि बैंक की चिट्ठी में लिखी भाषा से मिलान करते हुए पढ़ा जा सके: After the Bank’s Notice — SARFAESI Act, 2002 (PDF, 3 पृष्ठ)।
+
+बहुत से borrower राजस्थान से बाहर के हैं, या अंग्रेज़ी में ही पढ़ना पसंद करते हैं — उनके लिए यही विषय पूरे भारत के सन्दर्भ में, धारा 13(2) से लेकर धारा 17 और धारा 18 के pre-deposit तक, SARFAESI Section 13(2) notice: what a borrower can actually do में रखा गया है।
+
+जोधपुर के borrower के लिए एक बात अलग से नोट करने योग्य है। राजस्थान का Debts Recovery Tribunal जयपुर में बैठता है, जोधपुर में नहीं। यानी धारा 17 का आवेदन जोधपुर में तैयार होता है और सुनवाई के लिए जयपुर जाता है; धारा 14 के कब्ज़ा-आदेश की कार्यवाही उस ज़िले के ज़िला मजिस्ट्रेट (District Magistrate) के सामने चलती है जहाँ सम्पत्ति है; और writ जोधपुर पीठ में। तीन मंच, एक ही मामला। किस काग़ज़ का मंच कहाँ है, और इस चैम्बर का पता, बैठने का समय और नामांकन संख्या, जोधपुर में अधिवक्ता वाले पृष्ठ पर एक जगह दिए हैं।
+
+यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। SARFAESI/DRT के मामले तथ्यों और तारीखों पर बहुत निर्भर करते हैं; अपने विशिष्ट मामले में किसी योग्य अधिवक्ता से परामर्श करें।
+
+शुभम ओझा एवं एसोसिएट्स
+ 
+अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  DRT जयपुर के मामले  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
+
+संबंधित लेख
+
+संपत्ति विधि
+राजस्थान में संपत्ति विवाद: प्रकार और समाधान
+ बैंकिंग विधि
+चेक बाउंस — धारा 138 NI Act की पूरी जानकारी
+ राजस्व विधि
+राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा एवं राजस्व न्यायालय
+
+बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
+
+📞 Call Now
+ 💬 WhatsApp
+
+---
+
 # राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय | शुभम ओझा एवं एसोसिएट्स
 URL: https://shubhamojhaandassociates.com/articles/land-revenue-laws-rajasthan-hi.html
 
@@ -1991,7 +1991,24 @@ Adverse possession is commonly described as arising under Section 27 of the Limi
 For a buyer, due diligence in Rajasthan runs through two systems, and neither of them is a grievance portal. Revenue records, the Jamabandi and the Girdawari, are on Apna Khata at apnakhata.raj.nic.in. Registered instruments and the encumbrance position are checked through the registration department’s e-Panjiyan system and at the Sub-Registrar’s office for the tehsil in which the land falls. Pending litigation has to be searched separately on the district court and High Court portals, because nothing in a revenue record discloses an injunction. Where the seller claims through inheritance, ask for the succession document and not merely the mutation that followed it. An indemnity clause in the sale agreement is worth having, but it is a claim in damages against a person who may by then not be worth suing. The verification done before the deed is executed is worth more than the clause drafted afterwards.
 
 Before any of this is reached the civil side settles a smaller question: which court the plaint actually goes to. Section 16 CPC fixes that by the land and not by the parties. A suit for the recovery of immovable property, for partition, for foreclosure, sale or redemption of a mortgage, or for the determination of any other right to or interest in immovable property is instituted in the court within the local limits of whose jurisdiction the property is situate. The proviso is the exception worth knowing: where the relief sought can be entirely obtained through the defendant’s personal obedience, the suit may instead be brought where the defendant actually and voluntarily resides, carries on business or personally works for gain. Section 17 answers the case that recurs here, a family holding partly inside Jodhpur city and partly in a tehsil outside it. The suit may then be instituted in any court within whose limits any portion of the property is situate, but only if, in respect of the value of the subject-matter, the entire claim is cognizable by that court. Convenience does not decide it. That proviso does. Section 18 deals with the boundary that is itself uncertain: a court may record a statement of the uncertainty and proceed, and its decree stands as though the property lay within its limits, an appellate or revisional court refusing the objection later unless there was no reasonable ground for the uncertainty at institution and a failure of justice has followed. Choosing wrong is not fatal. It is slow. Order VII Rule 10 returns the plaint to be presented to the court in which the suit should have been instituted, with the date of presentation, the date of return and the reasons endorsed on it. Rule 10A is the sub-rule few plaintiffs use and most should: where the defendant has already appeared, the court must intimate its decision before returning the plaint, and on the plaintiff’s application it fixes the date of appearance before the court named for the fresh presentation and gives notice to both sides, so that no fresh summons is needed there. The price is that a plaintiff who applies under Rule 10A gives up the appeal against the order of return. Which of the forums at Jodhpur a property matter belongs to in the first place, civil or revenue, is sorted in a separate note on the courts at Jodhpur and which of them a property suit is presented to.
- 
+
+Frequently asked questions
+
+Is a partition suit over agricultural land in Rajasthan filed in the civil court?
+No. Section 207(1) of the Rajasthan Tenancy Act, 1955 places every suit listed in the Third Schedule before a revenue court, and Entry 3 of that Schedule makes a suit for division of a holding triable by the Assistant Collector. Section 207(2) bars any other court from taking cognizance of it. A plaint for partition of khatedari land presented in the civil court at Jodhpur is returned.
+
+Does a Jamabandi entry or a mutation prove ownership?
+No. The Jamabandi is a fiscal record kept for the collection of revenue; a mutation entry records who pays, and does not by itself create or extinguish title. It is evidence of what the revenue record says. Ownership is proved through registered sale or gift deeds, succession documents and proof of possession, and the plaintiff must prove their own title rather than the weakness of the defendant's.
+
+Which civil court hears a suit about immovable property?
+Section 16 of the Code of Civil Procedure, 1908 fixes it by the land: a suit for recovery of immovable property, partition, or any right to or interest in it is instituted in the court within whose local limits the property is situate. Where the property lies in two jurisdictions, for example partly in Jodhpur city and partly in a tehsil outside it, Section 17 allows the suit in either.
+
+How long before adverse possession bars the owner's suit?
+Article 65 of the Schedule to the Limitation Act, 1963 gives twelve years for a suit for possession based on title, counted from the date the defendant's possession becomes adverse, not from the date it began. Against the Central or a State Government, Article 112 allows thirty years. Section 27 then extinguishes the owner's right once the period has run out; it does not itself confer title.
+
+Who actually divides revenue-paying land after a civil partition decree?
+Under Order XX Rule 18(1) of the Code of Civil Procedure, where the decree relates to an estate assessed to the payment of revenue to the Government, the court declares the rights of the parties but the partition itself is made by the Collector, or a gazetted subordinate deputed by him, under Section 54. A Local Commissioner is appointed only under Rule 18(2), for other immovable and movable property.
+
 This article is for informational purposes only and does not constitute legal advice. For specific legal guidance on your matter, please consult a qualified advocate.
 
 Shubham Ojha & Associates
@@ -2115,7 +2132,24 @@ Take the date of the notice and count sixty days forward on a calendar, in writi
 If possession is taken, the date it was taken becomes the only date that matters; the application under Section 17 is to be filed within forty-five days of it. A note on the same subject in Hindi, written around the Rajasthan borrower and the Debts Recovery Tribunal as it is encountered here, is available at SARFAESI नोटिस धारा 13(2): बैंक कब्ज़ा और DRT में बचाव.
 
 The later stages each have a page of their own: possession taken through the District Magistrate under Section 14, the application to the Debts Recovery Tribunal under Section 17, stopping the auction under Section 13(8), and the appeal to the Appellate Tribunal under Section 18.
- 
+
+Frequently asked questions
+
+How many days does a Section 13(2) notice give?
+Sixty days from the date of the notice. Section 13(2) of the SARFAESI Act, 2002 requires the secured creditor to call upon the borrower, by notice in writing, to discharge in full his liabilities within sixty days, failing which the creditor becomes entitled to exercise the measures in Section 13(4). The account must already stand classified as a non-performing asset.
+
+Can a borrower reply to a Section 13(2) notice, and must the bank answer?
+Yes. Under Section 13(3A), if the borrower makes a representation or raises an objection on receipt of the notice, the secured creditor must consider it, and if it is not accepted, must communicate the reasons for non-acceptance to the borrower within fifteen days. The proviso makes clear that the communication of those reasons does not by itself entitle the borrower to apply to the Debts Recovery Tribunal at that stage.
+
+When can a borrower approach the Debts Recovery Tribunal, and within what time?
+Once the secured creditor has taken one of the measures in Section 13(4) — most commonly possession of the secured asset. An application under Section 17(1) must then be made to the Debts Recovery Tribunal within forty-five days from the date on which the measure was taken. Under Section 17(1A) it is filed where the cause of action arises, where the secured asset is located, or where the branch maintaining the account is situated.
+
+What has to be deposited to appeal a DRT order to the Appellate Tribunal?
+An appeal under Section 18 lies to the Debts Recovery Appellate Tribunal within thirty days of receipt of the DRT's order, and is not entertained unless the borrower deposits fifty per cent of the amount of debt due as claimed by the secured creditor or determined by the Tribunal, whichever is less. The Appellate Tribunal may, for reasons recorded in writing, reduce that amount to not less than twenty-five per cent.
+
+Is agricultural land within the reach of the SARFAESI Act?
+No. Section 31(i) states that the provisions of the Act do not apply to any security interest created in agricultural land. Section 31(h) similarly excludes a security interest securing repayment of a financial asset not exceeding one lakh rupees, and Section 31(j) excludes any case in which the amount due is less than twenty per cent of the principal amount and interest thereon.
+
 This article is for informational purposes only and does not constitute legal advice. The steps available to a borrower depend on the terms of the security documents, the conduct of the account, the measure the secured creditor has actually taken and the date on which it was taken. For guidance on a particular matter, please consult a qualified advocate.
 
 Shubham Ojha & Associates
@@ -2141,80 +2175,6 @@ Cheque Bounce under Section 138 of the Negotiable Instruments Act
 Bar Council of India Notice: This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.
 
 📞 Call
- 💬 WhatsApp
-
----
-
-# बेटी का पैतृक संपत्ति में अधिकार: Vineeta Sharma के बाद
-URL: https://shubhamojhaandassociates.com/articles/daughter-ancestral-property-rights-rajasthan-hi.html
-
-मुख्य पृष्ठ›
- विधिक जानकारी›
- बेटी का पैतृक संपत्ति में अधिकार
-
-संपत्ति विधि
-
-# बेटी का पैतृक संपत्ति में अधिकार: विनीता शर्मा निर्णय के बाद की स्थिति
-
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- जून 2026
-
-हिंदू उत्तराधिकार अधिनियम, 1956 की धारा 6 (2005 संशोधन) और विनीता शर्मा बनाम राकेश शर्मा (2020) के अनुसार बेटी जन्म से ही पैतृक/सहदायिकी (coparcenary) संपत्ति में पुत्र के समान सहदायिक है। यह अधिकार जन्मसिद्ध है — इसके लिए 9 सितंबर 2005 को पिता का जीवित होना आवश्यक नहीं, और विवाह से यह अधिकार समाप्त नहीं होता।
-
-एक नज़र में
-
-सहदायिक अधिकार — बेटी जन्म से पुत्र के समान सहदायिक (coparcener); धारा 6, हिंदू उत्तराधिकार अधिनियम, 1956 (2005 संशोधन)
- 
-अग्रणी निर्णय — विनीता शर्मा बनाम राकेश शर्मा (2020): अधिकार जन्मसिद्ध, 9 सितंबर 2005 को पिता का जीवित होना आवश्यक नहीं
- 
-विवाहित बेटी — विवाह से हिस्सा न कम होता है, न समाप्त
- 
-कृषि भूमि — राजस्थान में खातेदारी भूमि में भी समान हिस्सा; नामांतरण एवं राजस्व न्यायालय में बँटवारा
- 
-अपवाद — 20 दिसंबर 2004 से पूर्व का पंजीकृत बँटवारा या न्यायालय-डिक्री से हुआ विभाजन संरक्षित
- 
-मंच (forum) — बँटवारे का वाद सिविल न्यायालय में; कृषि भूमि हेतु राजस्व न्यायालय
-
-हिंदू उत्तराधिकार अधिनियम, 1956 एक केंद्रीय कानून है और पूरे भारत में समान रूप से लागू होता है — यह सभी हिंदू, बौद्ध, जैन एवं सिख परिवारों पर लागू होता है। 2005 संशोधन ने कृषि भूमि से जुड़ी पुरानी राज्य-अपवाद व्यवस्था (धारा 4(2)) को भी हटा दिया। नीचे दिए गए राजस्थान/जोधपुर के उदाहरण केवल दृष्टांत हैं; कानून वही रहता है। फ़ोन/वीडियो परामर्श राजस्थान के बाहर के मुवक्किलों के लिए भी उपलब्ध है।
-
-▶ इस विषय पर वीडियो · 8:38
-
-Pita Ki Sampatti Me Beti Ka Haq — Puri Process | Vineeta Sharma 2020 Ke Baad
-
-हिंदू उत्तराधिकार अधिनियम, 1956 में वर्ष 2005 के संशोधन ने पुत्रियों को सहदायिकी (coparcenary) संपत्ति में पुत्रों के समान अधिकार दिया। संशोधित धारा 6 के अनुसार, सहदायिक की पुत्री जन्म से ही उसी प्रकार सहदायिक बन जाती है जैसे पुत्र, और उसके वही अधिकार एवं दायित्व होते हैं। यह अधिकार पैतृक संपत्ति, कृषि भूमि तथा संयुक्त हिंदू परिवार की संपत्ति पर समान रूप से लागू होता है।
- 
-वर्षों तक यह प्रश्न विवादित रहा कि क्या यह अधिकार केवल तभी मिलेगा जब 2005 में पिता जीवित हो। उच्चतम न्यायालय की तीन-न्यायाधीशीय पीठ ने विनीता शर्मा बनाम राकेश शर्मा (2020) में निर्णायक रूप से स्पष्ट किया कि बेटी का सहदायिक अधिकार जन्म से उत्पन्न होता है और यह इस बात पर निर्भर नहीं करता कि 9 सितंबर 2005 को पिता जीवित था या नहीं। अर्थात् पिता का जीवित होना आवश्यक नहीं — अधिकार जन्मसिद्ध है।
- 
-विवाह से अधिकार समाप्त नहीं होता। एक विवाहित बेटी भी समान सहदायिक बनी रहती है और पैतृक संपत्ति के बँटवारे की माँग कर सकती है। विवाह के कारण उसका हिस्सा न तो कम होता है और न समाप्त — यह एक व्यापक किंतु ग़लत धारणा है।
- 
-राजस्थान में बेटी को कृषि भूमि (खातेदारी) में भी पुत्र के समान हिस्सा प्राप्त है। विनीता शर्मा के पश्चात् यह स्थिति और स्पष्ट हुई है। बेटी राजस्व अभिलेखों में अपने हिस्से के नामांतरण की माँग कर सकती है तथा आवश्यकता होने पर राजस्व न्यायालय में बँटवारे का दावा प्रस्तुत कर सकती है।
- 
-अधिकार का दावा कैसे करें: बेटी संबंधित संपत्ति का बँटवारा माँगते हुए सिविल न्यायालय में बँटवारे का वाद (कृषि भूमि हेतु राजस्व न्यायालय में) प्रस्तुत कर सकती है, और अपने हिस्से की घोषणा एवं भौतिक पृथक्करण की प्रार्थना कर सकती है। यदि अन्य सह-हिस्सेदारों ने उसके हिस्से से इनकार करते हुए संपत्ति बेच दी हो, तो वह उस अंतरण को अपने अविभाजित हित की सीमा तक चुनौती दे सकती है।
- 
-व्यवहार में सबसे अधिक भारी मंच (forum) का भेद पड़ता है, और यही वह जगह है जहाँ हक़ होते हुए भी दावा अटक जाता है। खातेदारी भूमि का बँटवारा राजस्थान काश्तकारी अधिनियम, 1955 की धारा 53 के अधीन होता है; उस अधिनियम की तृतीय अनुसूची इस वाद के लिए न्यायालय सहायक कलक्टर (Assistant Collector) बताती है, और परिसीमा वाले स्तंभ में उसके सामने None लिखा है। अर्थात् धारा 53 के बँटवारे पर कोई परिसीमा-अवधि चलती ही नहीं। विवाहित बेटी को प्रायः यह कहकर लौटा दिया जाता है कि अब बहुत देर हो गई। अनुसूची ऐसा नहीं कहती। दूसरी ओर धारा 207(2) सिविल न्यायालय को ऐसा वाद सुनने से रोकती है, और उसका स्पष्टीकरण जोड़ता है कि सिविल न्यायालय से माँगी गई राहत बड़ी, अतिरिक्त या भिन्न होने मात्र से मंच नहीं बदल जाता; इसलिए शहर का मकान और खातेदारी भूमि एक ही वाद-पत्र में नहीं जोड़े जा सकते। जोधपुर में अधिवक्ता: कौन-सा दावा किस मंच पर जाता है, यह अलग से क्रमवार रखा गया है।
- 
-कुछ अपवाद ध्यान योग्य हैं: 20 दिसंबर 2004 से पूर्व हुए पंजीकृत बँटवारे या न्यायालय-डिक्री से तय विभाजन संरक्षित हैं, और स्वअर्जित संपत्ति का स्वामी अपनी इच्छानुसार वसीयत कर सकता है (उस पर जन्मसिद्ध अधिकार नहीं)। बँटवारे या उत्तराधिकार के दावे में परिसीमा एवं तथ्यों की भूमिका होती है, अतः विशिष्ट मामले में अधिवक्ता से परामर्श उचित है।
- 
-जब बेटी स्वयं विदेश में रहती हो, तो हिस्सा प्रायः इसलिए संकट में नहीं आता कि अधिकार कमज़ोर है, बल्कि इसलिए कि नामांतरण और बँटवारा उसकी अनुपस्थिति में तय हो जाता है। ऐसी स्थिति में विशेष मुख्तारनामा (special power of attorney) और परिसीमा की अवधि निर्णायक हो जाती है — देखें विदेश में रहते हुए राजस्थान की विरासती भूमि को सुरक्षित रखना (English)।
- 
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
- 
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
-
-संबंधित लेख
-
-संपत्ति विधि
-राजस्थान में बँटवारे का वाद: पारिवारिक संपत्ति का विभाजन
- संपत्ति विधि
-राजस्थान में कृषि भूमि का बँटवारा: धारा 53
- संपत्ति विधि
-राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
-
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
-
-📞 Call Now
  💬 WhatsApp
 
 ---
@@ -2457,6 +2417,210 @@ Bar Council of India Notice: This website is for informational purposes only and
 
 ---
 
+# Power of Attorney from Abroad for Property in India
+URL: https://shubhamojhaandassociates.com/articles/power-of-attorney-from-abroad-property-india.html
+
+Home
+ ›
+ Legal Insights
+ ›
+ Power of Attorney from Abroad
+
+Property Law
+
+# I live abroad and must give a power of attorney for property in India. What must it say, and what can it not do?
+
+By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur
+ 
+ August 2026
+
+A power of attorney executed outside India is recognised for registration only where it has been executed before, and authenticated by, a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government — Section 33(1)(c) of the Registration Act, 1908. It may then be stamped in India within three months after it is first received here.
+
+At a glance
+
+Who may authenticate it, if you do not reside in India — a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government. These alone are recognised (Section 33(1)(c), Registration Act, 1908)
+ 
+What that recognition is for — it lets your agent present the document for registration on your behalf (Section 32(c), Registration Act, 1908)
+ 
+Time to stamp it in India — three months after it is first received in India, not three months from signature abroad (Section 18(1), Indian Stamp Act, 1899); where a private person cannot duly stamp it, it goes to the Collector within the same three months (Section 18(2))
+ 
+What the attorney may sign — the donee may execute an instrument in his own name and signature, by the donor's authority, and it is as effectual in law as if the donor had signed it (Section 2, Powers-of-Attorney Act, 1882)
+ 
+Proof in court — a power of attorney authenticated by those officers is presumed to have been so executed and authenticated (Section 84, Bharatiya Sakshya Adhiniyam, 2023)
+ 
+What it can never do — transfer ownership. "A SA/GPA/WILL transaction does not convey any title nor create any interest in an immovable property"; property passes "only by a registered deed of conveyance" (Suraj Lamp & Industries (P) Ltd. v. State of Haryana, Supreme Court, 11 October 2011)
+
+Jurisdiction. The Registration Act, 1908, the Indian Stamp Act, 1899, the Powers-of-Attorney Act, 1882 and the Bharatiya Sakshya Adhiniyam, 2023 are central statutes and apply across India. Rates of stamp duty, and some of the procedure at the registering office, are dealt with by the State concerned, so the duty payable and the local practice must be confirmed for the district where the property lies. Where this note refers to the jamabandi and to mutation, that material is specific to Rajasthan. Consultation by telephone and video is available for clients residing outside India; Section 30 of the Advocates Act, 1961 entitles an advocate to practise throughout India.
+
+## Who can authenticate it where you are?
+
+This is the question to settle before anything is drafted, because getting it wrong is not a drafting error that can be corrected later — the document simply will not be accepted, and by the time that is discovered the signatory is usually back in another country.
+
+Section 33(1) of the Registration Act, 1908 is unusually blunt about it. For the purposes of Section 32, it says, "the following powers-of-attorney shall alone be recognized". Clause (c) governs the person living overseas: if the principal, at the time of executing the power of attorney, does not reside in India, what is recognised is a power of attorney "executed before and authenticated by a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government".
+
+Two words in that clause do most of the work, and both are routinely missed. The first is "before". The instrument must be executed before the authenticating officer — signed in his presence, not signed at home on Sunday and carried to him on Monday for a stamp. The second is "alone". A power of attorney witnessed by two colleagues, or sworn before an employer, or attested at a bank, is not within the clause however genuine it is.
+
+Section 32 explains what the recognition is for. Every document to be registered must be presented at the proper registration office by the person executing or claiming under it, by his representative or assign, or — clause (c) — "by the agent of such person, representative or assign, duly authorised by power-of-attorney executed and authenticated in manner hereinafter mentioned". Sections 32 and 33 are therefore one mechanism read in two halves: 32 says who may walk into the Sub-Registrar's office with the deed, and 33 says which power of attorney entitles him to.
+
+The clause offers a choice, and in practice the choice matters. Authentication at the Indian Mission — Embassy, High Commission or Consulate — takes longer and costs the client a working day, but it is the route no registering office has ever queried in front of me. A foreign Notary Public is squarely within the clause, and is usually far quicker; whether the office where the property lies will also want the notarial act legalised or apostilled before it accepts the document is a matter of local practice rather than of the section, and it is worth one telephone call to the Sub-Registrar concerned before the client signs, not after. I have had to send a client in Sharjah back to a notary twice for want of that call.
+
+## General or special: which one should actually be executed?
+
+Almost every person who writes to me from abroad asks for a general power of attorney, and in most matters a general power is the wrong instrument.
+
+A general power authorises the holder to do a class of things — to manage, to let, to appear, to sell, sometimes all of them — in respect of everything the donor owns. A special power authorises named acts in respect of a named property. The convenience of the general power is real: one document, executed once, covers whatever comes up. That convenience is also exactly the risk, because the holder's authority does not lapse when the relationship does.
+
+A fair share of the property disputes that reach the Jodhpur Bench from families with a member overseas began with a general power given years earlier, in good faith, to the brother who was already looking after the land. Nobody withdrew it, because nobody remembered it existed. What is done under it while it subsists is done with the donor's authority, and the person on the other side of the transaction — the buyer, the bank — is entitled to look at the instrument and act on it.
+
+So the working rule I give is a narrow one. Execute a special power, confined to the specific property, described by khasra or plot number and by the record in which it stands; state the specific acts authorised; where a sale or a mortgage is contemplated, say so in terms rather than relying on a general clause; and give it an end date. A power of attorney with an expiry is a much smaller thing to have forgotten about than one without.
+
+## What must the document actually contain?
+
+Section 2 of the Powers-of-Attorney Act, 1882 sets the reason why the wording carries so much weight. The donee, it provides, "may, if he thinks fit, execute or do any instrument or thing in and with his own name and signature, and his own seal, where sealing is required, by the authority of the donor of the power; and every instrument and thing so executed and done, shall be as effectual in law as if it had been executed or done by the donee of the power in the name, and with the signature and seal, of the donor thereof."
+
+Read that carefully and the whole drafting discipline follows from four words: by the authority of the donor. The agent's signature binds the principal exactly so far as authority was given, and no further. Everything the instrument does not say, the agent cannot do. A deed signed outside the authority is not cured by the fact that the power of attorney was properly authenticated abroad.
+
+In practical terms the document needs the donor and the donee identified in full and consistently with their identity documents; the property identified by its record particulars, not by a description such as "my ancestral house"; each act authorised set out separately; an express statement of whether the donee may receive sale consideration, and into which account; a clear duration; and the manner of revocation. Where the donor is a non-resident, the document should also record the passport particulars used at the place of authentication, since that is the identity the authenticating officer certifies.
+
+One further point that is invisible until it is tested. Section 84 of the Bharatiya Sakshya Adhiniyam, 2023 provides that the Court "shall presume that every document purporting to be a power-of-attorney, and to have been executed before, and authenticated by, a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government, was so executed and authenticated." That presumption is worth a great deal in a contested suit, because it spares the donor the task of proving from abroad that he signed. It attaches to the mode of authentication, not to the elegance of the drafting — which is why the choice made in the first section of this note governs everything that comes after it.
+
+## How long is there to stamp it once it reaches India?
+
+Section 18(1) of the Indian Stamp Act, 1899 gives the period, and its wording repays attention: every instrument chargeable with duty "executed only out of India", other than a bill of exchange or a promissory note, "may be stamped within three months after it has been first received in India".
+
+The three months run from first receipt in India — not from the date of signature abroad, and not from the date the agent decides to use it. A power of attorney signed in Toronto in March and couriered to Jodhpur in September is in time if it is stamped by December. This is a genuinely useful provision for families who execute the document during a visit home and then send it on months later, and it is the one that is most often assumed to run the other way.
+
+Section 18(2) covers the case where the instrument cannot, given the description of stamp prescribed for it, be duly stamped by a private person. It may then be taken to the Collector within the same period of three months, and the Collector shall stamp it in the manner the State Government prescribes. The subsection is a route, not an extension: the three months are the same three months. What the duty comes to is fixed by the State schedule applicable where the instrument is used, and must be ascertained for that State — it is not a figure that can be assumed from another State's practice.
+
+## What a power of attorney cannot do
+
+It cannot transfer ownership. Not a well-drafted one, not a registered one, not one that recites that consideration has passed.
+
+In Suraj Lamp & Industries (P) Ltd. v. State of Haryana, decided by the Supreme Court on 11 October 2011, the Court addressed the practice of transferring property by a bundle of a sale agreement, a general power of attorney and a will. Its conclusion was stated without qualification: "a SA/GPA/WILL transaction does not convey any title nor create any interest in an immovable property", and immovable property "can be legally and lawfully transferred/conveyed only by a registered deed of conveyance".
+
+The consequences of that holding are still arriving in chambers fifteen years later, and they arrive most painfully in matters with a non-resident in them. A person abroad is told that the land has been "given" to a relative or a purchaser by power of attorney and that nothing further is needed. It has not been given. Whatever was intended, title has not moved, and the reckoning tends to come at the next mutation, the next sale, or the next death in either family — by which time the witnesses to what was actually agreed are frequently gone.
+
+It is equally important to state what the judgment did not do, because it is often quoted too widely. The Court said in terms that its observations "are not intended to in any way affect the validity of sale agreements and powers of attorney executed in genuine transactions", giving as an example a power given "to his spouse, son, daughter, brother, sister or a relative to manage his affairs". A genuine power of attorney remains a perfectly good instrument for its proper purpose — to authorise someone to act. What it is not is a substitute for the conveyance.
+
+The related question of whether the power of attorney must itself be registered turns on a different provision. Section 17(1)(b) of the Registration Act, 1908 makes registration compulsory for non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish any right, title or interest in immovable property of the value of one hundred rupees and upwards. An instrument that merely authorises an agent to act does not on its face do any of those things; its use at the registering office is governed instead by Sections 32 and 33. Because States have made their own requirements in this area, the position for the district where the property lies should be confirmed before the document is executed abroad rather than after it lands. If the office refuses, the next step is not a suit. Section 72 of the Registration Act gives an appeal to the Registrar to whom that Sub-Registrar is subordinate, to be presented within thirty days, unless the refusal rests on a denial of execution, in which case Section 73 applies instead. A quarrel about the instrument itself goes elsewhere again: cancellation is a civil suit under Section 31 of the Specific Relief Act, 1963, and Section 31(2) obliges the court to send its decree to the office where the document was registered so that the cancellation is noted on the record, whereas a mutation entered on the strength of a power is undone in the revenue court and not the civil one. Which of those doors a matter here opens at is set out in the note on the chamber at Jodhpur and the forums it appears before.
+
+## What should be done first, from where you are?
+
+Three steps, in this order.
+
+Read the record before drafting the authority. The jamabandi or record of rights and the mutation entries tell you whose name the property actually stands in today, and it is not always the name the family assumes. A power of attorney drawn for the wrong recorded holder is waste paper, and the fact is far cheaper to establish before a client takes a day off work to attend a Consulate. Where the property was inherited, the sequence is set out in the note on securing inherited land in Rajasthan from abroad.
+
+Settle the mode of authentication with the office that will receive the document. Consulate or notary, and if notary then whether legalisation is also expected in that district. This is a single enquiry and it removes the only failure that cannot be repaired remotely.
+
+Choose the holder on the assumption that the relationship may not last. This is the least legal and most useful part of the advice. The instrument should be narrow enough that it is safe in the hands of someone you may one day disagree with, and it should be dated to expire. Where a relative is already in occupation, the position is different again and is dealt with in the note on recovering possession from a relative; and where several heirs hold together, the shares are better settled between them, by partition or family settlement, before any authority to deal with the property is given to one of them.
+
+This article is for informational purposes only and does not constitute legal advice. The form of authority required, the stamp duty payable and the practice of the registering office differ with the State, the property and the transaction proposed. For guidance on a particular matter, please consult a qualified advocate.
+
+Shubham Ojha & Associates
+ 
+Advocate, Rajasthan High Court, Jodhpur  ·  Enrolment No. R/2958/2020 (Bar Council of Rajasthan)  ·  +91 70230 51275  ·  WhatsApp
+ 
+Consultation by telephone and video is available for clients residing outside India.
+
+Related Articles
+
+Firm
+ 
+Working with the firm from outside India
+
+Property Law
+ 
+I live abroad and have inherited land in Rajasthan. How do I secure it?
+
+Property Law
+ 
+A relative has taken possession of my property while I live abroad. What can be done?
+
+Property Law
+ 
+Land Revenue Laws in Rajasthan: Mutation, Khasra & Revenue Court Proceedings
+
+Bar Council of India Notice: This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.
+
+📞 Call
+ 💬 WhatsApp
+
+---
+
+# बेटी का पैतृक संपत्ति में अधिकार: Vineeta Sharma के बाद
+URL: https://shubhamojhaandassociates.com/articles/daughter-ancestral-property-rights-rajasthan-hi.html
+
+मुख्य पृष्ठ›
+ विधिक जानकारी›
+ बेटी का पैतृक संपत्ति में अधिकार
+
+संपत्ति विधि
+
+# बेटी का पैतृक संपत्ति में अधिकार: विनीता शर्मा निर्णय के बाद की स्थिति
+
+लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
+ जून 2026
+
+हिंदू उत्तराधिकार अधिनियम, 1956 की धारा 6 (2005 संशोधन) और विनीता शर्मा बनाम राकेश शर्मा (2020) के अनुसार बेटी जन्म से ही पैतृक/सहदायिकी (coparcenary) संपत्ति में पुत्र के समान सहदायिक है। यह अधिकार जन्मसिद्ध है — इसके लिए 9 सितंबर 2005 को पिता का जीवित होना आवश्यक नहीं, और विवाह से यह अधिकार समाप्त नहीं होता।
+
+एक नज़र में
+
+सहदायिक अधिकार — बेटी जन्म से पुत्र के समान सहदायिक (coparcener); धारा 6, हिंदू उत्तराधिकार अधिनियम, 1956 (2005 संशोधन)
+ 
+अग्रणी निर्णय — विनीता शर्मा बनाम राकेश शर्मा (2020): अधिकार जन्मसिद्ध, 9 सितंबर 2005 को पिता का जीवित होना आवश्यक नहीं
+ 
+विवाहित बेटी — विवाह से हिस्सा न कम होता है, न समाप्त
+ 
+कृषि भूमि — राजस्थान में खातेदारी भूमि में भी समान हिस्सा; नामांतरण एवं राजस्व न्यायालय में बँटवारा
+ 
+अपवाद — 20 दिसंबर 2004 से पूर्व का पंजीकृत बँटवारा या न्यायालय-डिक्री से हुआ विभाजन संरक्षित
+ 
+मंच (forum) — बँटवारे का वाद सिविल न्यायालय में; कृषि भूमि हेतु राजस्व न्यायालय
+
+हिंदू उत्तराधिकार अधिनियम, 1956 एक केंद्रीय कानून है और पूरे भारत में समान रूप से लागू होता है — यह सभी हिंदू, बौद्ध, जैन एवं सिख परिवारों पर लागू होता है। 2005 संशोधन ने कृषि भूमि से जुड़ी पुरानी राज्य-अपवाद व्यवस्था (धारा 4(2)) को भी हटा दिया। नीचे दिए गए राजस्थान/जोधपुर के उदाहरण केवल दृष्टांत हैं; कानून वही रहता है। फ़ोन/वीडियो परामर्श राजस्थान के बाहर के मुवक्किलों के लिए भी उपलब्ध है।
+
+▶ इस विषय पर वीडियो · 8:38
+
+Pita Ki Sampatti Me Beti Ka Haq — Puri Process | Vineeta Sharma 2020 Ke Baad
+
+हिंदू उत्तराधिकार अधिनियम, 1956 में वर्ष 2005 के संशोधन ने पुत्रियों को सहदायिकी (coparcenary) संपत्ति में पुत्रों के समान अधिकार दिया। संशोधित धारा 6 के अनुसार, सहदायिक की पुत्री जन्म से ही उसी प्रकार सहदायिक बन जाती है जैसे पुत्र, और उसके वही अधिकार एवं दायित्व होते हैं। यह अधिकार पैतृक संपत्ति, कृषि भूमि तथा संयुक्त हिंदू परिवार की संपत्ति पर समान रूप से लागू होता है।
+ 
+वर्षों तक यह प्रश्न विवादित रहा कि क्या यह अधिकार केवल तभी मिलेगा जब 2005 में पिता जीवित हो। उच्चतम न्यायालय की तीन-न्यायाधीशीय पीठ ने विनीता शर्मा बनाम राकेश शर्मा (2020) में निर्णायक रूप से स्पष्ट किया कि बेटी का सहदायिक अधिकार जन्म से उत्पन्न होता है और यह इस बात पर निर्भर नहीं करता कि 9 सितंबर 2005 को पिता जीवित था या नहीं। अर्थात् पिता का जीवित होना आवश्यक नहीं — अधिकार जन्मसिद्ध है।
+ 
+विवाह से अधिकार समाप्त नहीं होता। एक विवाहित बेटी भी समान सहदायिक बनी रहती है और पैतृक संपत्ति के बँटवारे की माँग कर सकती है। विवाह के कारण उसका हिस्सा न तो कम होता है और न समाप्त — यह एक व्यापक किंतु ग़लत धारणा है।
+ 
+राजस्थान में बेटी को कृषि भूमि (खातेदारी) में भी पुत्र के समान हिस्सा प्राप्त है। विनीता शर्मा के पश्चात् यह स्थिति और स्पष्ट हुई है। बेटी राजस्व अभिलेखों में अपने हिस्से के नामांतरण की माँग कर सकती है तथा आवश्यकता होने पर राजस्व न्यायालय में बँटवारे का दावा प्रस्तुत कर सकती है।
+ 
+अधिकार का दावा कैसे करें: बेटी संबंधित संपत्ति का बँटवारा माँगते हुए सिविल न्यायालय में बँटवारे का वाद (कृषि भूमि हेतु राजस्व न्यायालय में) प्रस्तुत कर सकती है, और अपने हिस्से की घोषणा एवं भौतिक पृथक्करण की प्रार्थना कर सकती है। यदि अन्य सह-हिस्सेदारों ने उसके हिस्से से इनकार करते हुए संपत्ति बेच दी हो, तो वह उस अंतरण को अपने अविभाजित हित की सीमा तक चुनौती दे सकती है।
+ 
+व्यवहार में सबसे अधिक भारी मंच (forum) का भेद पड़ता है, और यही वह जगह है जहाँ हक़ होते हुए भी दावा अटक जाता है। खातेदारी भूमि का बँटवारा राजस्थान काश्तकारी अधिनियम, 1955 की धारा 53 के अधीन होता है; उस अधिनियम की तृतीय अनुसूची इस वाद के लिए न्यायालय सहायक कलक्टर (Assistant Collector) बताती है, और परिसीमा वाले स्तंभ में उसके सामने None लिखा है। अर्थात् धारा 53 के बँटवारे पर कोई परिसीमा-अवधि चलती ही नहीं। विवाहित बेटी को प्रायः यह कहकर लौटा दिया जाता है कि अब बहुत देर हो गई। अनुसूची ऐसा नहीं कहती। दूसरी ओर धारा 207(2) सिविल न्यायालय को ऐसा वाद सुनने से रोकती है, और उसका स्पष्टीकरण जोड़ता है कि सिविल न्यायालय से माँगी गई राहत बड़ी, अतिरिक्त या भिन्न होने मात्र से मंच नहीं बदल जाता; इसलिए शहर का मकान और खातेदारी भूमि एक ही वाद-पत्र में नहीं जोड़े जा सकते। जोधपुर में अधिवक्ता: कौन-सा दावा किस मंच पर जाता है, यह अलग से क्रमवार रखा गया है।
+ 
+कुछ अपवाद ध्यान योग्य हैं: 20 दिसंबर 2004 से पूर्व हुए पंजीकृत बँटवारे या न्यायालय-डिक्री से तय विभाजन संरक्षित हैं, और स्वअर्जित संपत्ति का स्वामी अपनी इच्छानुसार वसीयत कर सकता है (उस पर जन्मसिद्ध अधिकार नहीं)। बँटवारे या उत्तराधिकार के दावे में परिसीमा एवं तथ्यों की भूमिका होती है, अतः विशिष्ट मामले में अधिवक्ता से परामर्श उचित है।
+ 
+जब बेटी स्वयं विदेश में रहती हो, तो हिस्सा प्रायः इसलिए संकट में नहीं आता कि अधिकार कमज़ोर है, बल्कि इसलिए कि नामांतरण और बँटवारा उसकी अनुपस्थिति में तय हो जाता है। ऐसी स्थिति में विशेष मुख्तारनामा (special power of attorney) और परिसीमा की अवधि निर्णायक हो जाती है — देखें विदेश में रहते हुए राजस्थान की विरासती भूमि को सुरक्षित रखना (English)।
+ 
+यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
+
+शुभम ओझा एवं एसोसिएट्स
+ 
+अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
+
+संबंधित लेख
+
+संपत्ति विधि
+राजस्थान में बँटवारे का वाद: पारिवारिक संपत्ति का विभाजन
+ संपत्ति विधि
+राजस्थान में कृषि भूमि का बँटवारा: धारा 53
+ संपत्ति विधि
+राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
+
+बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
+
+📞 Call Now
+ 💬 WhatsApp
+
+---
+
 # FIR कैसे रद्द होती है: BNSS धारा 528 Quashing Petition
 URL: https://shubhamojhaandassociates.com/articles/fir-kaise-radad-karaen-bnss-528-hi.html
 
@@ -2537,72 +2701,6 @@ Court समझौते के आधार पर केवल उन्ही
 Anticipatory Bail: अग्रिम ज़मानत की सम्पूर्ण प्रक्रिया
  आपराधिक विधि
 FIR Registration: Your Rights Under BNSS 2023
-
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
-
-📞 Call Now
- 💬 WhatsApp
-
----
-
-# राजस्थान में Partition Suit: पारिवारिक संपत्ति का बँटवारा
-URL: https://shubhamojhaandassociates.com/articles/partition-suit-family-property-rajasthan-hi.html
-
-मुख्य पृष्ठ
- ›
- विधिक जानकारी
- ›
- राजस्थान में बँटवारे का वाद
-
-संपत्ति विधि
-
-# राजस्थान में बँटवारे का वाद: पारिवारिक संपत्ति का विधि के अनुसार विभाजन
-
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- 
- जून 2026
-
-राजस्थान में पारिवारिक संपत्ति का विभाजन जितना सामान्य विवाद है, उतना ही भावनात्मक रूप से संवेदनशील भी। चाहे वह पुराने शहर की पैतृक हवेली हो, गाँव के कृषि खसरे हों, या संयुक्त रूप से क्रय किया गया व्यावसायिक भूखंड — किसी अविभाजित हिस्से को पृथक् स्वामित्व वाली संपत्ति में बदलने का विधिक मार्ग बँटवारे का वाद (Partition Suit) है। बँटवारा वास्तव में कैसे कार्य करता है — कौन दावा कर सकता है, किस न्यायालय में, कितने व्यय पर, और कितनी अवधि में — यह समझ लेने से अवास्तविक अपेक्षाएँ और टाली जा सकने वाली मुकदमेबाज़ी, दोनों से बचा जा सकता है।
-
-▶ इस विषय पर वीडियो · 8:38
-
-Pita Ki Sampatti Me Beti Ka Haq — Puri Process | Vineeta Sharma 2020 Ke Baad
-
-'बँटवारे' के दो भिन्न अर्थ: हिंदू विधि में बँटवारे के दो आशय हैं। प्रथम, संयुक्त स्थिति का विच्छेद — जिस क्षण कोई सहदायिक (coparcener) पृथक् होने का अपना आशय स्पष्ट रूप से व्यक्त करता है, उसी क्षण संयुक्त परिवार की स्थिति विधितः विच्छिन्न हो जाती है और हिस्से निर्धारित हो जाते हैं, भले ही अभी भौतिक विभाजन न हुआ हो। द्वितीय, हदबंदी द्वारा वास्तविक विभाजन — संपत्ति का पृथक् कब्जे एवं स्वामित्व वाले भागों में वास्तविक बँटवारा। बँटवारे का वाद दोनों की माँग करता है: वादी के हिस्से की घोषणा, तथा उसका भौतिक पृथक्करण।
- 
-बेटियाँ समान सहदायिक हैं — विनीता शर्मा: हिंदू उत्तराधिकार अधिनियम, 1956 में वर्ष 2005 के संशोधन के पश्चात् से, बेटी अपने पिता की पैतृक (सहदायिकी) संपत्ति में जन्म से सहदायिक है, और उसके अधिकार पुत्र के समान हैं। उच्चतम न्यायालय की तीन-न्यायाधीशीय पीठ ने विनीता शर्मा बनाम राकेश शर्मा (2020) में इस विवाद को निर्णायक रूप से सुलझा दिया: बेटी का सहदायिक अधिकार जन्म से उत्पन्न होता है और यह इस बात पर निर्भर नहीं करता कि संशोधन की तिथि पर पिता जीवित था अथवा नहीं। व्यावहारिक रूप से, आज राजस्थान में एक विवाहित बेटी को भी पैतृक संपत्ति के बँटवारे की माँग करने तथा राजस्व अभिलेखों में कृषि भूमि में अपने हिस्से का नामांतरण कराने का वही अधिकार है जो उसके भाइयों को है।
- 
-सिविल न्यायालय या राजस्व न्यायालय — सही क्षेत्राधिकार का चयन: राजस्थान की संपत्ति-मुकदमेबाज़ी में यह सबसे सामान्य क्षेत्राधिकार-संबंधी भूल है। खातेदारी धारित कृषि भूमि का बँटवारा राजस्थान काश्तकारी अधिनियम, 1955 की धारा 53 द्वारा शासित है और राजस्व न्यायालयों के क्षेत्राधिकार में आता है (प्रथमतः उपखंड अधिकारी, और अपील राजस्व पदानुक्रम से होते हुए राजस्व मंडल तक) — खातेदारी भूमि का बँटवारा करने वाली सिविल न्यायालय की डिक्री गंभीर क्षेत्राधिकार-आपत्ति के अधीन रहती है। मकानों, शहरी भूखंडों एवं अन्य गैर-कृषि संपत्ति का बँटवारा सिविल प्रक्रिया संहिता, 1908 के अंतर्गत सिविल न्यायालय में होता है। जहाँ एक ही पारिवारिक संपत्ति-समूह में दोनों प्रकार की संपत्ति हो, वहाँ प्रायः समानांतर कार्यवाहियाँ अपरिहार्य होती हैं, और उन्हें रणनीतिक रूप से इस प्रकार समन्वित करना आवश्यक है कि एक में दी गई स्वीकृति दूसरे को क्षति न पहुँचाए।
- 
-धारा 53 का वह अंश जो प्रायः छूट जाता है: खातेदारी भूमि का विभाजन वाद के बिना भी हो सकता है। धारा 53(2)(i) सह-काश्तकारों के आपसी करार से विभाजन की अनुमति देती है। उस करार में दो बातें होनी चाहिए: (क) खाते का विभाजन, और (ख) विभाजित भागों पर लगान (rent) का वितरण। दूसरी शर्त केवल औपचारिकता नहीं है। लगान-वितरण के बिना बना करार अधूरा रह जाता है। और यदि वाद दायर करना ही पड़े, तो धारा 53(4) के शब्दों में समस्त सह-काश्तकारों के साथ भू-स्वामी (landholder) को भी पक्षकार बनाना अनिवार्य है। जोधपुर संभाग के राजस्व न्यायालयों में यही चूक सबसे आम है। वादपत्र में भाई-बहन सब हैं, भू-स्वामी नहीं। धारा 53(5) एक सुविधा भी देती है। यदि पक्षकार वही हैं, तो एक से अधिक खातों के विभाजन हेतु एक ही वाद चल सकता है। धारा 53(1) 11-11-1992 से विलोपित है। उस उपधारा पर टिकी पुरानी टिप्पणियाँ आज काम नहीं देतीं। पहली बैठक में कौन-कौन से अभिलेख साथ लाने हैं, यह जोधपुर में अधिवक्ता और पहली बैठक में साथ लाने योग्य अभिलेख वाले पृष्ठ पर दिया गया है।
- 
-सिविल बँटवारा वाद की प्रक्रिया: वाद किसी भी सह-स्वामी द्वारा अन्य समस्त सह-स्वामियों के विरुद्ध दायर किया जाता है (प्रत्येक सह-स्वामी का पक्षकार होना आवश्यक है — बँटवारे की डिक्री समस्त सह-हिस्सेदारों को आबद्ध करती है)। न्यायालय पहले हिस्से निर्धारित करता है और उन्हें घोषित करते हुए प्रारंभिक डिक्री पारित करता है। इसके पश्चात् आदेश 20 नियम 18 सी.पी.सी. के अंतर्गत क्रियान्वयन का चरण आता है: राजस्व-संदाय योग्य भू-संपदाओं हेतु बँटवारा कलेक्टर को निर्दिष्ट किया जा सकता है; अन्य अचल संपत्ति हेतु न्यायालय सामान्यतः एक स्थानीय आयुक्त (Local Commissioner) नियुक्त करता है जो हदबंदी द्वारा विभाजन का प्रस्ताव देता है तथा असमानताओं को समानीकरण राशि (owelty) द्वारा संतुलित करता है। जहाँ संपत्ति का न्यायसंगत भौतिक विभाजन संभव न हो — एकल दुकान, छोटा निवास — वहाँ न्यायालय विक्रय एवं आगमों के वितरण का निर्देश दे सकता है, और कोई सह-हिस्सेदार विभाजन अधिनियम, 1893 का सहारा लेकर मूल्यांकन पर दूसरे का हिस्सा क्रय कर सकता है। तत्पश्चात् अंतिम डिक्री विभाजन को अभिलिखित करती है, और यही डिक्री निष्पादित एवं नामांतरित होती है।
- 
-सामान्य प्रतिरक्षाएँ एवं जटिलताएँ: (1) पूर्व बँटवारा — प्रतिवादी यह कहते हैं कि दशकों पूर्व मौखिक बँटवारा हो चुका है; न्यायालय आचरण, पृथक् कब्जे, पृथक् राजस्व प्रविष्टियों एवं कर-अभिलेखों की जाँच करता है। (2) पारिवारिक समझौता — न्यायसंगत एवं सद्भावपूर्ण पारिवारिक व्यवस्था, चाहे मौखिक ही क्यों न हो, काले बनाम उप निदेशक, चकबंदी (1976) के सिद्धांतों के अंतर्गत आबद्धकारी है; मात्र पूर्व समझौते को अभिलिखित करने वाला ज्ञापन पंजीकरण की अपेक्षा नहीं रखता। (3) स्वअर्जित बनाम पैतृक स्वरूप — केवल सहदायिकी संपत्ति ही अधिकारतः विभाज्य है; जीवित स्वामी की स्वअर्जित संपत्ति नहीं। (4) बेदखली एवं परिसीमा — एक सह-स्वामी का कब्जा सामान्यतः सभी का कब्जा माना जाता है; अपने ही परिवार के विरुद्ध प्रतिकूल कब्जे (adverse possession) का अभिवचन करने वाले सह-स्वामी को विधिक अवधि तक खुली एवं विरोधी बेदखली सिद्ध करनी होती है — जो जान-बूझकर कठिन मानक है। (5) अंतरण — किसी सह-हिस्सेदार द्वारा विशिष्ट भागों का विक्रय केवल उसी हिस्सेदार के अविभाजित हित को आबद्ध करता है, और क्रेता अंतिम विभाजन के समय की साम्या (equities) के अधीन एक अविभाजित हिस्से में प्रवेश करता है।
- 
-राजस्थान में न्यायालय शुल्क एवं समय-सीमा: राजस्थान न्यायालय-शुल्क एवं वादों का मूल्यांकन अधिनियम, 1961 के अंतर्गत, संपत्ति के संयुक्त कब्जे में रहने वाला वादी केवल नियत (fixed) न्यायालय शुल्क देता है; कब्जे से बहिष्कृत वादी को अपने हिस्से के मूल्य पर यथामूल्य (ad valorem) शुल्क देना होता है — यह अंतर लाखों तक पहुँच सकता है और यही निर्धारित करता है कि वादपत्र किस प्रकार प्रारूपित किया जाए। एक विवादित बँटवारा वाद प्रारंभिक डिक्री, आयुक्त-कार्यवाही एवं अंतिम डिक्री से होते हुए सामान्यतः कई वर्ष लेता है; एक निर्विवाद अथवा समझौते से तय बँटवारा कहीं शीघ्र समाप्त हो सकता है। अंतिम डिक्री के पश्चात्, विभाजित भागों का जमाबंदी (भूमि हेतु) अथवा नगरपालिका अभिलेखों (शहरी संपत्ति हेतु) में नामांतरण प्रक्रिया को पूर्ण करता है।
- 
-समझौता-प्रथम दृष्टिकोण: चूँकि अंततः प्रत्येक सह-हिस्सेदार को उसी विभाजन के साथ जीवन व्यतीत करना है, इसलिए मुकदमे से पूर्व — अथवा उसके दौरान — मध्यस्थता-आधारित पारिवारिक समझौतों पर गंभीरता से विचार किया जाना चाहिए। एक व्यापक पंजीकृत बँटवारा विलेख, अथवा आदेश 23 सी.पी.सी. के अंतर्गत राजीनामे की शर्तों में पारित न्यायालयी डिक्री, परिवार को लड़े गए वाद की तुलना में बहुत कम लागत पर अंतिमता प्रदान करती है। जहाँ संबंध अनुमति दें, वहाँ सुप्रारूपित पारिवारिक समझौता प्रायः श्रेष्ठतम साधन है; जहाँ न दें, वहाँ अंतरिम संरक्षण (रिसीवर, अंतरण के विरुद्ध निषेधाज्ञा, यथास्थिति आदेश) सहित भली-भाँति प्रस्तुत बँटवारा वाद हिस्सों के निर्धारण के दौरान संपत्ति-समूह की रक्षा करता है।
- 
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
- 
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
-
-संबंधित लेख
-
-संपत्ति विधि
- 
-राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
-
-संपत्ति विधि
- 
-राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा एवं राजस्व न्यायालय
-
-संपत्ति विधि
- 
-बेटी का पैतृक संपत्ति में अधिकार: विनीता शर्मा के बाद
 
 बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
 
