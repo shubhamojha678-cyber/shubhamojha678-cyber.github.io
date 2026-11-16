@@ -8,7 +8,7 @@ Hours: 12 noon–10:00 PM IST, Monday to Saturday; Sunday closed. Languages: Hin
 The chamber takes matters at Jodhpur in bail and criminal defence, property and mutation (नामांतरण), land revenue, maintenance and family law, cheque bounce, writ petitions and DRT/SARFAESI — at the Rajasthan High Court (Principal Seat, Jodhpur) and the District and Sessions Courts, Jodhpur.
 Full text of the main pages: https://shubhamojhaandassociates.com/llms-full.txt
 
-This file holds the full text of the main pages, current on 2026-11-16. Index: https://shubhamojhaandassociates.com/llms.txt
+This file holds the full text of the main pages, current on 2026-11-17. Index: https://shubhamojhaandassociates.com/llms.txt
 
 
 ---
@@ -696,6 +696,163 @@ Domestic Violence Act 2005: Protection and Residence Orders
 Criminal Law
  
 Section 498A IPC / Section 85 BNS: Cruelty & Defence
+
+Bar Council of India Notice: This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.
+
+📞 Call Now
+ 💬 WhatsApp
+
+---
+
+# Property Lawyer in Jodhpur: Civil Court or Revenue Court
+URL: https://shubhamojhaandassociates.com/property-lawyer-jodhpur.html
+
+Home›Practice Areas›Property and Revenue Matters at Jodhpur
+
+Property & Revenue
+
+# Property Lawyer in Jodhpur: Civil Court or Revenue Court, and the Clocks
+ 
+A property matter at Jodhpur is settled first by forum and only afterwards by title. Khatedari, mutation and the division of an agricultural holding belong to the revenue courts and climb to the Board of Revenue at Ajmer. Title, possession, injunction and specific performance belong to the civil courts. The Jodhpur Bench comes last, not first.
+
+By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur
+ 
+ November 2026
+
+Papers in hand? A photo of the jamabandi, the order or the deed can be sent on WhatsApp to +91 70230 51275, or call the same number (Mon–Sat, 12 noon – 10 PM). यही पृष्ठ हिन्दी में: जोधपुर में सम्पत्ति और राजस्व के मामले.
+
+Land files reach the chamber at Ratanada in two kinds of folder, and the folder usually tells you more than the grievance does. One carries a jamabandi, a khasra map and a Tehsildar’s order; the other carries a registered sale deed, an agreement to sell and photographs of a boundary wall. The first folder belongs to the revenue courts, the second to the civil courts, and the party holding it has often spent two or three years at the wrong counter before the question was asked. Ask the forum question first. So this page does not argue title. It sets out which door opens, in what order the ladder is climbed, how many days each rung allows, and the point at which a Jodhpur land matter genuinely becomes one for the Rajasthan High Court.
+
+At a glance — which forum takes what
+
+Revenue courts — khatedari, mutation, land records, division of an agricultural holding (Section 53), ejectment of a trespasser, declaration of a tenant’s rights (Section 88). Assistant Collector, Sub-Divisional Officer, Tehsildar; then Collector, Revenue Appellate Authority, Board of Revenue at Ajmer.
+ 
+Civil courts — title and declaration, possession, permanent and temporary injunction, specific performance of an agreement to sell, cancellation of a deed, partition of a house or a shop among co-sharers.
+ 
+Rajasthan High Court, Jodhpur Bench — second appeal on a substantial question of law (Section 100 CPC), civil miscellaneous appeal against an injunction order (Order 43 Rule 1(r)), and petitions under Articles 226 and 227 after the revenue ladder has been climbed.
+
+## The first question is the forum, not the title
+
+Section 9 of the Code of Civil Procedure, 1908 begins generously: the courts have jurisdiction to try all suits of a civil nature except those of which their cognizance is expressly or impliedly barred. On the property side in Rajasthan the bar is express and it is written twice over. Section 207(1) of the Rajasthan Tenancy Act, 1955 says that all suits and applications of the nature specified in the Third Schedule shall be heard and determined by a revenue court. Section 207(2) then forbids any other court from taking cognizance of such a suit, or of any suit based on a cause of action in respect of which the revenue court could have granted relief.
+
+The sentence that decides the argument is the Explanation to that sub-section: if the cause of action is one in respect of which relief might be granted by the revenue court, it is immaterial that the relief asked for from the civil court is greater than, or additional to, or is not identical with, that which the revenue court could have granted. A khatedari dispute recast as a declaratory suit, with a prayer for possession and damages bolted on, meets that Explanation and stops there. Changing the name of the prayer does not change the door. The bar is not a technicality.
+
+What is less often noticed is that the declaration the party wanted already exists on the revenue side. Section 88 allows a person claiming to be a tenant or a co-tenant to sue for a declaration that he is one, or for a declaration of his share in a joint tenancy; a Khudkasht tenant and a sub-tenant have their own sub-sections. Entry 5 in the Part-Suits table of the Third Schedule places that suit before the Assistant Collector and prescribes no period of limitation for it. The same is true of entry 3, the suit for division of a holding under Section 53. A claim that could not have been filed in the civil court today because it is twenty years old may still be perfectly alive in the revenue court. Age alone kills nothing here.
+
+## The revenue ladder, in the order it is actually climbed
+
+Appeals on the pure record side come from the Rajasthan Land Revenue Act, 1956. Section 75(1)(a) takes a first appeal from an original order of a Tehsildar in matters not connected with settlement or land records to the Collector. Section 75(1)(b) takes a first appeal from an original order of an Assistant Collector, a Sub-Divisional Officer or a Collector to the Revenue Appellate Authority. Section 76 then provides the second appeal: from an order passed in appeal by a Collector in matters not connected with settlement or land records, to the Revenue Appellate Authority, and onward to the Board of Revenue, which sits at Ajmer. The Rajasthan Tenancy Act runs its own parallel appeal track for Third Schedule suits, and the two are routinely mixed up in memoranda of appeal; the ladder for those is set out in the Hindi note linked above.
+
+Section 78 is the provision that ends more land matters at Jodhpur than any argument on merits. It fixes three different periods, each counted from the date of the order objected to: thirty days for an appeal to the Collector, the Land Records Officer or the Settlement Officer; sixty days for an appeal to the Revenue Appellate Authority, the Settlement Commissioner or the Director of Land Records; and ninety days for an appeal to the Board. Thirty, sixty, ninety — and the party who assumes that all appeals carry the same period is almost always the one who had thirty. Thirty days is the one most often missed.
+
+Then Section 79, in a single sentence, decides the practical timetable: every petition of appeal must be accompanied by a certified copy of the order objected to, unless its production is dispensed with. The copy comes from the copying branch, not from you. Apply for it on the day the order is pronounced, before the appeal has even been thought through, because Section 78 keeps running while the copy is being prepared. Copy first, appeal afterwards. That single habit saves more revenue appeals here than any drafting skill. Nothing else comes close.
+
+## Mutation is a record, not a title
+
+Section 135 of the Land Revenue Act tells the Tehsildar what to do with a reported succession, transfer or other acquisition: make such inquiry as appears necessary and, in undisputed cases, record it in the annual registers. If it is disputed, Section 135(2) requires him to decide it himself where he is competent, and where he is not, to refer the dispute to an officer who is. A party who goes on filing fresh applications before the Tehsildar after the entry has become disputed is waiting at a counter that has already lost the power to decide.
+
+For the smaller problem — a name, a father’s name or a khasra number misprinted in the record — the remedy is not a suit. Section 136 allows the Land Records Officer, at any time, to correct clerical errors and errors which the interested parties admit to have been made in the record of rights or register. Its proviso cuts the other way as well: where an error is noticed by a Revenue Officer during the course of his inspection, nothing may be corrected unless a show-cause notice has been given to the parties. So an admitted error needs an application, and a correction made behind a party’s back is itself a ground of challenge. None of this creates ownership: a mutation is a fiscal entry, and that it confers no title is settled by Balwant Singh v. Daulat Singh (1997). A record is not a title. The mutation procedure itself is set out separately in the note on नामांतरण, अपना खाता और जमाबंदी, and the wider revenue scheme in Rajasthan land revenue law: khasra, khatauni and the revenue courts.
+
+## The civil side: injunction, specific performance, possession
+
+On a non-agricultural plot, a house, a shop or a registered transaction, the civil court is the forum and the first relief asked for is almost always a temporary injunction. Order 39 Rule 1 CPC lists the three situations in which it may be granted: property in dispute in danger of being wasted, damaged or alienated by a party, or wrongfully sold in execution of a decree; a defendant threatening to remove or dispose of his property so as to defraud his creditors; and a defendant threatening to dispossess the plaintiff or otherwise cause him injury in relation to property in dispute in the suit. Rule 2 covers the restraint of a breach of contract or other injury. Rule 2A is the sub-rule that gives an injunction its teeth — on disobedience the court may attach the property of the person in breach and may detain him in civil prison for a term not exceeding three months.
+
+One local point that saves a wasted application. In a suit on the revenue side the temporary injunction does not come from Order 39 at all. Section 212 of the Rajasthan Tenancy Act, 1955 provides for it, on materially narrower grounds — property in danger of being wasted, damaged or alienated, or a party threatening to remove or dispose of it in order to defeat the ends of justice — and it also allows the court to appoint a receiver. Section 212(2) then gives the restrained party a route that is almost never used: he may offer cash security in an amount the court determines, and on depositing it the court may withdraw the injunction or the receivership. A party against whom a revenue injunction has been granted and who can find security is not obliged to spend a year appealing against it. Security can buy back possession.
+
+Specific performance of an agreement to sell has changed character, and pleadings drawn on the old understanding still arrive. Section 10 of the Specific Relief Act, 1963 as substituted with effect from 1 October 2018 reads that the specific performance of a contract shall be enforced by the court, subject only to Section 11(2), Section 14 and Section 16. It is no longer a discretionary relief to be prayed for in the alternative to damages. What remains fatal is Section 16(c): specific performance cannot be enforced in favour of a person who fails to prove that he has performed, or has always been ready and willing to perform, the essential terms of the contract on his part. Explanation (i) is worth knowing where money is short — the plaintiff need not actually tender the money to the defendant or deposit it in court unless the court so directs — but Explanation (ii) still requires him to prove readiness and willingness according to the true construction of the contract. Readiness is pleaded and proved, not asserted. The pleading has to say so. The subject is treated at length in the note on specific performance of contracts.
+
+Registration decides what the paper is worth. Section 17(1) of the Registration Act, 1908 makes registration compulsory for instruments of gift of immovable property, for other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish any right, title or interest of the value of one hundred rupees and upwards in immovable property, and for leases from year to year or for a term exceeding one year. Section 49 then says that an unregistered document required to be registered shall not affect the immovable property comprised in it, nor be received as evidence of a transaction affecting that property. Parties read that and conclude the paper is dead. The proviso says otherwise: such a document may be received as evidence of a contract in a suit for specific performance, or as evidence of a collateral transaction not required to be effected by a registered instrument. What non-registration destroys is the transfer, not the contract — which is exactly why the suit that survives an unregistered agreement to sell is the suit for specific performance and not the suit for declaration of title.
+
+## The clocks that lapse quietly
+
+Four periods account for most of the property matters that cannot be filed by the time they are brought in. For specific performance, Article 54 of the Limitation Act, 1963 gives three years from the date fixed for performance, or, if no such date is fixed, from the date on which the plaintiff has notice that performance is refused. Where the agreement names a date, the clock starts on that date whether or not anyone refused anything, and waiting for a refusal that never comes in writing is the commonest way these suits are lost. For a declaration not otherwise provided for, Article 58 gives three years from when the right to sue first accrues. For possession of immovable property based on title, Article 65 gives twelve years, counted not from the date possession began but from the date on which the defendant’s possession becomes adverse to the plaintiff. And on the revenue side the thirty, sixty and ninety days of Section 78 run from the date of the order, against a party who is usually still waiting for the certified copy.
+
+Against those four, remember the one direction in which Rajasthan law is generous. The Third Schedule prescribes no period of limitation for a suit for division of a holding under Section 53, or for a declaration of a tenant’s rights under Section 88. A joint khata left undivided for thirty or forty years can still be divided today. Section 53(2) recognises only two ways of doing it — by agreement between the co-tenants covering both the division and the distribution of rent over the several portions, or by the decree or order of a competent court in a suit by one or more co-tenants — and Section 53(4) requires every co-tenant and the landholder to be made a party to that suit. Sub-sections (1) and (3) were omitted with effect from 11 November 1992, so a plaint copied from an old precedent is defective on its face. Partition suits here are not lost to limitation. They are lost to a co-sharer who was left out of the array of parties, and to a format nobody checked. The civil-side counterpart, the partition of a house or a shop among co-sharers, is set out in the note on partition suits over family property in Rajasthan.
+
+## Where the Jodhpur Bench comes in
+
+Three routes, and none of them is a short cut past the ladder. A second appeal under Section 100 CPC lies to the High Court from every decree passed in appeal by a subordinate court, but only if the High Court is satisfied that the case involves a substantial question of law. Section 100(3) requires the memorandum of appeal to state that question precisely; Section 100(4) requires the court to formulate it; and under Section 100(5) the appeal is heard on the question so formulated, with the respondent free to argue at the hearing that the case involves no such question. A second appeal drafted as a re-argument of the evidence is answered by the section itself. Formulate the question, or lose it.
+
+A civil miscellaneous appeal is the remedy against an injunction order. Order 43 Rule 1(r) allows an appeal from an order under Rule 1, Rule 2, Rule 2A, Rule 4 or Rule 10 of Order 39, so an order granting or refusing a temporary injunction, or one under Rule 2A, is appealable, and the appeal is presented with its own application for stay. Interim orders on the revenue side are differently placed, and the Hindi page sets out why an appeal does not lie against them.
+
+A petition under Articles 226 and 227 against an order of the Revenue Appellate Authority or the Board of Revenue is heard here, and in practice it survives in three situations: a question of jurisdiction, a breach of natural justice such as a record altered without the show-cause notice that the proviso to Section 136 requires, and an order that no revenue court could have passed at all. Filed in place of the statutory appeal, it is usually returned to the appeal — by which time Section 78 has done its work. The jurisdiction of this Bench extends beyond the district: as our pages on the forums at Jodhpur state it, Barmer, Jaisalmer, Pali, Jalore and Sirohi come here along with Jodhpur, so the revenue orders of the whole Marwar belt are tested in this building. Which of the courts at Jodhpur a matter belongs to in the first place is set out on the chamber page, advocates in Jodhpur and which court hears your matter.
+
+## What to bring to a first meeting
+
+Jamabandi nakal — a download from Apna Khata is enough
+ 
+Khasra map or trace map, where a boundary is in dispute
+ 
+Certified copy of the order challenged, with its date
+ 
+Registered sale deed, gift deed, will or lease
+ 
+The mutation application and whatever was done on it
+ 
+Names and addresses of all co-khatedars — for Section 53(4)
+
+The one paper without which nothing moves is the certified copy of the order under challenge, because Section 79 requires it to accompany the appeal while Section 78 keeps counting. If it has been applied for and not yet delivered, bring the copy application with its diary number; that is what an application for dispensation is built on. The diary number matters.
+
+## Questions asked across the table at Ratanada
+
+The Tehsildar rejected my mutation application. Can I go straight to the High Court at Jodhpur?
+ 
+No. Section 75(1)(a) of the Rajasthan Land Revenue Act, 1956 sends a first appeal from a Tehsildar’s original order to the Collector, and Section 78(a) allows thirty days from the date of that order. A writ petition filed at this stage is ordinarily sent back to the statutory remedy, and the thirty days are usually gone by the time it comes back.
+
+Can a khatedari dispute be taken to the civil court by calling it a declaratory suit?
+ 
+No. Section 207(2) of the Rajasthan Tenancy Act, 1955 bars every court other than a revenue court, and its Explanation says it is immaterial that the relief asked from the civil court is greater than, additional to, or not identical with what the revenue court could have granted. The declaration itself exists on the revenue side: Section 88 allows a person claiming to be a tenant or co-tenant to sue for that declaration, or for a declaration of his share in a joint tenancy, and entry 5 of the Part-Suits table in the Third Schedule puts it before the Assistant Collector with no period of limitation.
+
+Our agreement to sell was never registered. Is it worth anything now?
+ 
+It is not worthless. Section 49 of the Registration Act, 1908 says an unregistered document required to be registered cannot affect the immovable property or be received as evidence of a transaction affecting it, but the proviso then allows it to be received as evidence of a contract in a suit for specific performance, or as evidence of a collateral transaction not required to be effected by a registered instrument. What dies with non-registration is the transfer, not the contract.
+
+How long do I have to file a suit for specific performance of an agreement to sell?
+ 
+Article 54 of the Limitation Act, 1963 gives three years, counted from the date fixed for performance, or, where no such date is fixed, from the date on which the plaintiff has notice that performance is refused. Where the agreement names a date, the clock does not wait for a refusal, and that is the commoner way these suits are lost at Jodhpur.
+
+The civil court refused my application for a temporary injunction. Is that order appealable?
+ 
+Yes. Order 43 Rule 1(r) CPC allows an appeal from an order under Rule 1, Rule 2, Rule 2A, Rule 4 or Rule 10 of Order 39, so an order granting or refusing a temporary injunction is appealable as a civil miscellaneous appeal, with its own stay application. In a revenue suit the position is different: the injunction there is granted under Section 212 of the Rajasthan Tenancy Act, 1955, not under Order 39.
+
+Jodhpur me zameen ka vakil dhoondh rahe hain — pehle kya saath laana hai?
+ 
+Jamabandi ki nakal (Apna Khata se download ki hui bhi chalegi), khasra naksha agar seema ka vivad hai, vivadit aadesh ki certified copy with its date, registry ya dan-patra ki copy, aur sabhi co-khatedars ke naam-pate — Section 53(4) ke liye yeh zaroori hai. Jis ek kagaz ke bina kaam rukta hai woh certified copy hai, kyunki Section 79 use appeal ke saath maangta hai.
+
+Shubham Ojha & Associates, Advocates
+
+Rajasthan High Court, Jodhpur Bench
+ H. No. 245, Opp. Sardar Club, Ratanada, Jodhpur 342001
+ +91 70230 51275  ·  shubham@shubhamojhaandassociates.com  ·  WhatsApp
+ Office hours: Mon–Sat, 12 noon – 10 PM (Sunday closed)
+
+This page is informational and provided on the reader's own enquiry. As per the Rules of the Bar Council of India, advocates do not advertise or solicit work; nothing here is an advertisement, a solicitation, or legal advice, and reading it does not create an advocate–client relationship.
+
+Related Reading
+
+हिन्दी
+ 
+जोधपुर में सम्पत्ति और राजस्व के मामले
+
+Jodhpur
+ 
+Advocates in Jodhpur: Which Court Hears Your Matter
+
+Jodhpur
+ 
+Which Court in Jodhpur Hears Your Matter
+
+Property Law
+ 
+Property Disputes in Rajasthan: Partition, Title and the Revenue Courts
+
+Revenue Law
+ 
+Rajasthan Land Revenue Law: Khasra, Khatauni, Revenue Courts
+
+Property Law
+ 
+Partition Suits Over Family Property in Rajasthan
 
 Bar Council of India Notice: This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.
 
@@ -1613,59 +1770,6 @@ URL: https://shubhamojhaandassociates.com/articles/agricultural-land-partition-r
 
 ---
 
-# राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय | शुभम ओझा एवं एसोसिएट्स
-URL: https://shubhamojhaandassociates.com/articles/land-revenue-laws-rajasthan-hi.html
-
-मुख्य पृष्ठ›
- विधिक जानकारी›
- राजस्थान में भू-राजस्व विधि
-
-संपत्ति विधि
-
-# राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय
-
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- जून 2026
-
-राजस्थान की भू-राजस्व प्रणाली मुख्यतः राजस्थान भू-राजस्व अधिनियम, 1956, राजस्थान काश्तकारी अधिनियम, 1955 तथा राजस्व न्यायालय प्रक्रिया नियमों द्वारा शासित है। राज्य कृषि भूमि हेतु विस्तृत राजस्व अभिलेख रखता है: (1) खसरा — खेत-संख्या, क्षेत्रफल, मिट्टी की प्रकृति, फसल एवं काबिज़ व्यक्ति का नाम दर्ज करने वाला खेतवार रजिस्टर; (2) खतौनी — किसी गाँव में एक व्यक्ति द्वारा धारित समस्त खसरा संख्याओं को सूचीबद्ध करने वाला जोतवार रजिस्टर; (3) जमाबंदी / अधिकार-अभिलेख — पटवारी द्वारा प्रत्येक पाँच वर्ष में तैयार किया जाने वाला व्यापक राजस्व दस्तावेज़। ये अभिलेख डिजिटल रूप में Apna Khata पोर्टल (apnakhata.raj.nic.in) पर उपलब्ध हैं।
-
-▶ इस विषय पर वीडियो · 32 सेकंड
-
-Jamabandi Me Naam = Malik Nahi | Namantaran Ka Sach — Rajasthan
-पूरा चैनल →
-
-नामांतरण (इंतकाल / दाखिल-खारिज): नामांतरण किसी विक्रय, दान, उत्तराधिकार, बँटवारे या न्यायालयी डिक्री के पश्चात् कब्ज़े/स्वामित्व में परिवर्तन को राजस्व अभिलेखों में अद्यतन करने की प्रक्रिया है। महत्वपूर्ण बात यह है कि राजस्व अभिलेख में नामांतरण से टाइटल न तो सृजित होता है और न समाप्त — यह मात्र एक राजकोषीय अभिलेख है (उच्चतम न्यायालय द्वारा बलवंत सिंह बनाम दौलत सिंह, 1997 में स्थिर)। नामांतरण आवेदन तहसीलदार के समक्ष किया जाता है, जो प्रभावित व्यक्तियों को सूचना देता है, आपत्तियाँ प्राप्त करता है, और जाँच के बाद नामांतरण आदेश पारित करता है। अपील उपखंड अधिकारी, फिर कलेक्टर, फिर राजस्व मंडल तक होती है।
- 
-राजस्व न्यायालय का क्षेत्राधिकार: राजस्थान भू-राजस्व अधिनियम एवं काश्तकारी अधिनियम के अंतर्गत राजस्व न्यायालयों को इन विषयों पर अनन्य क्षेत्राधिकार है: काश्तकारी विवाद; कृषि भूमि के बँटवारे के विवाद; राजस्व अभिलेखों में दर्ज अधिकारों से जुड़े विवाद; तथा कृषि जोत सीमा अधिनियम के अंतर्गत कार्यवाहियाँ। जो विषय अनन्य रूप से राजस्व न्यायालयों को सौंपे गए हैं, उन पर सिविल न्यायालय का क्षेत्राधिकार नहीं है।
- 
-राजस्व मंडल: अजमेर में स्थित राजस्थान राजस्व मंडल राज्य का सर्वोच्च राजस्व न्यायालय है। यह राजस्व मामलों में अपीलीय, पुनरीक्षण एवं निर्देश क्षेत्राधिकार रखता है। राजस्व विधि के प्रश्नों पर मंडल के निर्णय समस्त अधीनस्थ राजस्व न्यायालयों पर आबद्धकारी हैं। मंडल के निर्णयों की आगे न्यायिक समीक्षा केवल राजस्थान उच्च न्यायालय में अनुच्छेद 226/227 के अंतर्गत होती है।
- 
-राजस्थान में सामान्य मुद्दे: (1) खातेदारी अधिकार — काश्तकारी अधिनियम के अंतर्गत निर्धारित अवधि तक भूमि जोतने वाले काश्तकार को खातेदारी (अधिभोग) अधिकार प्राप्त होते हैं, जो उत्तराधिकार-योग्य हैं तथा कुछ प्रतिबंधों सहित अंतरणीय हैं। (2) भू-उपयोग परिवर्तन — कृषि भूमि का गैर-कृषि उपयोग कलेक्टर से रूपांतरण (conversion) अनुमति के बिना नहीं किया जा सकता। (3) सरकारी भूमि पर अतिक्रमण — राजस्व प्राधिकारियों द्वारा सरसरी बेदखली की शक्तियों से निपटाया जाता है।
- 
-राजस्व अभिलेखों से जुड़ा एक और प्रश्न यह है कि जब भूमि किसी बैंक ऋण के विरुद्ध बंधक हो और बैंक कब्ज़े की कार्यवाही करे, तब क्या किया जाए। यह विषय राजस्व न्यायालय के क्षेत्राधिकार से बाहर चला जाता है — देखें SARFAESI नोटिस और DRT में धारा 17 का उपाय। कृषि भूमि के लिए धारा 31(i) की छूट विशेष रूप से देखने योग्य है।
- 
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
- 
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
-
-संबंधित लेख
-
-संपत्ति विधि
-राजस्थान में नामांतरण (दाखिल-खारिज) कैसे कराएं
- संपत्ति विधि
-राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
- संपत्ति विधि
-राजस्थान में कृषि भूमि का बँटवारा: धारा 53
-
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
-
-📞 Call Now
- 💬 WhatsApp
-
----
-
 # SARFAESI धारा 13(2) नोटिस: 60 दिन की मियाद, कब्ज़ा और DRT
 URL: https://shubhamojhaandassociates.com/articles/sarfaesi-notice-section-13-drt-rajasthan-hi.html
 
@@ -1946,6 +2050,59 @@ Bar Council of India Notice: This website is for informational purposes only and
 
 ---
 
+# राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय | शुभम ओझा एवं एसोसिएट्स
+URL: https://shubhamojhaandassociates.com/articles/land-revenue-laws-rajasthan-hi.html
+
+मुख्य पृष्ठ›
+ विधिक जानकारी›
+ राजस्थान में भू-राजस्व विधि
+
+संपत्ति विधि
+
+# राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय
+
+लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
+ जून 2026
+
+राजस्थान की भू-राजस्व प्रणाली मुख्यतः राजस्थान भू-राजस्व अधिनियम, 1956, राजस्थान काश्तकारी अधिनियम, 1955 तथा राजस्व न्यायालय प्रक्रिया नियमों द्वारा शासित है। राज्य कृषि भूमि हेतु विस्तृत राजस्व अभिलेख रखता है: (1) खसरा — खेत-संख्या, क्षेत्रफल, मिट्टी की प्रकृति, फसल एवं काबिज़ व्यक्ति का नाम दर्ज करने वाला खेतवार रजिस्टर; (2) खतौनी — किसी गाँव में एक व्यक्ति द्वारा धारित समस्त खसरा संख्याओं को सूचीबद्ध करने वाला जोतवार रजिस्टर; (3) जमाबंदी / अधिकार-अभिलेख — पटवारी द्वारा प्रत्येक पाँच वर्ष में तैयार किया जाने वाला व्यापक राजस्व दस्तावेज़। ये अभिलेख डिजिटल रूप में Apna Khata पोर्टल (apnakhata.raj.nic.in) पर उपलब्ध हैं।
+
+▶ इस विषय पर वीडियो · 32 सेकंड
+
+Jamabandi Me Naam = Malik Nahi | Namantaran Ka Sach — Rajasthan
+पूरा चैनल →
+
+नामांतरण (इंतकाल / दाखिल-खारिज): नामांतरण किसी विक्रय, दान, उत्तराधिकार, बँटवारे या न्यायालयी डिक्री के पश्चात् कब्ज़े/स्वामित्व में परिवर्तन को राजस्व अभिलेखों में अद्यतन करने की प्रक्रिया है। महत्वपूर्ण बात यह है कि राजस्व अभिलेख में नामांतरण से टाइटल न तो सृजित होता है और न समाप्त — यह मात्र एक राजकोषीय अभिलेख है (उच्चतम न्यायालय द्वारा बलवंत सिंह बनाम दौलत सिंह, 1997 में स्थिर)। नामांतरण आवेदन तहसीलदार के समक्ष किया जाता है, जो प्रभावित व्यक्तियों को सूचना देता है, आपत्तियाँ प्राप्त करता है, और जाँच के बाद नामांतरण आदेश पारित करता है। अपील उपखंड अधिकारी, फिर कलेक्टर, फिर राजस्व मंडल तक होती है।
+ 
+राजस्व न्यायालय का क्षेत्राधिकार: राजस्थान भू-राजस्व अधिनियम एवं काश्तकारी अधिनियम के अंतर्गत राजस्व न्यायालयों को इन विषयों पर अनन्य क्षेत्राधिकार है: काश्तकारी विवाद; कृषि भूमि के बँटवारे के विवाद; राजस्व अभिलेखों में दर्ज अधिकारों से जुड़े विवाद; तथा कृषि जोत सीमा अधिनियम के अंतर्गत कार्यवाहियाँ। जो विषय अनन्य रूप से राजस्व न्यायालयों को सौंपे गए हैं, उन पर सिविल न्यायालय का क्षेत्राधिकार नहीं है।
+ 
+राजस्व मंडल: अजमेर में स्थित राजस्थान राजस्व मंडल राज्य का सर्वोच्च राजस्व न्यायालय है। यह राजस्व मामलों में अपीलीय, पुनरीक्षण एवं निर्देश क्षेत्राधिकार रखता है। राजस्व विधि के प्रश्नों पर मंडल के निर्णय समस्त अधीनस्थ राजस्व न्यायालयों पर आबद्धकारी हैं। मंडल के निर्णयों की आगे न्यायिक समीक्षा केवल राजस्थान उच्च न्यायालय में अनुच्छेद 226/227 के अंतर्गत होती है।
+ 
+राजस्थान में सामान्य मुद्दे: (1) खातेदारी अधिकार — काश्तकारी अधिनियम के अंतर्गत निर्धारित अवधि तक भूमि जोतने वाले काश्तकार को खातेदारी (अधिभोग) अधिकार प्राप्त होते हैं, जो उत्तराधिकार-योग्य हैं तथा कुछ प्रतिबंधों सहित अंतरणीय हैं। (2) भू-उपयोग परिवर्तन — कृषि भूमि का गैर-कृषि उपयोग कलेक्टर से रूपांतरण (conversion) अनुमति के बिना नहीं किया जा सकता। (3) सरकारी भूमि पर अतिक्रमण — राजस्व प्राधिकारियों द्वारा सरसरी बेदखली की शक्तियों से निपटाया जाता है।
+ 
+राजस्व अभिलेखों से जुड़ा एक और प्रश्न यह है कि जब भूमि किसी बैंक ऋण के विरुद्ध बंधक हो और बैंक कब्ज़े की कार्यवाही करे, तब क्या किया जाए। यह विषय राजस्व न्यायालय के क्षेत्राधिकार से बाहर चला जाता है — देखें SARFAESI नोटिस और DRT में धारा 17 का उपाय। कृषि भूमि के लिए धारा 31(i) की छूट विशेष रूप से देखने योग्य है।
+ 
+यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
+
+शुभम ओझा एवं एसोसिएट्स
+ 
+अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
+
+संबंधित लेख
+
+संपत्ति विधि
+राजस्थान में नामांतरण (दाखिल-खारिज) कैसे कराएं
+ संपत्ति विधि
+राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
+ संपत्ति विधि
+राजस्थान में कृषि भूमि का बँटवारा: धारा 53
+
+बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
+
+📞 Call Now
+ 💬 WhatsApp
+
+---
+
 # Partition Suit in Rajasthan: Family Property Division Procedure
 URL: https://shubhamojhaandassociates.com/articles/partition-suit-family-property-rajasthan.html
 
@@ -2006,6 +2163,205 @@ Specific Performance of Contracts: When Can You Force a Sale?
 Bar Council of India Notice: This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.
 
 📞 Call
+ 💬 WhatsApp
+
+---
+
+# सरकारी कर्मचारी सेवा विवाद: CAT जोधपुर, Tribunal या High Court
+URL: https://shubhamojhaandassociates.com/articles/sarkari-karmchari-seva-vivad-cat-tribunal-rajasthan-hi.html
+
+मुख्य पृष्ठ›
+ विधिक जानकारी›
+ सरकारी कर्मचारी के सेवा विवाद
+
+सेवा विधि
+
+# सरकारी नौकरी में निलंबन, जाँच या पेंशन का विवाद — केस कहाँ और कैसे लड़ा जाता है?
+
+लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
+ अगस्त 2026
+
+केंद्र सरकार के कर्मचारी का सेवा विवाद Central Administrative Tribunal (CAT) में चलता है — राजस्थान में इसकी जोधपुर और जयपुर बेंच हैं। राजस्थान राज्य के कर्मचारी का मामला राजस्थान सिविल सेवा अपील अधिकरण या High Court में जाता है। निलंबन सज़ा नहीं है, पेंशन दान नहीं बल्कि अधिकार है, और विभागीय जाँच में सुनवाई का पूरा अवसर मिलना अनिवार्य है।
+
+कागज़ आपके पास हैं? नोटिस, आदेश या याचिका की फोटो WhatsApp पर +91 70230 51275 भेजी जा सकती है, या इसी नंबर पर कॉल करें (सोम–शनि, दोपहर 12 – रात 10 बजे)।
+
+एक नज़र में
+
+केंद्रीय कर्मचारी का forum — CAT: जोधपुर बेंच (उच्च न्यायालय के निकट) एवं जयपुर बेंच
+ 
+CAT में आवेदन — Original Application (OA), धारा 19, Administrative Tribunals Act, 1985; परिसीमा सामान्यतः 1 वर्ष (धारा 21)
+ 
+पूर्व शर्त — धारा 20: विभागीय appeal/representation पहले exhaust करनी होती है
+ 
+राज्य कर्मचारी का forum — राजस्थान सिविल सेवा अपील अधिकरण (1976 अधिनियम), मुख्य पीठ जयपुर; अपील की अवधि 6 माह
+ 
+High Court कब — अनुच्छेद 226 writ: जहाँ अधिकरण का क्षेत्राधिकार नहीं, अथवा अधिकरण के आदेश की judicial review (खंडपीठ)
+ 
+आधार-स्तंभ निर्णय — L. Chandra Kumar (1997) · D.S. Nakara (1983) · ECIL v. B. Karunakar (1993)
+
+Central Administrative Tribunal का गठन एक केंद्रीय क़ानून — Administrative Tribunals Act, 1985 (अनुच्छेद 323A) — के अंतर्गत हुआ है और उसकी बेंचें पूरे भारत में हैं; यहाँ बताई गई प्रक्रिया हर राज्य में तैनात केंद्रीय कर्मचारी पर समान रूप से लागू होती है। राजस्थान सिविल सेवा अपील अधिकरण केवल राजस्थान सरकार के कर्मचारियों के लिए है। नीचे दिए गए जोधपुर के उदाहरण केवल दृष्टांत हैं। फ़ोन/वीडियो परामर्श राजस्थान के बाहर तैनात कर्मचारियों के लिए भी उपलब्ध है।
+
+▶ इस विषय पर वीडियो · 32 सेकंड
+
+Suspension Saza Nahi Hai — Subsistence Allowance Aapka Haq
+पूरा चैनल →
+
+## मैं केंद्र सरकार का कर्मचारी हूँ — मेरा केस कहाँ चलेगा?
+ 
+Railway, डाक विभाग, केंद्रीय मंत्रालय और defence के civilian कर्मचारी — इन सबकी भर्ती और service conditions से जुड़े विवाद CAT सुनता है। सशस्त्र बलों के सदस्य इसमें नहीं आते; उनके लिए अलग व्यवस्था है। राजस्थान में CAT की दो बेंच हैं — जोधपुर और जयपुर। जोधपुर बेंच उच्च न्यायालय के निकट बैठती है और पश्चिमी राजस्थान — जोधपुर, बाड़मेर, जैसलमेर, बीकानेर, अजमेर — के कर्मचारियों के मामले सुनती है।
+ 
+मामला Original Application (OA) दायर करने से शुरू होता है — धारा 19, Administrative Tribunals Act, 1985। दो प्रावधान व्यवहार में सबसे अधिक निर्णायक सिद्ध होते हैं। धारा 20 कहती है कि अधिकरण सामान्यतः तब तक आवेदन ग्रहण नहीं करेगा जब तक कर्मचारी विभाग के भीतर उपलब्ध appeal या representation का रास्ता पूरा न कर ले। धारा 21 परिसीमा तय करती है — प्रतिकूल आदेश से सामान्यतः एक वर्ष के भीतर। जोधपुर की प्रैक्टिस में मैंने देखा है कि कर्मचारी वर्षों विभागीय पत्राचार में लगा रहता है और जब अधिकरण पहुँचता है तब तक सबसे बड़ी बाधा उसके मामले का गुण-दोष नहीं, बल्कि यही परिसीमा बन चुकी होती है। प्रतिकूल आदेश की तारीख़ को उसी दिन नोट कर लेना चाहिए।
+
+## राजस्थान सरकार का कर्मचारी कहाँ जाए?
+ 
+राज्य कर्मचारियों के लिए अलग व्यवस्था है — राजस्थान सिविल सेवा अपील अधिकरण, जो Rajasthan Civil Services (Service Matters Appellate Tribunals) Act, 1976 के अंतर्गत गठित है। Seniority, promotion, pay fixation, transfer और pension जैसे मामले इसके समक्ष आते हैं। अपील आदेश से 6 माह के भीतर प्रस्तुत करनी होती है, और उससे पहले विभागीय appeal का रास्ता पूरा करना होता है। मुख्य पीठ जयपुर में है। जोधपुर में एक स्थायी बेंच मई 2023 में स्वीकृत की गई थी (उच्च न्यायालय का पुराना heritage भवन); अपील दाख़िल करने से पहले अधिकरण की मौजूदा बैठक-व्यवस्था की पुष्टि कर लेना उचित रहता है।
+ 
+कुछ श्रेणियाँ अधिकरण की परिधि से बाहर रखी गई हैं — जैसे न्यायपालिका के कर्मचारी और लोक सेवा आयोग से जुड़े मामले — और जहाँ नियम की संवैधानिक वैधता को ही चुनौती देनी हो, वहाँ भी अधिकरण उपयुक्त forum नहीं। ऐसे मामले सीधे राजस्थान उच्च न्यायालय में अनुच्छेद 226 की writ petition से जाते हैं। कौन-सा दरवाज़ा सही है यह तय करना पहला और सबसे महँगा निर्णय होता है — ग़लत forum में वर्ष भर लगाकर लौटना असामान्य नहीं। writ के दायरे पर विस्तार से देखें Writ Petitions under Articles 226 & 227 (English) और Service Law Matters: Challenging Government Orders (English)।
+
+## सस्पेंड कर दिया गया है — क्या यह सज़ा है? वेतन मिलेगा?
+ 
+निलंबन (suspension) सज़ा नहीं है। यह जाँच लंबित रहने तक की एक प्रशासनिक व्यवस्था है, इसीलिए निलंबन से पहले सुनवाई का अवसर देना आवश्यक नहीं माना जाता — यही बात कर्मचारी को सबसे अधिक विचलित करती है। परंतु इसका दूसरा पक्ष भी उतना ही स्पष्ट है: निलंबित कर्मचारी को जीवन-निर्वाह भत्ता (subsistence allowance) पाने का क़ानूनी अधिकार है, और भत्ते का भुगतान किए बिना निलंबन को अनिश्चित काल तक खींचना टिकाऊ नहीं।
+ 
+निलंबन के मामलों में असली प्रश्न प्रायः देरी का होता है, आरोप का नहीं। जब महीनों बीत जाएँ और चार्जशीट तक न दी गई हो, तो निलंबन अपना उद्देश्य खो देता है और वह स्वयं चुनौती का विषय बन जाता है। ऐसे मामलों में राहत की माँग सामान्यतः दो रूपों में की जाती है — निलंबन आदेश को रद्द कराना, या जाँच को समयबद्ध कराना और भत्ते का भुगतान सुनिश्चित कराना।
+
+## विभागीय जाँच (departmental inquiry) में मेरे क्या अधिकार हैं?
+ 
+संविधान का अनुच्छेद 311 सरकारी कर्मचारी को दो संरक्षण देता है — उसे नियुक्ति प्राधिकारी से नीचे का अधिकारी पदच्युत नहीं कर सकता, और उचित जाँच तथा सुनवाई के अवसर के बिना dismissal, removal या rank में कमी नहीं की जा सकती। राजस्थान में major penalty की चार्जशीट Rajasthan Civil Services (Classification, Control & Appeal) Rules, 1958 के अंतर्गत दी जाती है — कर्मचारी इसे प्रायः "16 CCA नोटिस" कहते हैं।
+ 
+जाँच में जो अधिकार व्यवहार में मामले का रुख़ बदलते हैं, वे ये हैं:
+
+आरोपों की स्पष्ट सूची (Article of Charge) और imputations का विवरण मिलना
+ 
+जिन दस्तावेज़ों पर विभाग निर्भर है, उनकी प्रति एवं निरीक्षण का अवसर
+ 
+विभागीय गवाहों से cross-examination और अपने बचाव के गवाह प्रस्तुत करने का अधिकार
+ 
+जाँच अधिकारी का स्वतंत्र होना — वही व्यक्ति शिकायतकर्ता और जाँचकर्ता दोनों नहीं हो सकता
+ 
+जाँच रिपोर्ट की प्रति पाकर उस पर जवाब देने का अवसर — Managing Director, ECIL v. B. Karunakar (1993)
+
+अंतिम बिंदु पर विशेष ध्यान दें। रिपोर्ट दिए बिना सुनाई गई सज़ा दोषपूर्ण मानी जाती है, और यह वह चूक है जो विभाग सबसे अधिक करता है। इसी तरह सज़ा का आरोप के अनुपात में होना भी आवश्यक है — अनुपातहीन दंड अनुच्छेद 14 के आधार पर चुनौती योग्य रहता है।
+
+## पेंशन रोक दी गई या नहीं मिल रही — क्या करूँ?
+ 
+इस विषय पर विधि की स्थिति कर्मचारी के पक्ष में स्पष्ट है। D.S. Nakara बनाम भारत संघ (1983) में उच्चतम न्यायालय ने कहा कि पेंशन सरकार की कृपा नहीं, सेवा से अर्जित अधिकार है। इसके बाद State of Jharkhand बनाम Jitendra Kumar Srivastava (2013) में यह और आगे बढ़ा — पेंशन और gratuity अनुच्छेद 300A के अर्थ में संपत्ति हैं, और विधि के अधिकार के बिना इन्हें रोका नहीं जा सकता। राजस्थान के राज्य कर्मचारियों पर Rajasthan Civil Services (Pension) Rules लागू होते हैं।
+ 
+व्यवहारिक क्रम वही रहता है — पहले विभाग को लिखित representation, और उत्तर न मिलने या अस्वीकृति पर सक्षम forum (CAT, अधिकरण या उच्च न्यायालय)। सेवानिवृत्त कर्मचारी के मामले में हर बीता महीना सीधा आर्थिक नुक़सान है, इसलिए यहाँ परिसीमा पर विशेष सतर्कता रखनी चाहिए; प्रतीक्षा का कोई प्रतिफल नहीं मिलता।
+
+## क्या ट्रांसफर रुकवाया जा सकता है?
+ 
+सीधा उत्तर — transfer सेवा की एक शर्त है, और किसी स्थान विशेष पर बने रहने का vested right किसी कर्मचारी को नहीं होता। न्यायालय transfer के मामलों में दख़ल कम ही देते हैं। अपवाद तीन हैं: दुर्भावना से किया गया (mala fide) transfer, अर्थात् जो व्यवहार में सज़ा हो; लागू transfer policy या नियमों के विरुद्ध किया गया transfer; और ऐसे अधिकारी द्वारा किया गया आदेश जो उसके लिए सक्षम ही नहीं था। ईमानदार सलाह यह है कि हर transfer का मुक़दमा नहीं बनता — जहाँ बनता है, आधार लगभग हमेशा इन्हीं तीन में से एक होता है।
+
+## अन्य सामान्य विवाद
+
+अनुकंपा नियुक्ति (compassionate appointment) — Umesh Kumar Nagpal v. State of Haryana (1994): यह वंशानुगत अधिकार नहीं, बल्कि कमाने वाले की मृत्यु से आए तात्कालिक संकट से परिवार को उबारने की व्यवस्था है; इसीलिए समय रहते आवेदन करना निर्णायक होता है।
+ 
+नियमितीकरण (regularisation) — Secretary, State of Karnataka v. Umadevi (2006): लंबे समय तक काम करते रहने मात्र से नियमितीकरण का अधिकार नहीं बनता; अपवाद सीमित और परिभाषित हैं।
+ 
+समान कार्य, समान वेतन — State of Punjab v. Jagjit Singh (2016): अस्थायी रूप से नियुक्त कर्मचारी भी, समान कार्य करने पर, समान वेतन का हक़दार हो सकता है।
+ 
+Promotion, seniority और ACR/APAR — प्रतिकूल entry का कर्मचारी को communicate किया जाना आवश्यक है; sealed cover प्रक्रिया के अपने अलग नियम हैं।
+
+## CAT के आदेश से असंतुष्ट हूँ — आगे क्या?
+ 
+यहाँ एक व्यापक भ्रांति है कि अधिकरण के बाद सीधे उच्चतम न्यायालय जाया जा सकता है। L. Chandra Kumar बनाम भारत संघ (1997) में सात-न्यायाधीशीय पीठ ने यह स्पष्ट कर दिया कि अधिकरण के आदेशों पर उच्च न्यायालय का judicial review संविधान की आधारभूत संरचना का हिस्सा है। अर्थात् अधिकरण के आदेश की चुनौती पहले संबंधित उच्च न्यायालय की खंडपीठ के समक्ष अनुच्छेद 226/227 की writ petition से होती है। CAT की जोधपुर बेंच के आदेश की चुनौती राजस्थान उच्च न्यायालय, जोधपुर में प्रस्तुत की जाती है — और यही कारण है कि सेवा-मामलों में जोधपुर बेंच का होना पश्चिमी राजस्थान के कर्मचारियों के लिए व्यावहारिक रूप से बड़ी सुविधा है: अधिकरण और उच्च न्यायालय, दोनों एक ही शहर में।
+
+दो संवैधानिक खंड ऐसे हैं जिनका सेवा-मामलों में सबसे अधिक व्यावहारिक महत्व है और जिनका उल्लेख प्रायः छूट जाता है। पहला, अनुच्छेद 226(2)। उसका पाठ यह है कि खंड (1) की शक्ति उस उच्च न्यायालय द्वारा भी प्रयोग की जा सकती है जिसके क्षेत्र में वाद-कारण (cause of action), पूर्णतः या अंशतः, उत्पन्न हुआ हो, इस तथ्य के होते हुए भी कि उस सरकार या प्राधिकारी का मुख्यालय, अथवा उस व्यक्ति का निवास, उन क्षेत्रों के भीतर नहीं है। जोधपुर में तैनात कर्मचारी के विरुद्ध आदेश प्रायः जयपुर या दिल्ली से निकलता है। यही खंड उस आपत्ति का उत्तर है कि विभाग तो कहीं और बैठता है। दूसरा, अनुच्छेद 227(1) का शब्द-चयन: अधीक्षण (superintendence) "सभी न्यायालयों तथा अधिकरणों" पर है। जोधपुर में बैठी CAT बेंच इसी कारण जोधपुर पीठ के अधीक्षण में है, और ऊपर बताया गया L. Chandra Kumar वाला मार्ग इसी पाठ पर टिका है।
+
+जिस खंड को L. Chandra Kumar ने संकुचित किया, वह अनुच्छेद 323A(2)(d) है। उसने संसद को यह अनुमति दी थी कि वह अनुच्छेद 136 के अधीन उच्चतम न्यायालय को छोड़कर सभी न्यायालयों का क्षेत्राधिकार वर्जित कर दे। वह वर्जन अब उच्च न्यायालय पर लागू नहीं होता। एक और खंड यहाँ काम का है। अनुच्छेद 226(3) के अनुसार, यदि किसी पक्ष के विरुद्ध अंतरिम आदेश (stay या injunction) उसे याचिका तथा समर्थक दस्तावेज़ों की प्रतियाँ दिए बिना और सुनवाई का अवसर दिए बिना पारित हुआ है, तो वह पक्ष उसे निरस्त कराने का आवेदन कर सकता है, और उच्च न्यायालय को उसका निस्तारण दो सप्ताह में करना होता है; न करने पर वह अंतरिम आदेश स्वतः निरस्त हो जाता है। transfer और seniority के मामलों में एकपक्षीय stay असामान्य नहीं है, इसलिए यह उपबंध दोनों पक्षों को पढ़ना चाहिए। किस आदेश की चुनौती किस मंच पर और किस पीठ के समक्ष रखी जाती है, इसका ब्यौरा जोधपुर में अधिवक्ता: सेवा-मामला किस पीठ के समक्ष पर है।
+
+यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। सेवा-मामलों में परिसीमा और लागू नियम विभाग एवं तथ्यों के अनुसार बदलते हैं; अपने विशिष्ट मामले में किसी योग्य अधिवक्ता से परामर्श करें।
+
+शुभम ओझा एवं एसोसिएट्स
+ 
+अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
+
+संबंधित लेख
+
+सेवा विधि
+Service Law Matters: Challenging Government Orders Through Writ Petitions
+ संवैधानिक विधि
+Writ Petitions under Articles 226 & 227
+ सामान्य प्रश्न
+विधिक प्रश्नोत्तर — सामान्य कानूनी सवालों के जवाब
+
+बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
+
+📞 Call Now
+ 💬 WhatsApp
+
+---
+
+# बेटी का पैतृक संपत्ति में अधिकार: Vineeta Sharma के बाद
+URL: https://shubhamojhaandassociates.com/articles/daughter-ancestral-property-rights-rajasthan-hi.html
+
+मुख्य पृष्ठ›
+ विधिक जानकारी›
+ बेटी का पैतृक संपत्ति में अधिकार
+
+संपत्ति विधि
+
+# बेटी का पैतृक संपत्ति में अधिकार: विनीता शर्मा निर्णय के बाद की स्थिति
+
+लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
+ जून 2026
+
+हिंदू उत्तराधिकार अधिनियम, 1956 की धारा 6 (2005 संशोधन) और विनीता शर्मा बनाम राकेश शर्मा (2020) के अनुसार बेटी जन्म से ही पैतृक/सहदायिकी (coparcenary) संपत्ति में पुत्र के समान सहदायिक है। यह अधिकार जन्मसिद्ध है — इसके लिए 9 सितंबर 2005 को पिता का जीवित होना आवश्यक नहीं, और विवाह से यह अधिकार समाप्त नहीं होता।
+
+एक नज़र में
+
+सहदायिक अधिकार — बेटी जन्म से पुत्र के समान सहदायिक (coparcener); धारा 6, हिंदू उत्तराधिकार अधिनियम, 1956 (2005 संशोधन)
+ 
+अग्रणी निर्णय — विनीता शर्मा बनाम राकेश शर्मा (2020): अधिकार जन्मसिद्ध, 9 सितंबर 2005 को पिता का जीवित होना आवश्यक नहीं
+ 
+विवाहित बेटी — विवाह से हिस्सा न कम होता है, न समाप्त
+ 
+कृषि भूमि — राजस्थान में खातेदारी भूमि में भी समान हिस्सा; नामांतरण एवं राजस्व न्यायालय में बँटवारा
+ 
+अपवाद — 20 दिसंबर 2004 से पूर्व का पंजीकृत बँटवारा या न्यायालय-डिक्री से हुआ विभाजन संरक्षित
+ 
+मंच (forum) — बँटवारे का वाद सिविल न्यायालय में; कृषि भूमि हेतु राजस्व न्यायालय
+
+हिंदू उत्तराधिकार अधिनियम, 1956 एक केंद्रीय कानून है और पूरे भारत में समान रूप से लागू होता है — यह सभी हिंदू, बौद्ध, जैन एवं सिख परिवारों पर लागू होता है। 2005 संशोधन ने कृषि भूमि से जुड़ी पुरानी राज्य-अपवाद व्यवस्था (धारा 4(2)) को भी हटा दिया। नीचे दिए गए राजस्थान/जोधपुर के उदाहरण केवल दृष्टांत हैं; कानून वही रहता है। फ़ोन/वीडियो परामर्श राजस्थान के बाहर के मुवक्किलों के लिए भी उपलब्ध है।
+
+▶ इस विषय पर वीडियो · 8:38
+
+Pita Ki Sampatti Me Beti Ka Haq — Puri Process | Vineeta Sharma 2020 Ke Baad
+
+हिंदू उत्तराधिकार अधिनियम, 1956 में वर्ष 2005 के संशोधन ने पुत्रियों को सहदायिकी (coparcenary) संपत्ति में पुत्रों के समान अधिकार दिया। संशोधित धारा 6 के अनुसार, सहदायिक की पुत्री जन्म से ही उसी प्रकार सहदायिक बन जाती है जैसे पुत्र, और उसके वही अधिकार एवं दायित्व होते हैं। यह अधिकार पैतृक संपत्ति, कृषि भूमि तथा संयुक्त हिंदू परिवार की संपत्ति पर समान रूप से लागू होता है।
+ 
+वर्षों तक यह प्रश्न विवादित रहा कि क्या यह अधिकार केवल तभी मिलेगा जब 2005 में पिता जीवित हो। उच्चतम न्यायालय की तीन-न्यायाधीशीय पीठ ने विनीता शर्मा बनाम राकेश शर्मा (2020) में निर्णायक रूप से स्पष्ट किया कि बेटी का सहदायिक अधिकार जन्म से उत्पन्न होता है और यह इस बात पर निर्भर नहीं करता कि 9 सितंबर 2005 को पिता जीवित था या नहीं। अर्थात् पिता का जीवित होना आवश्यक नहीं — अधिकार जन्मसिद्ध है।
+ 
+विवाह से अधिकार समाप्त नहीं होता। एक विवाहित बेटी भी समान सहदायिक बनी रहती है और पैतृक संपत्ति के बँटवारे की माँग कर सकती है। विवाह के कारण उसका हिस्सा न तो कम होता है और न समाप्त — यह एक व्यापक किंतु ग़लत धारणा है।
+ 
+राजस्थान में बेटी को कृषि भूमि (खातेदारी) में भी पुत्र के समान हिस्सा प्राप्त है। विनीता शर्मा के पश्चात् यह स्थिति और स्पष्ट हुई है। बेटी राजस्व अभिलेखों में अपने हिस्से के नामांतरण की माँग कर सकती है तथा आवश्यकता होने पर राजस्व न्यायालय में बँटवारे का दावा प्रस्तुत कर सकती है।
+ 
+अधिकार का दावा कैसे करें: बेटी संबंधित संपत्ति का बँटवारा माँगते हुए सिविल न्यायालय में बँटवारे का वाद (कृषि भूमि हेतु राजस्व न्यायालय में) प्रस्तुत कर सकती है, और अपने हिस्से की घोषणा एवं भौतिक पृथक्करण की प्रार्थना कर सकती है। यदि अन्य सह-हिस्सेदारों ने उसके हिस्से से इनकार करते हुए संपत्ति बेच दी हो, तो वह उस अंतरण को अपने अविभाजित हित की सीमा तक चुनौती दे सकती है।
+ 
+व्यवहार में सबसे अधिक भारी मंच (forum) का भेद पड़ता है, और यही वह जगह है जहाँ हक़ होते हुए भी दावा अटक जाता है। खातेदारी भूमि का बँटवारा राजस्थान काश्तकारी अधिनियम, 1955 की धारा 53 के अधीन होता है; उस अधिनियम की तृतीय अनुसूची इस वाद के लिए न्यायालय सहायक कलक्टर (Assistant Collector) बताती है, और परिसीमा वाले स्तंभ में उसके सामने None लिखा है। अर्थात् धारा 53 के बँटवारे पर कोई परिसीमा-अवधि चलती ही नहीं। विवाहित बेटी को प्रायः यह कहकर लौटा दिया जाता है कि अब बहुत देर हो गई। अनुसूची ऐसा नहीं कहती। दूसरी ओर धारा 207(2) सिविल न्यायालय को ऐसा वाद सुनने से रोकती है, और उसका स्पष्टीकरण जोड़ता है कि सिविल न्यायालय से माँगी गई राहत बड़ी, अतिरिक्त या भिन्न होने मात्र से मंच नहीं बदल जाता; इसलिए शहर का मकान और खातेदारी भूमि एक ही वाद-पत्र में नहीं जोड़े जा सकते। जोधपुर में अधिवक्ता: कौन-सा दावा किस मंच पर जाता है, यह अलग से क्रमवार रखा गया है।
+ 
+कुछ अपवाद ध्यान योग्य हैं: 20 दिसंबर 2004 से पूर्व हुए पंजीकृत बँटवारे या न्यायालय-डिक्री से तय विभाजन संरक्षित हैं, और स्वअर्जित संपत्ति का स्वामी अपनी इच्छानुसार वसीयत कर सकता है (उस पर जन्मसिद्ध अधिकार नहीं)। बँटवारे या उत्तराधिकार के दावे में परिसीमा एवं तथ्यों की भूमिका होती है, अतः विशिष्ट मामले में अधिवक्ता से परामर्श उचित है।
+ 
+जब बेटी स्वयं विदेश में रहती हो, तो हिस्सा प्रायः इसलिए संकट में नहीं आता कि अधिकार कमज़ोर है, बल्कि इसलिए कि नामांतरण और बँटवारा उसकी अनुपस्थिति में तय हो जाता है। ऐसी स्थिति में विशेष मुख्तारनामा (special power of attorney) और परिसीमा की अवधि निर्णायक हो जाती है — देखें विदेश में रहते हुए राजस्थान की विरासती भूमि को सुरक्षित रखना (English)।
+ 
+यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
+
+शुभम ओझा एवं एसोसिएट्स
+ 
+अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
+
+संबंधित लेख
+
+संपत्ति विधि
+राजस्थान में बँटवारे का वाद: पारिवारिक संपत्ति का विभाजन
+ संपत्ति विधि
+राजस्थान में कृषि भूमि का बँटवारा: धारा 53
+ संपत्ति विधि
+राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
+
+बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
+
+📞 Call Now
  💬 WhatsApp
 
 ---
@@ -2224,205 +2580,6 @@ Cheque Bounce under Section 138 of the Negotiable Instruments Act
 Bar Council of India Notice: This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.
 
 📞 Call
- 💬 WhatsApp
-
----
-
-# सरकारी कर्मचारी सेवा विवाद: CAT जोधपुर, Tribunal या High Court
-URL: https://shubhamojhaandassociates.com/articles/sarkari-karmchari-seva-vivad-cat-tribunal-rajasthan-hi.html
-
-मुख्य पृष्ठ›
- विधिक जानकारी›
- सरकारी कर्मचारी के सेवा विवाद
-
-सेवा विधि
-
-# सरकारी नौकरी में निलंबन, जाँच या पेंशन का विवाद — केस कहाँ और कैसे लड़ा जाता है?
-
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- अगस्त 2026
-
-केंद्र सरकार के कर्मचारी का सेवा विवाद Central Administrative Tribunal (CAT) में चलता है — राजस्थान में इसकी जोधपुर और जयपुर बेंच हैं। राजस्थान राज्य के कर्मचारी का मामला राजस्थान सिविल सेवा अपील अधिकरण या High Court में जाता है। निलंबन सज़ा नहीं है, पेंशन दान नहीं बल्कि अधिकार है, और विभागीय जाँच में सुनवाई का पूरा अवसर मिलना अनिवार्य है।
-
-कागज़ आपके पास हैं? नोटिस, आदेश या याचिका की फोटो WhatsApp पर +91 70230 51275 भेजी जा सकती है, या इसी नंबर पर कॉल करें (सोम–शनि, दोपहर 12 – रात 10 बजे)।
-
-एक नज़र में
-
-केंद्रीय कर्मचारी का forum — CAT: जोधपुर बेंच (उच्च न्यायालय के निकट) एवं जयपुर बेंच
- 
-CAT में आवेदन — Original Application (OA), धारा 19, Administrative Tribunals Act, 1985; परिसीमा सामान्यतः 1 वर्ष (धारा 21)
- 
-पूर्व शर्त — धारा 20: विभागीय appeal/representation पहले exhaust करनी होती है
- 
-राज्य कर्मचारी का forum — राजस्थान सिविल सेवा अपील अधिकरण (1976 अधिनियम), मुख्य पीठ जयपुर; अपील की अवधि 6 माह
- 
-High Court कब — अनुच्छेद 226 writ: जहाँ अधिकरण का क्षेत्राधिकार नहीं, अथवा अधिकरण के आदेश की judicial review (खंडपीठ)
- 
-आधार-स्तंभ निर्णय — L. Chandra Kumar (1997) · D.S. Nakara (1983) · ECIL v. B. Karunakar (1993)
-
-Central Administrative Tribunal का गठन एक केंद्रीय क़ानून — Administrative Tribunals Act, 1985 (अनुच्छेद 323A) — के अंतर्गत हुआ है और उसकी बेंचें पूरे भारत में हैं; यहाँ बताई गई प्रक्रिया हर राज्य में तैनात केंद्रीय कर्मचारी पर समान रूप से लागू होती है। राजस्थान सिविल सेवा अपील अधिकरण केवल राजस्थान सरकार के कर्मचारियों के लिए है। नीचे दिए गए जोधपुर के उदाहरण केवल दृष्टांत हैं। फ़ोन/वीडियो परामर्श राजस्थान के बाहर तैनात कर्मचारियों के लिए भी उपलब्ध है।
-
-▶ इस विषय पर वीडियो · 32 सेकंड
-
-Suspension Saza Nahi Hai — Subsistence Allowance Aapka Haq
-पूरा चैनल →
-
-## मैं केंद्र सरकार का कर्मचारी हूँ — मेरा केस कहाँ चलेगा?
- 
-Railway, डाक विभाग, केंद्रीय मंत्रालय और defence के civilian कर्मचारी — इन सबकी भर्ती और service conditions से जुड़े विवाद CAT सुनता है। सशस्त्र बलों के सदस्य इसमें नहीं आते; उनके लिए अलग व्यवस्था है। राजस्थान में CAT की दो बेंच हैं — जोधपुर और जयपुर। जोधपुर बेंच उच्च न्यायालय के निकट बैठती है और पश्चिमी राजस्थान — जोधपुर, बाड़मेर, जैसलमेर, बीकानेर, अजमेर — के कर्मचारियों के मामले सुनती है।
- 
-मामला Original Application (OA) दायर करने से शुरू होता है — धारा 19, Administrative Tribunals Act, 1985। दो प्रावधान व्यवहार में सबसे अधिक निर्णायक सिद्ध होते हैं। धारा 20 कहती है कि अधिकरण सामान्यतः तब तक आवेदन ग्रहण नहीं करेगा जब तक कर्मचारी विभाग के भीतर उपलब्ध appeal या representation का रास्ता पूरा न कर ले। धारा 21 परिसीमा तय करती है — प्रतिकूल आदेश से सामान्यतः एक वर्ष के भीतर। जोधपुर की प्रैक्टिस में मैंने देखा है कि कर्मचारी वर्षों विभागीय पत्राचार में लगा रहता है और जब अधिकरण पहुँचता है तब तक सबसे बड़ी बाधा उसके मामले का गुण-दोष नहीं, बल्कि यही परिसीमा बन चुकी होती है। प्रतिकूल आदेश की तारीख़ को उसी दिन नोट कर लेना चाहिए।
-
-## राजस्थान सरकार का कर्मचारी कहाँ जाए?
- 
-राज्य कर्मचारियों के लिए अलग व्यवस्था है — राजस्थान सिविल सेवा अपील अधिकरण, जो Rajasthan Civil Services (Service Matters Appellate Tribunals) Act, 1976 के अंतर्गत गठित है। Seniority, promotion, pay fixation, transfer और pension जैसे मामले इसके समक्ष आते हैं। अपील आदेश से 6 माह के भीतर प्रस्तुत करनी होती है, और उससे पहले विभागीय appeal का रास्ता पूरा करना होता है। मुख्य पीठ जयपुर में है। जोधपुर में एक स्थायी बेंच मई 2023 में स्वीकृत की गई थी (उच्च न्यायालय का पुराना heritage भवन); अपील दाख़िल करने से पहले अधिकरण की मौजूदा बैठक-व्यवस्था की पुष्टि कर लेना उचित रहता है।
- 
-कुछ श्रेणियाँ अधिकरण की परिधि से बाहर रखी गई हैं — जैसे न्यायपालिका के कर्मचारी और लोक सेवा आयोग से जुड़े मामले — और जहाँ नियम की संवैधानिक वैधता को ही चुनौती देनी हो, वहाँ भी अधिकरण उपयुक्त forum नहीं। ऐसे मामले सीधे राजस्थान उच्च न्यायालय में अनुच्छेद 226 की writ petition से जाते हैं। कौन-सा दरवाज़ा सही है यह तय करना पहला और सबसे महँगा निर्णय होता है — ग़लत forum में वर्ष भर लगाकर लौटना असामान्य नहीं। writ के दायरे पर विस्तार से देखें Writ Petitions under Articles 226 & 227 (English) और Service Law Matters: Challenging Government Orders (English)।
-
-## सस्पेंड कर दिया गया है — क्या यह सज़ा है? वेतन मिलेगा?
- 
-निलंबन (suspension) सज़ा नहीं है। यह जाँच लंबित रहने तक की एक प्रशासनिक व्यवस्था है, इसीलिए निलंबन से पहले सुनवाई का अवसर देना आवश्यक नहीं माना जाता — यही बात कर्मचारी को सबसे अधिक विचलित करती है। परंतु इसका दूसरा पक्ष भी उतना ही स्पष्ट है: निलंबित कर्मचारी को जीवन-निर्वाह भत्ता (subsistence allowance) पाने का क़ानूनी अधिकार है, और भत्ते का भुगतान किए बिना निलंबन को अनिश्चित काल तक खींचना टिकाऊ नहीं।
- 
-निलंबन के मामलों में असली प्रश्न प्रायः देरी का होता है, आरोप का नहीं। जब महीनों बीत जाएँ और चार्जशीट तक न दी गई हो, तो निलंबन अपना उद्देश्य खो देता है और वह स्वयं चुनौती का विषय बन जाता है। ऐसे मामलों में राहत की माँग सामान्यतः दो रूपों में की जाती है — निलंबन आदेश को रद्द कराना, या जाँच को समयबद्ध कराना और भत्ते का भुगतान सुनिश्चित कराना।
-
-## विभागीय जाँच (departmental inquiry) में मेरे क्या अधिकार हैं?
- 
-संविधान का अनुच्छेद 311 सरकारी कर्मचारी को दो संरक्षण देता है — उसे नियुक्ति प्राधिकारी से नीचे का अधिकारी पदच्युत नहीं कर सकता, और उचित जाँच तथा सुनवाई के अवसर के बिना dismissal, removal या rank में कमी नहीं की जा सकती। राजस्थान में major penalty की चार्जशीट Rajasthan Civil Services (Classification, Control & Appeal) Rules, 1958 के अंतर्गत दी जाती है — कर्मचारी इसे प्रायः "16 CCA नोटिस" कहते हैं।
- 
-जाँच में जो अधिकार व्यवहार में मामले का रुख़ बदलते हैं, वे ये हैं:
-
-आरोपों की स्पष्ट सूची (Article of Charge) और imputations का विवरण मिलना
- 
-जिन दस्तावेज़ों पर विभाग निर्भर है, उनकी प्रति एवं निरीक्षण का अवसर
- 
-विभागीय गवाहों से cross-examination और अपने बचाव के गवाह प्रस्तुत करने का अधिकार
- 
-जाँच अधिकारी का स्वतंत्र होना — वही व्यक्ति शिकायतकर्ता और जाँचकर्ता दोनों नहीं हो सकता
- 
-जाँच रिपोर्ट की प्रति पाकर उस पर जवाब देने का अवसर — Managing Director, ECIL v. B. Karunakar (1993)
-
-अंतिम बिंदु पर विशेष ध्यान दें। रिपोर्ट दिए बिना सुनाई गई सज़ा दोषपूर्ण मानी जाती है, और यह वह चूक है जो विभाग सबसे अधिक करता है। इसी तरह सज़ा का आरोप के अनुपात में होना भी आवश्यक है — अनुपातहीन दंड अनुच्छेद 14 के आधार पर चुनौती योग्य रहता है।
-
-## पेंशन रोक दी गई या नहीं मिल रही — क्या करूँ?
- 
-इस विषय पर विधि की स्थिति कर्मचारी के पक्ष में स्पष्ट है। D.S. Nakara बनाम भारत संघ (1983) में उच्चतम न्यायालय ने कहा कि पेंशन सरकार की कृपा नहीं, सेवा से अर्जित अधिकार है। इसके बाद State of Jharkhand बनाम Jitendra Kumar Srivastava (2013) में यह और आगे बढ़ा — पेंशन और gratuity अनुच्छेद 300A के अर्थ में संपत्ति हैं, और विधि के अधिकार के बिना इन्हें रोका नहीं जा सकता। राजस्थान के राज्य कर्मचारियों पर Rajasthan Civil Services (Pension) Rules लागू होते हैं।
- 
-व्यवहारिक क्रम वही रहता है — पहले विभाग को लिखित representation, और उत्तर न मिलने या अस्वीकृति पर सक्षम forum (CAT, अधिकरण या उच्च न्यायालय)। सेवानिवृत्त कर्मचारी के मामले में हर बीता महीना सीधा आर्थिक नुक़सान है, इसलिए यहाँ परिसीमा पर विशेष सतर्कता रखनी चाहिए; प्रतीक्षा का कोई प्रतिफल नहीं मिलता।
-
-## क्या ट्रांसफर रुकवाया जा सकता है?
- 
-सीधा उत्तर — transfer सेवा की एक शर्त है, और किसी स्थान विशेष पर बने रहने का vested right किसी कर्मचारी को नहीं होता। न्यायालय transfer के मामलों में दख़ल कम ही देते हैं। अपवाद तीन हैं: दुर्भावना से किया गया (mala fide) transfer, अर्थात् जो व्यवहार में सज़ा हो; लागू transfer policy या नियमों के विरुद्ध किया गया transfer; और ऐसे अधिकारी द्वारा किया गया आदेश जो उसके लिए सक्षम ही नहीं था। ईमानदार सलाह यह है कि हर transfer का मुक़दमा नहीं बनता — जहाँ बनता है, आधार लगभग हमेशा इन्हीं तीन में से एक होता है।
-
-## अन्य सामान्य विवाद
-
-अनुकंपा नियुक्ति (compassionate appointment) — Umesh Kumar Nagpal v. State of Haryana (1994): यह वंशानुगत अधिकार नहीं, बल्कि कमाने वाले की मृत्यु से आए तात्कालिक संकट से परिवार को उबारने की व्यवस्था है; इसीलिए समय रहते आवेदन करना निर्णायक होता है।
- 
-नियमितीकरण (regularisation) — Secretary, State of Karnataka v. Umadevi (2006): लंबे समय तक काम करते रहने मात्र से नियमितीकरण का अधिकार नहीं बनता; अपवाद सीमित और परिभाषित हैं।
- 
-समान कार्य, समान वेतन — State of Punjab v. Jagjit Singh (2016): अस्थायी रूप से नियुक्त कर्मचारी भी, समान कार्य करने पर, समान वेतन का हक़दार हो सकता है।
- 
-Promotion, seniority और ACR/APAR — प्रतिकूल entry का कर्मचारी को communicate किया जाना आवश्यक है; sealed cover प्रक्रिया के अपने अलग नियम हैं।
-
-## CAT के आदेश से असंतुष्ट हूँ — आगे क्या?
- 
-यहाँ एक व्यापक भ्रांति है कि अधिकरण के बाद सीधे उच्चतम न्यायालय जाया जा सकता है। L. Chandra Kumar बनाम भारत संघ (1997) में सात-न्यायाधीशीय पीठ ने यह स्पष्ट कर दिया कि अधिकरण के आदेशों पर उच्च न्यायालय का judicial review संविधान की आधारभूत संरचना का हिस्सा है। अर्थात् अधिकरण के आदेश की चुनौती पहले संबंधित उच्च न्यायालय की खंडपीठ के समक्ष अनुच्छेद 226/227 की writ petition से होती है। CAT की जोधपुर बेंच के आदेश की चुनौती राजस्थान उच्च न्यायालय, जोधपुर में प्रस्तुत की जाती है — और यही कारण है कि सेवा-मामलों में जोधपुर बेंच का होना पश्चिमी राजस्थान के कर्मचारियों के लिए व्यावहारिक रूप से बड़ी सुविधा है: अधिकरण और उच्च न्यायालय, दोनों एक ही शहर में।
-
-दो संवैधानिक खंड ऐसे हैं जिनका सेवा-मामलों में सबसे अधिक व्यावहारिक महत्व है और जिनका उल्लेख प्रायः छूट जाता है। पहला, अनुच्छेद 226(2)। उसका पाठ यह है कि खंड (1) की शक्ति उस उच्च न्यायालय द्वारा भी प्रयोग की जा सकती है जिसके क्षेत्र में वाद-कारण (cause of action), पूर्णतः या अंशतः, उत्पन्न हुआ हो, इस तथ्य के होते हुए भी कि उस सरकार या प्राधिकारी का मुख्यालय, अथवा उस व्यक्ति का निवास, उन क्षेत्रों के भीतर नहीं है। जोधपुर में तैनात कर्मचारी के विरुद्ध आदेश प्रायः जयपुर या दिल्ली से निकलता है। यही खंड उस आपत्ति का उत्तर है कि विभाग तो कहीं और बैठता है। दूसरा, अनुच्छेद 227(1) का शब्द-चयन: अधीक्षण (superintendence) "सभी न्यायालयों तथा अधिकरणों" पर है। जोधपुर में बैठी CAT बेंच इसी कारण जोधपुर पीठ के अधीक्षण में है, और ऊपर बताया गया L. Chandra Kumar वाला मार्ग इसी पाठ पर टिका है।
-
-जिस खंड को L. Chandra Kumar ने संकुचित किया, वह अनुच्छेद 323A(2)(d) है। उसने संसद को यह अनुमति दी थी कि वह अनुच्छेद 136 के अधीन उच्चतम न्यायालय को छोड़कर सभी न्यायालयों का क्षेत्राधिकार वर्जित कर दे। वह वर्जन अब उच्च न्यायालय पर लागू नहीं होता। एक और खंड यहाँ काम का है। अनुच्छेद 226(3) के अनुसार, यदि किसी पक्ष के विरुद्ध अंतरिम आदेश (stay या injunction) उसे याचिका तथा समर्थक दस्तावेज़ों की प्रतियाँ दिए बिना और सुनवाई का अवसर दिए बिना पारित हुआ है, तो वह पक्ष उसे निरस्त कराने का आवेदन कर सकता है, और उच्च न्यायालय को उसका निस्तारण दो सप्ताह में करना होता है; न करने पर वह अंतरिम आदेश स्वतः निरस्त हो जाता है। transfer और seniority के मामलों में एकपक्षीय stay असामान्य नहीं है, इसलिए यह उपबंध दोनों पक्षों को पढ़ना चाहिए। किस आदेश की चुनौती किस मंच पर और किस पीठ के समक्ष रखी जाती है, इसका ब्यौरा जोधपुर में अधिवक्ता: सेवा-मामला किस पीठ के समक्ष पर है।
-
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। सेवा-मामलों में परिसीमा और लागू नियम विभाग एवं तथ्यों के अनुसार बदलते हैं; अपने विशिष्ट मामले में किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
- 
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
-
-संबंधित लेख
-
-सेवा विधि
-Service Law Matters: Challenging Government Orders Through Writ Petitions
- संवैधानिक विधि
-Writ Petitions under Articles 226 & 227
- सामान्य प्रश्न
-विधिक प्रश्नोत्तर — सामान्य कानूनी सवालों के जवाब
-
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
-
-📞 Call Now
- 💬 WhatsApp
-
----
-
-# बेटी का पैतृक संपत्ति में अधिकार: Vineeta Sharma के बाद
-URL: https://shubhamojhaandassociates.com/articles/daughter-ancestral-property-rights-rajasthan-hi.html
-
-मुख्य पृष्ठ›
- विधिक जानकारी›
- बेटी का पैतृक संपत्ति में अधिकार
-
-संपत्ति विधि
-
-# बेटी का पैतृक संपत्ति में अधिकार: विनीता शर्मा निर्णय के बाद की स्थिति
-
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- जून 2026
-
-हिंदू उत्तराधिकार अधिनियम, 1956 की धारा 6 (2005 संशोधन) और विनीता शर्मा बनाम राकेश शर्मा (2020) के अनुसार बेटी जन्म से ही पैतृक/सहदायिकी (coparcenary) संपत्ति में पुत्र के समान सहदायिक है। यह अधिकार जन्मसिद्ध है — इसके लिए 9 सितंबर 2005 को पिता का जीवित होना आवश्यक नहीं, और विवाह से यह अधिकार समाप्त नहीं होता।
-
-एक नज़र में
-
-सहदायिक अधिकार — बेटी जन्म से पुत्र के समान सहदायिक (coparcener); धारा 6, हिंदू उत्तराधिकार अधिनियम, 1956 (2005 संशोधन)
- 
-अग्रणी निर्णय — विनीता शर्मा बनाम राकेश शर्मा (2020): अधिकार जन्मसिद्ध, 9 सितंबर 2005 को पिता का जीवित होना आवश्यक नहीं
- 
-विवाहित बेटी — विवाह से हिस्सा न कम होता है, न समाप्त
- 
-कृषि भूमि — राजस्थान में खातेदारी भूमि में भी समान हिस्सा; नामांतरण एवं राजस्व न्यायालय में बँटवारा
- 
-अपवाद — 20 दिसंबर 2004 से पूर्व का पंजीकृत बँटवारा या न्यायालय-डिक्री से हुआ विभाजन संरक्षित
- 
-मंच (forum) — बँटवारे का वाद सिविल न्यायालय में; कृषि भूमि हेतु राजस्व न्यायालय
-
-हिंदू उत्तराधिकार अधिनियम, 1956 एक केंद्रीय कानून है और पूरे भारत में समान रूप से लागू होता है — यह सभी हिंदू, बौद्ध, जैन एवं सिख परिवारों पर लागू होता है। 2005 संशोधन ने कृषि भूमि से जुड़ी पुरानी राज्य-अपवाद व्यवस्था (धारा 4(2)) को भी हटा दिया। नीचे दिए गए राजस्थान/जोधपुर के उदाहरण केवल दृष्टांत हैं; कानून वही रहता है। फ़ोन/वीडियो परामर्श राजस्थान के बाहर के मुवक्किलों के लिए भी उपलब्ध है।
-
-▶ इस विषय पर वीडियो · 8:38
-
-Pita Ki Sampatti Me Beti Ka Haq — Puri Process | Vineeta Sharma 2020 Ke Baad
-
-हिंदू उत्तराधिकार अधिनियम, 1956 में वर्ष 2005 के संशोधन ने पुत्रियों को सहदायिकी (coparcenary) संपत्ति में पुत्रों के समान अधिकार दिया। संशोधित धारा 6 के अनुसार, सहदायिक की पुत्री जन्म से ही उसी प्रकार सहदायिक बन जाती है जैसे पुत्र, और उसके वही अधिकार एवं दायित्व होते हैं। यह अधिकार पैतृक संपत्ति, कृषि भूमि तथा संयुक्त हिंदू परिवार की संपत्ति पर समान रूप से लागू होता है।
- 
-वर्षों तक यह प्रश्न विवादित रहा कि क्या यह अधिकार केवल तभी मिलेगा जब 2005 में पिता जीवित हो। उच्चतम न्यायालय की तीन-न्यायाधीशीय पीठ ने विनीता शर्मा बनाम राकेश शर्मा (2020) में निर्णायक रूप से स्पष्ट किया कि बेटी का सहदायिक अधिकार जन्म से उत्पन्न होता है और यह इस बात पर निर्भर नहीं करता कि 9 सितंबर 2005 को पिता जीवित था या नहीं। अर्थात् पिता का जीवित होना आवश्यक नहीं — अधिकार जन्मसिद्ध है।
- 
-विवाह से अधिकार समाप्त नहीं होता। एक विवाहित बेटी भी समान सहदायिक बनी रहती है और पैतृक संपत्ति के बँटवारे की माँग कर सकती है। विवाह के कारण उसका हिस्सा न तो कम होता है और न समाप्त — यह एक व्यापक किंतु ग़लत धारणा है।
- 
-राजस्थान में बेटी को कृषि भूमि (खातेदारी) में भी पुत्र के समान हिस्सा प्राप्त है। विनीता शर्मा के पश्चात् यह स्थिति और स्पष्ट हुई है। बेटी राजस्व अभिलेखों में अपने हिस्से के नामांतरण की माँग कर सकती है तथा आवश्यकता होने पर राजस्व न्यायालय में बँटवारे का दावा प्रस्तुत कर सकती है।
- 
-अधिकार का दावा कैसे करें: बेटी संबंधित संपत्ति का बँटवारा माँगते हुए सिविल न्यायालय में बँटवारे का वाद (कृषि भूमि हेतु राजस्व न्यायालय में) प्रस्तुत कर सकती है, और अपने हिस्से की घोषणा एवं भौतिक पृथक्करण की प्रार्थना कर सकती है। यदि अन्य सह-हिस्सेदारों ने उसके हिस्से से इनकार करते हुए संपत्ति बेच दी हो, तो वह उस अंतरण को अपने अविभाजित हित की सीमा तक चुनौती दे सकती है।
- 
-व्यवहार में सबसे अधिक भारी मंच (forum) का भेद पड़ता है, और यही वह जगह है जहाँ हक़ होते हुए भी दावा अटक जाता है। खातेदारी भूमि का बँटवारा राजस्थान काश्तकारी अधिनियम, 1955 की धारा 53 के अधीन होता है; उस अधिनियम की तृतीय अनुसूची इस वाद के लिए न्यायालय सहायक कलक्टर (Assistant Collector) बताती है, और परिसीमा वाले स्तंभ में उसके सामने None लिखा है। अर्थात् धारा 53 के बँटवारे पर कोई परिसीमा-अवधि चलती ही नहीं। विवाहित बेटी को प्रायः यह कहकर लौटा दिया जाता है कि अब बहुत देर हो गई। अनुसूची ऐसा नहीं कहती। दूसरी ओर धारा 207(2) सिविल न्यायालय को ऐसा वाद सुनने से रोकती है, और उसका स्पष्टीकरण जोड़ता है कि सिविल न्यायालय से माँगी गई राहत बड़ी, अतिरिक्त या भिन्न होने मात्र से मंच नहीं बदल जाता; इसलिए शहर का मकान और खातेदारी भूमि एक ही वाद-पत्र में नहीं जोड़े जा सकते। जोधपुर में अधिवक्ता: कौन-सा दावा किस मंच पर जाता है, यह अलग से क्रमवार रखा गया है।
- 
-कुछ अपवाद ध्यान योग्य हैं: 20 दिसंबर 2004 से पूर्व हुए पंजीकृत बँटवारे या न्यायालय-डिक्री से तय विभाजन संरक्षित हैं, और स्वअर्जित संपत्ति का स्वामी अपनी इच्छानुसार वसीयत कर सकता है (उस पर जन्मसिद्ध अधिकार नहीं)। बँटवारे या उत्तराधिकार के दावे में परिसीमा एवं तथ्यों की भूमिका होती है, अतः विशिष्ट मामले में अधिवक्ता से परामर्श उचित है।
- 
-जब बेटी स्वयं विदेश में रहती हो, तो हिस्सा प्रायः इसलिए संकट में नहीं आता कि अधिकार कमज़ोर है, बल्कि इसलिए कि नामांतरण और बँटवारा उसकी अनुपस्थिति में तय हो जाता है। ऐसी स्थिति में विशेष मुख्तारनामा (special power of attorney) और परिसीमा की अवधि निर्णायक हो जाती है — देखें विदेश में रहते हुए राजस्थान की विरासती भूमि को सुरक्षित रखना (English)।
- 
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
- 
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
-
-संबंधित लेख
-
-संपत्ति विधि
-राजस्थान में बँटवारे का वाद: पारिवारिक संपत्ति का विभाजन
- संपत्ति विधि
-राजस्थान में कृषि भूमि का बँटवारा: धारा 53
- संपत्ति विधि
-राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
-
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
-
-📞 Call Now
  💬 WhatsApp
 
 ---
@@ -2665,88 +2822,130 @@ Bar Council of India Notice: This website is for informational purposes only and
 
 ---
 
-# FIR कैसे रद्द होती है: BNSS धारा 528 Quashing Petition
-URL: https://shubhamojhaandassociates.com/articles/fir-kaise-radad-karaen-bnss-528-hi.html
+# Power of Attorney from Abroad for Property in India
+URL: https://shubhamojhaandassociates.com/articles/power-of-attorney-from-abroad-property-india.html
 
-मुख्य पृष्ठ›
- विधिक जानकारी›
- FIR Quashing — BNSS धारा 528
+Home
+ ›
+ Legal Insights
+ ›
+ Power of Attorney from Abroad
 
-आपराधिक विधि
+Property Law
 
-# FIR कैसे रद्द होती है — BNSS धारा 528 के तहत Quashing Petition
+# I live abroad and must give a power of attorney for property in India. What must it say, and what can it not do?
 
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- जून 2026
-
-अगर किसी के खिलाफ FIR दर्ज हो जाए — चाहे सच्ची हो या झूठी — तो सबसे पहला सवाल यही आता है: क्या इसे रद्द कराया जा सकता है? जवाब है: हाँ, कुछ परिस्थितियों में। FIR Quashing वह प्रक्रिया है जिसमें High Court अपनी inherent power का इस्तेमाल करके एक दर्ज FIR या पूरी आपराधिक कार्यवाही को पूरी तरह रद्द कर देती है। BNSS 2023 की धारा 528 (पुराने CrPC की धारा 482 का नया रूप) यही power देती है। Rajasthan HC को यह power प्राप्त है और वह इसका प्रयोग बहुत carefully करती है, क्योंकि यह एक extraordinary remedy है, routine नहीं। एक बात शुरू में ही समझ लें: quashing होती है FIR के face value पर, यानी petition के समय police की final report का इंतज़ार नहीं होता, न ही trial का।
-
-धारा 528 BNSS का मूल पाठ (Bare Act) और हिंदी सार
-
-भारतीय नागरिक सुरक्षा संहिता, 2023 (अधिनियम सं. 46 of 2023)। शीर्ष टिप्पणी: “Saving of inherent powers of High Court.” अंग्रेज़ी पाठ यथावत; हिंदी सार अनौपचारिक अनुवाद है, प्रामाणिक पाठ अंग्रेज़ी ही है। पाठ 23 सितम्बर 2026 को bare Act से मिलाया गया।
-
-528.Nothing in this Sanhita shall be deemed to limit or affect the inherent powers of the High Court to make such orders as may be necessary to give effect to any order under this Sanhita, or to prevent abuse of the process of any Court or otherwise to secure the ends of justice.
-
-हिंदी सार 528: इस संहिता की कोई भी बात High Court की उन अंतर्निहित (inherent) शक्तियों को सीमित या प्रभावित नहीं करेगी, जिनके तहत वह ऐसे आदेश कर सके जो इस संहिता के किसी आदेश को प्रभावी बनाने के लिए, या किसी न्यायालय की प्रक्रिया के दुरुपयोग (abuse of process) को रोकने के लिए, या न्याय के उद्देश्यों की पूर्ति के लिए आवश्यक हों।
-
-धारा 528 पुरानी CrPC की धारा 482 का शब्दशः वही पाठ है। केवल एक शब्द बदला है: “this Code” की जगह “this Sanhita”। इसीलिए धारा 482 पर बने सारे निर्णय R. P. Kapur (1960), Bhajan Lal (1992), Gian Singh (2012) आज भी उतने ही लागू हैं। ध्यान रहे, यह शक्ति केवल High Court के पास है; Sessions Court या Magistrate FIR quash नहीं कर सकते।  ·  Read this section in English →
-
-Rajasthan HC में quashing के जो grounds काम करते हैं वो मुख्यतः Supreme Court के दो landmark cases से आते हैं: R. P. Kapur v. State of Punjab (1960) और State of Haryana v. Bhajan Lal (1992)। सबसे मज़बूत ground यह है कि FIR में कोई cognizable offence face value पर भी नहीं बनता, यानी अगर FIR में लिखी गई सारी बातें सच मान भी लें, तो भी कानूनी अपराध नहीं बनता। दूसरा ground जो Jodhpur में बहुत frequently आता है: किसी civil या property dispute को criminal रंग दे दिया गया हो। पैसे का लेन-देन हो, ज़मीन का झगड़ा हो, business में मतभेद हो, और FIR दबाव बनाने के लिए ठोक दी गई हो। तीसरा ground जो courts बहुत seriously लेते हैं: दोनों parties के बीच genuine settlement हो गई हो। यह खासतौर पर compoundable offences में काम करता है।
+By Shubham Ojha, BA LL.B., LL.M., ICWA (Foundation) | Advocate, Rajasthan High Court, Jodhpur
  
-अब एक बात absolutely clear कर दें: कुछ cases में quashing नहीं मिलती, चाहे कितना भी ज़ोर लगाएं। Murder, rape, POCSO, NDPS, corruption जैसे heinous offences में HC quashing petition dismiss कर देती है। Supreme Court ने Narinder Singh v. State of Punjab (2014) में साफ कहा: serious और heinous offences में settlement का ground नहीं चलता, चाहे दोनों parties राज़ी हों। इन cases में quashing की जगह bail application पर focus करना कहीं ज़्यादा practical है। BNSS §482 (sessions court bail) और §483 (HC bail): ये रास्ते उन cases में ज़्यादा काम के हैं जहाँ quashing का scope नहीं है।
+ August 2026
+
+A power of attorney executed outside India is recognised for registration only where it has been executed before, and authenticated by, a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government — Section 33(1)(c) of the Registration Act, 1908. It may then be stamped in India within three months after it is first received here.
+
+At a glance
+
+Who may authenticate it, if you do not reside in India — a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government. These alone are recognised (Section 33(1)(c), Registration Act, 1908)
  
-Quashing petition High Court की criminal side में file होती है। इसके साथ सबसे ज़रूरी relief माँगी जाती है: Interim Stay on Arrest। यह petition pending रहने तक कोई गिरफ्तारी नहीं होती। यह practically बहुत valuable होता है। Rajasthan HC में generally petition file होते ही अगली या उसके बाद वाली date पर notice issue होती है और interim protection पर सुनवाई होती है। Timeline के बारे में honestly बताएं: final quashing में 6 महीने से 2 साल तक कुछ भी हो सकता है, court का workload और opposing party का cooperation बहुत कुछ तय करता है। पर interim protection आमतौर पर जल्दी मिल जाती है, और यही कारण है कि quashing petition को लोग जल्दी file करते हैं।
+What that recognition is for — it lets your agent present the document for registration on your behalf (Section 32(c), Registration Act, 1908)
  
-Documents की बात करें तो quashing petition के लिए कम से कम ये चाहिए: FIR की certified copy (धारा 173(2) BNSS के तहत informant या victim को यह मुफ़्त और तुरंत मिलती है; आरोपी को FIR और बाक़ी police papers धारा 230 BNSS के तहत Magistrate से मिलते हैं, पेशी के चौदह दिन के भीतर, मुफ़्त), chargesheet अगर file हो चुकी है, settlement deed या agreement अगर ground वही है, और जो भी documents यह दिखाएं कि FIR दुर्भावनापूर्ण (malicious) है या civil dispute को criminal बनाया गया है। एक practical बात जो लोग अक्सर miss करते हैं: quashing petition file करने से पहले anticipatory bail का option भी साथ में explore करें। दोनों simultaneously चल सकती हैं। अगर petition में time लगे, तो anticipatory bail उस दौरान protect करती है। यह combined strategy Rajasthan HC में काफी common है और समझदारी भरी भी।
-
-अक्सर पूछे जाने वाले सवाल
-
-FIR Quashing और Bail में क्या फर्क है?
-Bail गिरफ्तारी के बाद या पहले (anticipatory) मिलने वाली राहत है — केस चलता रहता है। Quashing (BNSS §528) पूरी FIR/proceedings को ही रद्द कर देती है — केस वहीं खत्म। Quashing मिलना कठिन पर permanent relief है; bail मिलना अपेक्षाकृत आसान है।
-
-FIR Quashing में कितना समय लगता है?
-High Court में quashing petition पर interim stay generally 1-4 सुनवाइयों में मिल जाती है। Final quashing में 6 महीने से 2 साल तक लग सकते हैं — court का workload, opposing party का response, और grounds पर निर्भर करता है।
-
-Settlement होने के बाद भी FIR रद्द होगी?
-Compoundable offences में settlement quashing का valid और strong ground है। Supreme Court ने Gian Singh v. State of Punjab (2012) में कहा — personal disputes में जहाँ दोनों parties ने सुलह कर ली, HC justice का उद्देश्य पूरा हुआ मानकर quash कर सकती है। Non-compoundable serious offences में यह ground नहीं चलता।
-
-जो सवाल असल में पूछे जाते हैं
-
-चैम्बर में ये सवाल जिन शब्दों में आते हैं, लगभग उन्हीं शब्दों में।
-
-FIR रद्द (quash) होने का मतलब क्या है, और क्या उसके बाद भी मुक़दमा चलता रहेगा?
-Quashing का मतलब है कि FIR और उससे निकली पूरी criminal proceeding शुरू से ख़त्म मानी जाती है। यह bail से बिल्कुल अलग चीज़ है। Bail में मुक़दमा चलता रहता है और आप बाहर रहते हैं; quashing में मुक़दमा ही नहीं बचता।
-
-Quashing petition दाख़िल करने की कोई समय-सीमा (limitation) है?
-धारा 528 में कोई limitation तय नहीं की गई है। पर देरी का कारण petition में बताना पड़ता है। जितनी देर होगी, court उतना ही यह पूछेगा कि अब तक चुप क्यों रहे।
-
-क्या police ख़ुद FIR रद्द कर सकती है, या Magistrate कर सकता है?
-नहीं। Inherent power केवल High Court के पास है। Police अधिक से अधिक final report लगा सकती है, और उसे स्वीकार या अस्वीकार करना Magistrate का काम है; वह FIR quash करना नहीं कहलाता।
-
-एक ही FIR में पाँच आरोपी हैं और समझौता सिर्फ़ दो से हुआ है। बाक़ियों का क्या होगा?
-Court समझौते के आधार पर केवल उन्हीं आरोपियों के विरुद्ध कार्यवाही रद्द कर सकता है जिनसे समझौता हुआ है। बाक़ियों पर मुक़दमा चलता रहेगा। ऐसे मामलों में हर आरोपी की अलग भूमिका देखी जाती है, इसलिए एक का रद्द होना दूसरे के लिए अपने आप कोई आधार नहीं बनता।
-
-जोधपुर bench में settlement के आधार पर quashing हो तो complainant को जाना ज़रूरी है?
-समझौते वाली petition में court को यह तसल्ली चाहिए कि समझौता असली है और दबाव में नहीं हुआ। इसीलिए व्यवहार में complainant की पहचान और बयान की अपेक्षा की जाती है, और केवल काग़ज़ी affidavit पर बात अक्सर आगे नहीं बढ़ती।
-
-धारा 528 की petition उच्च न्यायालय में जाती है, जोधपुर क्षेत्राधिकार के मामलों में जोधपुर पीठ में, और पहली बैठक में FIR, कोई अंतरिम आदेश तथा समझौते का ब्यौरा साथ चाहिए होता है। चैंबर का विवरण, नामांकन संख्या और समय जोधपुर में अधिवक्ता — किस न्यायालय में कौन-सा काम पृष्ठ पर है।
-
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
+Time to stamp it in India — three months after it is first received in India, not three months from signature abroad (Section 18(1), Indian Stamp Act, 1899); where a private person cannot duly stamp it, it goes to the Collector within the same three months (Section 18(2))
  
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
+What the attorney may sign — the donee may execute an instrument in his own name and signature, by the donor's authority, and it is as effectual in law as if the donor had signed it (Section 2, Powers-of-Attorney Act, 1882)
+ 
+Proof in court — a power of attorney authenticated by those officers is presumed to have been so executed and authenticated (Section 84, Bharatiya Sakshya Adhiniyam, 2023)
+ 
+What it can never do — transfer ownership. "A SA/GPA/WILL transaction does not convey any title nor create any interest in an immovable property"; property passes "only by a registered deed of conveyance" (Suraj Lamp & Industries (P) Ltd. v. State of Haryana, Supreme Court, 11 October 2011)
 
-संबंधित लेख
+Jurisdiction. The Registration Act, 1908, the Indian Stamp Act, 1899, the Powers-of-Attorney Act, 1882 and the Bharatiya Sakshya Adhiniyam, 2023 are central statutes and apply across India. Rates of stamp duty, and some of the procedure at the registering office, are dealt with by the State concerned, so the duty payable and the local practice must be confirmed for the district where the property lies. Where this note refers to the jamabandi and to mutation, that material is specific to Rajasthan. Consultation by telephone and video is available for clients residing outside India; Section 30 of the Advocates Act, 1961 entitles an advocate to practise throughout India.
 
-आपराधिक विधि
-गिरफ्तारी के बाद आपके कानूनी अधिकार — BNSS 2023
- आपराधिक विधि
-Anticipatory Bail: अग्रिम ज़मानत की सम्पूर्ण प्रक्रिया
- आपराधिक विधि
-FIR Registration: Your Rights Under BNSS 2023
+## Who can authenticate it where you are?
 
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
+This is the question to settle before anything is drafted, because getting it wrong is not a drafting error that can be corrected later — the document simply will not be accepted, and by the time that is discovered the signatory is usually back in another country.
 
-📞 Call Now
+Section 33(1) of the Registration Act, 1908 is unusually blunt about it. For the purposes of Section 32, it says, "the following powers-of-attorney shall alone be recognized". Clause (c) governs the person living overseas: if the principal, at the time of executing the power of attorney, does not reside in India, what is recognised is a power of attorney "executed before and authenticated by a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government".
+
+Two words in that clause do most of the work, and both are routinely missed. The first is "before". The instrument must be executed before the authenticating officer — signed in his presence, not signed at home on Sunday and carried to him on Monday for a stamp. The second is "alone". A power of attorney witnessed by two colleagues, or sworn before an employer, or attested at a bank, is not within the clause however genuine it is.
+
+Section 32 explains what the recognition is for. Every document to be registered must be presented at the proper registration office by the person executing or claiming under it, by his representative or assign, or — clause (c) — "by the agent of such person, representative or assign, duly authorised by power-of-attorney executed and authenticated in manner hereinafter mentioned". Sections 32 and 33 are therefore one mechanism read in two halves: 32 says who may walk into the Sub-Registrar's office with the deed, and 33 says which power of attorney entitles him to.
+
+The clause offers a choice, and in practice the choice matters. Authentication at the Indian Mission — Embassy, High Commission or Consulate — takes longer and costs the client a working day, but it is the route no registering office has ever queried in front of me. A foreign Notary Public is squarely within the clause, and is usually far quicker; whether the office where the property lies will also want the notarial act legalised or apostilled before it accepts the document is a matter of local practice rather than of the section, and it is worth one telephone call to the Sub-Registrar concerned before the client signs, not after. I have had to send a client in Sharjah back to a notary twice for want of that call.
+
+## General or special: which one should actually be executed?
+
+Almost every person who writes to me from abroad asks for a general power of attorney, and in most matters a general power is the wrong instrument.
+
+A general power authorises the holder to do a class of things — to manage, to let, to appear, to sell, sometimes all of them — in respect of everything the donor owns. A special power authorises named acts in respect of a named property. The convenience of the general power is real: one document, executed once, covers whatever comes up. That convenience is also exactly the risk, because the holder's authority does not lapse when the relationship does.
+
+A fair share of the property disputes that reach the Jodhpur Bench from families with a member overseas began with a general power given years earlier, in good faith, to the brother who was already looking after the land. Nobody withdrew it, because nobody remembered it existed. What is done under it while it subsists is done with the donor's authority, and the person on the other side of the transaction — the buyer, the bank — is entitled to look at the instrument and act on it.
+
+So the working rule I give is a narrow one. Execute a special power, confined to the specific property, described by khasra or plot number and by the record in which it stands; state the specific acts authorised; where a sale or a mortgage is contemplated, say so in terms rather than relying on a general clause; and give it an end date. A power of attorney with an expiry is a much smaller thing to have forgotten about than one without.
+
+## What must the document actually contain?
+
+Section 2 of the Powers-of-Attorney Act, 1882 sets the reason why the wording carries so much weight. The donee, it provides, "may, if he thinks fit, execute or do any instrument or thing in and with his own name and signature, and his own seal, where sealing is required, by the authority of the donor of the power; and every instrument and thing so executed and done, shall be as effectual in law as if it had been executed or done by the donee of the power in the name, and with the signature and seal, of the donor thereof."
+
+Read that carefully and the whole drafting discipline follows from four words: by the authority of the donor. The agent's signature binds the principal exactly so far as authority was given, and no further. Everything the instrument does not say, the agent cannot do. A deed signed outside the authority is not cured by the fact that the power of attorney was properly authenticated abroad.
+
+In practical terms the document needs the donor and the donee identified in full and consistently with their identity documents; the property identified by its record particulars, not by a description such as "my ancestral house"; each act authorised set out separately; an express statement of whether the donee may receive sale consideration, and into which account; a clear duration; and the manner of revocation. Where the donor is a non-resident, the document should also record the passport particulars used at the place of authentication, since that is the identity the authenticating officer certifies.
+
+One further point that is invisible until it is tested. Section 84 of the Bharatiya Sakshya Adhiniyam, 2023 provides that the Court "shall presume that every document purporting to be a power-of-attorney, and to have been executed before, and authenticated by, a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government, was so executed and authenticated." That presumption is worth a great deal in a contested suit, because it spares the donor the task of proving from abroad that he signed. It attaches to the mode of authentication, not to the elegance of the drafting — which is why the choice made in the first section of this note governs everything that comes after it.
+
+## How long is there to stamp it once it reaches India?
+
+Section 18(1) of the Indian Stamp Act, 1899 gives the period, and its wording repays attention: every instrument chargeable with duty "executed only out of India", other than a bill of exchange or a promissory note, "may be stamped within three months after it has been first received in India".
+
+The three months run from first receipt in India — not from the date of signature abroad, and not from the date the agent decides to use it. A power of attorney signed in Toronto in March and couriered to Jodhpur in September is in time if it is stamped by December. This is a genuinely useful provision for families who execute the document during a visit home and then send it on months later, and it is the one that is most often assumed to run the other way.
+
+Section 18(2) covers the case where the instrument cannot, given the description of stamp prescribed for it, be duly stamped by a private person. It may then be taken to the Collector within the same period of three months, and the Collector shall stamp it in the manner the State Government prescribes. The subsection is a route, not an extension: the three months are the same three months. What the duty comes to is fixed by the State schedule applicable where the instrument is used, and must be ascertained for that State — it is not a figure that can be assumed from another State's practice.
+
+## What a power of attorney cannot do
+
+It cannot transfer ownership. Not a well-drafted one, not a registered one, not one that recites that consideration has passed.
+
+In Suraj Lamp & Industries (P) Ltd. v. State of Haryana, decided by the Supreme Court on 11 October 2011, the Court addressed the practice of transferring property by a bundle of a sale agreement, a general power of attorney and a will. Its conclusion was stated without qualification: "a SA/GPA/WILL transaction does not convey any title nor create any interest in an immovable property", and immovable property "can be legally and lawfully transferred/conveyed only by a registered deed of conveyance".
+
+The consequences of that holding are still arriving in chambers fifteen years later, and they arrive most painfully in matters with a non-resident in them. A person abroad is told that the land has been "given" to a relative or a purchaser by power of attorney and that nothing further is needed. It has not been given. Whatever was intended, title has not moved, and the reckoning tends to come at the next mutation, the next sale, or the next death in either family — by which time the witnesses to what was actually agreed are frequently gone.
+
+It is equally important to state what the judgment did not do, because it is often quoted too widely. The Court said in terms that its observations "are not intended to in any way affect the validity of sale agreements and powers of attorney executed in genuine transactions", giving as an example a power given "to his spouse, son, daughter, brother, sister or a relative to manage his affairs". A genuine power of attorney remains a perfectly good instrument for its proper purpose — to authorise someone to act. What it is not is a substitute for the conveyance.
+
+The related question of whether the power of attorney must itself be registered turns on a different provision. Section 17(1)(b) of the Registration Act, 1908 makes registration compulsory for non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish any right, title or interest in immovable property of the value of one hundred rupees and upwards. An instrument that merely authorises an agent to act does not on its face do any of those things; its use at the registering office is governed instead by Sections 32 and 33. Because States have made their own requirements in this area, the position for the district where the property lies should be confirmed before the document is executed abroad rather than after it lands. If the office refuses, the next step is not a suit. Section 72 of the Registration Act gives an appeal to the Registrar to whom that Sub-Registrar is subordinate, to be presented within thirty days, unless the refusal rests on a denial of execution, in which case Section 73 applies instead. A quarrel about the instrument itself goes elsewhere again: cancellation is a civil suit under Section 31 of the Specific Relief Act, 1963, and Section 31(2) obliges the court to send its decree to the office where the document was registered so that the cancellation is noted on the record, whereas a mutation entered on the strength of a power is undone in the revenue court and not the civil one. Which of those doors a matter here opens at is set out in the note on the chamber at Jodhpur and the forums it appears before.
+
+## What should be done first, from where you are?
+
+Three steps, in this order.
+
+Read the record before drafting the authority. The jamabandi or record of rights and the mutation entries tell you whose name the property actually stands in today, and it is not always the name the family assumes. A power of attorney drawn for the wrong recorded holder is waste paper, and the fact is far cheaper to establish before a client takes a day off work to attend a Consulate. Where the property was inherited, the sequence is set out in the note on securing inherited land in Rajasthan from abroad.
+
+Settle the mode of authentication with the office that will receive the document. Consulate or notary, and if notary then whether legalisation is also expected in that district. This is a single enquiry and it removes the only failure that cannot be repaired remotely.
+
+Choose the holder on the assumption that the relationship may not last. This is the least legal and most useful part of the advice. The instrument should be narrow enough that it is safe in the hands of someone you may one day disagree with, and it should be dated to expire. Where a relative is already in occupation, the position is different again and is dealt with in the note on recovering possession from a relative; and where several heirs hold together, the shares are better settled between them, by partition or family settlement, before any authority to deal with the property is given to one of them.
+
+This article is for informational purposes only and does not constitute legal advice. The form of authority required, the stamp duty payable and the practice of the registering office differ with the State, the property and the transaction proposed. For guidance on a particular matter, please consult a qualified advocate.
+
+Shubham Ojha & Associates
+ 
+Advocate, Rajasthan High Court, Jodhpur  ·  Enrolment No. R/2958/2020 (Bar Council of Rajasthan)  ·  +91 70230 51275  ·  WhatsApp
+ 
+Consultation by telephone and video is available for clients residing outside India.
+
+Related Articles
+
+Firm
+ 
+Working with the firm from outside India
+
+Property Law
+ 
+I live abroad and have inherited land in Rajasthan. How do I secure it?
+
+Property Law
+ 
+A relative has taken possession of my property while I live abroad. What can be done?
+
+Property Law
+ 
+Land Revenue Laws in Rajasthan: Mutation, Khasra & Revenue Court Proceedings
+
+Bar Council of India Notice: This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.
+
+📞 Call
  💬 WhatsApp
