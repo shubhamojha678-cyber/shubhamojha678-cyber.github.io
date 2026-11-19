@@ -8,7 +8,7 @@ Hours: 12 noon–10:00 PM IST, Monday to Saturday; Sunday closed. Languages: Hin
 The chamber takes matters at Jodhpur in bail and criminal defence, property and mutation (नामांतरण), land revenue, maintenance and family law, cheque bounce, writ petitions and DRT/SARFAESI — at the Rajasthan High Court (Principal Seat, Jodhpur) and the District and Sessions Courts, Jodhpur.
 Full text of the main pages: https://shubhamojhaandassociates.com/llms-full.txt
 
-This file holds the full text of the main pages, current on 2026-11-17. Index: https://shubhamojhaandassociates.com/llms.txt
+This file holds the full text of the main pages, current on 2026-11-19. Index: https://shubhamojhaandassociates.com/llms.txt
 
 
 ---
@@ -378,6 +378,28 @@ Section 482(1) names two courts, the High Court and the Court of Session, and gi
 
 Two things decide where the file goes. The first is time. If a notice under Section 35(3) BNSS has arrived, or the complaint names a date, the Sessions Court at Jodhpur lists the matter within days and that is normally fast enough. The second is what has already happened. Once the Sessions Court has rejected the application, the High Court is the only forum left, and the application there is argued against the Sessions order, not on a blank page. Section 482(4) keeps both courts out of accusations under Section 65 and Section 70(2) of the Bharatiya Nyaya Sanhita, 2023, so for those offences the question of forum does not arise. Interim bail is not a separate section. It is the order a court passes to protect the applicant while the main application is pending, usually until the State's reply is on record, and it ends with the final order on that application. The grounds, the conditions a court may attach under Section 482(2), and the Supreme Court decisions on the section are in the full note on Section 482 BNSS: grounds, conditions and the leading cases; the same ground in Hindi is on जोधपुर में ज़मानत की प्रक्रिया.
 
+## FIR in another district: which court, and which Bench of the High Court
+
+Most bail matters that reach this chamber begin with an FIR registered somewhere other than Jodhpur city. The first page of the FIR usually settles the forum question in a minute. The police station named on it fixes the district, and the district fixes both the Sessions Court and the Bench.
+
+The Sessions Court comes first, and it is the Sessions Court of that district. Section 482(1) and Section 483(1) BNSS each name the same two courts, the High Court and the Court of Session, and neither sub-section says which must be approached first. Practice supplies the answer. An arrest at Barmer is a Barmer matter at the Sessions stage, and an apprehension of arrest on a complaint at Sirohi is moved before the Sessions Judge there. A relative’s address in Jodhpur does not shift it.
+
+The Bench follows the same district. The Rajasthan High Court sits at Jodhpur, its principal seat, and at Jaipur. Matters from the western districts, among them Jodhpur, Barmer, Jaisalmer, Pali, Sirohi and Jalore, are filed at Jodhpur; matters from the Jaipur side go to the Jaipur Bench. The test is where the cause of action arose, or where the subordinate court sits, and not where the party lives. So a family living in Jodhpur whose son was arrested in an eastern district has a Jaipur matter, and the reverse is just as common. The whole map is set out in the note on which forum at Jodhpur hears which matter.
+
+Two practical things follow from this. The Sessions rejection order travels with the file, so the certified copy should be applied for the day it is pronounced and not the week the High Court application is being drafted. Where a certified copy is prescribed, the Jodhpur registry returns a petition filed with a plain photocopy, and the exemption application is better moved at the outset than after an objection has been raised.
+
+## Default bail: the 60 and 90 day count under Section 187 BNSS
+
+Default bail is not a concession. It is what Section 187(3) BNSS gives when the investigation runs past the time the law allows it.
+
+The two periods sit in the sub-section itself. Ninety days where the investigation relates to an offence punishable with death, imprisonment for life, or imprisonment for a term of ten years or more. Sixty days for any other offence. On the expiry of that period the accused, in the words of the section, “shall be released on bail if he is prepared to and does furnish bail”, and such a release is deemed to be under Chapter XXXV for the purposes of that Chapter. That is why the bond and the sureties are taken in the ordinary way, and why a breach afterwards is dealt with like any other breach of a bail condition.
+
+Two lines in the section decide how the right is usually lost rather than won. Explanation I says that notwithstanding the expiry of the period specified in sub-section (3), the accused shall be detained in custody so long as he does not furnish bail. The right does not execute itself. An order is of no use to a family that then spends four days finding sureties, so the proposed sureties and their identity and address proof belong in the courtroom on the day, not in the following week. The second line is the one everybody has heard and few act on: the right has to be claimed while it is alive, and the day the police file the chargesheet it is gone.
+
+Section 187(2) is worth reading beside it, because its shape is new. Police custody is fifteen days in the whole, or in parts, and those parts may be sought at any time during the initial forty days or sixty days out of the sixty or ninety day period. A police-custody application late in the investigation is therefore competent in a way it was not before. It adds nothing to the outer limit. The sixty and ninety day clocks run from the first remand either way, which is why the 60th and 90th day are worth writing down on the day of that first order.
+
+One more clock sits in the same section and is missed almost every time. Under Section 187(9), in a case triable by a Magistrate as a summons-case, if the investigation is not concluded within six months from the date on which the accused was arrested, the Magistrate shall make an order stopping further investigation, unless the investigating officer satisfies him that for special reasons and in the interests of justice it must continue. Section 187(10) allows the Sessions Judge to vacate such an order and direct further investigation. This is not bail at all. In a small case it can end the proceeding that bail was being sought against, which is the better result.
+
 ## What the courts actually weigh
 
 Across hundreds of orders, the factors repeat: the gravity and the specific role attributed in the FIR, the stage of investigation, criminal antecedents, the risk of tampering with witnesses, and parity — whether a co-accused with a similar role has already been granted bail. Parity is argued loosely everywhere, but at the Jodhpur bench it works only when the roles genuinely match on the FIR's own language. After Arnesh Kumar v. State of Bihar, arrest itself is no longer automatic in offences punishable up to seven years; a surprising number of matters are better fought at the notice stage under Section 35 BNSS than after a needless arrest. Where the FIR itself is an abuse of process, the parallel remedy is not bail at all but quashing of the FIR under Section 528 BNSS — and knowing how an FIR is registered and what a complainant's rights are often decides which route to take first. What that petition must annex, and where it is presented, is in the section on Filing a Section 528 BNSS petition at the Rajasthan High Court, Jodhpur.
@@ -406,7 +428,7 @@ A Sessions bail application in Jodhpur typically comes up within days of filing.
 
 The Sessions Court rejected bail — are the chances finished at the High Court?
  
-No. Rejection by the Sessions Court is a step, not the end. The High Court examines the matter afresh under Section 483 BNSS, and grounds such as parity, changed circumstances, or completion of investigation often succeed there even after a Sessions rejection.
+No. Rejection by the Sessions Court is a step, not the end. The High Court examines the matter afresh under Section 483 BNSS, and grounds such as parity, changed circumstances, or completion of investigation often succeed there even after a Sessions rejection. What the High Court expects is a clear explanation of what the Sessions Judge held and why that reasoning does not survive scrutiny.
 
 When is an anticipatory-bail application filed in the Sessions Court at Jodhpur, and when in the Rajasthan High Court?
  
@@ -414,19 +436,31 @@ Ordinarily the Sessions Court of the district where the FIR is registered is mov
 
 Can anticipatory bail be applied for before an FIR is registered?
  
-Yes. After Gurbaksh Singh Sibbia, a registered FIR is not a precondition — a concrete apprehension of arrest is enough, though the application must show why the apprehension is real, not speculative.
+Yes. After Gurbaksh Singh Sibbia v. State of Punjab, a registered FIR is not a precondition, and a concrete apprehension of arrest is enough. But the application must show why the apprehension is real rather than speculative; at the Jodhpur bench, an application supported by the Section 35 BNSS notice or a copy of the written complaint moves faster than one built on rumour.
 
-The chargesheet did not come within 60 or 90 days — what now?
+The chargesheet was not filed within 60 or 90 days — what now?
  
-Apply for default bail under Section 187(3) BNSS immediately. It is an indefeasible right, but only until the chargesheet is filed. The application must be made, and made in time — courts do not grant it on their own.
+Apply for default bail under Section 187(3) BNSS immediately. Once the police fail to file the chargesheet within the statutory period, which is 60 or 90 days depending on the offence, release becomes an indefeasible right, but only until the chargesheet is filed. The application must be made, and made in time; the court does not grant it on its own motion. Explanation I to Section 187 also makes clear that custody continues until bail is actually furnished, so the sureties should be present on the day.
 
-In an SC/ST Act case the Special Court refused bail — a regular bail application?
+In an SC/ST Act case the Special Court refused bail — is a regular bail application the remedy?
  
-No — the remedy is an appeal under Section 14A(2) of the Atrocities Act, not a Section 483 application, and it carries a 90-day limitation (180-day outer limit). This is one of the most common and costly drafting errors in this area.
+No. The remedy against a Special Court’s refusal under the SC/ST (Prevention of Atrocities) Act is a statutory appeal under Section 14A(2), not a Section 483 BNSS application, and it carries a 90-day limitation with a 180-day outer limit. Choosing the wrong door here is one of the most common and costly drafting errors in this area, because the limitation on the appeal can lapse while a misconceived bail application is pending.
 
 Can a family outside Rajasthan engage an advocate at Jodhpur for a bail matter in the High Court?
  
-Yes. The district in which the FIR is registered decides the bench, not the family’s address, and the papers can be read from photographs before anything is filed. Section 30 of the Advocates Act, 1961 lets an enrolled advocate appear in any court in India, so a family in Mumbai with an FIR registered in Pali still has a Jodhpur Bench matter. What the chamber takes, and where it sits, is on the page for an advocate in Jodhpur.
+Yes. The district in which the FIR is registered decides the bench, not the family’s address, and the papers can be read from photographs before anything is filed. Section 30 of the Advocates Act, 1961 lets an enrolled advocate appear in any court in India, so a family in Mumbai with an FIR registered in Pali still has a Jodhpur Bench matter.
+
+Jodhpur High Court se jamanat me kitna samay lagta hai?
+ 
+Koi nishchit avadhi nahin hai, aur jo number bataya jaye wo anuman hi hoga. Sessions Court, Jodhpur me bail application aam taur par filing ke kuch hi dinon me sunwai par aa jati hai. High Court me listing us bench ki cause-list par nirbhar karti hai jise roster me bail matters diye gaye hain, aur sachchi urgency me urgent mentioning ka rasta hai. Samay ko sabse zyada badalne wali cheez file ki tayari hai: Sessions ka rejection order, uski certified copy, remand orders aur sureties ke kagaz pehle se saath hon to tarikh nahin jaati. Default bail, theek din par maangi jaye, to sabse jaldi tay hoti hai, kyunki usme bahas ka vishay hi nahin bachta.
+
+Sessions se jamanat kharij ho gayi, ab kya?
+ 
+Agla forum Rajasthan High Court, Jodhpur hai, aur application Section 483 BNSS me lagti hai. Yeh naye sire se shuruaat nahin hai: High Court Sessions ke order ke khilaf sunta hai, is liye rejection order aur uske kaaran file me sabse aage rakhe jaate hain. Jo grounds vyavahar me chalte hain wo parity, badli hui paristhitiyan aur investigation poora ho jana hain. Ek baat pehle se jaan lena theek hai. Section 483 ka pehla proviso kehta hai ki jahan apradh keval Court of Session dwara vicharniya ho, ya umrakaid se dandniya ho, wahan bail dene se pehle adalat Public Prosecutor ko notice degi, siwaye us sthiti me jahan likhit kaaran darj karke notice dena vyavaharik na maana jaye. Is liye pehli tarikh par aksar order nahin, notice hota hai.
+
+FIR dusre zile ki hai to jamanat kahan lagegi?
+ 
+Jis zile ke police station me FIR darj hai, pehle usi zile ke Sessions Court me. Uske baad High Court ki wo peeth jahan us zile ke mamle jate hain: Jodhpur, Barmer, Jaisalmer, Pali, Sirohi aur Jalore jaise pashchimi zilon ke mamle Jodhpur ki mukhya peeth me, aur Jaipur taraf ke mamle Jaipur peeth me. Kasauti yeh hai ki vaad-hetuk kahan utpanna hua ya adheenasth nyayalay kahan baithta hai, pakshkar ka pata kasauti nahin hai. Advocates Act, 1961 ki Section 30 nam-ankit adhivakta ko Bharat ke kisi bhi nyayalay me upasthit hone ka adhikar deti hai, is liye parivar Mumbai me ho aur FIR Pali me, mamla phir bhi Jodhpur peeth ka rehta hai.
 
 Shubham Ojha & Associates, Advocates
 
@@ -579,7 +613,7 @@ Bar Council of India Notice: This website is for informational purposes only and
 
 ---
 
-# Divorce Lawyer in Jodhpur — Shubham Ojha & Associates
+# Divorce Lawyer in Jodhpur: Mutual Consent, Family Court
 URL: https://shubhamojhaandassociates.com/divorce-lawyer-jodhpur.html
 
 Home›Practice Areas›Divorce Matters in Jodhpur
@@ -2050,59 +2084,6 @@ Bar Council of India Notice: This website is for informational purposes only and
 
 ---
 
-# राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय | शुभम ओझा एवं एसोसिएट्स
-URL: https://shubhamojhaandassociates.com/articles/land-revenue-laws-rajasthan-hi.html
-
-मुख्य पृष्ठ›
- विधिक जानकारी›
- राजस्थान में भू-राजस्व विधि
-
-संपत्ति विधि
-
-# राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय
-
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- जून 2026
-
-राजस्थान की भू-राजस्व प्रणाली मुख्यतः राजस्थान भू-राजस्व अधिनियम, 1956, राजस्थान काश्तकारी अधिनियम, 1955 तथा राजस्व न्यायालय प्रक्रिया नियमों द्वारा शासित है। राज्य कृषि भूमि हेतु विस्तृत राजस्व अभिलेख रखता है: (1) खसरा — खेत-संख्या, क्षेत्रफल, मिट्टी की प्रकृति, फसल एवं काबिज़ व्यक्ति का नाम दर्ज करने वाला खेतवार रजिस्टर; (2) खतौनी — किसी गाँव में एक व्यक्ति द्वारा धारित समस्त खसरा संख्याओं को सूचीबद्ध करने वाला जोतवार रजिस्टर; (3) जमाबंदी / अधिकार-अभिलेख — पटवारी द्वारा प्रत्येक पाँच वर्ष में तैयार किया जाने वाला व्यापक राजस्व दस्तावेज़। ये अभिलेख डिजिटल रूप में Apna Khata पोर्टल (apnakhata.raj.nic.in) पर उपलब्ध हैं।
-
-▶ इस विषय पर वीडियो · 32 सेकंड
-
-Jamabandi Me Naam = Malik Nahi | Namantaran Ka Sach — Rajasthan
-पूरा चैनल →
-
-नामांतरण (इंतकाल / दाखिल-खारिज): नामांतरण किसी विक्रय, दान, उत्तराधिकार, बँटवारे या न्यायालयी डिक्री के पश्चात् कब्ज़े/स्वामित्व में परिवर्तन को राजस्व अभिलेखों में अद्यतन करने की प्रक्रिया है। महत्वपूर्ण बात यह है कि राजस्व अभिलेख में नामांतरण से टाइटल न तो सृजित होता है और न समाप्त — यह मात्र एक राजकोषीय अभिलेख है (उच्चतम न्यायालय द्वारा बलवंत सिंह बनाम दौलत सिंह, 1997 में स्थिर)। नामांतरण आवेदन तहसीलदार के समक्ष किया जाता है, जो प्रभावित व्यक्तियों को सूचना देता है, आपत्तियाँ प्राप्त करता है, और जाँच के बाद नामांतरण आदेश पारित करता है। अपील उपखंड अधिकारी, फिर कलेक्टर, फिर राजस्व मंडल तक होती है।
- 
-राजस्व न्यायालय का क्षेत्राधिकार: राजस्थान भू-राजस्व अधिनियम एवं काश्तकारी अधिनियम के अंतर्गत राजस्व न्यायालयों को इन विषयों पर अनन्य क्षेत्राधिकार है: काश्तकारी विवाद; कृषि भूमि के बँटवारे के विवाद; राजस्व अभिलेखों में दर्ज अधिकारों से जुड़े विवाद; तथा कृषि जोत सीमा अधिनियम के अंतर्गत कार्यवाहियाँ। जो विषय अनन्य रूप से राजस्व न्यायालयों को सौंपे गए हैं, उन पर सिविल न्यायालय का क्षेत्राधिकार नहीं है।
- 
-राजस्व मंडल: अजमेर में स्थित राजस्थान राजस्व मंडल राज्य का सर्वोच्च राजस्व न्यायालय है। यह राजस्व मामलों में अपीलीय, पुनरीक्षण एवं निर्देश क्षेत्राधिकार रखता है। राजस्व विधि के प्रश्नों पर मंडल के निर्णय समस्त अधीनस्थ राजस्व न्यायालयों पर आबद्धकारी हैं। मंडल के निर्णयों की आगे न्यायिक समीक्षा केवल राजस्थान उच्च न्यायालय में अनुच्छेद 226/227 के अंतर्गत होती है।
- 
-राजस्थान में सामान्य मुद्दे: (1) खातेदारी अधिकार — काश्तकारी अधिनियम के अंतर्गत निर्धारित अवधि तक भूमि जोतने वाले काश्तकार को खातेदारी (अधिभोग) अधिकार प्राप्त होते हैं, जो उत्तराधिकार-योग्य हैं तथा कुछ प्रतिबंधों सहित अंतरणीय हैं। (2) भू-उपयोग परिवर्तन — कृषि भूमि का गैर-कृषि उपयोग कलेक्टर से रूपांतरण (conversion) अनुमति के बिना नहीं किया जा सकता। (3) सरकारी भूमि पर अतिक्रमण — राजस्व प्राधिकारियों द्वारा सरसरी बेदखली की शक्तियों से निपटाया जाता है।
- 
-राजस्व अभिलेखों से जुड़ा एक और प्रश्न यह है कि जब भूमि किसी बैंक ऋण के विरुद्ध बंधक हो और बैंक कब्ज़े की कार्यवाही करे, तब क्या किया जाए। यह विषय राजस्व न्यायालय के क्षेत्राधिकार से बाहर चला जाता है — देखें SARFAESI नोटिस और DRT में धारा 17 का उपाय। कृषि भूमि के लिए धारा 31(i) की छूट विशेष रूप से देखने योग्य है।
- 
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
- 
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
-
-संबंधित लेख
-
-संपत्ति विधि
-राजस्थान में नामांतरण (दाखिल-खारिज) कैसे कराएं
- संपत्ति विधि
-राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
- संपत्ति विधि
-राजस्थान में कृषि भूमि का बँटवारा: धारा 53
-
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
-
-📞 Call Now
- 💬 WhatsApp
-
----
-
 # Partition Suit in Rajasthan: Family Property Division Procedure
 URL: https://shubhamojhaandassociates.com/articles/partition-suit-family-property-rajasthan.html
 
@@ -2163,131 +2144,6 @@ Specific Performance of Contracts: When Can You Force a Sale?
 Bar Council of India Notice: This website is for informational purposes only and does not constitute legal advice. Visiting this website does not create an attorney-client relationship.
 
 📞 Call
- 💬 WhatsApp
-
----
-
-# सरकारी कर्मचारी सेवा विवाद: CAT जोधपुर, Tribunal या High Court
-URL: https://shubhamojhaandassociates.com/articles/sarkari-karmchari-seva-vivad-cat-tribunal-rajasthan-hi.html
-
-मुख्य पृष्ठ›
- विधिक जानकारी›
- सरकारी कर्मचारी के सेवा विवाद
-
-सेवा विधि
-
-# सरकारी नौकरी में निलंबन, जाँच या पेंशन का विवाद — केस कहाँ और कैसे लड़ा जाता है?
-
-लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
- अगस्त 2026
-
-केंद्र सरकार के कर्मचारी का सेवा विवाद Central Administrative Tribunal (CAT) में चलता है — राजस्थान में इसकी जोधपुर और जयपुर बेंच हैं। राजस्थान राज्य के कर्मचारी का मामला राजस्थान सिविल सेवा अपील अधिकरण या High Court में जाता है। निलंबन सज़ा नहीं है, पेंशन दान नहीं बल्कि अधिकार है, और विभागीय जाँच में सुनवाई का पूरा अवसर मिलना अनिवार्य है।
-
-कागज़ आपके पास हैं? नोटिस, आदेश या याचिका की फोटो WhatsApp पर +91 70230 51275 भेजी जा सकती है, या इसी नंबर पर कॉल करें (सोम–शनि, दोपहर 12 – रात 10 बजे)।
-
-एक नज़र में
-
-केंद्रीय कर्मचारी का forum — CAT: जोधपुर बेंच (उच्च न्यायालय के निकट) एवं जयपुर बेंच
- 
-CAT में आवेदन — Original Application (OA), धारा 19, Administrative Tribunals Act, 1985; परिसीमा सामान्यतः 1 वर्ष (धारा 21)
- 
-पूर्व शर्त — धारा 20: विभागीय appeal/representation पहले exhaust करनी होती है
- 
-राज्य कर्मचारी का forum — राजस्थान सिविल सेवा अपील अधिकरण (1976 अधिनियम), मुख्य पीठ जयपुर; अपील की अवधि 6 माह
- 
-High Court कब — अनुच्छेद 226 writ: जहाँ अधिकरण का क्षेत्राधिकार नहीं, अथवा अधिकरण के आदेश की judicial review (खंडपीठ)
- 
-आधार-स्तंभ निर्णय — L. Chandra Kumar (1997) · D.S. Nakara (1983) · ECIL v. B. Karunakar (1993)
-
-Central Administrative Tribunal का गठन एक केंद्रीय क़ानून — Administrative Tribunals Act, 1985 (अनुच्छेद 323A) — के अंतर्गत हुआ है और उसकी बेंचें पूरे भारत में हैं; यहाँ बताई गई प्रक्रिया हर राज्य में तैनात केंद्रीय कर्मचारी पर समान रूप से लागू होती है। राजस्थान सिविल सेवा अपील अधिकरण केवल राजस्थान सरकार के कर्मचारियों के लिए है। नीचे दिए गए जोधपुर के उदाहरण केवल दृष्टांत हैं। फ़ोन/वीडियो परामर्श राजस्थान के बाहर तैनात कर्मचारियों के लिए भी उपलब्ध है।
-
-▶ इस विषय पर वीडियो · 32 सेकंड
-
-Suspension Saza Nahi Hai — Subsistence Allowance Aapka Haq
-पूरा चैनल →
-
-## मैं केंद्र सरकार का कर्मचारी हूँ — मेरा केस कहाँ चलेगा?
- 
-Railway, डाक विभाग, केंद्रीय मंत्रालय और defence के civilian कर्मचारी — इन सबकी भर्ती और service conditions से जुड़े विवाद CAT सुनता है। सशस्त्र बलों के सदस्य इसमें नहीं आते; उनके लिए अलग व्यवस्था है। राजस्थान में CAT की दो बेंच हैं — जोधपुर और जयपुर। जोधपुर बेंच उच्च न्यायालय के निकट बैठती है और पश्चिमी राजस्थान — जोधपुर, बाड़मेर, जैसलमेर, बीकानेर, अजमेर — के कर्मचारियों के मामले सुनती है।
- 
-मामला Original Application (OA) दायर करने से शुरू होता है — धारा 19, Administrative Tribunals Act, 1985। दो प्रावधान व्यवहार में सबसे अधिक निर्णायक सिद्ध होते हैं। धारा 20 कहती है कि अधिकरण सामान्यतः तब तक आवेदन ग्रहण नहीं करेगा जब तक कर्मचारी विभाग के भीतर उपलब्ध appeal या representation का रास्ता पूरा न कर ले। धारा 21 परिसीमा तय करती है — प्रतिकूल आदेश से सामान्यतः एक वर्ष के भीतर। जोधपुर की प्रैक्टिस में मैंने देखा है कि कर्मचारी वर्षों विभागीय पत्राचार में लगा रहता है और जब अधिकरण पहुँचता है तब तक सबसे बड़ी बाधा उसके मामले का गुण-दोष नहीं, बल्कि यही परिसीमा बन चुकी होती है। प्रतिकूल आदेश की तारीख़ को उसी दिन नोट कर लेना चाहिए।
-
-## राजस्थान सरकार का कर्मचारी कहाँ जाए?
- 
-राज्य कर्मचारियों के लिए अलग व्यवस्था है — राजस्थान सिविल सेवा अपील अधिकरण, जो Rajasthan Civil Services (Service Matters Appellate Tribunals) Act, 1976 के अंतर्गत गठित है। Seniority, promotion, pay fixation, transfer और pension जैसे मामले इसके समक्ष आते हैं। अपील आदेश से 6 माह के भीतर प्रस्तुत करनी होती है, और उससे पहले विभागीय appeal का रास्ता पूरा करना होता है। मुख्य पीठ जयपुर में है। जोधपुर में एक स्थायी बेंच मई 2023 में स्वीकृत की गई थी (उच्च न्यायालय का पुराना heritage भवन); अपील दाख़िल करने से पहले अधिकरण की मौजूदा बैठक-व्यवस्था की पुष्टि कर लेना उचित रहता है।
- 
-कुछ श्रेणियाँ अधिकरण की परिधि से बाहर रखी गई हैं — जैसे न्यायपालिका के कर्मचारी और लोक सेवा आयोग से जुड़े मामले — और जहाँ नियम की संवैधानिक वैधता को ही चुनौती देनी हो, वहाँ भी अधिकरण उपयुक्त forum नहीं। ऐसे मामले सीधे राजस्थान उच्च न्यायालय में अनुच्छेद 226 की writ petition से जाते हैं। कौन-सा दरवाज़ा सही है यह तय करना पहला और सबसे महँगा निर्णय होता है — ग़लत forum में वर्ष भर लगाकर लौटना असामान्य नहीं। writ के दायरे पर विस्तार से देखें Writ Petitions under Articles 226 & 227 (English) और Service Law Matters: Challenging Government Orders (English)।
-
-## सस्पेंड कर दिया गया है — क्या यह सज़ा है? वेतन मिलेगा?
- 
-निलंबन (suspension) सज़ा नहीं है। यह जाँच लंबित रहने तक की एक प्रशासनिक व्यवस्था है, इसीलिए निलंबन से पहले सुनवाई का अवसर देना आवश्यक नहीं माना जाता — यही बात कर्मचारी को सबसे अधिक विचलित करती है। परंतु इसका दूसरा पक्ष भी उतना ही स्पष्ट है: निलंबित कर्मचारी को जीवन-निर्वाह भत्ता (subsistence allowance) पाने का क़ानूनी अधिकार है, और भत्ते का भुगतान किए बिना निलंबन को अनिश्चित काल तक खींचना टिकाऊ नहीं।
- 
-निलंबन के मामलों में असली प्रश्न प्रायः देरी का होता है, आरोप का नहीं। जब महीनों बीत जाएँ और चार्जशीट तक न दी गई हो, तो निलंबन अपना उद्देश्य खो देता है और वह स्वयं चुनौती का विषय बन जाता है। ऐसे मामलों में राहत की माँग सामान्यतः दो रूपों में की जाती है — निलंबन आदेश को रद्द कराना, या जाँच को समयबद्ध कराना और भत्ते का भुगतान सुनिश्चित कराना।
-
-## विभागीय जाँच (departmental inquiry) में मेरे क्या अधिकार हैं?
- 
-संविधान का अनुच्छेद 311 सरकारी कर्मचारी को दो संरक्षण देता है — उसे नियुक्ति प्राधिकारी से नीचे का अधिकारी पदच्युत नहीं कर सकता, और उचित जाँच तथा सुनवाई के अवसर के बिना dismissal, removal या rank में कमी नहीं की जा सकती। राजस्थान में major penalty की चार्जशीट Rajasthan Civil Services (Classification, Control & Appeal) Rules, 1958 के अंतर्गत दी जाती है — कर्मचारी इसे प्रायः "16 CCA नोटिस" कहते हैं।
- 
-जाँच में जो अधिकार व्यवहार में मामले का रुख़ बदलते हैं, वे ये हैं:
-
-आरोपों की स्पष्ट सूची (Article of Charge) और imputations का विवरण मिलना
- 
-जिन दस्तावेज़ों पर विभाग निर्भर है, उनकी प्रति एवं निरीक्षण का अवसर
- 
-विभागीय गवाहों से cross-examination और अपने बचाव के गवाह प्रस्तुत करने का अधिकार
- 
-जाँच अधिकारी का स्वतंत्र होना — वही व्यक्ति शिकायतकर्ता और जाँचकर्ता दोनों नहीं हो सकता
- 
-जाँच रिपोर्ट की प्रति पाकर उस पर जवाब देने का अवसर — Managing Director, ECIL v. B. Karunakar (1993)
-
-अंतिम बिंदु पर विशेष ध्यान दें। रिपोर्ट दिए बिना सुनाई गई सज़ा दोषपूर्ण मानी जाती है, और यह वह चूक है जो विभाग सबसे अधिक करता है। इसी तरह सज़ा का आरोप के अनुपात में होना भी आवश्यक है — अनुपातहीन दंड अनुच्छेद 14 के आधार पर चुनौती योग्य रहता है।
-
-## पेंशन रोक दी गई या नहीं मिल रही — क्या करूँ?
- 
-इस विषय पर विधि की स्थिति कर्मचारी के पक्ष में स्पष्ट है। D.S. Nakara बनाम भारत संघ (1983) में उच्चतम न्यायालय ने कहा कि पेंशन सरकार की कृपा नहीं, सेवा से अर्जित अधिकार है। इसके बाद State of Jharkhand बनाम Jitendra Kumar Srivastava (2013) में यह और आगे बढ़ा — पेंशन और gratuity अनुच्छेद 300A के अर्थ में संपत्ति हैं, और विधि के अधिकार के बिना इन्हें रोका नहीं जा सकता। राजस्थान के राज्य कर्मचारियों पर Rajasthan Civil Services (Pension) Rules लागू होते हैं।
- 
-व्यवहारिक क्रम वही रहता है — पहले विभाग को लिखित representation, और उत्तर न मिलने या अस्वीकृति पर सक्षम forum (CAT, अधिकरण या उच्च न्यायालय)। सेवानिवृत्त कर्मचारी के मामले में हर बीता महीना सीधा आर्थिक नुक़सान है, इसलिए यहाँ परिसीमा पर विशेष सतर्कता रखनी चाहिए; प्रतीक्षा का कोई प्रतिफल नहीं मिलता।
-
-## क्या ट्रांसफर रुकवाया जा सकता है?
- 
-सीधा उत्तर — transfer सेवा की एक शर्त है, और किसी स्थान विशेष पर बने रहने का vested right किसी कर्मचारी को नहीं होता। न्यायालय transfer के मामलों में दख़ल कम ही देते हैं। अपवाद तीन हैं: दुर्भावना से किया गया (mala fide) transfer, अर्थात् जो व्यवहार में सज़ा हो; लागू transfer policy या नियमों के विरुद्ध किया गया transfer; और ऐसे अधिकारी द्वारा किया गया आदेश जो उसके लिए सक्षम ही नहीं था। ईमानदार सलाह यह है कि हर transfer का मुक़दमा नहीं बनता — जहाँ बनता है, आधार लगभग हमेशा इन्हीं तीन में से एक होता है।
-
-## अन्य सामान्य विवाद
-
-अनुकंपा नियुक्ति (compassionate appointment) — Umesh Kumar Nagpal v. State of Haryana (1994): यह वंशानुगत अधिकार नहीं, बल्कि कमाने वाले की मृत्यु से आए तात्कालिक संकट से परिवार को उबारने की व्यवस्था है; इसीलिए समय रहते आवेदन करना निर्णायक होता है।
- 
-नियमितीकरण (regularisation) — Secretary, State of Karnataka v. Umadevi (2006): लंबे समय तक काम करते रहने मात्र से नियमितीकरण का अधिकार नहीं बनता; अपवाद सीमित और परिभाषित हैं।
- 
-समान कार्य, समान वेतन — State of Punjab v. Jagjit Singh (2016): अस्थायी रूप से नियुक्त कर्मचारी भी, समान कार्य करने पर, समान वेतन का हक़दार हो सकता है।
- 
-Promotion, seniority और ACR/APAR — प्रतिकूल entry का कर्मचारी को communicate किया जाना आवश्यक है; sealed cover प्रक्रिया के अपने अलग नियम हैं।
-
-## CAT के आदेश से असंतुष्ट हूँ — आगे क्या?
- 
-यहाँ एक व्यापक भ्रांति है कि अधिकरण के बाद सीधे उच्चतम न्यायालय जाया जा सकता है। L. Chandra Kumar बनाम भारत संघ (1997) में सात-न्यायाधीशीय पीठ ने यह स्पष्ट कर दिया कि अधिकरण के आदेशों पर उच्च न्यायालय का judicial review संविधान की आधारभूत संरचना का हिस्सा है। अर्थात् अधिकरण के आदेश की चुनौती पहले संबंधित उच्च न्यायालय की खंडपीठ के समक्ष अनुच्छेद 226/227 की writ petition से होती है। CAT की जोधपुर बेंच के आदेश की चुनौती राजस्थान उच्च न्यायालय, जोधपुर में प्रस्तुत की जाती है — और यही कारण है कि सेवा-मामलों में जोधपुर बेंच का होना पश्चिमी राजस्थान के कर्मचारियों के लिए व्यावहारिक रूप से बड़ी सुविधा है: अधिकरण और उच्च न्यायालय, दोनों एक ही शहर में।
-
-दो संवैधानिक खंड ऐसे हैं जिनका सेवा-मामलों में सबसे अधिक व्यावहारिक महत्व है और जिनका उल्लेख प्रायः छूट जाता है। पहला, अनुच्छेद 226(2)। उसका पाठ यह है कि खंड (1) की शक्ति उस उच्च न्यायालय द्वारा भी प्रयोग की जा सकती है जिसके क्षेत्र में वाद-कारण (cause of action), पूर्णतः या अंशतः, उत्पन्न हुआ हो, इस तथ्य के होते हुए भी कि उस सरकार या प्राधिकारी का मुख्यालय, अथवा उस व्यक्ति का निवास, उन क्षेत्रों के भीतर नहीं है। जोधपुर में तैनात कर्मचारी के विरुद्ध आदेश प्रायः जयपुर या दिल्ली से निकलता है। यही खंड उस आपत्ति का उत्तर है कि विभाग तो कहीं और बैठता है। दूसरा, अनुच्छेद 227(1) का शब्द-चयन: अधीक्षण (superintendence) "सभी न्यायालयों तथा अधिकरणों" पर है। जोधपुर में बैठी CAT बेंच इसी कारण जोधपुर पीठ के अधीक्षण में है, और ऊपर बताया गया L. Chandra Kumar वाला मार्ग इसी पाठ पर टिका है।
-
-जिस खंड को L. Chandra Kumar ने संकुचित किया, वह अनुच्छेद 323A(2)(d) है। उसने संसद को यह अनुमति दी थी कि वह अनुच्छेद 136 के अधीन उच्चतम न्यायालय को छोड़कर सभी न्यायालयों का क्षेत्राधिकार वर्जित कर दे। वह वर्जन अब उच्च न्यायालय पर लागू नहीं होता। एक और खंड यहाँ काम का है। अनुच्छेद 226(3) के अनुसार, यदि किसी पक्ष के विरुद्ध अंतरिम आदेश (stay या injunction) उसे याचिका तथा समर्थक दस्तावेज़ों की प्रतियाँ दिए बिना और सुनवाई का अवसर दिए बिना पारित हुआ है, तो वह पक्ष उसे निरस्त कराने का आवेदन कर सकता है, और उच्च न्यायालय को उसका निस्तारण दो सप्ताह में करना होता है; न करने पर वह अंतरिम आदेश स्वतः निरस्त हो जाता है। transfer और seniority के मामलों में एकपक्षीय stay असामान्य नहीं है, इसलिए यह उपबंध दोनों पक्षों को पढ़ना चाहिए। किस आदेश की चुनौती किस मंच पर और किस पीठ के समक्ष रखी जाती है, इसका ब्यौरा जोधपुर में अधिवक्ता: सेवा-मामला किस पीठ के समक्ष पर है।
-
-यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। सेवा-मामलों में परिसीमा और लागू नियम विभाग एवं तथ्यों के अनुसार बदलते हैं; अपने विशिष्ट मामले में किसी योग्य अधिवक्ता से परामर्श करें।
-
-शुभम ओझा एवं एसोसिएट्स
- 
-अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
-
-संबंधित लेख
-
-सेवा विधि
-Service Law Matters: Challenging Government Orders Through Writ Petitions
- संवैधानिक विधि
-Writ Petitions under Articles 226 & 227
- सामान्य प्रश्न
-विधिक प्रश्नोत्तर — सामान्य कानूनी सवालों के जवाब
-
-बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
-
-📞 Call Now
  💬 WhatsApp
 
 ---
@@ -2441,6 +2297,184 @@ Bar Council of India Notice: This website is for informational purposes only and
 
 ---
 
+# राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय | शुभम ओझा एवं एसोसिएट्स
+URL: https://shubhamojhaandassociates.com/articles/land-revenue-laws-rajasthan-hi.html
+
+मुख्य पृष्ठ›
+ विधिक जानकारी›
+ राजस्थान में भू-राजस्व विधि
+
+संपत्ति विधि
+
+# राजस्थान में भू-राजस्व विधि: नामांतरण, खसरा, खतौनी एवं राजस्व न्यायालय
+
+लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
+ जून 2026
+
+राजस्थान की भू-राजस्व प्रणाली मुख्यतः राजस्थान भू-राजस्व अधिनियम, 1956, राजस्थान काश्तकारी अधिनियम, 1955 तथा राजस्व न्यायालय प्रक्रिया नियमों द्वारा शासित है। राज्य कृषि भूमि हेतु विस्तृत राजस्व अभिलेख रखता है: (1) खसरा — खेत-संख्या, क्षेत्रफल, मिट्टी की प्रकृति, फसल एवं काबिज़ व्यक्ति का नाम दर्ज करने वाला खेतवार रजिस्टर; (2) खतौनी — किसी गाँव में एक व्यक्ति द्वारा धारित समस्त खसरा संख्याओं को सूचीबद्ध करने वाला जोतवार रजिस्टर; (3) जमाबंदी / अधिकार-अभिलेख — पटवारी द्वारा प्रत्येक पाँच वर्ष में तैयार किया जाने वाला व्यापक राजस्व दस्तावेज़। ये अभिलेख डिजिटल रूप में Apna Khata पोर्टल (apnakhata.raj.nic.in) पर उपलब्ध हैं।
+
+▶ इस विषय पर वीडियो · 32 सेकंड
+
+Jamabandi Me Naam = Malik Nahi | Namantaran Ka Sach — Rajasthan
+पूरा चैनल →
+
+नामांतरण (इंतकाल / दाखिल-खारिज): नामांतरण किसी विक्रय, दान, उत्तराधिकार, बँटवारे या न्यायालयी डिक्री के पश्चात् कब्ज़े/स्वामित्व में परिवर्तन को राजस्व अभिलेखों में अद्यतन करने की प्रक्रिया है। महत्वपूर्ण बात यह है कि राजस्व अभिलेख में नामांतरण से टाइटल न तो सृजित होता है और न समाप्त — यह मात्र एक राजकोषीय अभिलेख है (उच्चतम न्यायालय द्वारा बलवंत सिंह बनाम दौलत सिंह, 1997 में स्थिर)। नामांतरण आवेदन तहसीलदार के समक्ष किया जाता है, जो प्रभावित व्यक्तियों को सूचना देता है, आपत्तियाँ प्राप्त करता है, और जाँच के बाद नामांतरण आदेश पारित करता है। अपील उपखंड अधिकारी, फिर कलेक्टर, फिर राजस्व मंडल तक होती है।
+ 
+राजस्व न्यायालय का क्षेत्राधिकार: राजस्थान भू-राजस्व अधिनियम एवं काश्तकारी अधिनियम के अंतर्गत राजस्व न्यायालयों को इन विषयों पर अनन्य क्षेत्राधिकार है: काश्तकारी विवाद; कृषि भूमि के बँटवारे के विवाद; राजस्व अभिलेखों में दर्ज अधिकारों से जुड़े विवाद; तथा कृषि जोत सीमा अधिनियम के अंतर्गत कार्यवाहियाँ। जो विषय अनन्य रूप से राजस्व न्यायालयों को सौंपे गए हैं, उन पर सिविल न्यायालय का क्षेत्राधिकार नहीं है।
+ 
+राजस्व मंडल: अजमेर में स्थित राजस्थान राजस्व मंडल राज्य का सर्वोच्च राजस्व न्यायालय है। यह राजस्व मामलों में अपीलीय, पुनरीक्षण एवं निर्देश क्षेत्राधिकार रखता है। राजस्व विधि के प्रश्नों पर मंडल के निर्णय समस्त अधीनस्थ राजस्व न्यायालयों पर आबद्धकारी हैं। मंडल के निर्णयों की आगे न्यायिक समीक्षा केवल राजस्थान उच्च न्यायालय में अनुच्छेद 226/227 के अंतर्गत होती है।
+ 
+राजस्थान में सामान्य मुद्दे: (1) खातेदारी अधिकार — काश्तकारी अधिनियम के अंतर्गत निर्धारित अवधि तक भूमि जोतने वाले काश्तकार को खातेदारी (अधिभोग) अधिकार प्राप्त होते हैं, जो उत्तराधिकार-योग्य हैं तथा कुछ प्रतिबंधों सहित अंतरणीय हैं। (2) भू-उपयोग परिवर्तन — कृषि भूमि का गैर-कृषि उपयोग कलेक्टर से रूपांतरण (conversion) अनुमति के बिना नहीं किया जा सकता। (3) सरकारी भूमि पर अतिक्रमण — राजस्व प्राधिकारियों द्वारा सरसरी बेदखली की शक्तियों से निपटाया जाता है।
+ 
+राजस्व अभिलेखों से जुड़ा एक और प्रश्न यह है कि जब भूमि किसी बैंक ऋण के विरुद्ध बंधक हो और बैंक कब्ज़े की कार्यवाही करे, तब क्या किया जाए। यह विषय राजस्व न्यायालय के क्षेत्राधिकार से बाहर चला जाता है — देखें SARFAESI नोटिस और DRT में धारा 17 का उपाय। कृषि भूमि के लिए धारा 31(i) की छूट विशेष रूप से देखने योग्य है।
+ 
+यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। अपने विशिष्ट मामले में मार्गदर्शन हेतु किसी योग्य अधिवक्ता से परामर्श करें।
+
+शुभम ओझा एवं एसोसिएट्स
+ 
+अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
+
+संबंधित लेख
+
+संपत्ति विधि
+राजस्थान में नामांतरण (दाखिल-खारिज) कैसे कराएं
+ संपत्ति विधि
+राजस्थान में संपत्ति विवाद: एक विस्तृत मार्गदर्शिका
+ संपत्ति विधि
+राजस्थान में कृषि भूमि का बँटवारा: धारा 53
+
+बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
+
+📞 Call Now
+ 💬 WhatsApp
+
+---
+
+# सरकारी कर्मचारी सेवा विवाद: CAT जोधपुर, Tribunal या High Court
+URL: https://shubhamojhaandassociates.com/articles/sarkari-karmchari-seva-vivad-cat-tribunal-rajasthan-hi.html
+
+मुख्य पृष्ठ›
+ विधिक जानकारी›
+ सरकारी कर्मचारी के सेवा विवाद
+
+सेवा विधि
+
+# सरकारी नौकरी में निलंबन, जाँच या पेंशन का विवाद — केस कहाँ और कैसे लड़ा जाता है?
+
+लेखक: शुभम ओझा, BA LL.B., LL.M., ICWA (Foundation) | अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर
+ अगस्त 2026
+
+केंद्र सरकार के कर्मचारी का सेवा विवाद Central Administrative Tribunal (CAT) में चलता है — राजस्थान में इसकी जोधपुर और जयपुर बेंच हैं। राजस्थान राज्य के कर्मचारी का मामला राजस्थान सिविल सेवा अपील अधिकरण या High Court में जाता है। निलंबन सज़ा नहीं है, पेंशन दान नहीं बल्कि अधिकार है, और विभागीय जाँच में सुनवाई का पूरा अवसर मिलना अनिवार्य है।
+
+कागज़ आपके पास हैं? नोटिस, आदेश या याचिका की फोटो WhatsApp पर +91 70230 51275 भेजी जा सकती है, या इसी नंबर पर कॉल करें (सोम–शनि, दोपहर 12 – रात 10 बजे)।
+
+एक नज़र में
+
+केंद्रीय कर्मचारी का forum — CAT: जोधपुर बेंच (उच्च न्यायालय के निकट) एवं जयपुर बेंच
+ 
+CAT में आवेदन — Original Application (OA), धारा 19, Administrative Tribunals Act, 1985; परिसीमा सामान्यतः 1 वर्ष (धारा 21)
+ 
+पूर्व शर्त — धारा 20: विभागीय appeal/representation पहले exhaust करनी होती है
+ 
+राज्य कर्मचारी का forum — राजस्थान सिविल सेवा अपील अधिकरण (1976 अधिनियम), मुख्य पीठ जयपुर; अपील की अवधि 6 माह
+ 
+High Court कब — अनुच्छेद 226 writ: जहाँ अधिकरण का क्षेत्राधिकार नहीं, अथवा अधिकरण के आदेश की judicial review (खंडपीठ)
+ 
+आधार-स्तंभ निर्णय — L. Chandra Kumar (1997) · D.S. Nakara (1983) · ECIL v. B. Karunakar (1993)
+
+Central Administrative Tribunal का गठन एक केंद्रीय क़ानून — Administrative Tribunals Act, 1985 (अनुच्छेद 323A) — के अंतर्गत हुआ है और उसकी बेंचें पूरे भारत में हैं; यहाँ बताई गई प्रक्रिया हर राज्य में तैनात केंद्रीय कर्मचारी पर समान रूप से लागू होती है। राजस्थान सिविल सेवा अपील अधिकरण केवल राजस्थान सरकार के कर्मचारियों के लिए है। नीचे दिए गए जोधपुर के उदाहरण केवल दृष्टांत हैं। फ़ोन/वीडियो परामर्श राजस्थान के बाहर तैनात कर्मचारियों के लिए भी उपलब्ध है।
+
+▶ इस विषय पर वीडियो · 32 सेकंड
+
+Suspension Saza Nahi Hai — Subsistence Allowance Aapka Haq
+पूरा चैनल →
+
+## मैं केंद्र सरकार का कर्मचारी हूँ — मेरा केस कहाँ चलेगा?
+ 
+Railway, डाक विभाग, केंद्रीय मंत्रालय और defence के civilian कर्मचारी — इन सबकी भर्ती और service conditions से जुड़े विवाद CAT सुनता है। सशस्त्र बलों के सदस्य इसमें नहीं आते; उनके लिए अलग व्यवस्था है। राजस्थान में CAT की दो बेंच हैं — जोधपुर और जयपुर। जोधपुर बेंच उच्च न्यायालय के निकट बैठती है और पश्चिमी राजस्थान — जोधपुर, बाड़मेर, जैसलमेर, बीकानेर, अजमेर — के कर्मचारियों के मामले सुनती है।
+ 
+मामला Original Application (OA) दायर करने से शुरू होता है — धारा 19, Administrative Tribunals Act, 1985। दो प्रावधान व्यवहार में सबसे अधिक निर्णायक सिद्ध होते हैं। धारा 20 कहती है कि अधिकरण सामान्यतः तब तक आवेदन ग्रहण नहीं करेगा जब तक कर्मचारी विभाग के भीतर उपलब्ध appeal या representation का रास्ता पूरा न कर ले। धारा 21 परिसीमा तय करती है — प्रतिकूल आदेश से सामान्यतः एक वर्ष के भीतर। जोधपुर की प्रैक्टिस में मैंने देखा है कि कर्मचारी वर्षों विभागीय पत्राचार में लगा रहता है और जब अधिकरण पहुँचता है तब तक सबसे बड़ी बाधा उसके मामले का गुण-दोष नहीं, बल्कि यही परिसीमा बन चुकी होती है। प्रतिकूल आदेश की तारीख़ को उसी दिन नोट कर लेना चाहिए।
+
+## राजस्थान सरकार का कर्मचारी कहाँ जाए?
+ 
+राज्य कर्मचारियों के लिए अलग व्यवस्था है — राजस्थान सिविल सेवा अपील अधिकरण, जो Rajasthan Civil Services (Service Matters Appellate Tribunals) Act, 1976 के अंतर्गत गठित है। Seniority, promotion, pay fixation, transfer और pension जैसे मामले इसके समक्ष आते हैं। अपील आदेश से 6 माह के भीतर प्रस्तुत करनी होती है, और उससे पहले विभागीय appeal का रास्ता पूरा करना होता है। मुख्य पीठ जयपुर में है। जोधपुर में एक स्थायी बेंच मई 2023 में स्वीकृत की गई थी (उच्च न्यायालय का पुराना heritage भवन); अपील दाख़िल करने से पहले अधिकरण की मौजूदा बैठक-व्यवस्था की पुष्टि कर लेना उचित रहता है।
+ 
+कुछ श्रेणियाँ अधिकरण की परिधि से बाहर रखी गई हैं — जैसे न्यायपालिका के कर्मचारी और लोक सेवा आयोग से जुड़े मामले — और जहाँ नियम की संवैधानिक वैधता को ही चुनौती देनी हो, वहाँ भी अधिकरण उपयुक्त forum नहीं। ऐसे मामले सीधे राजस्थान उच्च न्यायालय में अनुच्छेद 226 की writ petition से जाते हैं। कौन-सा दरवाज़ा सही है यह तय करना पहला और सबसे महँगा निर्णय होता है — ग़लत forum में वर्ष भर लगाकर लौटना असामान्य नहीं। writ के दायरे पर विस्तार से देखें Writ Petitions under Articles 226 & 227 (English) और Service Law Matters: Challenging Government Orders (English)।
+
+## सस्पेंड कर दिया गया है — क्या यह सज़ा है? वेतन मिलेगा?
+ 
+निलंबन (suspension) सज़ा नहीं है। यह जाँच लंबित रहने तक की एक प्रशासनिक व्यवस्था है, इसीलिए निलंबन से पहले सुनवाई का अवसर देना आवश्यक नहीं माना जाता — यही बात कर्मचारी को सबसे अधिक विचलित करती है। परंतु इसका दूसरा पक्ष भी उतना ही स्पष्ट है: निलंबित कर्मचारी को जीवन-निर्वाह भत्ता (subsistence allowance) पाने का क़ानूनी अधिकार है, और भत्ते का भुगतान किए बिना निलंबन को अनिश्चित काल तक खींचना टिकाऊ नहीं।
+ 
+निलंबन के मामलों में असली प्रश्न प्रायः देरी का होता है, आरोप का नहीं। जब महीनों बीत जाएँ और चार्जशीट तक न दी गई हो, तो निलंबन अपना उद्देश्य खो देता है और वह स्वयं चुनौती का विषय बन जाता है। ऐसे मामलों में राहत की माँग सामान्यतः दो रूपों में की जाती है — निलंबन आदेश को रद्द कराना, या जाँच को समयबद्ध कराना और भत्ते का भुगतान सुनिश्चित कराना।
+
+## विभागीय जाँच (departmental inquiry) में मेरे क्या अधिकार हैं?
+ 
+संविधान का अनुच्छेद 311 सरकारी कर्मचारी को दो संरक्षण देता है — उसे नियुक्ति प्राधिकारी से नीचे का अधिकारी पदच्युत नहीं कर सकता, और उचित जाँच तथा सुनवाई के अवसर के बिना dismissal, removal या rank में कमी नहीं की जा सकती। राजस्थान में major penalty की चार्जशीट Rajasthan Civil Services (Classification, Control & Appeal) Rules, 1958 के अंतर्गत दी जाती है — कर्मचारी इसे प्रायः "16 CCA नोटिस" कहते हैं।
+ 
+जाँच में जो अधिकार व्यवहार में मामले का रुख़ बदलते हैं, वे ये हैं:
+
+आरोपों की स्पष्ट सूची (Article of Charge) और imputations का विवरण मिलना
+ 
+जिन दस्तावेज़ों पर विभाग निर्भर है, उनकी प्रति एवं निरीक्षण का अवसर
+ 
+विभागीय गवाहों से cross-examination और अपने बचाव के गवाह प्रस्तुत करने का अधिकार
+ 
+जाँच अधिकारी का स्वतंत्र होना — वही व्यक्ति शिकायतकर्ता और जाँचकर्ता दोनों नहीं हो सकता
+ 
+जाँच रिपोर्ट की प्रति पाकर उस पर जवाब देने का अवसर — Managing Director, ECIL v. B. Karunakar (1993)
+
+अंतिम बिंदु पर विशेष ध्यान दें। रिपोर्ट दिए बिना सुनाई गई सज़ा दोषपूर्ण मानी जाती है, और यह वह चूक है जो विभाग सबसे अधिक करता है। इसी तरह सज़ा का आरोप के अनुपात में होना भी आवश्यक है — अनुपातहीन दंड अनुच्छेद 14 के आधार पर चुनौती योग्य रहता है।
+
+## पेंशन रोक दी गई या नहीं मिल रही — क्या करूँ?
+ 
+इस विषय पर विधि की स्थिति कर्मचारी के पक्ष में स्पष्ट है। D.S. Nakara बनाम भारत संघ (1983) में उच्चतम न्यायालय ने कहा कि पेंशन सरकार की कृपा नहीं, सेवा से अर्जित अधिकार है। इसके बाद State of Jharkhand बनाम Jitendra Kumar Srivastava (2013) में यह और आगे बढ़ा — पेंशन और gratuity अनुच्छेद 300A के अर्थ में संपत्ति हैं, और विधि के अधिकार के बिना इन्हें रोका नहीं जा सकता। राजस्थान के राज्य कर्मचारियों पर Rajasthan Civil Services (Pension) Rules लागू होते हैं।
+ 
+व्यवहारिक क्रम वही रहता है — पहले विभाग को लिखित representation, और उत्तर न मिलने या अस्वीकृति पर सक्षम forum (CAT, अधिकरण या उच्च न्यायालय)। सेवानिवृत्त कर्मचारी के मामले में हर बीता महीना सीधा आर्थिक नुक़सान है, इसलिए यहाँ परिसीमा पर विशेष सतर्कता रखनी चाहिए; प्रतीक्षा का कोई प्रतिफल नहीं मिलता।
+
+## क्या ट्रांसफर रुकवाया जा सकता है?
+ 
+सीधा उत्तर — transfer सेवा की एक शर्त है, और किसी स्थान विशेष पर बने रहने का vested right किसी कर्मचारी को नहीं होता। न्यायालय transfer के मामलों में दख़ल कम ही देते हैं। अपवाद तीन हैं: दुर्भावना से किया गया (mala fide) transfer, अर्थात् जो व्यवहार में सज़ा हो; लागू transfer policy या नियमों के विरुद्ध किया गया transfer; और ऐसे अधिकारी द्वारा किया गया आदेश जो उसके लिए सक्षम ही नहीं था। ईमानदार सलाह यह है कि हर transfer का मुक़दमा नहीं बनता — जहाँ बनता है, आधार लगभग हमेशा इन्हीं तीन में से एक होता है।
+
+## अन्य सामान्य विवाद
+
+अनुकंपा नियुक्ति (compassionate appointment) — Umesh Kumar Nagpal v. State of Haryana (1994): यह वंशानुगत अधिकार नहीं, बल्कि कमाने वाले की मृत्यु से आए तात्कालिक संकट से परिवार को उबारने की व्यवस्था है; इसीलिए समय रहते आवेदन करना निर्णायक होता है।
+ 
+नियमितीकरण (regularisation) — Secretary, State of Karnataka v. Umadevi (2006): लंबे समय तक काम करते रहने मात्र से नियमितीकरण का अधिकार नहीं बनता; अपवाद सीमित और परिभाषित हैं।
+ 
+समान कार्य, समान वेतन — State of Punjab v. Jagjit Singh (2016): अस्थायी रूप से नियुक्त कर्मचारी भी, समान कार्य करने पर, समान वेतन का हक़दार हो सकता है।
+ 
+Promotion, seniority और ACR/APAR — प्रतिकूल entry का कर्मचारी को communicate किया जाना आवश्यक है; sealed cover प्रक्रिया के अपने अलग नियम हैं।
+
+## CAT के आदेश से असंतुष्ट हूँ — आगे क्या?
+ 
+यहाँ एक व्यापक भ्रांति है कि अधिकरण के बाद सीधे उच्चतम न्यायालय जाया जा सकता है। L. Chandra Kumar बनाम भारत संघ (1997) में सात-न्यायाधीशीय पीठ ने यह स्पष्ट कर दिया कि अधिकरण के आदेशों पर उच्च न्यायालय का judicial review संविधान की आधारभूत संरचना का हिस्सा है। अर्थात् अधिकरण के आदेश की चुनौती पहले संबंधित उच्च न्यायालय की खंडपीठ के समक्ष अनुच्छेद 226/227 की writ petition से होती है। CAT की जोधपुर बेंच के आदेश की चुनौती राजस्थान उच्च न्यायालय, जोधपुर में प्रस्तुत की जाती है — और यही कारण है कि सेवा-मामलों में जोधपुर बेंच का होना पश्चिमी राजस्थान के कर्मचारियों के लिए व्यावहारिक रूप से बड़ी सुविधा है: अधिकरण और उच्च न्यायालय, दोनों एक ही शहर में।
+
+दो संवैधानिक खंड ऐसे हैं जिनका सेवा-मामलों में सबसे अधिक व्यावहारिक महत्व है और जिनका उल्लेख प्रायः छूट जाता है। पहला, अनुच्छेद 226(2)। उसका पाठ यह है कि खंड (1) की शक्ति उस उच्च न्यायालय द्वारा भी प्रयोग की जा सकती है जिसके क्षेत्र में वाद-कारण (cause of action), पूर्णतः या अंशतः, उत्पन्न हुआ हो, इस तथ्य के होते हुए भी कि उस सरकार या प्राधिकारी का मुख्यालय, अथवा उस व्यक्ति का निवास, उन क्षेत्रों के भीतर नहीं है। जोधपुर में तैनात कर्मचारी के विरुद्ध आदेश प्रायः जयपुर या दिल्ली से निकलता है। यही खंड उस आपत्ति का उत्तर है कि विभाग तो कहीं और बैठता है। दूसरा, अनुच्छेद 227(1) का शब्द-चयन: अधीक्षण (superintendence) "सभी न्यायालयों तथा अधिकरणों" पर है। जोधपुर में बैठी CAT बेंच इसी कारण जोधपुर पीठ के अधीक्षण में है, और ऊपर बताया गया L. Chandra Kumar वाला मार्ग इसी पाठ पर टिका है।
+
+जिस खंड को L. Chandra Kumar ने संकुचित किया, वह अनुच्छेद 323A(2)(d) है। उसने संसद को यह अनुमति दी थी कि वह अनुच्छेद 136 के अधीन उच्चतम न्यायालय को छोड़कर सभी न्यायालयों का क्षेत्राधिकार वर्जित कर दे। वह वर्जन अब उच्च न्यायालय पर लागू नहीं होता। एक और खंड यहाँ काम का है। अनुच्छेद 226(3) के अनुसार, यदि किसी पक्ष के विरुद्ध अंतरिम आदेश (stay या injunction) उसे याचिका तथा समर्थक दस्तावेज़ों की प्रतियाँ दिए बिना और सुनवाई का अवसर दिए बिना पारित हुआ है, तो वह पक्ष उसे निरस्त कराने का आवेदन कर सकता है, और उच्च न्यायालय को उसका निस्तारण दो सप्ताह में करना होता है; न करने पर वह अंतरिम आदेश स्वतः निरस्त हो जाता है। transfer और seniority के मामलों में एकपक्षीय stay असामान्य नहीं है, इसलिए यह उपबंध दोनों पक्षों को पढ़ना चाहिए। किस आदेश की चुनौती किस मंच पर और किस पीठ के समक्ष रखी जाती है, इसका ब्यौरा जोधपुर में अधिवक्ता: सेवा-मामला किस पीठ के समक्ष पर है।
+
+यह लेख केवल सामान्य जानकारी हेतु है और इसे विधिक परामर्श नहीं माना जाए। सेवा-मामलों में परिसीमा और लागू नियम विभाग एवं तथ्यों के अनुसार बदलते हैं; अपने विशिष्ट मामले में किसी योग्य अधिवक्ता से परामर्श करें।
+
+शुभम ओझा एवं एसोसिएट्स
+ 
+अधिवक्ता, राजस्थान उच्च न्यायालय, जोधपुर  ·  दूरभाष: +91 70230 51275  ·  WhatsApp
+
+संबंधित लेख
+
+सेवा विधि
+Service Law Matters: Challenging Government Orders Through Writ Petitions
+ संवैधानिक विधि
+Writ Petitions under Articles 226 & 227
+ सामान्य प्रश्न
+विधिक प्रश्नोत्तर — सामान्य कानूनी सवालों के जवाब
+
+बार काउंसिल ऑफ इंडिया सूचना: यह वेबसाइट केवल सूचना हेतु है और इसे विधिक परामर्श नहीं माना जाए। इस वेबसाइट को देखने मात्र से अधिवक्ता-मुवक्किल संबंध स्थापित नहीं होता।
+
+📞 Call Now
+ 💬 WhatsApp
+
+---
+
 # SARFAESI Section 13(2) Notice: What a Borrower Can Actually Do
 URL: https://shubhamojhaandassociates.com/articles/sarfaesi-section-13-2-notice-borrower-options-india.html
 
@@ -2495,6 +2529,22 @@ One restriction begins the moment the notice is received rather than when the si
 There is, and it is a narrower point than most borrowers expect. Section 13(3A) was inserted after the Supreme Court in Mardia Chemicals held that where a borrower raises an objection or places facts before the secured creditor, "such reply to the notice must be considered with due application of mind and the reasons for not accepting the objections, howsoever brief they may be, must be communicated to the borrower". The section now fixes fifteen days for that communication. But the same judgment, and the proviso that Parliament enacted, are equally clear that those reasons are for the borrower's information only and give rise to no right to approach the Tribunal at that stage.
 
 So the reply is not a remedy. It is the record. The objection that is put on paper within the sixty days — that the account was wrongly classified, that the figure demanded includes charges never debited to the account, that the property described is not the property mortgaged, that the loan is one the Act cannot reach at all — is the objection the Tribunal will later be asked to test against the bank's fifteen-day reasons. The commonest difficulty in these matters is not a bad case; it is a borrower who spent the whole sixty days negotiating at the branch counter, put nothing in writing, and arrives after possession with nothing on record but a memory of what a manager said.
+
+## The Section 13(3A) representation: what to put in it and what the bank must do
+
+Nothing in the Act prescribes a form for the objection. There is no format, no fee and no authority to file it with: Section 13(3A) speaks only of a borrower who, "on receipt of the notice under sub-section (2)", makes a representation or raises an objection. Two things follow from those opening words. The objection belongs inside the sixty-day window and is sensibly made once the papers have been read, not on the fifty-ninth day. And since the bank's fifteen days run from its receipt of the representation, the date of delivery is the date the clock starts, which makes the mode of sending as material as the contents. Keep the proof of delivery. That period was not always fifteen days: the words were substituted by Act 1 of 2013 with effect from 15 January 2013, and before that the section allowed the secured creditor one week.
+
+What belongs in the letter is governed by what the Tribunal will later be permitted to look at. Section 17(2) confines the enquiry to a single question — whether the measures taken under Section 13(4) were in accordance with the Act and the rules made under it. An objection is therefore worth writing only where it fastens on a condition the statute itself imposes, and five of those are available on the face of the notice. First, the two jurisdictional facts in Section 13(2): a default in repayment of a secured debt, and classification of that account by the creditor as a non-performing asset. The date of classification is in the bank's records and not in the borrower's. Ask for it in the letter. Second, Section 13(3): the notice must give the details of the amount payable and must identify the secured assets intended to be enforced. A consolidated demand with no working behind it, or a schedule that describes the property loosely, is met on that ground and not on equity. Third, the figure itself, checked against the statement of account for the life of the loan and disputed item by item — charges, penal interest, insurance debits, reversals that were never passed. Fourth, the description of the security, where the notice has swept in a property that was never mortgaged or has mixed up two parcels held by the same family. Fifth, the exclusions in Section 31, discussed below, which if they apply take the matter outside the Act altogether rather than merely weakening the bank's case. One request is worth adding in the same letter even though it is not an objection: a borrower who intends to sell the property to raise the money needs the creditor's prior written consent under Section 13(13), and asking for it in writing at this stage is better than discovering the restriction after a buyer has been found.
+
+The bank's duty is stated in modest terms. It must consider the representation, and if it concludes that the representation or objection is not acceptable or tenable, it must communicate the reasons for non-acceptance within fifteen days. It need not agree. It need not hold a hearing. Nor does the sixty-day clock stop while it considers. The proviso then names two forums that the communication of those reasons does not open — the Debts Recovery Tribunal under Section 17 and the Court of District Judge under Section 17A — and Section 17A, which was the Jammu and Kashmir provision, now stands omitted by the adaptation orders of 2020. For a borrower whose security lies in Rajasthan the proviso thus shuts out one forum, the Tribunal, and the same bar is repeated for the removal of doubts in the Explanation to Section 17(1), inserted by the same amendment of 2004 that brought in Section 13(3A) itself.
+
+ What the reply is worth once possession is taken
+
+Its value shows up in the affidavit the bank must file to get help with possession. Among the nine declarations the authorised officer makes under the first proviso to Section 14(1) are clause (vi), that the sixty-day notice under Section 13(2) was served, clause (vii), that the objection or representation received in reply to that notice has been considered and the reasons for non-acceptance communicated to the borrower, and clause (ix), that the provisions of the Act and the rules have been complied with. A borrower who sent nothing leaves clause (vii) with nothing to answer. Silence costs him that line. A borrower holding a dated objection, proof of its delivery, and either no reasons at all or reasons that answer some other objection, is holding the document the Tribunal reads under Section 17(2) alongside the bank's own sworn statement. What should not be argued is that the fifteen-day default by itself undoes the possession: the Act attaches no such consequence to it, and its weight in a Section 17 application is evidentiary.
+
+ For a borrower at Jodhpur
+
+Three stages, three different places. None of them is the one most borrowers walk into first. The objection under Section 13(3A) goes to the authorised officer at the branch named in the notice. If the creditor later needs assistance to take possession, its application under Section 14 goes before the District Magistrate within whose jurisdiction the asset is situated — the District Magistrate at Jodhpur for a house in the city, the Collectorate of Pali or Barmer for a field lying there — and the borrower is not a party to that exercise, as Section 14(3) and the section on the District Magistrate's order below make plain. The application under Section 17 for a borrower in Rajasthan goes to the Debts Recovery Tribunal at Jaipur, which takes bank matters from the whole of the State including Jodhpur: the application is prepared here and heard there, and the forty-five days run while that is being arranged. The High Court's principal seat being at Jodhpur is exactly why a writ petition is the common false start here, as the section further down explains, and the forums are set out side by side in the note on which forum hears which matter at Jodhpur.
 
 ## When does the right to go to the Tribunal begin?
 
