@@ -11,6 +11,7 @@
   var HON = { ADV: 1, ADVOCATE: 1, MR: 1, MRS: 1, MS: 1, MISS: 1, SH: 1, SHRI: 1, SMT: 1, SUSHRI: 1, DR: 1, KUM: 1, KUMARI: 1, SR: 1, LD: 1 };
   var CASE_Q = /^\s*([A-Za-z][A-Za-z0-9.()_\s-]*?)?\s*[\/\\-]?\s*(\d{1,7})\s*(?:[\/\\-]|\s+OF\s+|\s+)\s*((?:19|20)\d{2}|\d{2})\s*$/i;
   var CASE_RE = /^\s*(.*?)\s*(\d+)\s*\/\s*(\d{4})\s*$/;
+  var CNR_Q = /^\s*(RJHC0[12])\s*-?\s*(\d{6})\s*-?\s*(\d{4})\s*$/i;   // CNR / CINO, e.g. RJHC010541342024
   var EPOCH = Date.UTC(2025, 0, 1);
   var MAX_ROWS = 300;
 
@@ -179,6 +180,7 @@
   var meta = null, days = {}, shards = {}, runId = 0, shown = 50, liveT = 0, fuzzT = 0, keyAt = 0;
   var form = $('f'), qIn = $('q'), whenSel = $('when'), dateIn = $('date'), seatSel = $('seat'), out = $('res'), state = $('state'), countEl = $('count');
   var PAGE = 50;
+  var PH0 = out.innerHTML, cnShards = {}, cnrCtx = null;      // PH0 = the picture guide shown before a search
 
   function prepDay(day) {            // flatten once + case-number map; names are indexed right after
     var rows = [], byCase = {};
@@ -348,6 +350,40 @@
       return hits;
     });
   }
+  function cnrShard(layer, key) {   // a missing shard file (404) = no CNR of that range in this layer
+    var k = layer + '/' + key;
+    if (layer === 'd' && (meta.cn.dk || []).indexOf(key) < 0) return Promise.resolve(null);   // listed in meta: no 404 round trip
+    if (!cnShards[k]) cnShards[k] = getJSON('data/cn/' + k + '.json', String(meta.cn[layer])).catch(function (e) {
+      if (/HTTP 404/.test(e && e.message)) return null;
+      delete cnShards[k]; throw e;
+    });
+    return cnShards[k];
+  }
+  function cnrLookup(cnr) {          // -> {cnr, label, seat, q} | null (not in any list we hold)
+    if (!meta.cn) return Promise.resolve(null);
+    var pre = cnr.slice(0, 6), serial = parseInt(cnr.slice(6, 12), 10), key = pre + '-' + cnr.slice(12) + '-' + Math.floor(serial / meta.cn.bk);
+    return Promise.all([cnrShard('d', key), cnrShard('b', key)]).then(function (both) {
+      var j, i, r, sh;
+      for (j = 0; j < 2; j++) {                     // this month's layer first: the newest label wins
+        sh = both[j];
+        if (!sh) continue;
+        for (i = 0; i < sh.r.length; i++) {
+          r = sh.r[i];
+          if (r[0] === serial) {
+            var label = sh.t[r[1]];
+            return { cnr: cnr, label: label, seat: pre === 'RJHC01' ? 'jdp' : 'jp',
+              q: { kind: 'case', typ: label.toUpperCase().replace(/[^A-Z0-9]/g, ''), num: r[2], year: r[3] } };
+          }
+        }
+      }
+      return null;
+    });
+  }
+  function cnrMiss(cnr) {
+    show('<div class="held nf"><b>CNR ' + esc(cnr) + ' is not in the cause lists we hold</b>We learn a CNR when its case appears in a cause list we hold (' +
+      (cnr.slice(0, 6) === 'RJHC01' ? 'Jodhpur, Principal Seat' : 'Jaipur Bench') + '). Try the case number instead. For the case status and orders, use Case Status on hcraj.nic.in — ' + CONFIRM +
+      '.<br><span lang="hi">यह CNR हमारे पास उपलब्ध वाद सूचियों में नहीं मिला। केस नंबर से खोजें; केस की स्थिति व आदेश hcraj.nic.in के Case Status में देखें।</span></div>', 'No result in the lists searched');
+  }
   function indexTable(hits, skip) {
     var rows = hits.filter(function (x) { return !skip[x.date]; });
     if (!rows.length) return '';
@@ -365,9 +401,30 @@
     window.__runId = my;
     clearTimeout(fuzzT);
     if (!meta) { show('', 'Loading today’s list…'); pending = true; return; }
-    if (!raw) { show('<div class="ph">Results appear here as you type \u2014 seat, court number, bench, item number and list type.</div>'); window.__searchDone = my; return; }
+    if (!raw) { show(PH0); window.__searchDone = my; return; }
     var q = detect(raw), sc = scope(), seat = seatSel.value, today = todayIso(), note = '';
     function hint(t) { show('<div class="held">' + t + '</div>'); window.__searchDone = my; window.__keyMs = Math.round(performance.now() - keyAt); }
+    var cm = CNR_Q.exec(raw), cnrHead = '';
+    if (cm) {
+      var cnr = (cm[1] + cm[2] + cm[3]).toUpperCase();
+      if (!cnrCtx || cnrCtx.cnr !== cnr) {
+        show('', 'Looking up CNR…');
+        cnrLookup(cnr).then(function (rec) {
+          if (my !== runId) return;
+          if (!rec) { cnrMiss(cnr); window.__searchDone = my; return; }
+          cnrCtx = rec; run(live);
+        }, function () {
+          if (my !== runId) return;
+          show('<div class="held nf">Published data is not available to us right now — ' + CONFIRM + '</div>'); window.__searchDone = my;
+        });
+        return;
+      }
+      q = cnrCtx.q; seat = cnrCtx.seat;
+      if (sc.def) sc = { dates: [], all: true };          // a CNR asks for the case's history, not only today
+      cnrHead = '<div class="cnr">CNR <b>' + cnr + '</b> = <b>' + esc(cnrCtx.label + ' ' + q.num + '/' + q.year) + '</b> · ' + SFULL[seat] + '</div>';
+    } else if (/^\s*RJHC/i.test(raw)) {
+      hint('Keep typing the 16-character CNR, for example <b>RJHC010541342024</b>. <span lang="hi">पूरा 16 अक्षरों का CNR नंबर लिखें।</span>'); return;
+    }
     if (q.kind === 'name' && /\d/.test(raw)) { hint('Keep typing the case number with its year, for example <b>CW 1234/2026</b> or <b>1234/2026</b>.'); return; }
     if (q.kind === 'name' && q.norm.replace(/ /g, '').length < 3) { hint('Type at least 3 letters of a name, or a case number such as <b>CW 1234/2026</b>.'); return; }
     if (sc.all && q.kind === 'name') {
@@ -381,6 +438,7 @@
     function paint(final) {
       if (my !== runId) return;
       var h = '', total = 0, budget = shown, nf = [], loose = false, skip = {};
+      if (cnrHead) h += cnrHead;
       if (note) h += '<div class="warn">' + esc(note) + '</div>';
       dates.forEach(function (iso) {
         var p = parts[iso];
@@ -399,6 +457,8 @@
       var head = '', count = '';
       if (!final) count = 'Searching… ' + done + ' of ' + dates.length + ' date' + (dates.length === 1 ? '' : 's') + ' checked';
       else if (total) count = total + ' result' + (total > 1 ? 's' : '');
+      else if (idx && idx.length) count = idx.length + ' listing' + (idx.length > 1 ? 's' : '') + ' in our database';
+      else if (!idx && wantIdx && !idxErr) count = 'Searching our database…';
       else count = 'No result in the lists searched';
       if (final && fuzzy && total) head += '<div class="warn">No exact match. Showing similar spellings.</div>';
       if (final && loose) head += '<div class="warn">No exact match for that case type; showing every case with this number and year.</div>';
@@ -455,7 +515,7 @@
       if (c) c.then(finish); else finish();
     }
     var wantIdx = q.kind === 'case' && !sc.one && !sc.range, idxP = null;
-    if (wantIdx) idxP = lookupIndex(q).then(function (hh) { idx = hh; }, function () { idxErr = true; });
+    if (wantIdx) idxP = lookupIndex(q).then(function (hh) { idx = seat ? hh.filter(function (x) { return x.seat === seat; }) : hh; }, function () { idxErr = true; });
     var c = pass(false);
     function afterExact() {
       if (my !== runId) return;
