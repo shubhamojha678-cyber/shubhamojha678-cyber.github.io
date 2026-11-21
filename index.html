@@ -696,6 +696,7 @@ ul { list-style: none; }
       <li><a href="#resources">Resources</a></li>
       <li><a href="#process">Process</a></li>
       <li><a href="/legal-faq.html">Legal FAQ</a></li>
+      <li><a href="/rhc-causelist/">Cause List</a></li>
       <li><a href="#legal-awareness">Videos</a></li>
       <li><a href="/consultation.html">Consultation</a>
 <a href="#contact">Contact</a></li>
@@ -718,6 +719,7 @@ ul { list-style: none; }
 <a href="#resources" class="mobile-link">Resources</a>
   <a href="#process" class="mobile-link">Our Process</a>
   <a href="/legal-faq.html" class="mobile-link">Legal FAQ</a>
+  <a href="/rhc-causelist/" class="mobile-link">HC Cause List Search</a>
   <a href="#legal-awareness" class="mobile-link">Legal Videos</a>
   <a href="#contact" class="mobile-link">Contact</a>
   <a href="tel:+917023051275" class="btn btn-primary">📞 Call: +91 70230 51275</a>
@@ -779,6 +781,42 @@ ul { list-style: none; }
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.5v19M8.5 21.5h7M12 4.5l-6.5 1.8M12 4.5l6.5 1.8M5.5 6.5l-3.2 6.6a3.8 3.8 0 0 0 7.6 0L6.7 6.5M18.5 6.5l-3.2 6.6a3.8 3.8 0 0 0 7.6 0l-3.2-6.6"/></svg>
   </div>
   <div class="hero-scroll" aria-hidden="true"><div class="scroll-arrow"></div>Scroll</div>
+</section>
+
+<!-- PUBLIC TOOL: Rajasthan High Court cause list search (built by ~/bin/clsearch) -->
+<section class="cl-band" id="cause-list" aria-label="Rajasthan High Court cause list search">
+<style>
+.cl-band{background:var(--navy,#0b1a3a);border-top:3px solid #c9a24d;border-bottom:3px solid #c9a24d;padding:28px 20px}
+.cl-band .cl-in{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1.1fr 1fr;gap:22px;align-items:center}
+.cl-band .cl-eye{color:#c9a24d;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin:0 0 6px}
+.cl-band h2{color:#fff;font-size:1.6rem;line-height:1.2;margin:0 0 4px}
+.cl-band .cl-hi{color:#f0e8d6;font-size:1.08rem;margin:0 0 10px}
+.cl-band .cl-p{color:#d8dce6;font-size:.95rem;margin:0;line-height:1.55}
+.cl-band form{display:flex;gap:8px}
+.cl-band input{flex:1;min-width:0;padding:13px 14px;border-radius:8px;border:1px solid #c9a24d;font-size:1rem}
+.cl-band button{padding:13px 20px;border-radius:8px;border:0;background:#c9a24d;color:#0b1a3a;font-weight:700;font-size:1rem;cursor:pointer}
+.cl-band .cl-ex{color:#d8dce6;font-size:.82rem;margin:8px 0 0}
+.cl-band .cl-links{margin:10px 0 0;font-size:.9rem}
+.cl-band .cl-links a{color:#c9a24d}
+@media(max-width:800px){.cl-band .cl-in{grid-template-columns:1fr}.cl-band h2{font-size:1.35rem}}
+</style>
+<div class="cl-in">
+<div>
+<p class="cl-eye">Public court information · <span lang="hi">सार्वजनिक न्यायालयीन जानकारी</span></p>
+<h2>Rajasthan High Court Cause List Search — Jodhpur &amp; Jaipur</h2>
+<p class="cl-hi" lang="hi">राजस्थान हाईकोर्ट कॉज़ लिस्ट (वाद सूची) खोज — जोधपुर व जयपुर पीठ</p>
+<p class="cl-p">Search the daily and supplementary cause lists by case number, advocate, party name or CNR, and see the court number and item number. <span lang="hi">केस नंबर, वकील, पक्षकार या CNR से खोजें।</span> Compiled from the lists published on hcraj.nic.in; unofficial.</p>
+</div>
+<div>
+<form action="/rhc-causelist/" method="get" role="search" onsubmit="var v=this.q.value.trim();if(v){location.href='/rhc-causelist/#q='+encodeURIComponent(v);}return false;">
+<label for="cl-q" style="position:absolute;left:-9999px">Case number, advocate, party name or CNR</label>
+<input id="cl-q" name="q" type="search" placeholder="CW 1234/2026, advocate name or CNR" autocomplete="off" autocapitalize="characters">
+<button type="submit">Search</button>
+</form>
+<p class="cl-ex">e.g. CW 1234/2026 · M.S. PUROHIT · RJHC010541342024</p>
+<p class="cl-links"><a href="/rhc-causelist/">Open the cause list search</a> · <a href="/rhc-causelist/hi/" lang="hi" hreflang="hi">हिंदी में खोजें</a> · <a href="/rhc-causelist/jodhpur/">Jodhpur cause list today</a></p>
+</div>
+</div>
 </section>
 
 <!-- STATS section removed for Bar Council of India (Rule 36) compliance — no advertising of experience/achievements -->
