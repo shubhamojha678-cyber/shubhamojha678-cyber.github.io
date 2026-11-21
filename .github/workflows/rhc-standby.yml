@@ -1,0 +1,66 @@
+# Cause-list STANDBY for https://shubhamojhaandassociates.com/rhc-causelist/
+# Place at .github/workflows/rhc-standby.yml ; the package lives in .github/rhc-standby/ .
+# It acts ONLY when the primary system has not published for 2 h 15 min (see standby.py).
+name: rhc-standby
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'   # every 15 min (UTC; GitHub may delay a run - fine)
+    - cron: '40 21 * * 6'          # weekly drill: Sunday 03:10 IST (never pushes to main)
+  push:                              # a change to the standby itself -> one drill at once (never pushes to main)
+    branches: [main]
+    paths: ['.github/rhc-standby/**', '.github/workflows/rhc-standby.yml']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'auto = act only if the primary is dead | drill = full fetch + build, no push to main | pagestest / alerttest = one-off owner tests'
+        type: choice
+        options: [auto, drill, pagestest, alerttest]
+        default: auto
+
+permissions: {}
+
+concurrency:
+  group: rhc-standby
+  cancel-in-progress: false
+
+jobs:
+  standby:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write   # commit rhc-causelist/ to main when the primary is dead; drill result to branch rhc-standby-state
+      issues: write     # ONE issue when the standby takes over, closed when the primary is back
+      pages: write      # ask for a Pages build if the live page has not changed 100 s after a push
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      MODE: ${{ github.event.inputs.mode || (github.event_name == 'push' && 'drill') || (github.event.schedule == '40 21 * * 6' && 'drill') || 'auto' }}
+      TZ: Asia/Kolkata
+    steps:
+      - name: Standby code (sparse clone, seconds)
+        run: |
+          git clone -q --depth 1 --filter=blob:none --sparse --branch "$GITHUB_REF_NAME" "https://github.com/$GITHUB_REPOSITORY.git" code
+          git -C code sparse-checkout set --no-cone '/.github/rhc-standby/'
+          test -f code/.github/rhc-standby/standby.py
+
+      - name: Gate (is the primary dead?)
+        id: gate
+        run: |
+          if [ "$MODE" = "auto" ]; then
+            python3 code/.github/rhc-standby/standby.py gate
+          else
+            echo "act=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Site checkout + Python packages
+        if: steps.gate.outputs.act == 'true'
+        run: |
+          git clone -q --depth 1 --branch main "https://github.com/$GITHUB_REPOSITORY.git" site
+          python3 -m venv venv
+          venv/bin/pip -q install -r code/.github/rhc-standby/requirements.txt
+
+      - name: Run
+        if: steps.gate.outputs.act == 'true'
+        env:
+          STANDBY_PUSH_URL: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+        run: venv/bin/python code/.github/rhc-standby/standby.py run --mode "$MODE" --repo site

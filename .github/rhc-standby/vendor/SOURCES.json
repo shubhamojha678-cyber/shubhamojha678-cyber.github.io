@@ -1,0 +1,18 @@
+{
+ "note": "byte-identical copies; see vendor_sync.py",
+ "files": {
+  "clsearch/cldb.py": "d0bcd1a5b0082f86b2f73675c8d690396686a5e57fbfbf5b604e9e28a4c25f0b",
+  "clsearch/ops.py": "06155e222545df5655f753a451b53ed1c2f5434681beb13082c1b90a909f3ecf",
+  "clsearch/export_static.py": "9c516a4d367bc2a6c65ebd35ecc3a21f2df704aeaeb4a7b3145a4b3be58ccddb",
+  "clsearch/site_build.py": "d4b77f7f31ba2bbf464ad40b5b07769520d3918e0bf63e0fd288fb29d223f2e6",
+  "clsearch/courtcal.py": "9bf37628a9d57b1233217c57d0b24abe4706787fe3431989e87f15305655b9ea",
+  "clsearch/calendar_page.py": "a37f6aa38de627bb03f9780ef0a355c230f99be5befc7ff822469d012246ff5a",
+  "causelist/lib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "causelist/lib/fetch.py": "9fe305e309c8de67089dd106586e991af94967f9a6f013079c7ff257f3f387d3",
+  "causelist/lib/ocr.py": "7c191ff62800ab3fc3b7d7482686f432ef3ea2d5a4e8b6fac321502cce46548d",
+  "causelist/lib/parse.py": "64d60391ecf213bb65471a5c82b9a224bc84ee6446de210f1de056cd2f359d41",
+  "causelist/lib/resolve.py": "8390e9ef3b6ab75f849cb30daafacf89c2da0b5f9eb32bc7b40e00ebab9bd6b7",
+  "causelist/lib/hc_calendar.py": "df6f0b5c2fd35e8d50dad15a42d9fef27775a0399d082ba311eceaf06b66ebdf",
+  "causelist/refs/captcha_glyphs.json": "00d255334e003cdb3d70f69983d67df684e3371a6d41e760fc8478b709d02bd2"
+ }
+}
