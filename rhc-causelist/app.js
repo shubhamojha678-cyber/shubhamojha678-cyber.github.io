@@ -392,7 +392,7 @@
       h += '<tr><td class="n">' + dmy(x.date) + '</td><td>' + SN[x.seat] + '</td><td>' + esc(x.court) + '</td><td>' + esc(x.item) + '</td><td>' + esc(x.typ) + badge(x.lt) + '</td><td>' +
         (meta.days[x.date] ? '<button class="lk" type="button" data-d="' + x.date + '">details</button>' : '') + '</td></tr>';
     });
-    return h + '</table></div><p class="hint">Court and item from our database. Parties and counsel are shown for the last ' + meta.site_days + ' days (“details”); older full lists are in our database but not on this site. A date missing here may still be on the court’s board — ' + CONFIRM + '.</p><p class="unoff">Unofficial compilation — not a website of the Rajasthan High Court; the court’s published cause list is the only official record.</p></div>';
+    return h + '</table></div><p class="hint"><b>Actual listings only — tentative / next dates are not shown.</b> <span lang="hi">केवल वास्तविक लिस्टिंग; संभावित (टेंटेटिव) तारीखें नहीं।</span> Court and item from our database. Parties and counsel are shown for the last ' + meta.site_days + ' days (“details”); older full lists are in our database but not on this site. A date missing here may still be on the court’s board — ' + CONFIRM + '.</p><p class="unoff">Unofficial compilation — not a website of the Rajasthan High Court; the court’s published cause list is the only official record.</p></div>';
   }
 
   // live = typed (no fuzzy pass, no history entry); otherwise an explicit search
