@@ -1,0 +1,132 @@
+{
+ "v": 1,
+ "kind": "rhc-standby drill",
+ "at": "2026-11-22T01:38:00+05:30",
+ "at_ist": "22-Nov-2026 01:38 IST",
+ "ok": true,
+ "notes": [],
+ "python": "3.14.4",
+ "run": "44944609661",
+ "next_hearing_day": "2026-11-23",
+ "lists": [
+  {
+   "seat": "jdp",
+   "date": "2026-11-23",
+   "type": "D",
+   "class": "ok",
+   "result": "replaced"
+  },
+  {
+   "seat": "jdp",
+   "date": "2026-11-23",
+   "type": "S",
+   "class": "ok",
+   "result": "replaced"
+  },
+  {
+   "seat": "jp",
+   "date": "2026-11-23",
+   "type": "D",
+   "class": "ok",
+   "result": "replaced"
+  },
+  {
+   "seat": "jp",
+   "date": "2026-11-23",
+   "type": "S",
+   "class": "ok",
+   "result": "replaced"
+  }
+ ],
+ "fetch_log": [
+  {
+   "seat": "jdp",
+   "date": "23/11/2026",
+   "type": "D",
+   "captcha": [
+    {
+     "attempt": 1,
+     "result": "accepted",
+     "guess_rank": 1,
+     "candidates": 25
+    }
+   ],
+   "state": "list",
+   "error": "",
+   "secs": 14.6,
+   "bytes": 3698393
+  },
+  {
+   "seat": "jdp",
+   "date": "23/11/2026",
+   "type": "S",
+   "captcha": [
+    {
+     "attempt": 1,
+     "result": "accepted",
+     "guess_rank": 1,
+     "candidates": 25
+    }
+   ],
+   "state": "list",
+   "error": "",
+   "secs": 10.0,
+   "bytes": 763128
+  },
+  {
+   "seat": "jp",
+   "date": "23/11/2026",
+   "type": "D",
+   "captcha": [
+    {
+     "attempt": 1,
+     "result": "accepted",
+     "guess_rank": 6,
+     "candidates": 25
+    }
+   ],
+   "state": "list",
+   "error": "",
+   "secs": 23.0,
+   "bytes": 4007866
+  },
+  {
+   "seat": "jp",
+   "date": "23/11/2026",
+   "type": "S",
+   "captcha": [
+    {
+     "attempt": 1,
+     "result": "accepted",
+     "guess_rank": 1,
+     "candidates": 25
+    }
+   ],
+   "state": "list",
+   "error": "",
+   "secs": 10.5,
+   "bytes": 977405
+  }
+ ],
+ "days": {
+  "2026-11-23": {
+   "fresh": [
+    "jdp",
+    "jp"
+   ],
+   "kept": [],
+   "result": "unchanged",
+   "rows": 4848,
+   "parity": {
+    "jdp": "identical",
+    "jp": "identical"
+   }
+  }
+ },
+ "landing": {
+  "jodhpur": "left as published (self-check did not reproduce the page)",
+  "jaipur": "left as published (self-check did not reproduce the page)"
+ },
+ "verdict": "GREEN",
+ "tree_check": "consistent"
+}
