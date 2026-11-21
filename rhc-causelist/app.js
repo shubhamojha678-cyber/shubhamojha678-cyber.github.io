@@ -552,7 +552,7 @@
     var dd = defaultDates(), today = todayIso(), left = dd.length;
     if ($('scope')) $('scope').textContent = 'Default search: ' + dd.map(function (d) { return dmy(d) + (d === today ? ' (today)' : ''); }).join(' and ') + ', both seats. Name search covers lists from ' + dmy(meta.site_dates[0] || today) + '; older lists are searchable by case number (choose “All dates”).';
     window.__ready = performance.now();
-    try { var hq = /[#&]q=([^&]*)/.exec(location.hash); if (hq && !qIn.value) qIn.value = decodeURIComponent(hq[1]); } catch (e) { /* a malformed link must not break the page */ }
+    try { var hq = /[#&]q=([^&]*)/.exec(location.hash) || /[?&]q=([^&]*)/.exec(location.search); if (hq && !qIn.value) qIn.value = decodeURIComponent(hq[1].replace(/\+/g, ' ')); } catch (e) { /* a malformed link must not break the page */ }
     var loaded = false;
     function label() {                        // never green while we cannot vouch for freshness
       loaded = true;
