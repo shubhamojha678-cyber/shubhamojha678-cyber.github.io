@@ -138,7 +138,62 @@ h2.faqh{margin-top:18px}
  .court .ch,.bd,.held.nf,th{-webkit-print-color-adjust:exact;print-color-adjust:exact}
  a{text-decoration:none;color:inherit}
 }
+.updl{font-size:.8rem;color:#3d4a63;margin:0 2px 10px}
+.ty{display:block;font-weight:400;font-size:.8rem;color:#3d4a63}
+.lg{font-size:.8rem;color:#3d4a63;margin:0 2px 8px}
+.court .ch[data-b]{cursor:pointer}
+.court .ch[data-b]:hover{background:#e9dfc6}
+.court .ch em{float:right;font-style:normal;font-size:.78rem;color:#112246;text-decoration:underline;margin-left:8px}
+.it .act{display:flex;gap:6px;flex-wrap:wrap;margin-top:3px}
+.it .act .sh{margin-top:0}
+.sv{min-height:32px;padding:3px 10px;font-size:.76rem;border-color:#b9ae93;color:#112246;background:#f8f6f1;cursor:pointer}
+.sv.on{background:#0B1A33;border-color:#0B1A33;color:#C9A24D}
+.svn{margin:0 0 10px}
+.svn .sv{min-height:40px;font-size:.86rem;padding:6px 12px;margin:0 6px 6px 0}
+.it.me{background:#F0E8D6;box-shadow:inset 4px 0 0 #C9A24D}
+.held.mine{border-left-color:#C9A24D;background:#F0E8D6}
+.bk{margin:0 0 6px}
+.my{border-top:4px solid #C9A24D}
+.my h2 small{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:.74rem;font-weight:400;color:#3d4a63;margin-left:6px}
+.ml{list-style:none;margin:0;padding:0}
+.ml li{border-top:1px solid #e9e2d0;padding:6px 0 7px 10px;border-left:4px solid #ddd5c2;margin-bottom:2px}
+.ml li.hit{border-left-color:#0B1A33}
+.mh{display:flex;align-items:center;gap:8px}
+.mh .mq{font-weight:700;padding:4px 0;min-height:36px;text-align:left}
+.mh .ty{flex:1;min-width:0}
+.mx{flex:none;min-height:36px;min-width:36px;padding:0;border:1px solid #ddd5c2;border-radius:50%;background:#fff;color:#3d4a63;font-size:1.1rem;line-height:1;cursor:pointer}
+.md{font-size:.9rem;overflow-wrap:anywhere;padding:1px 0}
+.md.w,.mi{font-size:.8rem;color:#3d4a63}
+.mi .lk,.my .hint .lk{padding:4px 2px;min-height:32px;font-size:inherit}
+.dnav{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.9rem;margin:10px 0 0}
+.dlist{columns:2;font-size:.9rem;margin:0;padding-left:18px}
+@media(min-width:700px){.dlist{columns:4}}
+@media print{.lg,.bk,.court .ch em,.updl{display:none}.it.me{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+.when{background:#0B1A33;color:#F0E8D6;border-radius:10px;border-left:5px solid #C9A24D;padding:11px 13px;margin:0 0 12px;font-size:.95rem;overflow-wrap:anywhere}
+.when .wt{font-size:.8rem;color:#C9A24D;font-weight:600;margin-bottom:4px}
+.when .wl{display:block;font-family:"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-size:1.12rem;color:#C9A24D;margin-bottom:2px}
+.when .wr{display:block;padding:2px 0}
+.when .wr b{color:#fff}
+.when a,.when .lk{color:#C9A24D}
+.when .wc{display:block;font-size:.76rem;color:#F0E8D6;opacity:.85;margin-top:6px}
+.when .wa{margin-top:8px}
+.when.wait{min-height:86px}
+.mi.when{margin:4px 0 2px;font-size:.88rem;padding:8px 10px}
+.mi.when .wl{font-size:1rem}
+@media print{.when{background:#fff;color:#0B1A33;border:1px solid #0B1A33;border-left:5px solid #C9A24D}.when .wl,.when .wt,.when .wc,.when .wr b,.when a{color:#0B1A33}}
 .disc.tent{color:#0B1A33;background:#F0E8D6;border:1px solid #C9A24D;border-left:4px solid #0B1A33;border-radius:6px;padding:7px 10px;font-size:.84rem;margin:0 2px 10px}
+.when .wn{display:block;font-size:.78rem;color:#F0E8D6;margin:0 0 4px}
+@media print{.when .wn{color:#0B1A33}}
+.vb{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:0 0 10px;font-size:.9rem}
+.vb .pdf{min-height:42px;padding:8px 14px}
+.bnav{display:flex;justify-content:space-between;gap:10px;margin:0 0 10px;font-size:.92rem}
+.bnav a{border:1px solid #b9ae93;border-radius:8px;padding:8px 12px;background:#fff;text-decoration:none;font-weight:600}
+a.btn{display:inline-block;border:1px solid #0B1A33;border-radius:8px;padding:9px 14px;text-decoration:none;font-weight:600;background:#fff;color:#0B1A33;margin:0 8px 8px 0}
+a.btn.pdf{background:#0B1A33;color:#F0E8D6}
+td a.rl{display:block;text-decoration:none;color:inherit}
+td a.rl b{text-decoration:underline;color:#112246}
+tr.cl:hover td{background:#f8f6f1}
+@media print{.vb,.bnav{display:none}}
 .pt-l{display:inline-block;margin-left:6px;font-size:.72rem;font-weight:700;letter-spacing:.04em;color:#F0E8D6;background:#112246;border-radius:4px;padding:1px 7px}
 .bd.pa{background:#fff;color:#0B1A33;border:1px solid #0B1A33}
 .court .ch span.pt-l{display:inline-block;color:#F0E8D6;background:#112246;vertical-align:1px}
