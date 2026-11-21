@@ -3,9 +3,9 @@
    the network fails, and it is then marked with the time it was saved (header x-sw-saved) so the
    page says "offline - showing the copy saved at ...". Only versioned assets (app.js?v=, app.css?v=)
    and the icons are served cache-first; a new version is a new URL, so nobody is pinned to old code. */
-var VER = 'd8d606bb79e8', STATIC = 'rhc-static-' + VER, KEEP = 'rhc-keep-1';
+var VER = '3523fb44c3c5', STATIC = 'rhc-static-' + VER, KEEP = 'rhc-keep-1';
 var SCOPE = self.registration.scope, BASE = new URL(SCOPE).pathname;
-var ASSETS = ["app.js?v=9cc46c1c26", "app.css?v=b45d331a65", "icon-192.png"];
+var ASSETS = ["app.js?v=9cc46c1c26", "app.css?v=c7468bbbf8", "icon-192.png"];
 
 function isAsset(rel, search) { return /^icon-[\w-]+\.png$/.test(rel) || (/^app\.(js|css)$/.test(rel) && search.indexOf('?v=') === 0); }
 function dropOld(c, url) {               // one copy per path: an older ?v= of the same file goes
