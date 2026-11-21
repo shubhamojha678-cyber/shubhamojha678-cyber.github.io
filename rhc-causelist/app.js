@@ -271,6 +271,10 @@
     }
     return { hits: hits };
   }
+  function partLabel(c, lt) {       // "DAILY PART-A" ... from the court's own heading; '' when the list states no part
+    var t = lt === 1 ? 'S' : (c.t || 'D');
+    return c.p ? (t === 'S' ? 'SUPPLEMENTARY' : 'DAILY') + ' PART-' + c.p : '';
+  }
   function badge(lt) { return '<span class="bd ' + ['D', 'S', 'DS'][lt] + '" title="' + ['Daily list', 'Supplementary list', 'Daily and Supplementary lists'][lt] + '">' + ['D', 'S', 'D+S'][lt] + '</span>'; }
   function courtName(n) { return /^\d+$/.test(n) ? 'Court No. ' + n : n; }
   function renderHits(hits, budget, iso) {
@@ -281,15 +285,16 @@
       if (e.seat !== lastSeat) { if (open) { h += '</div>'; open = false; } h += '<h3 class="seat">' + SFULL[e.seat] + '</h3>'; lastSeat = e.seat; lastC = null; }
       if (e.c !== lastC) {
         if (open) h += '</div>';
-        h += '<div class="court"><div class="ch"><b>' + esc(courtName(e.c.n)) + '</b>' + (e.c.s ? ' · ' + esc(e.c.s) : '') + '<span>' + esc(e.c.j) + '</span></div>';
+        var pl = partLabel(e.c, e.r[6]);
+        h += '<div class="court"><div class="ch"><b>' + esc(courtName(e.c.n)) + '</b>' + (pl ? ' <span class="pt-l">' + pl + '</span>' : '') + (e.c.s ? ' · ' + esc(e.c.s) : '') + '<span>' + esc(e.c.j) + '</span></div>';
         open = true; lastC = e.c;
       }
       var r = e.r, wm = /^with\s+(.*)$/i.exec(r[0]);
       h += '<div class="it"><div class="no">' + (wm ? '<small>with item</small>' + esc(wm[1]) : '<small>item</small>' + esc(r[0])) + '</div>' +
-        '<div class="cn">' + esc(r[1]) + badge(r[6]) + '</div>' +
+        '<div class="cn">' + esc(r[1]) + badge(r[6]) + (e.c.p ? '<span class="bd pa">Part ' + e.c.p + '</span>' : '') + '</div>' +
         (r[2] === 0 ? '<div class="pt wh">(party names withheld)</div>' : '<div class="pt">' + esc(r[2]) + ' <i>vs</i> ' + esc(r[3]) + '</div>') +
         '<div class="co">Petitioner: ' + esc(r[4] || '-') + ' · Respondent: ' + esc(r[5] || '-') + '</div>' +
-        '<button class="sh" type="button" data-sh="' + esc(r[1] + ' — ' + SN[e.seat] + ' ' + courtName(e.c.n).replace('Court No.', 'Court') + ', Item ' + r[0] + ' (' + ['D', 'S', 'D+S'][r[6]] + ') on ' + dmy(iso || '') + '.') + '" data-c="' + esc(r[1]) + '">Share</button></div>';
+        '<button class="sh" type="button" data-sh="' + esc(r[1] + ' — ' + SN[e.seat] + ' ' + courtName(e.c.n).replace('Court No.', 'Court') + ', Item ' + r[0] + ' (' + (partLabel(e.c, r[6]) || ['D', 'S', 'D+S'][r[6]]) + ') on ' + dmy(iso || '') + '.') + '" data-c="' + esc(r[1]) + '">Share</button></div>';
     });
     if (open) h += '</div>';
     return h;
