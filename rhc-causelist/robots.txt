@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /rhc-causelist/data/
+Disallow: /data/
+Sitemap: https://shubhamojhaandassociates.com/rhc-causelist/sitemap.xml

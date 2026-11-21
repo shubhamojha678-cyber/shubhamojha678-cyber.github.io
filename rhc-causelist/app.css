@@ -1,0 +1,111 @@
+/* Shubham Ojha & Associates palette (fixed by the owner): navy #0B1A33, navy-mid #112246,
+   gold #C9A24D, cream #F0E8D6, off-white #f8f6f1 - and nothing outside it. No web fonts. */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans","Noto Sans Devanagari",Arial,sans-serif;color:#0B1A33;background:#f8f6f1}
+h1,h2,h3,.brand,.firm,.date,.seat{font-family:"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif}
+a{color:#112246}
+header.top{background:#0B1A33;color:#f8f6f1;padding:10px 14px;border-bottom:3px solid #C9A24D}
+header.top .in,main,footer .in{max-width:980px;margin:0 auto}
+header.top .in{display:flex;gap:12px;align-items:center}
+header.top img{width:52px;height:52px;border-radius:50%;flex:none}
+.firm{font-size:.66rem;letter-spacing:.09em;text-transform:uppercase;color:#F0E8D6;margin:0 0 3px;line-height:1.35}
+header.top h1,header.top .brand{font-size:1.18rem;margin:0;line-height:1.2;font-weight:700;color:#C9A24D}
+header.top .sub{margin:2px 0 0;font-size:.8rem;color:#F0E8D6}
+header.top a{color:inherit;text-decoration:none}
+nav.crumbs{font-size:.82rem;margin:0 0 10px;color:#3d4a63}
+main{padding:12px 12px 30px}
+main h1{font-size:1.3rem;line-height:1.25;margin:0 0 10px}
+.card{background:#fff;border:1px solid #ddd5c2;border-radius:10px;padding:14px;margin:0 0 14px}
+form.search label{display:block;font-weight:600;margin-bottom:6px}
+.hl{display:block;font-weight:400;font-size:.9rem;color:#3d4a63;margin-top:2px}
+.qrow{display:flex;gap:8px}
+.qrow input{flex:1;min-width:0}
+input,select,button{font:inherit;border:1px solid #8a93a6;border-radius:8px;padding:11px 12px;background:#fff;color:inherit;min-height:46px}
+input:focus,select:focus,button:focus,a:focus{outline:3px solid #0b4f9e;outline-offset:2px}
+button.go{background:#0B1A33;border-color:#0B1A33;color:#F0E8D6;font-weight:600;padding:11px 18px;cursor:pointer}
+button.more{width:100%;margin:4px 0 12px}
+button.lk{border:0;background:none;color:#112246;text-decoration:underline;padding:10px 8px;min-height:44px;cursor:pointer}
+.opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.opts select,.opts input{flex:1 1 150px;min-width:0}
+.state{font-size:.86rem;margin:10px 0 0;color:#6b5210;font-weight:600}
+.state:before{content:'';display:inline-block;width:.6em;height:.6em;border-radius:50%;background:#C9A24D;margin-right:.5em;animation:pu 1s infinite alternate}
+.state.ok{color:#0B1A33}.state.ok:before{background:#0B1A33;animation:none}
+@keyframes pu{from{opacity:.25}to{opacity:1}}
+.hint{font-size:.82rem;color:#3d4a63;margin:8px 0 0}
+.cov,.disc{font-size:.8rem;margin:0 2px 8px;color:#3d4a63}
+.disc{color:#6b5210}
+.unoff{font-size:.84rem;color:#4a3a08;background:#F0E8D6;border-left:4px solid #C9A24D;padding:6px 10px;margin:0 0 10px;border-radius:0 6px 6px 0}
+.warn{background:#F0E8D6;border:1px solid #C9A24D;border-radius:8px;padding:9px 11px;margin:0 0 14px;font-size:.9rem;color:#0B1A33}
+.ans{margin:0 0 10px}
+.sum{margin:0 0 8px;background:#F0E8D6;border-left:4px solid #0B1A33;padding:8px 10px;border-radius:0 6px 6px 0}
+a.cta{display:inline-block;background:#0B1A33;color:#F0E8D6;text-decoration:none;font-weight:600;border-radius:8px;padding:11px 16px}
+.upd{font-size:.84rem;color:#3d4a63;margin:0;padding:0;list-style:none}
+.upd li{padding:3px 0}
+.upd b{color:#0B1A33}
+h2{font-size:1.08rem;margin:0 0 8px}
+h3{font-size:1rem;margin:16px 0 6px}
+.prog{font-size:.86rem;color:#3d4a63;margin:6px 2px;min-height:1.3em;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.tools button{min-height:36px;padding:6px 12px;font-size:.84rem;background:#fff;border-color:#0B1A33;color:#0B1A33;cursor:pointer}
+#res{min-height:30vh}
+.ph{color:#3d4a63;border:1px dashed #b9ae93;border-radius:10px;padding:18px 14px;text-align:center;font-size:.9rem}
+.res h2.date{background:#0B1A33;color:#C9A24D;padding:8px 12px;border-radius:8px;font-size:1.02rem;margin:18px 0 8px}
+.res h3.seat{font-size:.98rem;margin:12px 0 6px;color:#0B1A33;border-bottom:2px solid #C9A24D;padding-bottom:3px}
+.court{border:1px solid #ddd5c2;border-radius:8px;background:#fff;margin:0 0 10px;overflow:hidden}
+.court .ch{background:#F0E8D6;padding:8px 10px;font-size:.86rem}
+.court .ch b{font-size:.95rem}
+.court .ch span{display:block;color:#2a3550;overflow-wrap:anywhere}
+.it{padding:9px 10px;border-top:1px solid #e9e2d0;display:grid;grid-template-columns:auto 1fr;gap:2px 10px}
+.it .no{font-weight:700;font-size:1.08rem;color:#0B1A33;min-width:2.6em;grid-row:span 4}
+.it .no small{display:block;font-weight:400;font-size:.68rem;color:#3d4a63}
+.it .cn{font-weight:600}
+.it .pt{overflow-wrap:anywhere}
+.it .co{font-size:.84rem;color:#3d4a63;overflow-wrap:anywhere}
+.it .sh{justify-self:start;min-height:32px;padding:3px 10px;font-size:.76rem;border-color:#b9ae93;color:#112246;background:#f8f6f1;cursor:pointer;margin-top:3px}
+.wh{color:#6b5210;font-style:italic}
+.bd{display:inline-block;font-size:.7rem;font-weight:700;border-radius:10px;padding:1px 8px;margin-left:6px;vertical-align:1px;color:#F0E8D6;background:#0B1A33;border:1px solid #0B1A33}
+.bd.S{background:#C9A24D;border-color:#C9A24D;color:#0B1A33}
+.bd.DS{background:#0B1A33;border-color:#C9A24D;color:#C9A24D;box-shadow:inset 0 0 0 1px #C9A24D}
+.held{font-size:.84rem;color:#2a3550;background:#fff;border-left:4px solid #0B1A33;padding:8px 10px;margin:8px 0 14px;overflow-wrap:anywhere}
+.held.nf{border-left-color:#C9A24D;background:#F0E8D6;font-size:.95rem;color:#0B1A33}
+.held.nf b{display:block;font-size:1.02rem;margin-bottom:4px}
+.held ul{margin:4px 0 6px;padding-left:20px}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid #e9e2d0;vertical-align:top;overflow-wrap:break-word}
+th{background:#F0E8D6;font-weight:600}
+.tw{overflow-x:auto}
+td.n,th.n{white-space:nowrap}
+td small{color:#3d4a63}
+details summary{cursor:pointer;font-size:.88rem}
+.v{display:inline-block;font-weight:700;border-radius:6px;padding:2px 10px;color:#F0E8D6;background:#0B1A33;border:2px solid #0B1A33;font-family:inherit}
+.v.AMBER{background:#C9A24D;border-color:#C9A24D;color:#0B1A33}
+.v.RED{background:#F0E8D6;border-color:#0B1A33;color:#0B1A33}
+footer{background:#0B1A33;border-top:3px solid #C9A24D;padding:16px 12px 26px;font-size:.8rem;color:#F0E8D6}
+footer p{margin:0 0 8px}
+footer a{color:#C9A24D}
+.hi{font-size:.95rem}
+.print-head,.print-foot{display:none}
+.pwrap,.pwrap tbody,.pwrap tr,.pwrap td{display:block;width:100%;border:0;padding:0;font-size:inherit}
+.pwrap tfoot{display:none}
+@media(max-width:520px){table{font-size:.8rem}th,td{padding:6px 5px}.opts select,.opts input{flex:1 1 100%}.card{padding:12px}form.search{margin-bottom:8px}header.top img{width:44px;height:44px}}
+@media(min-width:700px){header.top h1,header.top .brand{font-size:1.5rem}.firm{font-size:.74rem}main{padding:20px 16px 40px}}
+@media print{
+ @page{margin:12mm 12mm 10mm}
+ body{background:#fff;font-size:11pt}
+ header.top,form.search,footer,nav.crumbs,.tools,.sh,button,.ph,#stale,.cov,.disc,noscript,main>.card,.state{display:none!important}
+ main{padding:0;max-width:none}
+ #res{min-height:0}
+ .print-head{display:flex;gap:10px;align-items:center;border-bottom:2px solid #C9A24D;padding-bottom:8px;margin-bottom:8px}
+ .print-head img{width:54px;height:54px;border-radius:50%}
+ .print-head .firm{color:#0B1A33;font-size:8.5pt;margin:0}
+ .print-head b{display:block;font-family:"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-size:13pt}
+ .print-head span{display:block;font-size:9.5pt}
+ .print-foot{display:block;position:fixed;left:0;right:0;bottom:0;font-size:7.5pt;color:#0B1A33;background:#fff;border-top:1px solid #C9A24D;padding-top:3px;text-align:center}
+ .pwrap{display:table;width:100%}.pwrap tbody{display:table-row-group}.pwrap tr{display:table-row}.pwrap td{display:table-cell}
+ .pwrap tfoot{display:table-footer-group}.pspace{height:13mm}
+ .it,.held,.court .ch{break-inside:avoid;page-break-inside:avoid}.court .ch,.res h2.date,.res h3.seat{break-after:avoid;page-break-after:avoid}
+ .court{overflow:visible}
+ .res h2.date{background:#fff;color:#0B1A33;border:1px solid #0B1A33;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .court .ch,.bd,.held.nf,th{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ a{text-decoration:none;color:inherit}
+}

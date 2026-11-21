@@ -44,6 +44,9 @@ User-agent: cohere-ai
 Allow: /
 
 User-agent: *
+Disallow: /rhc-causelist/data/
 Allow: /
 
 Sitemap: https://shubhamojhaandassociates.com/sitemap.xml
+
+Sitemap: https://shubhamojhaandassociates.com/rhc-causelist/sitemap.xml
